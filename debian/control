@@ -1,0 +1,18 @@
+Source: calligra
+Section: unknown
+Priority: extra
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>
+Build-Depends: cdbs, debhelper (>= 7.0.50~), cmake (>= 2.6.2), pkg-kde-tools (>= 0.9),
+  kdelibs5-dev (>= 4:4.4.0),
+  shared-mime-info, zlib1g-dev, libpng12-dev,
+Standards-Version: 3.9.1
+Homepage: http://www.calligra-suite.org/
+#Vcs-Git: git://git.debian.org/collab-maint/calligra.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/calligra.git;a=summary
+
+Package: calligra
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>

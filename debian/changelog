@@ -1,0 +1,5 @@
+calligra (2.3.80-1~pre0) unstable; urgency=low
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sun, 06 Feb 2011 18:54:56 +0100
