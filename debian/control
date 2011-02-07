@@ -21,8 +21,8 @@ Build-Depends: cdbs, debhelper (>= 7.0.50~), cmake (>= 2.6.2), pkg-kde-tools (>=
   libgsf-1-dev, libdcmtk1-dev, libspnav-dev, libctl-dev, okular-dev (>= 4:4.4.3)
 Standards-Version: 3.9.1
 Homepage: http://www.calligra-suite.org/
-#Vcs-Git: git://git.debian.org/collab-maint/calligra.git
-#Vcs-Browser: http://git.debian.org/?p=collab-maint/calligra.git;a=summary
+Vcs-Git: git://git.debian.org/pkg-kde/kde-std/calligra.git
+Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-std/calligra.git
 
 Package: calligra
 Architecture: any
