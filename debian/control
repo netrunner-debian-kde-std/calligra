@@ -5,9 +5,20 @@ Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>
 Build-Depends: cdbs, debhelper (>= 7.0.50~), cmake (>= 2.6.2), pkg-kde-tools (>= 0.9),
   kdelibs5-dev (>= 4:4.4.0), kdepimlibs5-dev (>= 4:4.4.3),
+  libkdcraw-dev (>= 4:4.4.3), okular-dev (>= 4:4.4.3),
   shared-mime-info, zlib1g-dev, libpng12-dev, libboost-dev,
 # optional b-d
+  libtiff4-dev, libjpeg62-dev, libopenjpeg-dev, libgif-dev,
+  libglew1.5-dev, libopenexr-dev,
   libeigen2-dev (>= 2.0~beta6), libwpd-dev (>=0.9.1), libwpg-dev (>=0.2.0),
+  pstoedit, libexiv2-dev, libxslt1-dev, libqca2-dev, libfftw3-dev,
+  libgsl0-dev, libpoppler-qt4-dev, libqt4-opengl-dev,
+  libsqlite3-dev, libmysqlclient-dev, libpq-dev, libpqxx3-dev,
+  libxbase2.0-dev, freetds-dev,
+# todo needs update to version 2.0
+  liblcms1-dev,
+# no in koffice
+  libgsf-1-dev, libdcmtk1-dev, libspnav-dev, libctl-dev, okular-dev (>= 4:4.4.3)
 Standards-Version: 3.9.1
 Homepage: http://www.calligra-suite.org/
 #Vcs-Git: git://git.debian.org/collab-maint/calligra.git
