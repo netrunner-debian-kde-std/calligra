@@ -7,7 +7,7 @@ Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>
 Build-Depends: cdbs, debhelper (>= 7.0.50~), cmake (>= 2.6.2), pkg-kde-tools (>= 0.9),
   kdelibs5-dev (>= 4:4.4.0), kdepimlibs5-dev (>= 4:4.4.3),
   libkdcraw-dev (>= 4:4.4.3), okular-dev (>= 4:4.4.3),
-  libqt4-dev, libqt4-opengl-dev,
+  libqt4-dev, libqt4-opengl-dev, libqtwebkit-dev,
   shared-mime-info, zlib1g-dev, libpng12-dev, libboost-dev,
 # optional b-d
   libtiff4-dev, libjpeg62-dev, libopenjpeg-dev, libgif-dev,
@@ -20,7 +20,7 @@ Build-Depends: cdbs, debhelper (>= 7.0.50~), cmake (>= 2.6.2), pkg-kde-tools (>=
 # needs updating to version 2.0
   liblcms1-dev,
 # no in koffice
-  libgsf-1-dev, libdcmtk1-dev, libspnav-dev, libctl-dev,
+  libgsf-1-dev, libdcmtk2-dev, libspnav-dev, libctl-dev,
 Standards-Version: 3.9.1
 Homepage: http://www.calligra-suite.org/
 Vcs-Git: git://git.debian.org/pkg-kde/kde-std/calligra.git
