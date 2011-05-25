@@ -1,7 +1,17 @@
-#!/usr/bin/make -f
+#! /usr/bin/make -f
+#
+DH_ALWAYS_EXCLUDE:=CVS:.svn:.svnignore:.hg:.hgignore:.git
 
-# Uncomment this to turn on verbose mode.
-#export DH_VERBOSE=1
+export LDFLAGS = "-Wl,--as-needed" "-Wl,--no-undefined"
 
-include /usr/share/pkg-kde-tools/qt-kde-team/1/debian-qt-kde.mk
+#Do not build staging dir
+override_dh_auto_configure:
+	dh_auto_configure -Skde -- -DBUILD_staging=FALSE -DCMAKE_USE_RELATIVE_PATHS=ON
 
+override_dh_install:
+	dh_install --list-missing
+
+%:
+	dh $@ --parallel --dbg-package=caligra-dbg --with kde
+
+.PHONY: override_dh_auto_test

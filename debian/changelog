@@ -1,8 +1,12 @@
 calligra (2.3.71-1) UNRELEASED; urgency=low
 
+  [ Adrien Grellier ]
   * Imported Upstream version 2.3.71
 
- -- Adrien Grellier <adrien.grellier@laposte.net>  Fri, 20 May 2011 11:45:52 +0200
+  [ Raúl Sánchez Siles ]
+  * Update packaging to debhelper 8.
+
+ -- Raúl Sánchez Siles <rasasi78@gmail.com>  Fri, 03 Jun 2011 08:36:49 +0200
 
 calligra (2.3.50-1~pre0) unstable; urgency=low
 
