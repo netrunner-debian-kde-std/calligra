@@ -49,3 +49,4 @@ usr/lib/libmsooxml.so
 usr/lib/libpigmentcms.so
 usr/share/kde4/apps/cmake/modules/FindKOfficeLibs.cmake
 usr/lib/libtextlayout.so
+/usr/lib/libkoabstraction.so

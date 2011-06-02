@@ -1,4 +1,5 @@
 usr/share/applications/kde4/koffice.desktop
+/usr/share/applications/kde4/okularApplication_odp.desktop
 usr/share/color/icc/pigment/CMY.icm                                              
 usr/share/color/icc/pigment/fogra27l.icm
 usr/share/icons/oxygen/16x16/actions/object-align-horizontal-center-koffice.png
@@ -328,3 +329,6 @@ usr/share/kde4/services/koreport_barcodeplugin.desktop
 usr/share/kde4/services/koreport_shapeplugin.desktop
 
 
+usr/share/doc/kde/HTML/en/calligra
+usr/share/doc/kde/HTML/en/calligra/index.cache.bz2
+usr/share/doc/kde/HTML/en/calligra/index.docbook

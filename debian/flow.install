@@ -3347,3 +3347,10 @@ usr/share/kde4/apps/flow/templates/Basic
 usr/share/kde4/apps/flow/templates/Basic/.source
 usr/share/kde4/apps/flow/templates/Basic/.source/empty.otg
 usr/share/kde4/apps/flow/templates/Basic/empty.desktop
+usr/share/doc/kde/HTML/en/flow
+usr/share/doc/kde/HTML/en/flow/index.cache.bz2
+usr/share/doc/kde/HTML/en/flow/index.docbook
+usr/share/doc/kde/HTML/en/flow/usage.docbook
+usr/share/doc/kde/HTML/en/flow/working.docbook
+usr/share/doc/kde/HTML/en/flow/credits.docbook
+usr/share/doc/kde/HTML/en/flow/introduction.docbook

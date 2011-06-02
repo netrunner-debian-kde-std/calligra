@@ -38,3 +38,6 @@ usr/share/kde4/services/karbon_svg_export.desktop
 usr/share/kde4/services/karbontools.desktop
 usr/share/kde4/services/ServiceMenus/karbon_konqi.desktop
 usr/share/kde4/servicetypes/karbon_module.desktop
+usr/share/doc/kde/HTML/en/karbon
+usr/share/doc/kde/HTML/en/karbon/index.cache.bz2
+usr/share/doc/kde/HTML/en/karbon/index.docbook

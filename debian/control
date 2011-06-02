@@ -230,6 +230,16 @@ Description: data files for Krita painting program
  .
  This package is part of the Calligra Office Suite, formerly known as KOffice.
 
+Package: krita-dev
+Architecture: all
+Section: devel
+Depends: ${shlibs:Depends}, krita (>= ${source:Version}), calligra-libs (>= ${source:Version})
+Description: developpment files for Krita painting programm
+ This package contains header files that can be used by plugins developers to
+ extend Krita.
+ '
+ This package is part of the Calligra Office Suite, formerly known as KOffice.
+
 Package: kthesaurus
 Architecture: any
 Section: text
@@ -363,6 +373,16 @@ Description: formula drawing component for the Calligra Office Suite
  Features include easy Greek letter insertion, intelligent cursor
  movement, advanced syntax highlighting, multi-level undo support,
  LaTeX export and MathML import.
+ .
+ This package is part of the Calligra Office Suite, formerly known as KOffice.
+
+Package: calligramobile
+Architecture: any
+Section: kde
+Depends: ${shlibs:Depends}, calligra-libs(>= ${source:Version})
+Description: version of Calligra for mobile
+ Calligra Mobile aims to create a version of the Calligra Office Suite for
+ mobile devices, such as Maemo or MeeGo.
  .
  This package is part of the Calligra Office Suite, formerly known as KOffice.
 
