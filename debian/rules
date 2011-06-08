@@ -12,6 +12,6 @@ override_dh_install:
 	dh_install --list-missing
 
 %:
-	dh $@ --parallel --dbg-package=caligra-dbg --with kde
+	dh $@ --parallel --dbg-package=calligra-dbg --with kde
 
 .PHONY: override_dh_auto_test
