@@ -1,11 +1,5 @@
 calligra (2.3.71-1) UNRELEASED; urgency=low
 
-  * Imported Upstream version 2.3.71
-
- -- Adrien Grellier <adrien.grellier@laposte.net>  Fri, 20 May 2011 11:45:52 +0200
-
-calligra (2.3.50-1~pre0) unstable; urgency=low
-
   * Initial release.
 
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sun, 06 Feb 2011 18:54:56 +0100
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Fri, 20 May 2011 11:45:52 +0200
