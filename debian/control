@@ -37,10 +37,10 @@ Depends: karbon (>= ${source:Version}), flow (>= ${source:Version}), plan (>= ${
  kexi (>= ${source:Version}), kformula (>= ${source:Version})
 Suggests: calligra-doc-html (>= ${source:Version})
 Homepage: http://www.calligra-suite.org
-Description: Calligra Office Suite
- Calligra is an integrated office suite for KDE, the K Desktop
- Environment.  It offers a word processor, spreadsheet, presentation
- program, graphics tools and more. It is the successor of KOffice.
+Description: KDE SC based Office Suite
+ Calligra is an integrated office suite for KDE, the K Desktop Environment. 
+ It offers a word processor, spreadsheet, presentation  program, graphics tools
+ and more. It is the successor of KOffice.
  .
  This package provides all the components of Calligra.
 
@@ -290,10 +290,10 @@ Depends: ${shlibs:Depends}, words-data (>= ${source:Version})
 Suggests: khelpcenter4, calligra-doc-html
 Homepage: http://www.calligra-suite.org/words/
 Description: word processor for the Calligra Office Suite
- Words is a FrameMaker-like word processing and desktop publishing
- application.  It is capable of creating demanding and professional
- looking documents.  It can be used for desktop publishing, but also for
- "normal" word processing, like writing letters, reports and so on. Words is the successor of KWord.
+ Words is a FrameMaker-like word processing and desktop publishing application.
+ It is capable of creating demanding and professional looking documents. It can
+ be used for desktop publishing, but also for "normal" word processing, like
+ writing letters, reports and so on. Words is the successor of KWord.
  .
  This package is part of the Calligra Office Suite, formerly known as KOffice.
 
@@ -322,11 +322,10 @@ Suggests: khelpcenter4, calligra-doc-html
 Homepage: http://www.calligra-suite.org/stage/
 Description: presentation program for the Calligra Office Suite
  Stage is an easy to use yet still flexible presentation application. It is the 
- successor of Kspread You can easily create presentations containing a rich variety
- of elements, from
- graphics to text, from charts to images. Stage is extensible through a
- plugin system, so it is easy to add new effects, new content elements or even
- new ways of managing your presentation.
+ successor of Kspread You can easily create presentations containing a rich 
+ variety  of elements, from  graphics to text, from charts to images. Stage is 
+ extensible through a plugin system, so it is easy to add new effects, new 
+ content elements or even new ways of managing your presentation.
  Stage natively uses the OpenDocument file format standard, for easy
  interchange with all ODF supporting applications which includes Microsoft
  Office. Some examples of easy-to-use features are support for layouts, a
@@ -354,7 +353,7 @@ Architecture: any
 Section: kde
 Depends: ${shlibs:Depends}, calligra-libs (>= ${source:Version})
 Homepage: http://www.calligra-suite.org/braindump/
-Description: braindump component for the Calligra Office Suite
+Description: Ideas organizer component for the Calligra Office Suite
  BrainDump is a tool to help to organize the ideas from your brain to your 
  computer.
  .
@@ -370,9 +369,9 @@ Description: formula drawing component for the Calligra Office Suite
  KFormula contains the formula drawing components.  It can be used to embed
  formulas into Calligra documents.
  .
- Features include easy Greek letter insertion, intelligent cursor
- movement, advanced syntax highlighting, multi-level undo support,
- LaTeX export and MathML import.
+ Features include easy Greek letter insertion, intelligent cursor movement,
+ advanced syntax highlighting, multi-level undo support, LaTeX export and 
+ MathML import.
  .
  This package is part of the Calligra Office Suite, formerly known as KOffice.
 
