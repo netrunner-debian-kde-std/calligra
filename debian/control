@@ -10,11 +10,11 @@ Build-Depends: debhelper (>= 8.0.0~), cmake (>= 2.6.2), pkg-kde-tools (>= 0.9),
   libqt4-dev, libqt4-opengl-dev, libqtwebkit-dev,
   shared-mime-info, zlib1g-dev, libpng12-dev, libboost-dev,
 # optional b-d
-  libtiff4-dev, libjpeg62-dev, libopenjpeg-dev, libgif-dev,
+  libtiff4-dev, libjpeg-dev, libopenjpeg-dev, libgif-dev,
   libglew1.5-dev, libopenexr-dev,
   libeigen2-dev (>= 2.0~beta6), libwpd-dev (>=0.9.1), libwpg-dev (>=0.2.0),
   pstoedit, libexiv2-dev, libxslt1-dev, libqca2-dev, libfftw3-dev,
-  libgsl0-dev, libpoppler-qt4-dev,
+  libgsl0-dev, libpoppler-dev, libpoppler-qt4-dev,
   libsqlite3-dev, libmysqlclient-dev, libpq-dev, libpqxx3-dev,
   libxbase2.0-dev, freetds-dev,
 # needs updating to version 2.0
