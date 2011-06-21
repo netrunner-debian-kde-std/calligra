@@ -419,6 +419,16 @@ Description: common shared data for the Calligra Office Suite
  .
  This package is part of the Calligra Office Suite.
 
+Package: okular-backend-odp
+Architecture: any
+Section: graphics
+Depends: ${shlibs:Depends}, calligra-libs (>= ${source:Version}), libokularcore1
+Recommends: okular
+Description: okular backend for ODP files.
+ This plugin allow Okular to view Opendocument Presentation (ODP)
+ document format.
+ .  
+ This package is part of the Calligra Office Suite.
 
 Package: calligra-dev
 Architecture: any
