@@ -23,10 +23,13 @@ usr/lib/kde4/musicshape.so
 usr/lib/kde4/pathshapes.so
 usr/lib/kde4/pictureshape.so
 usr/lib/kde4/pluginshape.so
+usr/lib/kde4/spacenavigator.so
 usr/lib/kde4/spellcheck.so
 usr/lib/kde4/textshape.so
 usr/lib/kde4/textvariables.so
 usr/lib/kde4/thesaurustool.so
+usr/lib/kde4/treeshape.so
+usr/lib/kde4/vectorshape.so
 usr/lib/kde4/videoshape.so
 usr/lib/libchartshapelib.so.8
 usr/lib/libchartshapelib.so.8.0.0
