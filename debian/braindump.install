@@ -8,3 +8,17 @@ usr/share/kde4/apps/braindump/icons/hicolor/22x22/actions/zoom-pixels.png
 usr/share/kde4/apps/braindump/braindumpui.rc
 usr/share/kde4/servicetypes/braindump_extensions.desktop
 usr/lib/libbraindumpcore.so
+usr/lib/kde4/stateshape.so
+usr/lib/kde4/webshape.so
+usr/share/kde4/services/webshape.desktop
+usr/share/kde4/services/stateshape.desktop
+usr/share/kde4/apps/stateshape/states/progress-00.svg
+usr/share/kde4/apps/stateshape/states/progress-25.svg
+usr/share/kde4/apps/stateshape/states/progress-50.svg
+usr/share/kde4/apps/stateshape/states/progress-75.svg
+usr/share/kde4/apps/stateshape/states/checked.svg
+usr/share/kde4/apps/stateshape/states/progress-100.svg
+usr/share/kde4/apps/stateshape/states/states.xml
+usr/share/kde4/apps/stateshape/states/unchecked.svg
+usr/share/icons/hicolor/22x22/actions/statetool.png
+usr/share/icons/hicolor/22x22/actions/stateshape.png
