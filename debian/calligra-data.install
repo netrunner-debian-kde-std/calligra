@@ -284,10 +284,13 @@ usr/share/kde4/services/kounavail.desktop
 usr/share/kde4/services/musicshape.desktop
 usr/share/kde4/services/pathshapes.desktop
 usr/share/kde4/services/pictureshape.desktop
+usr/share/kde4/services/spacenavigator.desktop
 usr/share/kde4/services/spellcheck.desktop
 usr/share/kde4/services/textshape.desktop
 usr/share/kde4/services/textvariables.desktop
 usr/share/kde4/services/thesaurustool.desktop
+usr/share/kde4/services/treeshape.desktop
+usr/share/kde4/services/vectorshape.desktop
 usr/share/kde4/services/videoshape.desktop
 usr/share/kde4/services/xslt_export.desktop
 usr/share/kde4/services/xslt_import.desktop
