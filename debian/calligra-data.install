@@ -28,6 +28,15 @@ usr/share/icons/oxygen/48x48/actions/table.png
 usr/share/icons/oxygen/scalable/actions/table.svgz
 usr/share/kde4/apps/koffice/autocorrect/autocorrect.xml
 usr/share/kde4/apps/koffice/autocorrect/en_US.xml
+usr/share/kde4/apps/koffice/icons/cursor_connect.png
+usr/share/kde4/apps/koffice/icons/questionmark.png
+usr/share/kde4/apps/koffice/icons/hicolor/16x16/actions/escape-direction-down.png
+usr/share/kde4/apps/koffice/icons/hicolor/16x16/actions/escape-direction-left.png
+usr/share/kde4/apps/koffice/icons/hicolor/16x16/actions/escape-direction-vertical.png
+usr/share/kde4/apps/koffice/icons/hicolor/16x16/actions/escape-direction-all.png
+usr/share/kde4/apps/koffice/icons/hicolor/16x16/actions/escape-direction-up.png
+usr/share/kde4/apps/koffice/icons/hicolor/16x16/actions/escape-direction-right.png
+usr/share/kde4/apps/koffice/icons/hicolor/16x16/actions/escape-direction-horizontal.png
 usr/share/kde4/apps/koffice/icons/hicolor/16x16/actions/borderoutline.png
 usr/share/kde4/apps/koffice/icons/hicolor/16x16/actions/bring_forward.png
 usr/share/kde4/apps/koffice/icons/hicolor/16x16/actions/cap_butt.png
