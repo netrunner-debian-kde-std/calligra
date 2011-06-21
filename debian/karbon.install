@@ -36,6 +36,8 @@ usr/share/kde4/services/karbon_png_export.desktop
 usr/share/kde4/services/karbon_wmf_export.desktop
 usr/share/kde4/services/karbon_svg_export.desktop
 usr/share/kde4/services/karbontools.desktop
+usr/share/kde4/services/karbonfiltereffects.desktop
+usr/share/kde4/services/karbonpart.desktop
 usr/share/kde4/services/ServiceMenus/karbon_konqi.desktop
 usr/share/kde4/servicetypes/karbon_module.desktop
 usr/share/doc/kde/HTML/en/karbon
