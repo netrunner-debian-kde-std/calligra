@@ -283,6 +283,7 @@ usr/share/kde4/services/changecase.desktop
 usr/share/kde4/services/defaulttools.desktop
 usr/share/kde4/services/divineproportionshape.desktop
 usr/share/kde4/services/generic_filter.desktop
+usr/share/kde4/services/kchartpart.desktop
 usr/share/kde4/services/kodocinfopropspage.desktop
 usr/share/kde4/services/kofficedockers.desktop
 usr/share/kde4/services/kofficethumbnail.desktop
@@ -333,6 +334,7 @@ usr/share/kde4/services/ServiceMenus/kchart_konqi.desktop
 usr/share/kde4/services/chartshape.desktop
 usr/share/kde4/services/commentshape.desktop
 usr/share/kde4/services/pluginshape.desktop
+usr/share/kde4/servicetypes/calligra_application.desktop
 usr/share/kde4/servicetypes/kochart.desktop
 usr/share/kde4/servicetypes/koreport_itemplugin.desktop
 usr/share/kde4/services/koreport_chartplugin.desktop
