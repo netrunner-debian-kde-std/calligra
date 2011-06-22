@@ -12,6 +12,9 @@ usr/lib/kde4/karbonpdfimport.so
 usr/lib/kde4/karbonpngexport.so
 usr/lib/kde4/karbonsvgimport.so
 usr/lib/kde4/karbonsvgexport.so
+usr/lib/kde4/wmfexport.so
+usr/lib/kde4/wmfimport.so
+usr/lib/kde4/wpgimport.so
 usr/lib/libkarbonui.so.8
 usr/lib/libkarbonui.so.8.0.0
 usr/lib/libkarboncommon.so.8
