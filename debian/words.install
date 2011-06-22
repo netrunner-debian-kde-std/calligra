@@ -6,6 +6,7 @@ usr/lib/kde4/amiproimport.so
 usr/lib/kde4/applixwordimport.so
 usr/lib/kde4/asciiexport.so
 usr/lib/kde4/asciiimport.so
+usr/lib/kde4/dcmimport.so
 usr/lib/kde4/docbookexport.so
 usr/lib/kde4/docximport.so
 usr/lib/kde4/hancomwordimport.so
@@ -40,6 +41,7 @@ usr/share/kde4/services/kword_amipro_import.desktop
 usr/share/kde4/services/kword_applixword_import.desktop
 usr/share/kde4/services/kword_ascii_export.desktop
 usr/share/kde4/services/kword_ascii_import.desktop
+usr/share/kde4/services/kword_dcm_import.desktop
 usr/share/kde4/services/kword_docbook_export.desktop
 usr/share/kde4/services/kword_docx_import.desktop
 usr/share/kde4/services/kword_hancomword_import.desktop
