@@ -281,7 +281,6 @@ usr/share/kde4/services/artistictextshape.desktop
 usr/share/kde4/services/autocorrect.desktop
 usr/share/kde4/services/changecase.desktop
 usr/share/kde4/services/defaulttools.desktop
-usr/share/kde4/services/divineproportionshape.desktop
 usr/share/kde4/services/generic_filter.desktop
 usr/share/kde4/services/kchartpart.desktop
 usr/share/kde4/services/kodocinfopropspage.desktop
