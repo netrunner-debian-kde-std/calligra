@@ -63,7 +63,6 @@ usr/lib/kde4/kritaunsharpfilter.so
 usr/lib/kde4/kritawavefilter.so
 usr/lib/kde4/kritabmpexport.so
 usr/lib/kde4/kritabmpimport.so
-usr/lib/kde4/kritagifimport.so
 usr/lib/kde4/kritajp2export.so
 usr/lib/kde4/kritajp2import.so
 usr/lib/kde4/kritajpegexport.so
@@ -110,7 +109,6 @@ usr/lib/kde4/kritahistorydocker.so
 usr/lib/kde4/kritasobelfilter.so
 usr/share/applications/kde4/krita.desktop
 usr/share/applications/kde4/krita_bmp.desktop
-usr/share/applications/kde4/krita_gif.desktop
 usr/share/applications/kde4/krita_jp2.desktop
 usr/share/applications/kde4/krita_jpeg.desktop
 usr/share/applications/kde4/krita_odg.desktop
@@ -118,6 +116,7 @@ usr/share/applications/kde4/krita_ora.desktop
 usr/share/applications/kde4/krita_pdf.desktop
 usr/share/applications/kde4/krita_png.desktop
 usr/share/applications/kde4/krita_ppm.desktop
+usr/share/applications/kde4/krita_psd.desktop
 usr/share/applications/kde4/krita_raw.desktop
 usr/share/applications/kde4/krita_tiff.desktop
 usr/share/applications/kde4/krita_xcf.desktop
@@ -147,7 +146,6 @@ usr/share/kde4/services/kritaextensioncolorsfilters.desktop
 usr/share/kde4/services/kritaextensionsmanager.desktop
 usr/share/kde4/services/kritafastcolortransfer.desktop
 usr/share/kde4/services/kritafilterop.desktop
-usr/share/kde4/services/krita_gif_import.desktop
 usr/share/kde4/services/kritagridpaintop.desktop
 usr/share/kde4/services/kritahairypaintop.desktop
 usr/share/kde4/services/kritahatchingpaintop.desktop
@@ -211,6 +209,8 @@ usr/share/kde4/services/kritasmalltilesfilter.desktop
 usr/share/kde4/services/kritabackgrounds.desktop
 usr/share/kde4/services/krita_presetdocker.desktop
 usr/share/kde4/services/kritahistorydocker.desktop
+usr/share/kde4/services/krita_psd_export.desktop
+usr/share/kde4/services/krita_psd_import.desktop
 usr/share/kde4/services/kritaphongbumpmapfilter.desktop
 usr/share/kde4/services/kritasobelfilter.desktop
 usr/share/kde4/services/kritaexperimentpaintop.desktop

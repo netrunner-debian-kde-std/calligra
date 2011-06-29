@@ -2287,10 +2287,6 @@ usr/share/kde4/apps/flow/stencils/Circuit2/dcapacitor.png
 usr/share/kde4/apps/flow/stencils/Circuit2/dinductor_de.desktop
 usr/share/kde4/apps/flow/stencils/Circuit2/vpcapacitor.png
 usr/share/kde4/apps/flow/stencils/Circuit2/hvoltmeter.desktop
-usr/share/kde4/apps/flow/stencils/Flags
-usr/share/kde4/apps/flow/stencils/Flags/flags.desktop
-usr/share/kde4/apps/flow/stencils/Flags/flags.odg
-usr/share/kde4/apps/flow/stencils/Flags/collection.desktop
 usr/share/kde4/apps/flow/stencils/Electric2
 usr/share/kde4/apps/flow/stencils/Electric2/isolator.png
 usr/share/kde4/apps/flow/stencils/Electric2/ckt-breaker.desktop
