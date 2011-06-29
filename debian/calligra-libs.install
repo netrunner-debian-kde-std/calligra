@@ -58,10 +58,8 @@ usr/lib/libkotext.so.8
 usr/lib/libkotext.so.8.0.0
 usr/lib/libkowidgets.so.8
 usr/lib/libkowidgets.so.8.0.0
-usr/lib/libkowmf.so.8
-usr/lib/libkowmf.so.8.0.0
-usr/lib/libkwmf.so.8
-usr/lib/libkwmf.so.8.0.0
+usr/lib/liblibwmf.so.8.0.0
+usr/lib/liblibwmf.so.8
 usr/lib/libmsooxml.so.8
 usr/lib/libmsooxml.so.8.0.0
 usr/lib/libpigmentcms.so.8

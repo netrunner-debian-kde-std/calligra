@@ -27,7 +27,6 @@ usr/lib/libkoproperty.so
 usr/lib/libkoreport.so
 usr/lib/libkotext.so
 usr/lib/libkowidgets.so
-usr/lib/libkowmf.so
 usr/lib/libkowv2.so
 usr/lib/libkplatokernel.so
 usr/lib/libkplatomodels.so
@@ -42,11 +41,11 @@ usr/lib/libkritalibpaintop.so
 usr/lib/libkritaui.so
 usr/lib/libcalligratablescommon.so
 usr/lib/libcalligratablesodf.so
-usr/lib/libkwmf.so
 usr/lib/libkwordexportfilters.so
 usr/lib/libwordsprivate.so
 usr/lib/libmsooxml.so
 usr/lib/libpigmentcms.so
+usr/lib/liblibwmf.so
 usr/share/kde4/apps/cmake/modules/FindKOfficeLibs.cmake
 usr/lib/libtextlayout.so
 /usr/lib/libkoabstraction.so
