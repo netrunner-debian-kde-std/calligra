@@ -1,9 +1,8 @@
-calligra (2.3.71-1) UNRELEASED; urgency=low
+calligra (2.3.72-1) UNRELEASED; urgency=low
 
   * Initial release.
 
   [ Raúl Sánchez Siles ]
   * Update packaging to debhelper 8.
 
- -- Raúl Sánchez Siles <rasasi78@gmail.com>  Fri, 03 Jun 2011 08:36:49 +0200
-
+ -- Raúl Sánchez Siles <rasasi78@gmail.com>  Wed, 29 Jun 2011 21:08:26 +0200
