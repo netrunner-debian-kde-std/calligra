@@ -1,6 +1,7 @@
 usr/include/
 usr/lib/libchartshapelib.so
 usr/lib/libflake.so
+usr/lib/libflowprivate.so
 usr/lib/libkarboncommon.so
 usr/lib/libkarbonui.so
 usr/lib/libkdchart.so
@@ -31,6 +32,7 @@ usr/lib/libkowv2.so
 usr/lib/libkplatokernel.so
 usr/lib/libkplatomodels.so
 usr/lib/libplanprivate.so
+usr/lib/libkexidatatable.so
 usr/lib/libkplatoui.so
 usr/lib/libplanworkapp.so
 usr/lib/libplanworkfactory.so
