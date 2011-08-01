@@ -1,20 +1,84 @@
 Format: http://dep.debian.net/deps/dep5
 Upstream-Name: calligra
-Source: <url://example.com>
+Source: http://www.calligra-suite.org/get-calligra/
 
-Files: *
-Copyright: <years> <put author's name and email here>
-           <years> <likewise for another author>
-License: <special license>
- <Put the license of the package here indented by 1 space>
- <This follows the format of Description: lines in control file>
- .
- <Including paragraphs>
+Files: karbon/*
+Copyright: 1999 Matthias Elter <elter@kde.org>
+           2001-2002 Benoît Vautrin <benoit.vautrin@free.fr>
+           2001-2003 Lennart Kudling <kudling@kde.org>
+           2001-2007 Rob Buis <buis@kde.org>
+           
+           2002 Werner Trobin <trobin@kde.org>
+           2002-2003,2005 Tomislav Lukman <tomislav.lukman@ck.t-com.hr>
+           2002-2003,2006-2007 Stephan Kulow <coolo@kde.org>
+           2002,2005-2007 Thomas Zander <zander@kde.org>
+           2002-2006 Stephan Binner <binner@kde.org>
+           2002-2006 Laurent Montel <montel@kde.org>
+           2002-2007 David Faure <faure@kde.org> 
 
-# If you want to use GPL v2 or later for the /debian/* files use 
-# the following clauses, or change it to suit. Delete these two lines
+           2003 Lukáš Tinkl <lukas@kde.org>
+           2003 Thomas Nagy <tnagyemail-mail@yahoo.fr>
+           2003 Patrick Julien <freak@codepimps.org>
+           2003,2006 Dirk Mueller <mueller@kde.org>
+
+           2004 Waldo Bastian <bastian@kde.org>
+           2004 Brad Hards <bradh@frogmouth.net>
+           2004 Nicolas Goutte <nicolasg@snafu.de>
+           2004-2005 Fredrik Edemar <f_edemar@linux.se>
+           2004-2006 Peter Simonsson <psn@linux.se>
+           2004-2006 Bulia Byak <buliabyak@users.sf.net>
+           2004-2006 Josh Andler <scislac@users.sf.net>
+
+           2005 Johannes Schaub <johannes.schaub@kdemail.net>
+           2005 Yann Bodson <yann.bodson@online.fr>
+           2005-2006 Tim Beaulen <tbscope@gmail.com>
+           2005-2006 Inge Wallin <inge@lysator.liu.se>
+           2005-2006 Sven Langkamp <sven.langkamp@gmail.com>
+           2005-2006 Casper Boemann <cbr@boemann.dk>
+           2005-2010 Boudewijn Rempt <boud@valdyas.org>
+           2005-2011 Jan Hambrecht <jaham@gmx.net>
+
+           2006 Martin Ellis <martin.ellis@kdemail.net>
+           2006 Adriaan de Groot <groot@kde.org>
+           2006 Sebastian Sauer <mail@dipe.org>
+           2006 Andreas Hartmetz <ahartmetz@gmail.com>
+           2006 Stefan Nikolaus <stefan.nikolaus@kdemail.net>
+           2006 Gabor Lehel <illissius@gmail.com>
+           2006 Jaison Lee <lee.jaison@gmail.com>
+           2006 Simon Hausmann <hausmann@kde.org>
+           2006 Martin Pfeiffer <hubipete@gmx.net>
+           2006-2007 Aaron J. Seigo <aseigo@kde.org>
+           2006-2007,2010 Thorsten Zachmann <t.zachmann@zagge.de>
+
+           2007 Chusslove Illich <caslav.ilic@gmx.net>
+           2007 Matthias Kretz <kretz@kde.org>
+
+           2008 Patrick Spendrin <ps_ml@gmx.de>
+           2008 Fela Winkelmolen <fela.kde@gmail.com>
+
+Licences: LGPL-2+
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Lesser General Public
+ License as published by the Free Software Foundation; either
+ version 2.1 of the License, or (at your option) any later version.
+.
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Lesser General Public License for more details.
+.
+ You should have received a copy of the GNU Lesser General Public
+ License along with this library; if not, write to the Free Software
+ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
+.
+ On Debian systems the full text of the GNU LGPL v2.1 can be found
+ in the `/usr/share/common-licenses/LGPL-2.1' file.
+
 Files: debian/*
 Copyright: 2011 Ana Beatriz Guerrero Lopez <ana@debian.org>
+           2011 Raúl Sánchez Siles <rasasi78@gmail.com>
+           2011 Pino Toscano <pino@kde.org>
+           2011 Adrien Grellier <adrien.grellier@laposte.net>
 License: GPL-2+
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
@@ -32,5 +96,3 @@ License: GPL-2+
  On Debian systems, the complete text of the GNU General
  Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
 
-# Please also look if there are files or directories which have a
-# different copyright/license attached and list them here.
