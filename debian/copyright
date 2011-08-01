@@ -74,6 +74,20 @@ Licences: LGPL-2+
  On Debian systems the full text of the GNU LGPL v2.1 can be found
  in the `/usr/share/common-licenses/LGPL-2.1' file.
 
+Files: flow/*
+Copyright: 2006 David Faure <faure@kde.org>
+           2006,2008 Peter Simonsson <peter.simonsson@gmail.com>
+           2007 Thorsten Zachmann <zachmann@kde.okde.org>
+           2007 Thomas Zander <zander@kde.org>
+           2009 Cyrille Berger <cberger@cberger.net>
+           2010 Boudewijn Rempt <boud@valdyas.org>
+           2010-2011 Yue Liu <opuspace@gmail.com>
+Licences: LGPL-2+
+
+Files: flow/*
+Copyright: 2010-2011 Yue Liu <opuspace@gmail.com>
+Licences: GPL-2+
+
 Files: debian/*
 Copyright: 2011 Ana Beatriz Guerrero Lopez <ana@debian.org>
            2011 Raúl Sánchez Siles <rasasi78@gmail.com>
