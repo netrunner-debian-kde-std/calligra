@@ -88,6 +88,17 @@ Files: flow/*
 Copyright: 2010-2011 Yue Liu <opuspace@gmail.com>
 Licences: GPL-2+
 
+Files: braindump/*
+Copyright: 1998-1999 Torben Weis <weis@kde.org>
+           2005-2006 Boudewijn Rempt <boud@valdyas.org>
+           2006 David Faure <faure@kde.org>
+           2006 Frans Englich <frans.englich@telia.com>
+           2006-2007 Thomas Zander <zander@kde.org>
+           2006-2007 Thorsten Zachmann <zachmann@kde.org>
+           2008, 2010-2011 Casper Boemann <cbo@boemann.dk>
+           2009-2010 Cyrille Berger <cberger@cberger.net>
+Licences: LGPL-2+
+
 Files: debian/*
 Copyright: 2011 Ana Beatriz Guerrero Lopez <ana@debian.org>
            2011 Raúl Sánchez Siles <rasasi78@gmail.com>
