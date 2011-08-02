@@ -99,6 +99,30 @@ Copyright: 1998-1999 Torben Weis <weis@kde.org>
            2009-2010 Cyrille Berger <cberger@cberger.net>
 Licences: LGPL-2+
 
+Files: kformula/*
+Copyright: 1998-1999 Reginald Stadlbauer <reggie@kde.org>
+           2001 Andrea Rizzi <rizzi@kde.org>
+           2001, 2003, 2006-2007 Ulrich Kuettler <ulrich.kuettler@gmx.de>
+           2002 Laurent Montel <lmontel@mandrakesoft.com>
+           2006-2007, 2009 Martin Pfeiffer <hubipete@gmx.net>
+           2006-2009 Alfredo Beaumont Sainz <alfredo.beaumont@gmail.com>
+           2007 David Faure <faure@kde.org>
+           2008 Johannes Simon <johannes.simon@gmail.com>
+           2009 Jeremias Epperlein <jeeree@web.de>
+           2010 Inge Wallin <inge@lysator.liu.se>
+Licences: LGPL-2+
+
+Files: kformula/*
+Copyright: 2001 Andrea Rizzi <rizzi@kde.org>
+           2001, 2003, 2006-2007 Ulrich Kuettler <ulrich.kuettler@gmx.de>
+           2007 Thorsten Zachmann <zachmann@kde.org>
+           2006-2007, 2009 Martin Pfeiffer <hubipete@gmx.net>
+           2006-2009 Alfredo Beaumont Sainz <alfredo.beaumont@gmail.com>
+           2009 Jeremias Epperlein <jeeree@web.de>
+           2010 Boudewijn Rempt <boud@kogmbh.com>
+Licences: LGPL-2
+
+
 Files: debian/*
 Copyright: 2011 Ana Beatriz Guerrero Lopez <ana@debian.org>
            2011 Raúl Sánchez Siles <rasasi78@gmail.com>
