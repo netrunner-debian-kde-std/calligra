@@ -122,6 +122,19 @@ Copyright: 2001 Andrea Rizzi <rizzi@kde.org>
            2010 Boudewijn Rempt <boud@kogmbh.com>
 Licences: LGPL-2
 
+Files: kchart/*
+Copyright: 1999-2007 Matthias Kalle Dalheimer <kalle@kde.org>
+           2005-2009 Inge Wallin <inge@lysator.liu.se>
+           2001-2004 Laurent Montel <montel@kde.org>
+           2005 David Faure <faure@kde.org>
+           2007 Thomas Zander <zander@kde.org>
+           2007 Thorsten Zachmann <zachmann@kde.org>
+           2007-2009 Johannes Simon <johannes.simon@gmail.com>
+Licences: LGPL-2+
+
+Files: kchart/*
+Copyright: 2005 Fredrik Edemar <f_edemar@linux.se>
+Licences: GPL-2+
 
 Files: debian/*
 Copyright: 2011 Ana Beatriz Guerrero Lopez <ana@debian.org>
