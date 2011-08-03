@@ -136,6 +136,66 @@ Files: kchart/*
 Copyright: 2005 Fredrik Edemar <f_edemar@linux.se>
 Licences: GPL-2+
 
+
+Files: kexi/*
+Copyright:
+           2004-2006 Martin Ellis <m.a.ellis@ncl.ac.uk>
+Licences: MIT
+
+Files: kexi/*
+Copyright: 
+           2003-2010 Adam Pigg <adam@piggz.co.uk>
+Licences: LGPL-2.1+
+
+Files: kexi/*
+Copyright:
+           1998-2004 Brian Bruns
+           1999, 2003 David Faure <faure@kde.org>
+           2001 Bernd Gehrmann <bernd@kdevelop.org>
+           2001, 2003-2011 Jarosław Staniek <staniek@kde.org>
+           2002 Benoit Vautrin <benoit.vautrin@free.fr>
+           2002 Kexi Team <kexi@kde.org>
+           2002 Laurent Montel <montel@kde.org>
+           2002 Peter Simonsson <psn@linux.se>
+           2002 Till Busch <till@bux.at>
+           2002-2003 Ariya Hidayat <ariya@kde.org>
+           2002-2003 Daniel Molkentin <molkentin@kde.org>
+           2002-2003 Joseph Wenninger <jowenn@kde.org>
+           2002-2003 Norbert Andres <nandres@web.de>
+           2002-2004 Lucijan Busch <lucijan@kde.org>
+           2003 Lukas Tinkl <lukas@kde.org>
+           2003-2010 Adam Pigg <adam@piggz.co.uk>
+           2004 Nicolas Goutte <goutte@kde.org>
+           2004-2005 Cedric Pasteur <cedric.pasteur@free.fr>
+           2004-2006 Martin Ellis <m.a.ellis@ncl.ac.uk>
+           2004-2008 Sebastian Sauer <mail@dipe.org>
+           2005 Christian Nitschkowski <segfault_ii@web.de>
+           2006-2009 Sharan Rao <sharanrao@gmail.com>
+           2008 Lorenzo Villani <lvillani@binaryhelix.net>
+           2008 Miguel Angel Aragüez-Rey <fizban87@gmail.com>
+           2008 Julia Sanchez-Simon <hithwen@gmail.com>
+Licences: LGPL-2+
+
+Files: kexi/*
+Copyright:
+           2001, 2003-2011 Jarosław Staniek <staniek@kde.org>
+           2002-2003 Joseph Wenninger <jowenn@kde.org>
+           2002-2004 Lucijan Busch <lucijan@kde.org>
+           2003-2010 Adam Pigg <adam@piggz.co.uk>
+           2004-2005 Cedric Pasteur <cedric.pasteur@free.fr>
+Licences: LGPL-2
+
+Files: kexi/*
+Copyright:
+           2003-2010 Adam Pigg <adam@piggz.co.uk>
+Licences: GPL-2+
+
+Files: kexi/webforms/webroot/extjs/*
+Copyright:
+           2006-2008 Ext JS <licensing@extjs.com>
+Licences: GPL-3
+
+
 Files: debian/*
 Copyright: 2011 Ana Beatriz Guerrero Lopez <ana@debian.org>
            2011 Raúl Sánchez Siles <rasasi78@gmail.com>
