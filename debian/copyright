@@ -196,6 +196,48 @@ Copyright:
 Licences: GPL-3
 
 
+Files: kplato/*
+Copyright: 
+           2002-2011 Dag Andersen <danders@get2net.dk>
+           2007-2010 Adam Pigg <adam@piggz.co.uk>
+Licences: LGPL-2.1+
+Files: kplato/*
+Copyright: 
+           1997 Tim D. Gilman <tdgilman@best.org
+           1998-2000 Torben Weis <weis@kde.org>
+           1998-2001 Mirko Boehm <mirko@kde.org>
+           1998-2001 Reginald Stadlbauer <reggie@kde.org>
+           2000-2005,2007 David Faure <faure@kde.org>
+           2001 Thomas Zander <zander@kde.org>
+           2002 Bo Thorsen <bo@sonofthor.dk>
+           2002-2011 Dag Andersen <danders@get2net.dk>
+           2004 Laurent Montel <montel@kde.org>
+           2006 Raphael Langerhorst <raphael.langerhorst@kdemail.net>
+           2006 Stefan Nikolaus <stefan.nikolaus@kdemail.net>
+           2006-2007 Frederic BECQUIER <frederic.becquier@gmail.com>
+           2006-2007 Menard Alexis <kplato@kde.org>
+           2006-2007 Sebastian Sauer <mail@dipe.org>
+           2007 Alexis Ménard <darktears31@gmail.com>
+           2007 Florian Piquemal <flotueur@yahoo.fr>
+           2007 Fredy Yanardi <fyanardi@gmail.com>
+           2007 Thorsten Zachmann <zachmann@kde.org>
+           2011 Pierre Stirnweiss <pstirnweiss@googlemail.com>
+Licences: LGPL-2+
+Files: kplato/*
+Copyright: 
+           2002-2011 Dag Andersen <danders@get2net.dk>
+Licences: LGPL-2
+Files: kplato/*
+Copyright: 
+           1998-2000 Torben Weis <weis@kde.org>
+           1999 Simon Hausmann <hausmann@kde.org>
+           1999-2003 Hans Petter Bieker <bieker@kde.org>
+           2000-2005,2007 David Faure <faure@kde.org>
+           2002-2011 Dag Andersen <danders@get2net.dk>
+           2005-2006 Sven Lüppken <sven@kde.org>
+Licences: GPL-2+
+
+
 Files: debian/*
 Copyright: 2011 Ana Beatriz Guerrero Lopez <ana@debian.org>
            2011 Raúl Sánchez Siles <rasasi78@gmail.com>
