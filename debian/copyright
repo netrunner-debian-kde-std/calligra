@@ -237,6 +237,41 @@ Copyright:
            2005-2006 Sven Lüppken <sven@kde.org>
 Licences: GPL-2+
 
+Files: kpresenter/*
+Copyright:
+           2006-2010 Thorsten Zachmann <zachmann@kde.org>
+           2009 Amit Aggarwal <amitcs06@gmail.com>
+Licences: LGPL-2.1+
+Files: kprensenter/*
+Copyright:
+           1998-1999 Reginald Stadlbauer <reggie@kde.org>
+           2005-2006 David Faure <faure@kde.org>
+           2006 Laurent Montel <montel@kde.org>
+           2006-2010 Thorsten Zachmann <zachmann@kde.org>
+           2007 Martin Pfeiffer <hubipete@gmx.net>
+           2007-2008 Carlos Licea <carlos.licea@kdemail.org>
+           2007-2008 Hambrecht <jaham@gmx.net>
+           2007-2008 Timothée Lacroix <dakeyras.khan@gmail.com>
+           2007,2010 Thomas Zander <zander@kde.org>
+           2008 Boudewijn Rempt <boud@valdyas.org>
+           2008 Marijn Kruisselbrink <mkruisselbrink@kde.org>
+           2008 James Hogan <james@albanarts.com>
+           2008 Jim Courtiau <jeremy.courtiau@gmail.com>
+           2008 Fredy Yanardi <fyanardi@kde.org>
+           2008 Peter Penz <peter.penz19@gmail.com>
+           2008 Sven Langkamp <sven.langkamp@gmail.com>
+           2008,2010 Casper Boemann <cbo@boemann.dk>
+           2009 Amit Aggarwal <amitcs06@gmail.com>
+           2009 Alexia Allanic <alexia_allanic@yahoo.fr>
+           2009 Jérémy Lugagne <jejewindsurf@hotmail.com>
+           2009 Johann Hingue <yoan1703@hotmail.fr>
+           2009 Yannick Motta <yannick.motta@gmail.com>
+           2009-2010 Benjamin Port <port.benjamin@gmail.com>
+           2009-2010 Jean-Nicolas Artaud <jeannicolasartaud@gmail.com>
+           2010 Gopalakrishna Bhat A <gopalakbhat@gmail.com>
+           2011 Paul Mendez <paulestebanms@gmail.com>
+Licences: LGPL-2+
+
 
 Files: debian/*
 Copyright: 2011 Ana Beatriz Guerrero Lopez <ana@debian.org>
