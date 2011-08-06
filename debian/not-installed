@@ -1,0 +1,6 @@
+# symlinks of private libraries
+./usr/lib/libcalligrastageprivate.so
+./usr/lib/libflowprivate.so
+./usr/lib/libkformulaprivate.so
+./usr/lib/libplanprivate.so
+./usr/lib/libwordsprivate.so
