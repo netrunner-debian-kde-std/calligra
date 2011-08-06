@@ -273,6 +273,111 @@ Copyright:
 Licences: LGPL-2+
 
 
+Files: krita/*
+Copyright: 1998-2004 Marti Maria <x@unknown.com>
+Licences: MIT
+Files: krita/*
+Copyright: 2005 Erik Reinhard
+           2005 Greg Ward
+           2005 Paul Debevec
+           2005 Sumanta Pattanaik
+           2007 Shaine Joseph
+Licences: BSD-BY-LC-NE
+Files: krita/*
+Copyright: 2003-2004 Rafal Mantiuk
+           2003-2004,2007 Grzegorz Krawczyk <krawczyk@mpi-sb.mpg.de>
+Licences: LGPL-2.1+
+Files: krita/*
+Copyright: 2003-2011 Boudewijn Rempt <boud@kde.org>
+           2004-2005,2007-2011 Sven Langkamp <sven.langkamp@gmail.com>
+           2004-2007,2009 Casper Boemann <cbo@boemann.dk>
+           2004-2011 Cyrille Berger <cberger@cberger.net>
+           2005,2007-2008 Thomas Zander <zander@kde.org>
+           2006-2007 Sebastian Sauer <mail@dipe.org>
+           2006-2008 Emanuele Tamponi <emanuele@valinor.it>
+           2008-2011 Lukáš Tvrdý <lukast.dev@gmail.com>
+           2009-2011 Dmitry Kazakov <dimula73@gmail.com>
+           2010 Adam Celarek <kdedev@xibo.at>
+           2010 Justin Noel <justin@ics.com>
+           2010 Matus Talcik <matus.talcik@gmail.com>
+           2010 Nokia Corporation
+           2011 Silvio Heinrich <plassy@web.de>
+           2011 Srikanth Tiyyagura <srikanth.tulasiram@gmail.com>
+Licences: LGPL-2+
+Files: krita/*
+Copyright: 2003-2011 Boudewijn Rempt <boud@kde.org>
+           2004-2005,2007-2011 Sven Langkamp <sven.langkamp@gmail.com>
+           2004-2011 Cyrille Berger <cberger@cberger.net>
+           2008 Martin Renold <martinxyz@gmx.ch>
+           2008-2011 Lukáš Tvrdý <lukast.dev@gmail.com>
+           2009 Ilya Portnov
+           2009 Vera Lukman <shicmap@gmail.com>
+           2009-2010 Edward Apap <schumifer@hotmail.com>
+           2010 Adam Celarek <kdedev@xibo.at>
+           2010 Geoffry Song <goffrie@gmail.com>
+           2010 Marc Pegon <pe.marc@free.fr>
+           2011 Srikanth Tiyyagura <srikanth.tulasiram@gmail.com>
+Licences: LGPL-2
+Files: krita/*
+Copyright: 1982-1989 Donald H. House <x@unknown.com>
+           1989 Robert Allen <x@unknown.com>
+           1992 Karl Berry <karl@cs.umb.edu>
+           1992 Kathryn Hargreaves <letters@cs.umb.edu>
+           1995 Peter Mattis
+           1995 Spencer Kimball <x@y.com>
+           1997 Eiichi Takamori <taka@ma1.seikyou.ne.jp>
+           1997 Federico Mena Quintero <federico@nuclecu.unam.mx>
+           1997 Tracy Scott 
+           1997-2000 Jens Lautenbacher <jtl@gimp.org>
+           1999 Carsten Pfeiffer <pfeiffer@kde.org>
+           1999 Michael Koch <koch@kde.org>
+           1999-2000 Matthias Elter <elter@kde.org>
+           2000 Sven Neumann <sven@gimp.org>
+           2000-2001 John Califf <jcaliff@compuzone.net>
+           2001 Toshitaka Fujioka <fujioka@kde.org>
+           2002-2003 Patrick Julien <freak@codepimps.org>
+           2003-2004,2007 Grzegorz Krawczyk <krawczyk@mpi-sb.mpg.de>
+           2003-2011 Boudewijn Rempt <boud@kde.org>
+           2004 Clarence Dang <dang@kde.org>
+           2004-2005,2007-2011 Sven Langkamp <sven.langkamp@gmail.com>
+           2004-2006 Bart Coppens <kde@bartcoppens.be>
+           2004-2006 Michael Thaler <michael.thaler@physik.tu-muenchen.de>
+           2004-2007,2009 Casper Boemann <cbo@boemann.dk>
+           2004-2007,2009-2010 Adrian Page <adrian@pagenet.plus.com>
+           2004-2011 Cyrille Berger <cberger@cberger.net>
+           2005 Frerich Raabe <raabe@kde.org>
+           2005 Tom Albers <tomalbers@kde.nl>
+           2005,2007-2008 Thomas Zander <zander@kde.org>
+           2005-2006 Ariya Hidayat <ariya@kde.org>
+           2006 Frederic Coiffier <fcoiffie@gmail.com>
+           2006 Gábor Lehel <illissius@gmail.com>
+           2006-2008 Emanuele Tamponi <emanuele@valinor.it>
+           2007 Eric Lamarque <eric.lamarque@free.fr>
+           2007 John Marshall
+           2007 Thorsten Zachmann <zachmann@kde.org>
+           2008 Benoit Jacob <jacob.benoit.1@gmail.com>
+           2008 Martin Renold <martinxyz@gmx.ch>
+           2008 Tom Burdick <thomas.burdick@gmail.com>
+           2008-2009 Lukas Tvrdy <lukast.dev@gmail.com>
+           2008-2011 Lukáš Tvrdý <lukast.dev@gmail.com>
+           2009 Matthew Woehlke <mw_triad@users.sourceforge.net>
+           2009-2010 Edward Apap <schumifer@hotmail.com>
+           2009-2011 Dmitry Kazakov <dimula73@gmail.com>
+           2010 Adam Celarek <kdedev@xibo.at>
+           2010 Celarek Adam <kdedev@xibo.at>
+           2010 Geoffry Song <goffrie@gmail.com>
+           2010 Marc Pegon <pe.marc@free.fr>
+           2010 Ricardo Cabello <hello@mrdoob.com>
+           2010 Valek Filippov <frob@gnome.org>
+           2010-2011 José Luis Vergara <pentalis@gmail.com>
+           2011 Silvio Heinrich <plassy@web.de>
+           2011 Srikanth Tiyyagura <srikanth.tulasiram@gmail.com>
+Licences: GPL-2+
+Files: krita/*
+Copyright: Trolltech ASA
+Licences: GPL-2
+
+
 Files: debian/*
 Copyright: 2011 Ana Beatriz Guerrero Lopez <ana@debian.org>
            2011 Raúl Sánchez Siles <rasasi78@gmail.com>
