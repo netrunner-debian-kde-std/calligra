@@ -477,6 +477,26 @@ Copyright:
 Licences: GPL-2+
 
 
+Files: words/*
+Copyright:
+           2005-2010 Thomas Zander <zander@kde.org>
+           2005-2011 Sebastian Sauer <sebastian.sauer@kdab.com>
+           2000-2006 David Faure <faure@kde.org>
+           2010-2011 Boudewijn Rempt boud@kogmbh.com>
+           2007-2008 Pierre Ducroquet <pinaraf@gmail.com>
+           2007-2009 Thorsten Zachmann <zachmann@kde.org>
+           2010 KO GmbH <ben.martin@kogmbh.com>
+           2007-2008 Fredy Yanardi <fyanardi@gmail.com>
+           1998-2001 Reginald Stadlbauer <reggie@kde.org>
+           2010-2011 Casper Boemann <cbo@boemann.dk>
+           2009 Inge Wallin <inge@lysator.liu.se>
+           2010 Matus Hanzes
+Licences: LGPL-2+
+Files: words/*
+Copyright:
+           2005-2010 Thomas Zander <zander@kde.org>
+Licences: GPL-2+
+
 Files: debian/*
 Copyright: 2011 Ana Beatriz Guerrero Lopez <ana@debian.org>
            2011 Raúl Sánchez Siles <rasasi78@gmail.com>
