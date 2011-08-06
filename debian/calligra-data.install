@@ -1,5 +1,5 @@
 usr/share/applications/kde4/koffice.desktop
-usr/share/color/icc/pigment/CMY.icm                                              
+usr/share/color/icc/pigment/CMY.icm
 usr/share/color/icc/pigment/fogra27l.icm
 usr/share/icons/oxygen/16x16/actions/object-align-horizontal-center-koffice.png
 usr/share/icons/oxygen/16x16/actions/object-align-horizontal-left-koffice.png
@@ -323,7 +323,7 @@ usr/share/kde4/servicetypes/textvariableplugin.desktop
 usr/share/mime/packages/msooxml-all.xml
 usr/share/templates/Illustration.desktop
 usr/share/templates/Presentation.desktop
-usr/share/templates/.source/Illustration.karbon                                  
+usr/share/templates/.source/Illustration.karbon
 usr/share/templates/.source/Presentation.kpt
 usr/share/templates/.source/SpreadSheet.kst
 usr/share/templates/.source/TextDocument.kwt
