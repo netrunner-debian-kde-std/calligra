@@ -30,9 +30,9 @@ Architecture: all
 Section: kde
 Replaces: koffice
 Conflicts: koffice
-Depends: karbon (>= ${source:Version}), flow (>= ${source:Version}), plan (>= ${source:Version}),
- stage (>= ${source:Version}), krita (>= ${source:Version}), tables (>= ${source:Version}),
- words (>= ${source:Version}), kthesaurus (>= ${source:Version}),
+Depends: karbon (>= ${source:Version}), calligraflow (>= ${source:Version}), calligraplan (>= ${source:Version}),
+ calligrastage (>= ${source:Version}), krita (>= ${source:Version}), calligratables (>= ${source:Version}),
+ calligrawords (>= ${source:Version}), kthesaurus (>= ${source:Version}),
  kexi (>= ${source:Version}), kformula (>= ${source:Version})
 Suggests: calligra-doc-html (>= ${source:Version})
 Homepage: http://www.calligra-suite.org
@@ -121,10 +121,10 @@ Description: integrated database environment for the Calligra Office Suite
  .
  This package is part of the Calligra Office Suite.
 
-#Package: kexi-plugin-tables
+#Package: kexi-plugin-calligratables
 #Architecture: any
 #Depends: ${shlibs:Depends}, kexi (>= ${source:Version}),
-# tables (>= ${source:Version})
+# calligratables (>= ${source:Version})
 #Description: Tables plugin for kexi
 # Kexi is an integrated data management application. It can be used for
 # creating database schemas, inserting data, performing queries, and
@@ -257,7 +257,7 @@ Description: thesaurus for the Calligra Office Suite
  .
  This package is part of the Calligra Office Suite.
 
-Package: tables
+Package: calligratables
 Architecture: any
 Section: kde
 Replaces: kspread
@@ -272,7 +272,7 @@ Description: spreadsheet for the Calligra Office Suite
  .
  This package is part of the Calligra Office Suite.
 
-Package: plan
+Package: calligraplan
 Architecture: any
 Section: kde
 Replaces: kplato
@@ -286,12 +286,12 @@ Description: integrated project management and planning tool
  . 
  This package is part of the Calligra Office Suite.
 
-Package: words
+Package: calligrawords
 Architecture: any
 Section: text
 Replaces: kword
 Conflicts: kword
-Depends: ${shlibs:Depends}, words-data (>= ${source:Version})
+Depends: ${shlibs:Depends}, calligrawords-data (>= ${source:Version})
 Suggests: khelpcenter4, calligra-doc-html
 Homepage: http://www.calligra-suite.org/words/
 Description: word processor for the Calligra Office Suite
@@ -302,7 +302,7 @@ Description: word processor for the Calligra Office Suite
  .
  This package is part of the Calligra Office Suite.
 
-Package: words-data
+Package: calligrawords-data
 Architecture: all
 Section: text
 Replaces: kword-data
@@ -312,12 +312,12 @@ Description: data files for Words word processor
  This package contains architecture-independent data files for Words,
  the word processor shipped with the Calligra Office Suite.
  .
- See the words package for further information.
+ See the calligrawords package for further information.
  .
  This package is part of the Calligra Office Suite.
 
 
-Package: stage
+Package: calligrastage
 Architecture: any
 Section: kde
 Replaces: kpresenter
@@ -341,7 +341,7 @@ Description: presentation program for the Calligra Office Suite
  .
  This package is part of the Calligra Office Suite.
 
-Package: flow
+Package: calligraflow
 Architecture: any
 Section: graphics
 Depends: ${shlibs:Depends}, calligra-libs (>= ${source:Version})
@@ -435,7 +435,7 @@ Architecture: any
 Section: devel
 Replaces: koffice-dev
 Conflicts: koffice-dev
-Depends: calligra-libs (>= ${source:Version}), karbon (>= ${source:Version}), plan (>= ${source:Version}), stage (>= ${source:Version}), krita (>= ${source:Version}), tables (>= ${source:Version}), kthesaurus (>= ${source:Version}), words (>= ${source:Version}), kdelibs5-dev 
+Depends: calligra-libs (>= ${source:Version}), karbon (>= ${source:Version}), calligraplan (>= ${source:Version}), calligrastage (>= ${source:Version}), krita (>= ${source:Version}), calligratables (>= ${source:Version}), kthesaurus (>= ${source:Version}), calligrawords (>= ${source:Version}), kdelibs5-dev
 Description: common libraries for Calligra (development files)
  This package provides the development files for the libraries that are
  shared amongst the various components of Calligra.
