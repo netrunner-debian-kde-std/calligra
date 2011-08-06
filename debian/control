@@ -322,7 +322,7 @@ Architecture: any
 Section: kde
 Replaces: kpresenter
 Conflicts: kpresenter
-Depends: ${shlibs:Depends}, ${perl:Depends}, calligra-libs (>= ${source:Version})
+Depends: ${shlibs:Depends}, calligra-libs (>= ${source:Version})
 Suggests: khelpcenter4, calligra-doc-html
 Homepage: http://www.calligra-suite.org/stage/
 Description: presentation program for the Calligra Office Suite
