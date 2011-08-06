@@ -121,19 +121,19 @@ Description: integrated database environment for the Calligra Office Suite
  .
  This package is part of the Calligra Office Suite.
 
-#Package: kexi-plugin-calligratables
-#Architecture: any
-#Depends: ${shlibs:Depends}, kexi (>= ${source:Version}),
-# calligratables (>= ${source:Version})
-#Description: Tables plugin for kexi
-# Kexi is an integrated data management application. It can be used for
-# creating database schemas, inserting data, performing queries, and
-# processing data. Forms can be created to provide a custom interface to
-# your data. All database objects - tables, queries and forms - are stored
-# in the database, making it easy to share data and design.
-# .
-# This package is part of the Calligra Office Suite and provides Tables
-# plugin for Kexi.
+Package: kexi-plugin-calligratables
+Architecture: any
+Depends: ${shlibs:Depends}, kexi (>= ${source:Version}),
+ calligratables (>= ${source:Version})
+Description: Tables plugin for kexi
+ Kexi is an integrated data management application. It can be used for
+ creating database schemas, inserting data, performing queries, and
+ processing data. Forms can be created to provide a custom interface to
+ your data. All database objects - tables, queries and forms - are stored
+ in the database, making it easy to share data and design.
+ .
+ This package is part of the Calligra Office Suite and provides Tables
+ plugin for Kexi.
 
 Package: kexi-plugin-mysql
 Architecture: any
