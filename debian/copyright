@@ -768,6 +768,34 @@ Copyright:
            2000-2003 Werner Trobin <trobin@kde.org>
 Licence: GPL-2
 
+
+Files: tools/*
+Copyright:
+           2010-2011 Jarosław Staniek <staniek@kde.org>
+           2010 KO GmbH <jos.van.den.oever@kogmbh.com>
+           2010 Boudewijn Rempt <boud@kogmbh.com>
+           2004 Nicolas GOUTTE <goutte@kde.org>
+           2001-2006 David Faure <faure@kde.org>
+           2010 Gopalakrishna Bhat A <gopalakbhat@gmail.com>
+           2010 Marijn Kruisselbrink <mkruisselbrink@kde.org>
+           2002 Simon MacMullen <calligra@babysimon.co.uk>
+           2010 Sven Langkamp <sven.langkamp@gmail.com>
+Licence: LGPL-2+
+Files: tools/*
+Copyright:
+           2009-2011 Nokia Corporation
+Licence: LGPL-2.1
+Files: tools/*
+Copyright:
+           2010 Boudewijn Rempt <boud@kogmbh.com>
+           2009 Nokia Corporation
+           2010-2011 Jarosław Staniek <staniek@kde.org>
+           2001 Daniel Naber <daniel.naber@t-online.de>
+           2011 Mani <maninc@gmail.com>
+           2010 Thomas Zander <zander@kde.org>
+Licence: GPL-2+
+
+
 Files: debian/*
 Copyright: 2011 Ana Beatriz Guerrero Lopez <ana@debian.org>
            2011 Raúl Sánchez Siles <rasasi78@gmail.com>
