@@ -50,16 +50,7 @@ usr/share/icons/hicolor/scalable/mimetypes/application-x-vnd.kde.plan.svgz
 usr/share/icons/hicolor/scalable/mimetypes/application-x-vnd.kde.plan.work.svgz
 usr/share/kde4/apps/plan/
 usr/share/kde4/apps/kplato
-usr/share/kde4/apps/kplatowork/icons/hicolor/16x16/actions/template_empty.png
-usr/share/kde4/apps/kplatowork/icons/hicolor/22x22/actions/template_empty.png
-usr/share/kde4/apps/kplatowork/icons/hicolor/32x32/actions/template_empty.png
-usr/share/kde4/apps/kplatowork/icons/hicolor/48x48/actions/template_empty.png
-usr/share/kde4/apps/kplatowork/icons/hicolor/64x64/actions/template_empty.png
-usr/share/kde4/apps/kplatowork/icons/hicolor/scalable/actions/template_empty.svgz
-usr/share/kde4/apps/kplatowork/icons/hicolor/128x128/actions/template_empty.png
-usr/share/kde4/apps/kplatowork/templates/Simple/.directory
-usr/share/kde4/apps/kplatowork/templates/Simple/Empty.desktop
-usr/share/kde4/apps/kplatowork/templates/Simple/.source/Empty.kplatoworkt
+usr/share/kde4/apps/kplatowork/
 usr/share/kde4/apps/planwork/
 usr/share/kde4/config.kcfg/kplatosettings.kcfg
 usr/share/kde4/config/planrc

@@ -1,10 +1,5 @@
 usr/bin/braindump
 usr/share/applications/kde4/braindump.desktop
 usr/share/kde4/apps/braindump
-usr/share/kde4/apps/braindump/braindumpview.rc
-usr/share/kde4/apps/braindump/icons/hicolor/22x22/actions/zoom-width.png
-usr/share/kde4/apps/braindump/icons/hicolor/22x22/actions/zoom-page.png
-usr/share/kde4/apps/braindump/icons/hicolor/22x22/actions/zoom-pixels.png
-usr/share/kde4/apps/braindump/braindumpui.rc
 usr/share/kde4/servicetypes/braindump_extensions.desktop
 usr/lib/libbraindumpcore.so
