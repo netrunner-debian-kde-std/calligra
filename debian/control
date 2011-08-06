@@ -141,6 +141,8 @@ Package: kexi-plugin-mysql
 Architecture: any
 Section: database
 Depends: ${shlibs:Depends}, kexi (>= ${source:Version})
+Breaks: kexi (<< 1:2.3.70)
+Replaces: kexi (<< 1:2.3.70)
 Description: Plugins for integrated database environment for Calligra Office Suite
  Kexi is an integrated data management application. It can be used for
  creating database schemas, inserting data, performing queries, and
@@ -155,6 +157,8 @@ Package: kexi-plugin-postgresql
 Architecture: any
 Section: database
 Depends: ${shlibs:Depends}, kexi (>= ${source:Version})
+Breaks: kexi (<< 1:2.3.70)
+Replaces: kexi (<< 1:2.3.70)
 Description: Plugins for integrated database environment for Calligra Office Suite
  Kexi is an integrated data management application. It can be used for
  creating database schemas, inserting data, performing queries, and
@@ -169,6 +173,8 @@ Package: kexi-plugin-xbase
 Architecture: any
 Section: database
 Depends: ${shlibs:Depends}, kexi (>= ${source:Version})
+Breaks: kexi (<< 1:2.3.70)
+Replaces: kexi (<< 1:2.3.70)
 Description: Plugins for integrated database environment for Calligra Office Suite
  Kexi is an integrated data management application. It can be used for
  creating database schemas, inserting data, performing queries, and
@@ -183,6 +189,8 @@ Package: kexi-plugin-sybase
 Architecture: any
 Section: database
 Depends: ${shlibs:Depends}, kexi (>= ${source:Version})
+Breaks: kexi (<< 1:2.3.70)
+Replaces: kexi (<< 1:2.3.70)
 Description: Plugins for integrated database environment for Calligra Office Suite
  Kexi is an integrated data management application. It can be used for
  creating database schemas, inserting data, performing queries, and
