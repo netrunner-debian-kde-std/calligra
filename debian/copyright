@@ -513,6 +513,126 @@ Copyright:
 Licence: GPL-2+
 
 
+Files: libs/*
+Copyright: 
+           2004-2010 Cyrille Berger <cberger@cberger.net>
+Licence: BSD-BY-LC-NE
+Files: libs/*
+Copyright:
+           2001-2007 LLC <info@openmfg.com>
+           2004-2010 Jarosław Staniek <staniek@kde.org>
+           2007-2010 Adam Pigg <adam@piggz.co.uk>
+           2007-2011 Pierre Ducroquet <pinaraf@gmail.com>
+Licence: LGPL-2.1+
+Files: libs/*
+Copyright:
+           1998 Raph Levien
+           1998-1999 Reginald Stadlbauer <reggie@kde.org>
+           1998-2000 Torben Weis <weis@kde.org>
+           1998-2007,2010 David Faure <faure@kde.org>
+           1999 Carsten Pfeiffer <pfeiffer@kde.org>
+           1999-2000 Matthias Elter <elter@kde.org>
+           1999-2000 Simon Hausmann <hausmann@kde.org>
+           2000-2002 Werner Trobin <trobin@kde.org>
+           2001 John Califf
+           2001 Peter Novodvorsky <nidd@cs.msu.su>
+           2002 Igor Jansen <rm@kde.org>
+           2002 Tomislav Lukman <tomislav.lukman@ck.t-com.hr>
+           2002,2004 Alexander Dymo <cloudtemple@mskat.net>
+           2002-2003 Lukas Tinkl <lukas@kde.org>
+           2002-2003 Patrick Julien <freak@codepimps.org>
+           2002-2003,2006 Rob Buis <buis@kde.org>
+           2002-2004 Clarence Dang <dang@kde.org>
+           2002-2006 Laurent Montel <montel@kde.org>
+           2003-2004 Nicolas GOUTTE <goutte@kde.org>
+           2004 Nicolas Goutte <goutte@kde.org>
+           2004-2005 Cedric Pasteur <cedric.pasteur@free.fr>
+           2004-2006,2010 Ariya Hidayat <ariya.hidayat@gmail.com>
+           2004-2007 Adrian Page <adrian@pagenet.plus.com>
+           2004-2007,2011 Sven Langkamp <sven.langkamp@gmail.com>
+           2004-2010 Cyrille Berger <cberger@cberger.net>
+           2004-2010 Jarosław Staniek <staniek@kde.org>
+           2004-2011 Boudewijn Rempt <boud@kde.org>
+           2005 Johannes Schaub <litb_devel@web.de>
+           2005,2008 Bart Coppens <kde@bartcoppens.be>
+           2005-2006 Inge Wallin <inge@lysator.liu.se>
+           2005-2006 Tim Beaulen <tbscope@gmail.com>
+           2005-2009 Peter Simonsson <peter.simonsson@gmail.com>
+           2005-2011 Casper Boemann <cbo@boemann.dk>
+           2005-2011 Hambrecht <jaham@gmx.net>
+           2005-2011 Thomas Zander <zander@kde.org>
+           2006 Brad Hards <bradh@kde.org>
+           2006 Fredrik Edemar <f_edemar@linux.se>
+           2006 Gary Cramblitt <garycramblitt@comcast.net>
+           2006 Gábor Lehel <illissius@gmail.com>
+           2006 Thomas Schaap <thomas.schaap@kdemail.net>
+           2006,2008 Martin Pfeiffer <hubipete@gmx.net>
+           2006-2011 Sebastian Sauer <mail@dipe.org>
+           2006-2011 Thorsten Zachmann <zachmann@kde.org>
+           2007 Emanuele Tamponi <emanuele@valinor.it>
+           2007 Marijn Kruisselbrink <mkruisselbrink@kde.org>
+           2007-2009 Fredy Yanardi <fyanardi@gmail.com>
+           2007-2010 Adam Pigg <adam@piggz.co.uk>
+           2007-2011 Pierre Ducroquet <pinaraf@gmail.com>
+           2008 Girish Ramakrishnan <girish@forwardbias.in>
+           2008,2010 Carlos Licea <carlos@kdab.com>
+           2008,2010-2011 Ganesh Paramasivam <ganesh@crystalfab.com>
+           2008-2009 Pierre Stirnweiss <pstirnweiss@googlemail.com>
+           2009 Elvis Stansvik <elvstone@gmail.com>
+           2009-2010 Jean-Nicolas Artaud <jeannicolasartaud@gmail.com>
+           2009-2010 Johannes Simon <johannes.simon@gmail.com>
+           2009-2011 KO GmbH
+           2010  Suresh Chande <suresh.chande@nokia.com>
+           2010 Adam Celarek <kdedev@xibo.at>
+           2010 Benjamin Port <port.benjamin@gmail.com>
+           2010 Matus Talcik <matus.talcik@gmail.com>
+           2010 Nandita Suri <suri.nandita@gmail.com>
+           2010 Yue Liu <opuspace@gmail.com>
+           2010-2011 Arjen Hiemstra <ahiemstra@heimr.nl>
+           2010-2011 Lukáš Tvrdý <lukast.dev@gmail.com>
+           2010-2011 Nokia Corporation
+           2011 Gopalakrishna Bhat A <gopalakbhat@gmail.com>
+           2011 Hanna Skott <hannaetscott@gmail.com>
+           2011 José Luis Vergara <pentalis@gmail.com>
+           2011 Matus Hanzes <matus.hanzes@ixonos.com>
+           2011 Pavol Korinek <pavol.korinek@ixonos.com>
+           2011 Silvio Heinrich <plassy@web.de>
+           2011 Srikanth Tiyyagura <srikanth.tulasiram@gmail.com>
+           2011 Stuart Dickson <stuart@furkinfantastic.net>
+Licence: LGPL-2+
+Files: libs/*
+Copyright:
+           1998-2007,2010 David Faure <faure@kde.org>
+           1999 Daniel M. Duley <mosfet@kde.org>
+           2000-2002 Werner Trobin <trobin@kde.org>
+           2004-2006,2010 Ariya Hidayat <ariya.hidayat@gmail.com>
+           2004-2010 Jarosław Staniek <staniek@kde.org>
+           2004-2011 Boudewijn Rempt <boud@kde.org>
+           2005-2006 Inge Wallin <inge@lysator.liu.se>
+           2005-2009 Peter Simonsson <peter.simonsson@gmail.com>
+           2005-2011 Casper Boemann <cbo@boemann.dk>
+           2005-2011 Hambrecht <jaham@gmx.net>
+           2005-2011 Thomas Zander <zander@kde.org>
+           2006 Fredrik Edemar <f_edemar@linux.se>
+           2006 Tobias Koenig <tokoe@kde.org>
+           2006-2011 Thorsten Zachmann <zachmann@kde.org>
+           2008 Girish Ramakrishnan <girish@forwardbias.in>
+           2009-2011 KO GmbH
+Licence: LGPL-2
+Files: libs/*
+Copyright:
+           2002-2003 Lukas Tinkl <lukas@kde.org>
+           2004-2007 Adrian Page <adrian@pagenet.plus.com>
+           2004-2010 Cyrille Berger <cberger@cberger.net>
+           2004-2011 Boudewijn Rempt <boud@kde.org>
+           2005,2008 Bart Coppens <kde@bartcoppens.be>
+           2005-2011 Casper Boemann <cbo@boemann.dk>
+           2005-2011 Thomas Zander <zander@kde.org>
+           2006-2011 Thorsten Zachmann <zachmann@kde.org>
+           2011 Srikanth Tiyyagura <srikanth.tulasiram@gmail.com>
+Licence: GPL-2+
+
+
 Files: debian/*
 Copyright: 2011 Ana Beatriz Guerrero Lopez <ana@debian.org>
            2011 Raúl Sánchez Siles <rasasi78@gmail.com>
