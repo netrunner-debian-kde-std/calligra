@@ -378,6 +378,105 @@ Copyright: Trolltech ASA
 Licences: GPL-2
 
 
+Files:tables/*
+Copyright:
+           2005-2006 Raphael Langerhorst <raphael-langerhorst@gmx.at>
+Licences: MIT
+Fils: tables/*
+Copyright:
+           2000 901 San
+           2000 Antonio Road
+           2000 Microsystems Inc.
+           2000 Palo Alto
+Licences: LGPL-2.1
+Files: tables/*
+Copyright:
+           1998-1999 Reginald Stadlbauer <reggie@kde.org>
+           1998-2000 Stephan Kulow <coolo@kde.org>
+           1998-2000 Torben Weis <weis@kde.org>
+           1998-2004 KSpread Team <calligra-devel@kde.org>
+           1998-2007 The KSpread Team <calligra-devel@kde.org>
+           1999 Boris Wedl <boris.wedl@kfunigraz.ac.at>
+           1999 Michael Reiher <michael.reiher@gmx.de>
+           1999-2001 Simon Hausmann <hausmann@kde.org>
+           1999-2002 Harri Porten <porten@kde.org>
+           1999-2005,2007 David Faure <faure@kde.org>
+           1999-2006 Laurent Montel <montel@kde.org>
+           2000 Bernd Johannes Wuebben <wuebben@kde.org>
+           2000 Bernd Wuebben <wuebben@kde.org>
+           2000 Daniel A. Atkinson
+           2000 Wilco Greven <greven@kde.org>
+           2000-2002 Werner Trobin <trobin@kde.org>
+           2001-2003 Philipp Mueller <philipp.mueller@gmx.de>
+           2002 Daniel Herring <herring@eecs.ku.edu>
+           2002 Daniel Naber <daniel.naber@t-online.de>
+           2002-2003 John Dailey <dailey@vt.edu>
+           2002-2003 Joseph Wenninger <jowenn@kde.org>
+           2002-2003 Norbert Andres <nandres@web.de>
+           2002-2007 Ariya Hidayat <ariya@kde.org>
+           2003 Hamish Rodda <rodda@kde.org>
+           2003 Lukas Tinkl <lukas@kde.org>
+           2003 Peter Simonsson <psn@linux.se>
+           2003 Philipp Müller <philipp.mueller@gmx.de>
+           2003 Reinhart Geiser <geiseri@kde.org>
+           2003 Stefan Hetzl <shetzl@chello.at>
+           2003-2005 Meni Livne <livne@kde.org>
+           2004-2006 Inge Wallin <inge@lysator.liu.se>
+           2004-2007 Tomas Mecir <mecirt@gmail.com>
+           2005 Cyrille Berger <cberger@cberger.net>
+           2005-2006 Raphael Langerhorst <raphael-langerhorst@gmx.at>
+           2005-2010 Stefan Nikolaus <stefan.nikolaus@kdemail.net>
+           2006 Fredrik Edemar <f_edemar@linux.se>
+           2006 Isaac Clerencia <isaac@warp.es>
+           2006 Robert Knight <robertknight@gmail.com>
+           2006-2007 Sebastian Sauer <mail@dipe.org>
+           2006-2009 Thomas Zander <zander@kde.org>
+           2007 Thorsten Zachmann <zachmann@kde.org>
+           2008-2011 Marijn Kruisselbrink <mkruisselbrink@kde.org>
+           2009 Johannes Simon <johannes.simon@gmail.com>
+           2010 Boudewijn Rempt <boud@kogmbh.com>
+           2011 Arjen Hiemstra <ahiemstra@heimr.nl>
+Licences: LGPL-2+
+Files: tables/*
+Copyright:
+           1998-1999 Reginald Stadlbauer <reggie@kde.org>
+           1998-2000 Stephan Kulow <coolo@kde.org>
+           1998-2000 Torben Weis <weis@kde.org>
+           1998-2007 The KSpread Team <calligra-devel@kde.org>
+           1999 Boris Wedl <boris.wedl@kfunigraz.ac.at>
+           1999 Michael Reiher <michael.reiher@gmx.de>
+           1999-2000 Jonathan Singer <jsinger@genome.wi.mit.edu>
+           1999-2001 Simon Hausmann <hausmann@kde.org>
+           1999-2002 Harri Porten <porten@kde.org>
+           1999-2005,2007 David Faure <faure@kde.org>
+           1999-2006 Laurent Montel <montel@kde.org>
+           2000 Bernd Wuebben <wuebben@kde.org>
+           2000-2002 Werner Trobin <trobin@kde.org>
+           2001-2003 Philipp Mueller <philipp.mueller@gmx.de>
+           2002-2003 John Dailey <dailey@vt.edu>
+           2002-2003 Norbert Andres <nandres@web.de>
+           2002-2007 Ariya Hidayat <ariya@kde.org>
+           2003 Peter Simonsson <psn@linux.se>
+           2003 Reinhart Geiser <geiseri@kde.org>
+           2003 Stefan Hetzl <shetzl@chello.at>
+           2003-2005 Meni Livne <livne@kde.org>
+           2004-2006 Inge Wallin <inge@lysator.liu.se>
+           2004-2007 Tomas Mecir <mecirt@gmail.com>
+           2005-2006 Raphael Langerhorst <raphael-langerhorst@gmx.at>
+           2005-2010 Stefan Nikolaus <stefan.nikolaus@kdemail.net>
+           2006-2007 Brad Hards <bradh@frogmouth.net>
+           2007 Sascha Pfau <mrpeacock@gmail.com>
+           2008-2011 Marijn Kruisselbrink <mkruisselbrink@kde.org>
+           2010 Carlos Licea <carlos@kdab.com>
+           2010 Suresh Chande <suresh.chande@nokia.com>
+Licences: LGPL-2
+Files: tables/*
+Copyright:
+           2005-2010 Stefan Nikolaus <stefan.nikolaus@kdemail.net>
+           2008-2011 Marijn Kruisselbrink <mkruisselbrink@kde.org>
+Licences: GPL-2+
+
+
 Files: debian/*
 Copyright: 2011 Ana Beatriz Guerrero Lopez <ana@debian.org>
            2011 Raúl Sánchez Siles <rasasi78@gmail.com>
