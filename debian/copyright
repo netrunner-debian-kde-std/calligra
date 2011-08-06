@@ -633,6 +633,141 @@ Copyright:
 Licence: GPL-2+
 
 
+Files: filters/*
+Copyright:
+           2001-2003,2007 Clarence Dang <dang@kde.org>
+           2001-2007 Ariya Hidayat <ariya@kde.org>
+           2008,2010-2011 Brad Hards <bradh@frogmouth.net>
+           2010-2011 Matus Uzak <matus.uzak@ixonos.com>
+Licence: BSD-BY-LC-NE
+Files: filters/*
+Copyright:
+           2003,2005-2007,2009-2011 Inge Wallin <inge@lysator.liu.se>
+           2009 Amit Aggarwal <amit.5.aggarwal@nokia.com>
+Licence: LGPL-2.1+
+Files: filters/*
+Copyright:
+           1998 Kai-Uwe Sattler <kus@iti.cs.uni-magdeburg.de>
+           1998-1999 Reginald Stadlbauer <reggie@kde.org>
+           1999-2000,2002 Harri Porten <porten@kde.org>
+           1999-2002,2004-2007 Laurent Montel <montel@kde.org>
+           1999-2006,2011 David Faure <faure@kde.org>
+           2000 ID-PRO Deutschland GmbH
+           2000,2002-2003 Norbert Andres <nandres@web.de>
+           2000-2001 Enno Bartels <ebartels@nwn.de>
+           2000-2001 Michael Johnson <mikej@xnet.com>
+           2000-2001 S.R.Haque <srhaque@iee.org>
+           2000-2001 Simon Hausmann <hausmann@kde.org>
+           2000-2001 Wolf-Michael Bolle <bolle@gmx.de>
+           2000-2003 Robert JACOLIN <rjacolin@ifrance.com>
+           2000-2003 Werner Trobin <trobin@kde.org>
+           2001 Eva Brucherseifer <eva@kde.org>
+           2001 Ewald Snel <ewald@rambo.its.tudelft.nl>
+           2001 Frank Dekervel <frank.dekervel@student.kuleuven.ac.be>
+           2001 Graham Short. <grahshrt@netscape.net>
+           2001 IABG mbH. All <bolle@iabg.de>
+           2001 Tomasz Grobelny <grotk@poczta.onet.pl>
+           2001-2003,2007 Clarence Dang <dang@kde.org>
+           2001-2004 Nicolas GOUTTE <goutte@kde.org>
+           2001-2004 Nicolas Goutte <goutte@kde.org>
+           2001-2005,2007 Rob Buis <buis@kde.org>
+           2001-2007 Ariya Hidayat <ariya@kde.org>
+           2002 Andreas Pietzowski <andreas@pietzowski.de>
+           2002 Dirk Schönberger <dirk.schoenberger@sz-online.de>
+           2002 Fred Malabre <fmalabre@yahoo.com>
+           2002 Lars Siebold <khandha5@gmx.net>
+           2002 Lennart Kudling <kudling@kde.org>
+           2002 Marco Zanon <info@marcozanon.com>
+           2002 Thomas Franke
+           2002 Ulrich Kuettler <ulrich.kuettler@mailbox.tu-dresden.de>
+           2002-2003 Lukas Tinkl <lukas@kde.org>
+           2002-2003 The Karbon
+           2002-2003,2009-2010 KO GmbH
+           2002-2004 William Lachance <william.lachance@sympatico.ca>
+           2003 Percy Leonhardt
+           2003 Robert Jacolin <rjacolin@ifrance.com>
+           2003,2005-2007,2009-2011 Inge Wallin <inge@lysator.liu.se>
+           2003-2004 Net Integration Technologies Inc.
+           2004 Fridrich Strba <fridrich.strba@bluewin.ch>
+           2005 Bram Schoenmakers <bramschoenmakers@kde.nl>
+           2005 Peter Simonsson <psn@linux.se>
+           2005 Raphael Langerhorst <raphael.langerhorst@kdemail.net>
+           2005 Yolla Indria <yolla.indria@gmail.com>
+           2005,2010-2011 Boudewijn Rempt <boud@kde.org>
+           2005-2006 Fredrik Edemar <f_edemar@linux.se>
+           2005-2006 Tim Beaulen <tbscope@gmail.com>
+           2005-2007 Thomas Zander <zander@kde.org>
+           2005-2011 Hambrecht <jaham@gmx.net>
+           2006 Christian Mueller <cmueller@gmx.de>
+           2006 Gábor Lehel <illissius@gmail.com>
+           2006 Martin Pfeiffer <hubipete@gmx.net>
+           2006,2009-2010 Marijn Kruisselbrink <mkruisselbrink@kde.org>
+           2007,2009-2010 Sebastian Sauer <sebsauer@kdab.com>
+           2007-2008,2010-2011 Thorsten Zachmann <zachmann@kde.org>
+           2008,2010-2011 Brad Hards <bradh@frogmouth.net>
+           2008,2010-2011 Carlos Licea <carlos@kdab.com>
+           2009 Amit Aggarwal <amit.5.aggarwal@nokia.com>
+           2009 Jarosław Staniek <staniek@kde.org>
+           2009-2010 Manikandaprasad Chandrasekar <manikandaprasad.chandrasekar@nokia.com>
+           2010 Christoph Cullmann <cullmann@kde.org>
+           2010 Srihari Prasad G V <sri-hari@live.com>
+           2010-2011 Matus Uzak <matus.uzak@ixonos.com>
+           2011 Lukáš Tvrdý <lukas.tvrdy@ixonos.com>
+Licence: LGPL-2+
+Files: filters/*
+Copyright:
+           1998-1999 Torben Weis <weis@kde.org>
+           1999 Michael Reiher <michael.reiher@gmx.de>
+           1999-2000,2002 Harri Porten <porten@kde.org>
+           1999-2002,2004-2007 Laurent Montel <montel@kde.org>
+           1999-2006,2011 David Faure <faure@kde.org>
+           2000,2002-2003 Norbert Andres <nandres@web.de>
+           2000-2001 Simon Hausmann <hausmann@kde.org>
+           2000-2003 Werner Trobin <trobin@kde.org>
+           2001-2002 Philipp Mueller <philipp.mueller@gmx.de>
+           2001-2004 Nicolas GOUTTE <goutte@kde.org>
+           2001-2007 Ariya Hidayat <ariya@kde.org>
+           2002 John Dailey <dailey@vt.edu>
+           2002-2003 Lukas Tinkl <lukas@kde.org>
+           2003 Stefan Hetzl <shetzl@chello.at>
+           2004 Tomas Mecir <mecirt@gmail.com>
+           2006,2009-2010 Marijn Kruisselbrink <mkruisselbrink@kde.org>
+           2006-2007 Stefan Nikolaus <stefan.nikolaus@kdemail.net>
+           2007,2009-2010 Sebastian Sauer <sebsauer@kdab.com>
+           2008 Mirko Nasato <mirko@artofsolving.com>
+           2008,2010-2011 Carlos Licea <carlos@kdab.com>
+           2010 KoGmbh <casper.boemann@kogmbh.com>
+           ???? Christoph Schleifenbaum <christoph@kdab.com>
+           ???? Suresh Chande <suresh.chande@nokia.com>
+Licence: LGPL-2.1
+Files: filters/*
+Copyright:
+           1998,2002-2003 Stefan Taferner <taferner@kde.org>
+           1999 Waldo Bastian <bastian@kde.org>
+           2000-2001 S.R.Haque <srhaque@iee.org>
+           2000-2003 Werner Trobin <trobin@kde.org>
+           2002-2003,2009-2010 KO GmbH
+           2003 Calligra Team
+           2003 thierry lorthiois <lorthioist@wanadoo.fr>
+           2003,2005-2007,2009-2011 Inge Wallin <inge@lysator.liu.se>
+           2005-2011 Hambrecht <jaham@gmx.net>
+           2010-2011 Matus Uzak <matus.uzak@ixonos.com>
+Licence: LGPL-2
+Files: filters/*
+Copyright:
+           1998,2002-2003 Stefan Taferner <taferner@kde.org>
+           1998-1999 Reginald Stadlbauer <reggie@kde.org>
+           2000-2001 Michael Johnson <mikej@xnet.com>
+           2001 Graham Short. <grahshrt@netscape.net>
+           2001-2004 Nicolas GOUTTE <goutte@kde.org>
+           2011 Lukáš Tvrdý <lukas.tvrdy@ixonos.com>
+Licence: GPL-2+
+Files: filters/*
+Copyright: 
+           1999-2006,2011 David Faure <faure@kde.org>
+           2000-2003 Werner Trobin <trobin@kde.org>
+Licence: GPL-2
+
 Files: debian/*
 Copyright: 2011 Ana Beatriz Guerrero Lopez <ana@debian.org>
            2011 Raúl Sánchez Siles <rasasi78@gmail.com>
