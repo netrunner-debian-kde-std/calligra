@@ -38,9 +38,8 @@ Depends: karbon (>= ${source:Version}), flow (>= ${source:Version}), plan (>= ${
 Suggests: calligra-doc-html (>= ${source:Version})
 Homepage: http://www.calligra-suite.org
 Description: Calligra Office Suite
- Calligra is an integrated office suite for KDE, the K Desktop
- Environment.  It offers a word processor, spreadsheet, presentation
- program, graphics tools and more. It is the successor of KOffice.
+ Calligra is an integrated office suite for KDE.  It offers a word
+ processor, spreadsheet, presentation program, graphics tools, and more.
  .
  This package provides all the components of Calligra.
 
@@ -64,7 +63,7 @@ Description: Calligra Office Suite documentation in HTML format
  /usr/share/doc/kde/HTML/<language>/<app>/, for instance
  /usr/share/doc/kde/HTML/en/words/.
  .
- This package is part of the Calligra Office Suite, the successor of KOffice.
+ This package is part of the Calligra Office Suite.
 
 Package: karbon
 Architecture: any
@@ -100,7 +99,7 @@ Description: vector graphics application for the Calligra Office Suite
     path flattening, rounding and refining as well as whirl/pinch effects
   * Extensible by writing plugins for new tools, shapes and dockers
  .
- This package is part of the Calligra Office Suite, the successor of KOffice.
+ This package is part of the Calligra Office Suite.
 
 Package: kexi
 Architecture: any
@@ -121,13 +120,13 @@ Description: integrated database environment for the Calligra Office Suite
  sufficiently powerful, inexpensive, open standards driven and portable
  across many operating systems and hardware platforms.
  .
- This package is part of the Calligra Office Suite, the successor of KOffice.
+ This package is part of the Calligra Office Suite.
 
 #Package: kexi-plugin-tables
 #Architecture: any
 #Depends: ${shlibs:Depends}, kexi (>= ${source:Version}),
 # tables (>= ${source:Version})
-#Description: Plugins for integrated database environment for Calligra Office Suite
+#Description: Tables plugin for kexi
 # Kexi is an integrated data management application. It can be used for
 # creating database schemas, inserting data, performing queries, and
 # processing data. Forms can be created to provide a custom interface to
@@ -143,7 +142,7 @@ Section: database
 Depends: ${shlibs:Depends}, kexi (>= ${source:Version})
 Breaks: kexi (<< 1:2.3.70)
 Replaces: kexi (<< 1:2.3.70)
-Description: Plugins for integrated database environment for Calligra Office Suite
+Description: MySQL support for kexi
  Kexi is an integrated data management application. It can be used for
  creating database schemas, inserting data, performing queries, and
  processing data. Forms can be created to provide a custom interface to
@@ -151,7 +150,7 @@ Description: Plugins for integrated database environment for Calligra Office Sui
  in the database, making it easy to share data and design.
  .
  This package is part of the Calligra Office Suite and provides MySQL
- plugin for Kexi.
+ support for Kexi.
 
 Package: kexi-plugin-postgresql
 Architecture: any
@@ -159,7 +158,7 @@ Section: database
 Depends: ${shlibs:Depends}, kexi (>= ${source:Version})
 Breaks: kexi (<< 1:2.3.70)
 Replaces: kexi (<< 1:2.3.70)
-Description: Plugins for integrated database environment for Calligra Office Suite
+Description: PostgreSQL support for kexi
  Kexi is an integrated data management application. It can be used for
  creating database schemas, inserting data, performing queries, and
  processing data. Forms can be created to provide a custom interface to
@@ -167,7 +166,7 @@ Description: Plugins for integrated database environment for Calligra Office Sui
  in the database, making it easy to share data and design.
  .
  This package is part of the Calligra Office Suite and provides PostgreSQL 
- plugin for Kexi.
+ support for Kexi.
 
 Package: kexi-plugin-xbase
 Architecture: any
@@ -175,7 +174,7 @@ Section: database
 Depends: ${shlibs:Depends}, kexi (>= ${source:Version})
 Breaks: kexi (<< 1:2.3.70)
 Replaces: kexi (<< 1:2.3.70)
-Description: Plugins for integrated database environment for Calligra Office Suite
+Description: XBase support for kexi
  Kexi is an integrated data management application. It can be used for
  creating database schemas, inserting data, performing queries, and
  processing data. Forms can be created to provide a custom interface to
@@ -183,7 +182,7 @@ Description: Plugins for integrated database environment for Calligra Office Sui
  in the database, making it easy to share data and design.
  .
  This package is part of the Calligra Office Suite and provides XBase 
- plugin for Kexi.
+ support for Kexi.
 
 Package: kexi-plugin-sybase
 Architecture: any
@@ -191,7 +190,7 @@ Section: database
 Depends: ${shlibs:Depends}, kexi (>= ${source:Version})
 Breaks: kexi (<< 1:2.3.70)
 Replaces: kexi (<< 1:2.3.70)
-Description: Plugins for integrated database environment for Calligra Office Suite
+Description: Sybase support for kexi
  Kexi is an integrated data management application. It can be used for
  creating database schemas, inserting data, performing queries, and
  processing data. Forms can be created to provide a custom interface to
@@ -199,7 +198,7 @@ Description: Plugins for integrated database environment for Calligra Office Sui
  in the database, making it easy to share data and design.
  .
  This package is part of the Calligra Office Suite and provides Sybase
- plugin for Kexi.
+ support for Kexi.
 
 Package: krita
 Architecture: any
@@ -223,7 +222,7 @@ Description: pixel-based image manipulation program for the Calligra Office Suit
  “drawing assistants” that help you draw shapes that still have a freehand
  feeling to them.
  .
- This package is part of the Calligra Office Suite, formerly known as KOffice.
+ This package is part of the Calligra Office Suite.
 
 Package: krita-data
 Architecture: all
@@ -235,7 +234,7 @@ Description: data files for Krita painting program
  .
  See the krita package for further information.
  .
- This package is part of the Calligra Office Suite, formerly known as KOffice.
+ This package is part of the Calligra Office Suite.
 
 Package: krita-dev
 Architecture: all
@@ -245,7 +244,7 @@ Description: developpment files for Krita painting programm
  This package contains header files that can be used by plugins developers to
  extend Krita.
  '
- This package is part of the Calligra Office Suite, formerly known as KOffice.
+ This package is part of the Calligra Office Suite.
 
 Package: kthesaurus
 Architecture: any
@@ -257,7 +256,7 @@ Description: thesaurus for the Calligra Office Suite
  to WordNet, a powerful lexical reference system. By default, only the English
  language is supported.
  .
- This package is part of the Calligra Office Suite, formerly known as KOffice.
+ This package is part of the Calligra Office Suite.
 
 Package: tables
 Architecture: any
@@ -272,7 +271,7 @@ Description: spreadsheet for the Calligra Office Suite
  provides both table-oriented sheets and support for complex mathematical
  formulae and statistics. It is the sucessor of KSpread.
  .
- This package is part of the Calligra Office Suite, formerly known as KOffice.
+ This package is part of the Calligra Office Suite.
 
 Package: plan
 Architecture: any
@@ -286,7 +285,7 @@ Description: integrated project management and planning tool
  Plan is a project management application, allowing for the planning and
  scheduling of projects. It is the successor of KPlato.
  . 
- This package is part of the Calligra Office Suite, formerly known as KOffice.
+ This package is part of the Calligra Office Suite.
 
 Package: words
 Architecture: any
@@ -302,7 +301,7 @@ Description: word processor for the Calligra Office Suite
  looking documents.  It can be used for desktop publishing, but also for
  "normal" word processing, like writing letters, reports and so on. Words is the successor of KWord.
  .
- This package is part of the Calligra Office Suite, formerly known as KOffice.
+ This package is part of the Calligra Office Suite.
 
 Package: words-data
 Architecture: all
@@ -316,7 +315,7 @@ Description: data files for Words word processor
  .
  See the words package for further information.
  .
- This package is part of the Calligra Office Suite, formerly known as KOffice.
+ This package is part of the Calligra Office Suite.
 
 
 Package: stage
@@ -341,7 +340,7 @@ Description: presentation program for the Calligra Office Suite
  for many different master sliders in one presentation, cool transitions and
  a useful notes feature.
  .
- This package is part of the Calligra Office Suite, formerly known as KOffice.
+ This package is part of the Calligra Office Suite.
 
 Package: flow
 Architecture: any
@@ -354,7 +353,7 @@ Description: flowcharting program for the Calligra Office Suite
  offers the ability to make objects do just about anything. Flow is the 
  successor of Kivio.
  .
- This package is part of the Calligra Office Suite, formerly known as KOffice.
+ This package is part of the Calligra Office Suite.
 
 Package: braindump
 Architecture: any
@@ -365,7 +364,7 @@ Description: braindump component for the Calligra Office Suite
  BrainDump is a tool to help to organize the ideas from your brain to your 
  computer.
  .
- This package is part of the Calligra Office Suite, formerly known as KOffice.
+ This package is part of the Calligra Office Suite.
 
 
 Package: kformula
@@ -381,7 +380,7 @@ Description: formula drawing component for the Calligra Office Suite
  movement, advanced syntax highlighting, multi-level undo support,
  LaTeX export and MathML import.
  .
- This package is part of the Calligra Office Suite, formerly known as KOffice.
+ This package is part of the Calligra Office Suite.
 
 Package: calligramobile
 Architecture: any
@@ -391,7 +390,7 @@ Description: version of Calligra for mobile
  Calligra Mobile aims to create a version of the Calligra Office Suite for
  mobile devices, such as Maemo or MeeGo.
  .
- This package is part of the Calligra Office Suite, formerly known as KOffice.
+ This package is part of the Calligra Office Suite.
 
 
 Package: calligra-libs
@@ -406,7 +405,7 @@ Description: common libraries and binaries for the Calligra Office Suite
  This package provides the libraries and binaries that are shared amongst
  the various components of Calligra.
  .
- This package is part of the Calligra Office Suite, formerly known as KOffice.
+ This package is part of the Calligra Office Suite.
 
 
 Package: calligra-data
@@ -419,7 +418,7 @@ Description: common shared data for the Calligra Office Suite
  This package provides the architecture-independent data that is shared
  amongst the various components of Calligra.
  .
- This package is part of the Calligra Office Suite, formerly known as KOffice.
+ This package is part of the Calligra Office Suite.
 
 
 Package: calligra-dev
@@ -432,7 +431,7 @@ Description: common libraries for Calligra (development files)
  This package provides the development files for the libraries that are
  shared amongst the various components of Calligra.
  .
- This package is part of the Calligra Office Suite, formerly known as KOffice.
+ This package is part of the Calligra Office Suite.
 
 Package: calligra-dbg
 Section: debug
@@ -446,5 +445,5 @@ Description: debugging symbols for Calligra
  They will automatically be used by gdb for debugging calligra-related
  issues.
  .
- This package is part of the Calligra Office Suite, formerly known as KOffice.
+ This package is part of the Calligra Office Suite.
 
