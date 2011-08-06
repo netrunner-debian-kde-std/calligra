@@ -140,7 +140,7 @@ Description: integrated database environment for the Calligra Office Suite
 Package: kexi-plugin-mysql
 Architecture: any
 Section: database
-Depends: ${shlibs:Depends}, kexi (>= ${source:Version}), libmysqlclient16
+Depends: ${shlibs:Depends}, kexi (>= ${source:Version})
 Description: Plugins for integrated database environment for Calligra Office Suite
  Kexi is an integrated data management application. It can be used for
  creating database schemas, inserting data, performing queries, and
@@ -154,7 +154,7 @@ Description: Plugins for integrated database environment for Calligra Office Sui
 Package: kexi-plugin-postgresql
 Architecture: any
 Section: database
-Depends: ${shlibs:Depends}, kexi (>= ${source:Version}), libpqxx-3.0
+Depends: ${shlibs:Depends}, kexi (>= ${source:Version})
 Description: Plugins for integrated database environment for Calligra Office Suite
  Kexi is an integrated data management application. It can be used for
  creating database schemas, inserting data, performing queries, and
@@ -168,7 +168,7 @@ Description: Plugins for integrated database environment for Calligra Office Sui
 Package: kexi-plugin-xbase
 Architecture: any
 Section: database
-Depends: ${shlibs:Depends}, kexi (>= ${source:Version}), libxbase2.0-0
+Depends: ${shlibs:Depends}, kexi (>= ${source:Version})
 Description: Plugins for integrated database environment for Calligra Office Suite
  Kexi is an integrated data management application. It can be used for
  creating database schemas, inserting data, performing queries, and
@@ -182,7 +182,7 @@ Description: Plugins for integrated database environment for Calligra Office Sui
 Package: kexi-plugin-sybase
 Architecture: any
 Section: database
-Depends: ${shlibs:Depends}, kexi (>= ${source:Version}), libxbase2.0-0
+Depends: ${shlibs:Depends}, kexi (>= ${source:Version})
 Description: Plugins for integrated database environment for Calligra Office Suite
  Kexi is an integrated data management application. It can be used for
  creating database schemas, inserting data, performing queries, and
