@@ -497,6 +497,22 @@ Copyright:
            2005-2010 Thomas Zander <zander@kde.org>
 Licences: GPL-2+
 
+
+Files: active/*
+Copyright:
+           2011 Shantanu Tushar <jhahoneyk@gmail.com>
+Licence: LGPL-2+
+Files: active/*
+Copyright:
+           2011 Shantanu Tushar <jhahoneyk@gmail.com>
+           2010 Boudewijn Rempt <boud@kogmbh.com>
+           2010-2011 Jarosław Staniek <staniek@kde.org>
+           2009 Inge Wallin <inge@lysator.liu.se>
+           2006-2009 Thorsten Zachmann <zachmann@kde.org>
+           2007 Thomas Zander <zander@kde.org>
+Licence: GPL-2+
+
+
 Files: debian/*
 Copyright: 2011 Ana Beatriz Guerrero Lopez <ana@debian.org>
            2011 Raúl Sánchez Siles <rasasi78@gmail.com>
