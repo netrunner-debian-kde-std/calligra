@@ -197,7 +197,6 @@ Package: krita
 Architecture: any
 Section: graphics
 Depends: ${shlibs:Depends}, krita-data (>= ${source:Version}), calligra-libs (>= ${source:Version})
-Recommends: dcraw
 Suggests: khelpcenter4, calligra-doc-html
 Homepage: http://www.calligra-suite.org/krita/
 Description: pixel-based image manipulation program for the Calligra Office Suite
