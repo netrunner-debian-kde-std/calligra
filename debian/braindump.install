@@ -1,5 +1,5 @@
 usr/bin/braindump
+usr/lib/libbraindumpcore.so
 usr/share/applications/kde4/braindump.desktop
 usr/share/kde4/apps/braindump
 usr/share/kde4/servicetypes/braindump_extensions.desktop
-usr/lib/libbraindumpcore.so
