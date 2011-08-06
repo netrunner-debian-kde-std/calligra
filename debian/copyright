@@ -799,7 +799,7 @@ Licence: GPL-2+
 Files: debian/*
 Copyright: 2011 Ana Beatriz Guerrero Lopez <ana@debian.org>
            2011 Raúl Sánchez Siles <rasasi78@gmail.com>
-           2011 Pino Toscano <pino@kde.org>
+           2011 Pino Toscano <pino@debian.org>
            2011 Adrien Grellier <adrien.grellier@laposte.net>
 License: GPL-2+
  This package is free software; you can redistribute it and/or modify
