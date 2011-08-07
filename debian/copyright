@@ -796,6 +796,98 @@ Copyright:
 Licence: GPL-2+
 
 
+Files: plugins/*
+Copyright: 
+           2001-2007 LLC <info@openmfg.com>
+           2005-2011 Inge Wallin <inge@lysator.liu.se>
+           2007,2011 Pierre Ducroquet <pinaraf@gmail.com>
+           2007-2010 Adam Pigg <adam@piggz.co.uk>
+           2008 Brad Hards <bradh@frogmouth.net>
+Licence: LGPL-2.1+
+Files: plugins/*
+Copyright: 
+           1999 Reginald Stadlbauer <reggie@kde.org>
+           1999 Simon Hausmann <hausmann@kde.org>
+           2000 Kurt Granroth <granroth@kde.org>
+           2000 Matthias Elter <elter@kde.org>
+           2000 Michael Koch <koch@kde.orgi>
+           2000 Nicolas Hadacek <haadcek@kde.org>
+           2001 Holger Freyther <freyther@kde.org>
+           2001 John Califf
+           2001 Nikolas Zimmermann <wildfox@kde.org>
+           2001-2003 Daniel Naber <daniel.naber@t-online.de>
+           2001-2003,2006-2007 Montel Laurent <montel@kde.org>
+           2002 Ellis Whitehead <ellis@kde.org>
+           2002 GraphicsMagick Group
+           2002 Lennart Kudling <kudling@kde.org>
+           2002-2003 Patrick Julien <freak@codepimps.org>
+           2002-2003,2005 Tomislav Lukman <tomislav.lukman@ck.t-com.hr>
+           2002-2005,2007-2008 Rob Buis <buis@kde.org>
+           2003 Andras Mantia <amantia@kde.org>
+           2003-2006 David Faure <faure@kde.org>
+           2004,2006,2010-2011 Boudewijn Rempt <boud@valdyas.org>
+           2004-2008,2010 Cyrille Berger <cberger@cberger.net>
+           2005-2006 Hamish Rodda <rodda@kde.org>
+           2005-2006 Tim Beaulen <tbscope@gmail.com>
+           2005-2006,2008-2011 Casper Boemann <cbo@boemann.dk>
+           2005-2010 Thomas Zander <zander@kde.org>
+           2005-2011 Hambrecht <jaham@gmx.net>
+           2005-2011 Inge Wallin <inge@lysator.liu.se>
+           2006 Boemann <cbr@boemann.dk>
+           2006 Hambecht <jaham@gmx.net>
+           2006,2008 Peter Simonsson <peter.simonsson@gmail.com>
+           2006-2010 Thorsten Zachmann <zachmann@kde.org>
+           2007 Adrian Page <adrian@pagenet.plus.com>
+           2007 Martin Pfeiffer <hubipete@gmx.net>
+           2007 Stefan Nikolaus <stefan.nikolaus@kdemail.net>
+           2007,2011 Pierre Ducroquet <pinaraf@gmail.com>
+           2007-2008 Fredy Yanardi <fyanardi@gmail.com>
+           2007-2009 Marijn Kruisselbrink <mkruisselbrink@kde.org>
+           2007-2010 Johannes Simon <johannes.simon@gmail.com>
+           2008 Brad Hards <bradh@frogmouth.net>
+           2008 Florian Merz <florianmerz@gmx.de>
+           2008 Girish Ramakrishnan <girish@forwardbias.in>
+           2008 Hans Bakker <hansmbakker@gmail.com>
+           2008,2010 Sebastian Sauer <sebsauer@kdab.com>
+           2008-2010 Pierre Stirnweiss <pstirnweiss@googlemail.com>
+           2009 Jean-Nicolas Artaud <jeannicolasartaud@gmail.com>
+           2009,2011 Ganesh Paramasivam <ganesh@crystalfab.com>
+           2009-2010 Carlos Licea <carlos.licea@kdemail.net>
+           2009-2010 KO GmbH <cbo@kogmbh.com>
+           2010 Amit Aggarwal <amit.5.aggarwal@nokia.com>
+           2010 Christoph Goerlich <chgoerlich@gmx.de>
+           2010 Cyril Oblikov <munknex@gmail.com>
+           2010 Nokia Corporation
+           2010 Suresh Chande <suresh.chande@nokia.com>
+           2010 Vidhyapria Arunkumar <vidhyapria.arunkumar@nokia.com>
+Licence: LGPL-2+
+Files: plugins/*
+Copyright:
+           1999 Reginald Stadlbauer <reggie@kde.org>
+           1999 Simon Hausmann <hausmann@kde.org>
+           2000 Kurt Granroth <granroth@kde.org>
+           2000 Michael Koch <koch@kde.orgi>
+           2000 Nicolas Hadacek <haadcek@kde.org>
+           2001 Holger Freyther <freyther@kde.org>
+           2002 Ellis Whitehead <ellis@kde.org>
+           2002 Joseph Wenninger <jowenn@kde.org>
+           2003 Andras Mantia <amantia@kde.org>
+           2005-2006 Hamish Rodda <rodda@kde.org>
+Licence: LGPL-2
+Files: plugins/*
+Copyright: 
+           2001-2003 Daniel Naber <daniel.naber@t-online.de>
+           2004,2006,2010-2011 Boudewijn Rempt <boud@valdyas.org>
+           2004-2008,2010 Cyrille Berger <cberger@cberger.net>
+           2005-2010 Thomas Zander <zander@kde.org>
+           2010 Mani Chandrasekar <maninc@gmail.com>
+Licence: GPL-2+
+Files: plugins/*
+Copyright: 
+           2001-2011 Klaralvdalens Datakonsult AB.
+Licence: GPL-2
+
+
 Files: debian/*
 Copyright: 2011 Ana Beatriz Guerrero Lopez <ana@debian.org>
            2011 Raúl Sánchez Siles <rasasi78@gmail.com>
