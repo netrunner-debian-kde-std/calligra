@@ -4,3 +4,7 @@
 ./usr/lib/libkformulaprivate.so
 ./usr/lib/libplanprivate.so
 ./usr/lib/libwordsprivate.so
+
+# image/openraster is provided by shared-mime-info >= 0.70
+# (and stable/squeeze has 0.71)
+./usr/share/mime/packages/krita_ora.xml
