@@ -899,6 +899,13 @@ Copyright: 2000-2002 Kalle Dalheimer <kalle@kde.org>
 Licence: LGPL-2
 
 
+Files: kdgantt/*
+Copyright: 2008 Dag Andersen <kplato@kde.org>
+Licence: LGPL-2+
+Files: kdgantt/*
+Copyright: 2001-2006 Klarälvdalens Datakonsult AB.
+Licence: GPL-2+
+
 Files: debian/*
 Copyright: 2011 Ana Beatriz Guerrero Lopez <ana@debian.org>
            2011 Raúl Sánchez Siles <rasasi78@gmail.com>
