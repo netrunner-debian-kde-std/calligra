@@ -266,7 +266,7 @@ Description: thesaurus for the Calligra Office Suite
 
 Package: calligratables
 Architecture: any
-Section: kde
+Section: math
 Replaces: kspread
 Conflicts: kspread
 Depends: ${misc:Depends}, ${shlibs:Depends}, calligra-libs (>= ${source:Version})
