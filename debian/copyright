@@ -883,9 +883,20 @@ Copyright:
            2010 Mani Chandrasekar <maninc@gmail.com>
 Licence: GPL-2+
 Files: plugins/*
-Copyright: 
-           2001-2011 Klaralvdalens Datakonsult AB.
+Copyright: 2001-2011 Klaralvdalens Datakonsult AB.
 Licence: GPL-2
+
+
+Files: interface/*
+Copyright: 2004 Cyrille Berger <cberger@cberger.net>
+           2006 Boudewijn Rempt <boud@valdyas.org>
+           2006 David Faure <faure@kde.org>
+           2006 Thomas Zander <zander@kde.org>
+Licence: LGPL-2+
+Files: interfaces/*
+Copyright: 2000-2002 Kalle Dalheimer <kalle@kde.org>
+           2008 Johannes Simon <johannes.simon@gmail.com>
+Licence: LGPL-2
 
 
 Files: debian/*
