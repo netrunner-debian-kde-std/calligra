@@ -37,8 +37,8 @@ Depends: karbon (>= ${source:Version}), calligraflow (>= ${source:Version}), cal
 Suggests: calligra-doc-html (>= ${source:Version})
 Homepage: http://www.calligra-suite.org
 Description: Calligra Office Suite
- Calligra is an integrated office suite for KDE.  It offers a word
- processor, spreadsheet, presentation program, graphics tools, and more.
+ Calligra is an integrated office suite for KDE. It offers a word processor,
+ a spreadsheet, a presentation program, graphics tools, and more.
  .
  This package provides all the components of Calligra.
 
@@ -132,8 +132,9 @@ Description: Tables plugin for kexi
  your data. All database objects - tables, queries and forms - are stored
  in the database, making it easy to share data and design.
  .
- This package is part of the Calligra Office Suite and provides Tables
- plugin for Kexi.
+ This package provides support for Calligra Tables in Kexi.
+ .
+ This package is part of the Calligra Office Suite.
 
 Package: kexi-plugin-mysql
 Architecture: any
@@ -148,8 +149,9 @@ Description: MySQL support for kexi
  your data. All database objects - tables, queries and forms - are stored
  in the database, making it easy to share data and design.
  .
- This package is part of the Calligra Office Suite and provides MySQL
- support for Kexi.
+ This package provides support for MySQL in Kexi.
+ .
+ This package is part of the Calligra Office Suite.
 
 Package: kexi-plugin-postgresql
 Architecture: any
@@ -164,8 +166,9 @@ Description: PostgreSQL support for kexi
  your data. All database objects - tables, queries and forms - are stored
  in the database, making it easy to share data and design.
  .
- This package is part of the Calligra Office Suite and provides PostgreSQL 
- support for Kexi.
+ This package provides support for PostgreSQL in Kexi.
+ .
+ This package is part of the Calligra Office Suite.
 
 Package: kexi-plugin-xbase
 Architecture: any
@@ -180,8 +183,9 @@ Description: XBase support for kexi
  your data. All database objects - tables, queries and forms - are stored
  in the database, making it easy to share data and design.
  .
- This package is part of the Calligra Office Suite and provides XBase 
- support for Kexi.
+ This package provides support for XBase in Kexi.
+ .
+ This package is part of the Calligra Office Suite.
 
 Package: kexi-plugin-sybase
 Architecture: any
@@ -196,8 +200,9 @@ Description: Sybase support for kexi
  your data. All database objects - tables, queries and forms - are stored
  in the database, making it easy to share data and design.
  .
- This package is part of the Calligra Office Suite and provides Sybase
- support for Kexi.
+ This package provides support for Sybase in Kexi.
+ .
+ This package is part of the Calligra Office Suite.
 
 Package: krita
 Architecture: any
@@ -239,7 +244,7 @@ Package: krita-dev
 Architecture: all
 Section: devel
 Depends: ${shlibs:Depends}, krita (>= ${source:Version}), calligra-libs (>= ${source:Version})
-Description: developpment files for Krita painting programm
+Description: development files for Krita painting programm
  This package contains header files that can be used by plugins developers to
  extend Krita.
  '
@@ -283,7 +288,7 @@ Homepage: http://www.calligra-suite.org/plan/
 Description: integrated project management and planning tool
  Plan is a project management application, allowing for the planning and
  scheduling of projects. It is the successor of KPlato.
- . 
+ .
  This package is part of the Calligra Office Suite.
 
 Package: calligrawords
@@ -298,7 +303,7 @@ Description: word processor for the Calligra Office Suite
  Words is a FrameMaker-like word processing and desktop publishing
  application.  It is capable of creating demanding and professional
  looking documents.  It can be used for desktop publishing, but also for
- "normal" word processing, like writing letters, reports and so on. Words is the successor of KWord.
+ "normal" word processing, like writing letters, reports and so on.
  .
  This package is part of the Calligra Office Suite.
 
@@ -326,12 +331,12 @@ Depends: ${shlibs:Depends}, calligra-libs (>= ${source:Version})
 Suggests: khelpcenter4, calligra-doc-html
 Homepage: http://www.calligra-suite.org/stage/
 Description: presentation program for the Calligra Office Suite
- Stage is an easy to use yet still flexible presentation application. It is the 
- successor of Kspread You can easily create presentations containing a rich variety
- of elements, from
+ Stage is an easy to use yet still flexible presentation application. You can
+ easily create presentations containing a rich variety of elements, from
  graphics to text, from charts to images. Stage is extensible through a
  plugin system, so it is easy to add new effects, new content elements or even
  new ways of managing your presentation.
+ .
  Stage natively uses the OpenDocument file format standard, for easy
  interchange with all ODF supporting applications which includes Microsoft
  Office. Some examples of easy-to-use features are support for layouts, a
@@ -349,8 +354,7 @@ Homepage: http://www.calligra-suite.org/flow/
 Description: flowcharting program for the Calligra Office Suite
  Flow is a flowcharting program that offers basic flowcharting abilities,
  but with a twist.  Objects are scriptable, and a backend plugin system
- offers the ability to make objects do just about anything. Flow is the 
- successor of Kivio.
+ offers the ability to make objects do just about anything.
  .
  This package is part of the Calligra Office Suite.
 
@@ -359,8 +363,8 @@ Architecture: any
 Section: kde
 Depends: ${shlibs:Depends}, calligra-libs (>= ${source:Version})
 Homepage: http://www.calligra-suite.org/braindump/
-Description: braindump component for the Calligra Office Suite
- BrainDump is a tool to help to organize the ideas from your brain to your 
+Description: ideas organizer component for the Calligra Office Suite
+ BrainDump is a tool to help to organize the ideas from your brain to your
  computer.
  .
  This package is part of the Calligra Office Suite.
@@ -424,10 +428,10 @@ Architecture: any
 Section: graphics
 Depends: ${shlibs:Depends}, calligra-libs (>= ${source:Version}), libokularcore1
 Recommends: okular
-Description: okular backend for ODP files.
- This plugin allow Okular to view Opendocument Presentation (ODP)
- document format.
- .  
+Description: Okular backend for ODP documents
+ This package provides a backend for Okular to view OpenDocument Presentation
+ (ODP) documents.
+ .
  This package is part of the Calligra Office Suite.
 
 Package: calligra-dev
