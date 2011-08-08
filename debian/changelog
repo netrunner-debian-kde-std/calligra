@@ -1,5 +1,9 @@
 calligra (1:2.3.73+git20110808.d29fd45-0r1) UNRELEASED; urgency=low
 
   * Initial release.
+  TODO: think about the following packages:
+    - kformula - fold in calligra-libs? rename to eg calligra-formulashape?
+    - krita-dev - remove or split from calligra-dev?
+    - kplato - provide transitional package (once upstream fully renames it to "plan")?
 
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Fri, 20 May 2011 11:45:52 +0200
