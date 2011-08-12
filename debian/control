@@ -313,8 +313,6 @@ Package: calligrawords-data
 Architecture: all
 Section: text
 Depends: ${misc:Depends}
-Replaces: kword-data
-Conflicts: kword-data
 Homepage: http://www.calligra-suite.org/words/
 Description: data files for Words word processor
  This package contains architecture-independent data files for Words,
