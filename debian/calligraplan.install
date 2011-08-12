@@ -48,11 +48,10 @@ usr/share/icons/hicolor/scalable/apps/calligraplan.svgz
 usr/share/icons/hicolor/scalable/apps/planwork.svgz
 usr/share/icons/hicolor/scalable/mimetypes/application-x-vnd.kde.plan.svgz
 usr/share/icons/hicolor/scalable/mimetypes/application-x-vnd.kde.plan.work.svgz
-usr/share/kde4/apps/kplato
 usr/share/kde4/apps/kplatowork/
 usr/share/kde4/apps/plan/
 usr/share/kde4/apps/planwork/
-usr/share/kde4/config.kcfg/kplatosettings.kcfg
+usr/share/kde4/config.kcfg/plansettings.kcfg
 usr/share/kde4/config/planrc
 usr/share/kde4/config/planworkrc
 usr/share/kde4/services/kplatorcpsscheduler.desktop
