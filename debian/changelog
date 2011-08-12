@@ -1,6 +1,10 @@
-calligra (2.3.72-1) UNRELEASED; urgency=low
+calligra (1:2.3.73+git20110808.d29fd45-0r1) UNRELEASED; urgency=low
 
   * Initial release.
+  TODO: think about the following packages:
+    - kformula - fold in calligra-libs? rename to eg calligra-formulashape?
+    - krita-dev - remove or split from calligra-dev?
+    - kplato - provide transitional package (once upstream fully renames it to "plan")?
 
   [ Raúl Sánchez Siles ]
   * Update packaging to debhelper 8.

@@ -1,0 +1,14 @@
+usr/bin/calligraflow
+usr/lib/kde4/flowdockersplugin.so
+usr/lib/kde4/flowpart.so
+usr/lib/libflowprivate.so.8
+usr/lib/libflowprivate.so.8.0.0
+usr/lib/libkdeinit4_calligraflow.so
+usr/share/applications/kde4/flow.desktop
+usr/share/kde4/apps/flow
+usr/share/kde4/config/flowrc
+usr/share/kde4/config/flow_stencils.knsrc
+usr/share/kde4/services/flowdockersplugin.desktop
+usr/share/kde4/services/flowpart.desktop
+usr/share/kde4/services/ServiceMenus/flow_konqi.desktop
+usr/share/kde4/servicetypes/flow_dock.desktop
