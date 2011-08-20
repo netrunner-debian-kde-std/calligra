@@ -196,12 +196,12 @@ Copyright:
 Licences: GPL-3
 
 
-Files: kplato/*
+Files: plan/*
 Copyright: 
            2002-2011 Dag Andersen <danders@get2net.dk>
            2007-2010 Adam Pigg <adam@piggz.co.uk>
 Licences: LGPL-2.1+
-Files: kplato/*
+Files: plan/*
 Copyright: 
            1997 Tim D. Gilman <tdgilman@best.org
            1998-2000 Torben Weis <weis@kde.org>
@@ -223,11 +223,11 @@ Copyright:
            2007 Thorsten Zachmann <zachmann@kde.org>
            2011 Pierre Stirnweiss <pstirnweiss@googlemail.com>
 Licences: LGPL-2+
-Files: kplato/*
+Files: plan/*
 Copyright: 
            2002-2011 Dag Andersen <danders@get2net.dk>
 Licences: LGPL-2
-Files: kplato/*
+Files: plan/*
 Copyright: 
            1998-2000 Torben Weis <weis@kde.org>
            1999 Simon Hausmann <hausmann@kde.org>
@@ -237,12 +237,12 @@ Copyright:
            2005-2006 Sven Lüppken <sven@kde.org>
 Licences: GPL-2+
 
-Files: kpresenter/*
+Files: stage/*
 Copyright:
            2006-2010 Thorsten Zachmann <zachmann@kde.org>
            2009 Amit Aggarwal <amitcs06@gmail.com>
 Licences: LGPL-2.1+
-Files: kprensenter/*
+Files: stage/*
 Copyright:
            1998-1999 Reginald Stadlbauer <reggie@kde.org>
            2005-2006 David Faure <faure@kde.org>
