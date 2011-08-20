@@ -99,29 +99,6 @@ Copyright: 1998-1999 Torben Weis <weis@kde.org>
            2009-2010 Cyrille Berger <cberger@cberger.net>
 Licences: LGPL-2+
 
-Files: kformula/*
-Copyright: 1998-1999 Reginald Stadlbauer <reggie@kde.org>
-           2001 Andrea Rizzi <rizzi@kde.org>
-           2001, 2003, 2006-2007 Ulrich Kuettler <ulrich.kuettler@gmx.de>
-           2002 Laurent Montel <lmontel@mandrakesoft.com>
-           2006-2007, 2009 Martin Pfeiffer <hubipete@gmx.net>
-           2006-2009 Alfredo Beaumont Sainz <alfredo.beaumont@gmail.com>
-           2007 David Faure <faure@kde.org>
-           2008 Johannes Simon <johannes.simon@gmail.com>
-           2009 Jeremias Epperlein <jeeree@web.de>
-           2010 Inge Wallin <inge@lysator.liu.se>
-Licences: LGPL-2+
-
-Files: kformula/*
-Copyright: 2001 Andrea Rizzi <rizzi@kde.org>
-           2001, 2003, 2006-2007 Ulrich Kuettler <ulrich.kuettler@gmx.de>
-           2007 Thorsten Zachmann <zachmann@kde.org>
-           2006-2007, 2009 Martin Pfeiffer <hubipete@gmx.net>
-           2006-2009 Alfredo Beaumont Sainz <alfredo.beaumont@gmail.com>
-           2009 Jeremias Epperlein <jeeree@web.de>
-           2010 Boudewijn Rempt <boud@kogmbh.com>
-Licences: LGPL-2
-
 Files: kchart/*
 Copyright: 1999-2007 Matthias Kalle Dalheimer <kalle@kde.org>
            2005-2009 Inge Wallin <inge@lysator.liu.se>
@@ -815,9 +792,11 @@ Copyright:
            2000 Matthias Elter <elter@kde.org>
            2000 Michael Koch <koch@kde.orgi>
            2000 Nicolas Hadacek <haadcek@kde.org>
+           2001 Andrea Rizzi <rizzi@kde.org>
            2001 Holger Freyther <freyther@kde.org>
            2001 John Califf
            2001 Nikolas Zimmermann <wildfox@kde.org>
+           2001, 2003, 2006-2007 Ulrich Kuettler <ulrich.kuettler@gmx.de>
            2001-2003 Daniel Naber <daniel.naber@t-online.de>
            2001-2003,2006-2007 Montel Laurent <montel@kde.org>
            2002 Ellis Whitehead <ellis@kde.org>
@@ -839,9 +818,10 @@ Copyright:
            2006 Boemann <cbr@boemann.dk>
            2006 Hambecht <jaham@gmx.net>
            2006,2008 Peter Simonsson <peter.simonsson@gmail.com>
+           2006-2007,2009 Martin Pfeiffer <hubipete@gmx.net>
+           2006-2009 Alfredo Beaumont Sainz <alfredo.beaumont@gmail.com>
            2006-2010 Thorsten Zachmann <zachmann@kde.org>
            2007 Adrian Page <adrian@pagenet.plus.com>
-           2007 Martin Pfeiffer <hubipete@gmx.net>
            2007 Stefan Nikolaus <stefan.nikolaus@kdemail.net>
            2007,2011 Pierre Ducroquet <pinaraf@gmail.com>
            2007-2008 Fredy Yanardi <fyanardi@gmail.com>
@@ -854,6 +834,7 @@ Copyright:
            2008,2010 Sebastian Sauer <sebsauer@kdab.com>
            2008-2010 Pierre Stirnweiss <pstirnweiss@googlemail.com>
            2009 Jean-Nicolas Artaud <jeannicolasartaud@gmail.com>
+           2009 Jeremias Epperlein <jeeree@web.de>
            2009,2011 Ganesh Paramasivam <ganesh@crystalfab.com>
            2009-2010 Carlos Licea <carlos.licea@kdemail.net>
            2009-2010 KO GmbH <cbo@kogmbh.com>
@@ -877,6 +858,8 @@ Copyright:
            2002 Joseph Wenninger <jowenn@kde.org>
            2003 Andras Mantia <amantia@kde.org>
            2005-2006 Hamish Rodda <rodda@kde.org>
+           2006-2009 Alfredo Beaumont Sainz <alfredo.beaumont@gmail.com>
+           2009 Jeremias Epperlein <jeeree@web.de>
 Licence: LGPL-2
 Files: plugins/*
 Copyright: 
