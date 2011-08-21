@@ -19,7 +19,7 @@ Build-Depends: debhelper (>= 8.0.0~), cmake (>= 2.6.2), pkg-kde-tools (>= 0.9),
   libxbase2.0-dev, freetds-dev,
   liblcms2-dev,
 # no in koffice
-  libgsf-1-dev, libdcmtk2-dev, libspnav-dev,
+  libgsf-1-dev, libdcmtk2-dev, libspnav-dev, shared-desktop-ontologies
 Standards-Version: 3.9.2
 Homepage: http://www.calligra-suite.org/
 Vcs-Git: git://git.debian.org/pkg-kde/kde-std/calligra.git
@@ -313,8 +313,6 @@ Package: calligrawords-data
 Architecture: all
 Section: text
 Depends: ${misc:Depends}
-Replaces: kword-data
-Conflicts: kword-data
 Homepage: http://www.calligra-suite.org/words/
 Description: data files for Words word processor
  This package contains architecture-independent data files for Words,
