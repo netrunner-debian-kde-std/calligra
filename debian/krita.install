@@ -1,4 +1,5 @@
 usr/bin/krita
+usr/lib/kde4/kritaartisticcolorselector.so
 usr/lib/kde4/kritabackgrounds.so
 usr/lib/kde4/kritabigbrother.so
 usr/lib/kde4/kritablurfilter.so
@@ -37,6 +38,7 @@ usr/lib/kde4/kritahairypaintop.so
 usr/lib/kde4/kritahatchingpaintop.so
 usr/lib/kde4/kritahistogram.so
 usr/lib/kde4/kritahistorydocker.so
+usr/lib/kde4/kritaimagedocker.so
 usr/lib/kde4/kritaimageenhancement.so
 usr/lib/kde4/kritaimagesize.so
 usr/lib/kde4/kritaimagesplit.so
@@ -117,6 +119,7 @@ usr/share/applications/kde4/krita_psd.desktop
 usr/share/applications/kde4/krita_raw.desktop
 usr/share/applications/kde4/krita_tiff.desktop
 usr/share/applications/kde4/krita_xcf.desktop
+usr/share/kde4/services/krita_artisticcolorselector.desktop
 usr/share/kde4/services/kritabackgrounds.desktop
 usr/share/kde4/services/kritabigbrother.desktop
 usr/share/kde4/services/kritablurfilter.desktop
@@ -155,6 +158,7 @@ usr/share/kde4/services/kritahairypaintop.desktop
 usr/share/kde4/services/kritahatchingpaintop.desktop
 usr/share/kde4/services/kritahistogram.desktop
 usr/share/kde4/services/kritahistorydocker.desktop
+usr/share/kde4/services/kritaimagedocker.desktop
 usr/share/kde4/services/kritaimageenhancement.desktop
 usr/share/kde4/services/kritaimagesize.desktop
 usr/share/kde4/services/kritaimagesplit.desktop
