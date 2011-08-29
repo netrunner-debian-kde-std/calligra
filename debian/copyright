@@ -192,7 +192,7 @@ Copyright:
            2006 Raphael Langerhorst <raphael.langerhorst@kdemail.net>
            2006 Stefan Nikolaus <stefan.nikolaus@kdemail.net>
            2006-2007 Frederic BECQUIER <frederic.becquier@gmail.com>
-           2006-2007 Menard Alexis <kplato@kde.org>
+           2006-2007 Menard Alexis <danders@get2net>
            2006-2007 Sebastian Sauer <mail@dipe.org>
            2007 Alexis Ménard <darktears31@gmail.com>
            2007 Florian Piquemal <flotueur@yahoo.fr>
@@ -210,6 +210,7 @@ Copyright:
            1999 Simon Hausmann <hausmann@kde.org>
            1999-2003 Hans Petter Bieker <bieker@kde.org>
            2000-2005,2007 David Faure <faure@kde.org>
+           2001-2007 Chris Schlaeger <cs@kde.org>
            2002-2011 Dag Andersen <danders@get2net.dk>
            2005-2006 Sven Lüppken <sven@kde.org>
 Licences: GPL-2+
@@ -413,6 +414,7 @@ Copyright:
            2009 Johannes Simon <johannes.simon@gmail.com>
            2010 Boudewijn Rempt <boud@kogmbh.com>
            2011 Arjen Hiemstra <ahiemstra@heimr.nl>
+           2011 Juan Aquino <utcl95@gmail.com>
 Licences: LGPL-2+
 Files: tables/*
 Copyright:
@@ -514,6 +516,8 @@ Copyright:
            2001 John Califf
            2001 Peter Novodvorsky <nidd@cs.msu.su>
            2002 Igor Jansen <rm@kde.org>
+           2002 Lars Siebold <khandha5@gmx.net>
+           2002 Lennart Kudling <kudling@kde.org>
            2002 Tomislav Lukman <tomislav.lukman@ck.t-com.hr>
            2002,2004 Alexander Dymo <cloudtemple@mskat.net>
            2002-2003 Lukas Tinkl <lukas@kde.org>
@@ -531,6 +535,7 @@ Copyright:
            2004-2010 Jarosław Staniek <staniek@kde.org>
            2004-2011 Boudewijn Rempt <boud@kde.org>
            2005 Johannes Schaub <litb_devel@web.de>
+           2005 Raphael Langerhorst <raphael.langerhorst@kdemail.net>
            2005,2008 Bart Coppens <kde@bartcoppens.be>
            2005-2006 Inge Wallin <inge@lysator.liu.se>
            2005-2006 Tim Beaulen <tbscope@gmail.com>
@@ -539,6 +544,7 @@ Copyright:
            2005-2011 Hambrecht <jaham@gmx.net>
            2005-2011 Thomas Zander <zander@kde.org>
            2006 Brad Hards <bradh@kde.org>
+           2006 Christian Mueller <cmueller@gmx.de>
            2006 Fredrik Edemar <f_edemar@linux.se>
            2006 Gary Cramblitt <garycramblitt@comcast.net>
            2006 Gábor Lehel <illissius@gmail.com>
@@ -575,6 +581,7 @@ Copyright:
            2011 Matus Hanzes <matus.hanzes@ixonos.com>
            2011 Pavol Korinek <pavol.korinek@ixonos.com>
            2011 Silvio Heinrich <plassy@web.de>
+           2011 Smit Patel <smitpatel24@gmail.com>
            2011 Srikanth Tiyyagura <srikanth.tulasiram@gmail.com>
            2011 Stuart Dickson <stuart@furkinfantastic.net>
 Licence: LGPL-2+
@@ -845,6 +852,7 @@ Copyright:
            2010 Suresh Chande <suresh.chande@nokia.com>
            2010 Vidhyapria Arunkumar <vidhyapria.arunkumar@nokia.com>
            2010 Lukáš Tvrdý <lukast.dev@gmail.com>
+           2011 Smit Patel <smitpatel24@gmail.com>
 Licence: LGPL-2+
 Files: plugins/*
 Copyright:
