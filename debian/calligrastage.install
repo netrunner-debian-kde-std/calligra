@@ -2,6 +2,7 @@ usr/bin/calligrastage
 usr/lib/kde4/calligrastageeventactions.so
 usr/lib/kde4/calligrastagepart.so
 usr/lib/kde4/calligrastagetoolanimation.so
+usr/lib/kde4/Filterkpr2odf.so
 usr/lib/kde4/kpr_pageeffect_barwipe.so
 usr/lib/kde4/kpr_pageeffect_clockwipe.so
 usr/lib/kde4/kpr_pageeffect_edgewipe.so
@@ -13,6 +14,8 @@ usr/lib/kde4/kpr_pageeffect_spacerotation.so
 usr/lib/kde4/kpr_pageeffect_swapeffect.so
 usr/lib/kde4/kpr_shapeanimation_example.so
 usr/lib/kde4/kprvariables.so
+usr/lib/kde4/powerpointimport.so
+usr/lib/kde4/pptximport.so
 usr/lib/libcalligrastageprivate.so.8
 usr/lib/libcalligrastageprivate.so.8.0.0
 usr/lib/libkdeinit4_calligrastage.so
@@ -28,6 +31,9 @@ usr/share/kde4/apps/stage
 usr/share/kde4/config/stagerc
 usr/share/kde4/services/calligrastageeventactions.desktop
 usr/share/kde4/services/calligrastagetoolanimation.desktop
+usr/share/kde4/services/Filterkpr2odf.desktop
+usr/share/kde4/services/kpresenter_powerpoint_import.desktop
+usr/share/kde4/services/kpresenter_pptx_import.desktop
 usr/share/kde4/services/kpr_pageeffect_barwipe.desktop
 usr/share/kde4/services/kpr_pageeffect_clockwipe.desktop
 usr/share/kde4/services/kpr_pageeffect_edgewipe.desktop
