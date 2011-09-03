@@ -397,14 +397,15 @@ Description: version of Calligra for mobile
  This package is part of the Calligra Office Suite.
 
 
-Package: calligraactive
-Architecture: any
-Section: kde
-Depends: ${misc:Depends}, ${shlibs:Depends}, calligra-libs (>= ${source:Version})
-Description: QML version of Calligra
- Calligra Active is ...
- .
- This package is part of the Calligra Office Suite.
+# not in 2.3.74 release
+#Package: calligraactive
+#Architecture: any
+#Section: kde
+#Depends: ${misc:Depends}, ${shlibs:Depends}, calligra-libs (>= ${source:Version})
+#Description: QML version of Calligra
+# Calligra Active is ...
+# .
+# This package is part of the Calligra Office Suite.
 
 
 Package: calligra-libs
