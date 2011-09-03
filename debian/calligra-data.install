@@ -323,7 +323,6 @@ usr/share/kde4/servicetypes/flakeshape.desktop
 usr/share/kde4/servicetypes/flaketool.desktop
 usr/share/kde4/servicetypes/inlinetextobject.desktop
 usr/share/kde4/servicetypes/kochart.desktop
-usr/share/kde4/servicetypes/kochart.desktop
 usr/share/kde4/servicetypes/kofilter.desktop
 usr/share/kde4/servicetypes/kofilterwrapper.desktop
 usr/share/kde4/servicetypes/koplugin.desktop
