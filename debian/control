@@ -18,6 +18,7 @@ Build-Depends: cdbs, debhelper (>= 7.0.50~), cmake (>= 2.6.2), pkg-kde-tools (>=
   libsqlite3-dev, libmysqlclient-dev, libpq-dev, libpqxx3-dev,
   libxbase2.0-dev, freetds-dev,
   liblcms2-dev,
+  libmarble-dev,
 # no in koffice
   libgsf-1-dev, libdcmtk2-dev, libspnav-dev, shared-desktop-ontologies
 Standards-Version: 3.9.2
@@ -34,7 +35,7 @@ Depends: ${misc:Depends}, karbon (>= ${source:Version}), calligraflow (>= ${sour
  calligrastage (>= ${source:Version}), krita (>= ${source:Version}), calligratables (>= ${source:Version}),
  calligrawords (>= ${source:Version}), kthesaurus (>= ${source:Version}),
  kexi (>= ${source:Version}), kformula (>= ${source:Version})
-Suggests: calligra-doc-html (>= ${source:Version})
+Suggests: calligra-doc-html (>= ${source:Version}), create-resources
 Homepage: http://www.calligra-suite.org
 Description: Calligra Office Suite
  Calligra is an integrated office suite for KDE. It offers a word processor,
