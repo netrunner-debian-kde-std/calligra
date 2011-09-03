@@ -29,6 +29,7 @@ usr/lib/kde4/kspreadtrigonometrymodule.so
 usr/lib/kde4/opencalcexport.so
 usr/lib/kde4/opencalcimport.so
 usr/lib/kde4/qproimport.so
+usr/lib/kde4/spreadsheetshape-deferred.so
 usr/lib/kde4/spreadsheetshape.so
 usr/lib/kde4/xlsximport.so
 usr/lib/libcalligratablescommon.so.8
@@ -124,5 +125,6 @@ usr/share/kde4/services/kspreadtrigonometrymodule.desktop
 usr/share/kde4/services/kspread_xlsx_import.desktop
 usr/share/kde4/services/ServiceMenus/kspread_konqi.desktop
 usr/share/kde4/services/spreadsheetshape.desktop
+usr/share/kde4/services/spreadsheetshape-deferred.desktop
 usr/share/kde4/services/tablespart.desktop
 usr/share/kde4/servicetypes/tables_plugin.desktop

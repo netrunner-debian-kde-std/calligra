@@ -1,5 +1,4 @@
 usr/bin/krita
-usr/lib/kde4/kritaartisticcolorselector.so
 usr/lib/kde4/kritabackgrounds.so
 usr/lib/kde4/kritabigbrother.so
 usr/lib/kde4/kritablurfilter.so
@@ -38,12 +37,13 @@ usr/lib/kde4/kritahairypaintop.so
 usr/lib/kde4/kritahatchingpaintop.so
 usr/lib/kde4/kritahistogram.so
 usr/lib/kde4/kritahistorydocker.so
-usr/lib/kde4/kritaimagedocker.so
 usr/lib/kde4/kritaimageenhancement.so
 usr/lib/kde4/kritaimagesize.so
 usr/lib/kde4/kritaimagesplit.so
 usr/lib/kde4/kritajp2export.so
 usr/lib/kde4/kritajp2import.so
+usr/lib/kde4/kritajpegexport.so
+usr/lib/kde4/kritajpegimport.so
 usr/lib/kde4/kritakscolorspacesplugin.so
 usr/lib/kde4/kritalayercompose.so
 usr/lib/kde4/kritalevelfilter.so
@@ -110,6 +110,7 @@ usr/lib/libkritaui.so.8.0.0
 usr/share/applications/kde4/krita_bmp.desktop
 usr/share/applications/kde4/krita.desktop
 usr/share/applications/kde4/krita_jp2.desktop
+usr/share/applications/kde4/krita_jpeg.desktop
 usr/share/applications/kde4/krita_odg.desktop
 usr/share/applications/kde4/krita_ora.desktop
 usr/share/applications/kde4/krita_pdf.desktop
@@ -119,7 +120,6 @@ usr/share/applications/kde4/krita_psd.desktop
 usr/share/applications/kde4/krita_raw.desktop
 usr/share/applications/kde4/krita_tiff.desktop
 usr/share/applications/kde4/krita_xcf.desktop
-usr/share/kde4/services/krita_artisticcolorselector.desktop
 usr/share/kde4/services/kritabackgrounds.desktop
 usr/share/kde4/services/kritabigbrother.desktop
 usr/share/kde4/services/kritablurfilter.desktop
@@ -158,12 +158,13 @@ usr/share/kde4/services/kritahairypaintop.desktop
 usr/share/kde4/services/kritahatchingpaintop.desktop
 usr/share/kde4/services/kritahistogram.desktop
 usr/share/kde4/services/kritahistorydocker.desktop
-usr/share/kde4/services/kritaimagedocker.desktop
 usr/share/kde4/services/kritaimageenhancement.desktop
 usr/share/kde4/services/kritaimagesize.desktop
 usr/share/kde4/services/kritaimagesplit.desktop
 usr/share/kde4/services/krita_jp2_export.desktop
 usr/share/kde4/services/krita_jp2_import.desktop
+usr/share/kde4/services/krita_jpeg_export.desktop
+usr/share/kde4/services/krita_jpeg_import.desktop
 usr/share/kde4/services/kritakscolorspacesplugin.desktop
 usr/share/kde4/services/kritalayercompose.desktop
 usr/share/kde4/services/kritalevelfilter.desktop
@@ -213,7 +214,6 @@ usr/share/kde4/services/kritatoolperspectivegrid.desktop
 usr/share/kde4/services/kritatoolpolygon.desktop
 usr/share/kde4/services/kritatoolpolyline.desktop
 usr/share/kde4/services/kritatoolstar.desktop
-usr/share/kde4/services/kritatooltext.desktop
 usr/share/kde4/services/kritatooltext.desktop
 usr/share/kde4/services/kritatooltransform.desktop
 usr/share/kde4/services/kritaunsharpfilter.desktop
