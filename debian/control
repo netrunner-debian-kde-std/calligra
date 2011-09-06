@@ -375,7 +375,7 @@ Description: ideas organizer component for the Calligra Office Suite
 Package: kformula
 Architecture: any
 Section: math
-Depends: ${misc:Depends}, ${shlibs:Depends}, calligra-libs (>= ${source:Version})
+Depends: ${misc:Depends}, ${shlibs:Depends}, calligra-libs (>= ${source:Version}), ttf-lyx
 #Suggests: khelpcenter4, koffice-doc-html
 Description: formula drawing component for the Calligra Office Suite
  KFormula contains the formula drawing components.  It can be used to embed
