@@ -18,6 +18,7 @@ Build-Depends: debhelper (>= 8.0.0~), cmake (>= 2.6.2), pkg-kde-tools (>= 0.9),
   libsqlite3-dev, libmysqlclient-dev, libpq-dev, libpqxx3-dev,
   libxbase2.0-dev, freetds-dev,
   liblcms2-dev,
+  libmarble-dev,
 # no in koffice
   libgsf-1-dev, libdcmtk2-dev, libspnav-dev, shared-desktop-ontologies
 Standards-Version: 3.9.2
@@ -34,7 +35,7 @@ Depends: ${misc:Depends}, karbon (>= ${source:Version}), calligraflow (>= ${sour
  calligrastage (>= ${source:Version}), krita (>= ${source:Version}), calligratables (>= ${source:Version}),
  calligrawords (>= ${source:Version}), kthesaurus (>= ${source:Version}),
  kexi (>= ${source:Version}), kformula (>= ${source:Version})
-Suggests: calligra-doc-html (>= ${source:Version})
+Suggests: calligra-doc-html (>= ${source:Version}), create-resources
 Homepage: http://www.calligra-suite.org
 Description: Calligra Office Suite
  Calligra is an integrated office suite for KDE. It offers a word processor,
@@ -374,7 +375,7 @@ Description: ideas organizer component for the Calligra Office Suite
 Package: kformula
 Architecture: any
 Section: math
-Depends: ${misc:Depends}, ${shlibs:Depends}, calligra-libs (>= ${source:Version})
+Depends: ${misc:Depends}, ${shlibs:Depends}, calligra-libs (>= ${source:Version}), ttf-lyx
 #Suggests: khelpcenter4, koffice-doc-html
 Description: formula drawing component for the Calligra Office Suite
  KFormula contains the formula drawing components.  It can be used to embed
@@ -397,14 +398,15 @@ Description: version of Calligra for mobile
  This package is part of the Calligra Office Suite.
 
 
-Package: calligraactive
-Architecture: any
-Section: kde
-Depends: ${misc:Depends}, ${shlibs:Depends}, calligra-libs (>= ${source:Version})
-Description: QML version of Calligra
- Calligra Active is ...
- .
- This package is part of the Calligra Office Suite.
+# not in 2.3.74 release
+#Package: calligraactive
+#Architecture: any
+#Section: kde
+#Depends: ${misc:Depends}, ${shlibs:Depends}, calligra-libs (>= ${source:Version})
+#Description: QML version of Calligra
+# Calligra Active is ...
+# .
+# This package is part of the Calligra Office Suite.
 
 
 Package: calligra-libs

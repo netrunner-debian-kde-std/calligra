@@ -121,7 +121,7 @@ Licences: MIT
 
 Files: kexi/*
 Copyright: 
-           2003-2010 Adam Pigg <adam@piggz.co.uk>
+           2003-2011 Adam Pigg <adam@piggz.co.uk>
 Licences: LGPL-2.1+
 
 Files: kexi/*
@@ -141,7 +141,7 @@ Copyright:
            2002-2003 Norbert Andres <nandres@web.de>
            2002-2004 Lucijan Busch <lucijan@kde.org>
            2003 Lukas Tinkl <lukas@kde.org>
-           2003-2010 Adam Pigg <adam@piggz.co.uk>
+           2003-2011 Adam Pigg <adam@piggz.co.uk>
            2004 Nicolas Goutte <goutte@kde.org>
            2004-2005 Cedric Pasteur <cedric.pasteur@free.fr>
            2004-2006 Martin Ellis <m.a.ellis@ncl.ac.uk>
@@ -158,13 +158,13 @@ Copyright:
            2001, 2003-2011 Jarosław Staniek <staniek@kde.org>
            2002-2003 Joseph Wenninger <jowenn@kde.org>
            2002-2004 Lucijan Busch <lucijan@kde.org>
-           2003-2010 Adam Pigg <adam@piggz.co.uk>
+           2003-2011 Adam Pigg <adam@piggz.co.uk>
            2004-2005 Cedric Pasteur <cedric.pasteur@free.fr>
 Licences: LGPL-2
 
 Files: kexi/*
 Copyright:
-           2003-2010 Adam Pigg <adam@piggz.co.uk>
+           2003-2011 Adam Pigg <adam@piggz.co.uk>
 Licences: GPL-2+
 
 Files: kexi/webforms/webroot/extjs/*
@@ -176,7 +176,7 @@ Licences: GPL-3
 Files: plan/*
 Copyright: 
            2002-2011 Dag Andersen <danders@get2net.dk>
-           2007-2010 Adam Pigg <adam@piggz.co.uk>
+           2007-2011 Adam Pigg <adam@piggz.co.uk>
 Licences: LGPL-2.1+
 Files: plan/*
 Copyright: 
@@ -498,7 +498,7 @@ Files: libs/*
 Copyright:
            2001-2007 LLC <info@openmfg.com>
            2004-2010 Jarosław Staniek <staniek@kde.org>
-           2007-2010 Adam Pigg <adam@piggz.co.uk>
+           2007-2011 Adam Pigg <adam@piggz.co.uk>
            2007-2011 Pierre Ducroquet <pinaraf@gmail.com>
 Licence: LGPL-2.1+
 Files: libs/*
@@ -549,7 +549,7 @@ Copyright:
            2007 Emanuele Tamponi <emanuele@valinor.it>
            2007 Marijn Kruisselbrink <mkruisselbrink@kde.org>
            2007-2009 Fredy Yanardi <fyanardi@gmail.com>
-           2007-2010 Adam Pigg <adam@piggz.co.uk>
+           2007-2011 Adam Pigg <adam@piggz.co.uk>
            2007-2011 Pierre Ducroquet <pinaraf@gmail.com>
            2008 Girish Ramakrishnan <girish@forwardbias.in>
            2008 Roopesh Chander <roop@forwardbias.in>
@@ -669,7 +669,6 @@ Copyright:
            2004 Fridrich Strba <fridrich.strba@bluewin.ch>
            2005 Bram Schoenmakers <bramschoenmakers@kde.nl>
            2005 Peter Simonsson <psn@linux.se>
-           2005 Raphael Langerhorst <raphael.langerhorst@kdemail.net>
            2005 Yolla Indria <yolla.indria@gmail.com>
            2005,2010-2011 Boudewijn Rempt <boud@kde.org>
            2005-2006 Fredrik Edemar <f_edemar@linux.se>
@@ -781,7 +780,7 @@ Copyright:
            2001-2007 LLC <info@openmfg.com>
            2005-2011 Inge Wallin <inge@lysator.liu.se>
            2007,2011 Pierre Ducroquet <pinaraf@gmail.com>
-           2007-2010 Adam Pigg <adam@piggz.co.uk>
+           2007-2011 Adam Pigg <adam@piggz.co.uk>
            2008 Brad Hards <bradh@frogmouth.net>
 Licence: LGPL-2.1+
 Files: plugins/*
@@ -844,7 +843,7 @@ Copyright:
            2010 Nokia Corporation
            2010 Suresh Chande <suresh.chande@nokia.com>
            2010 Vidhyapria Arunkumar <vidhyapria.arunkumar@nokia.com>
-           2010 Lukáš Tvrdý <lukast.dev@gmail.com>
+           2011 Smit Patel <smitpatel24@gmail.com>
 Licence: LGPL-2+
 Files: plugins/*
 Copyright:
