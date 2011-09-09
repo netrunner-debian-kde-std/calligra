@@ -1,10 +1,10 @@
-===============
-Calligra Mobile
-===============
+==============
+CalligraMobile
+==============
 
-----------------
-Calligra Mobile
-----------------
+---------------
+CalligraMobile
+---------------
 
 :Author: This manual page was written by Adrien Grellier <adrien.grellier@laposte.net> for the Debian project (but may be used by others).
 :Date: |date|

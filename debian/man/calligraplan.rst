@@ -1,6 +1,6 @@
-=============
-Calligra Plan 
-=============
+============
+CalligraPlan 
+============
 
 ----------------------------------------
 KDE Project Planning and Management Tool

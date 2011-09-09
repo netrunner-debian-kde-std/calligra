@@ -1,6 +1,6 @@
-===============
-Calligra Tables
-===============
+==============
+CalligraTables
+==============
 
 --------------------------------
 Calligra Spreadsheet Application

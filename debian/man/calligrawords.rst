@@ -1,6 +1,6 @@
-==============
-Calligra Words
-==============
+=============
+CalligraWords
+=============
 
 ------------------------
 Calligra Word Processor
