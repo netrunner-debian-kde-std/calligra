@@ -1,6 +1,6 @@
-===============
-Calligra Stage
-===============
+==============
+CalligraStage
+==============
 
 --------------------------
 Calligra Presentation Tool
