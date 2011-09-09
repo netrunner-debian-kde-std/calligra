@@ -4,7 +4,6 @@ usr/bin/koconverter
 usr/lib/kde4/artistictextshape.so
 usr/lib/kde4/autocorrect.so
 usr/lib/kde4/calligradockers.so
-usr/lib/kde4/calligragoogledocs.so
 usr/lib/kde4/calligrascan.so
 usr/lib/kde4/calligrathumbnail.so
 usr/lib/kde4/changecase.so
