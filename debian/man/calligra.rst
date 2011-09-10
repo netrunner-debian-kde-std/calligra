@@ -1,9 +1,9 @@
-=============
-CalligraWords
-=============
+=========
+Calligra 
+=========
 
 ------------------------
-Calligra Word Processor
+Calligra Document Opener
 ------------------------
 
 :Author: This manual page was written by Adrien Grellier <adrien.grellier@laposte.net> for the Debian project (but may be used by others).
@@ -15,39 +15,39 @@ Calligra Word Processor
 Synopsis
 ========
 
-calligrawords [Qt-options] [KDE-options] [Calligra-options] [file]
+  calligra [Qt-options] [KDE-options] [options] FILES
 
 Description
 ===========
 
-Words is a FrameMaker-like word processing and desktop publishing
-application.  It is capable of creating demanding and professional
-looking documents.  It can be used for desktop publishing, but also for
-"normal" word processing, like writing letters, reports and so on.
+Calligra is an integrated office suite for KDE. It offers a word processor,
+a spreadsheet, a presentation program, graphics tools, and more.
+
 
 Options
 =======
+
+**file**  File to open
 
 Generic options:
 
 --help                    Show help about options
 --help-qt                 Show Qt specific options
 --help-kde                Show KDE specific options
---help-calligra           Show Calligra specific options
 --help-all                Show all options
 --author                  Show author information
 -v, --version             Show version information
 --license                 Show license information
 
-Arguments:
+Options:
 
-**file**                  File to open
+--apps                    Lists names of all available Calligra applications
 
 
 SEE ALSO
 =========
 
-More detailed user documentation is available at http://userbase.kde.org/Words. 
+More detailed user documentation is available from **help:/calligra** (either enter this URL into Konqueror, or run **khelpcenter** *help:/calligra*).
 
 
 .. |date| date:: %y %B %Y
