@@ -243,16 +243,6 @@ Description: data files for Krita painting program
  .
  This package is part of the Calligra Office Suite.
 
-Package: krita-dev
-Architecture: all
-Section: devel
-Depends: ${misc:Depends}, ${shlibs:Depends}, krita (>= ${source:Version}), calligra-libs (>= ${source:Version})
-Description: development files for Krita painting programm
- This package contains header files that can be used by plugins developers to
- extend Krita.
- '
- This package is part of the Calligra Office Suite.
-
 Package: kthesaurus
 Architecture: any
 Section: text
