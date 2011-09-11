@@ -443,7 +443,7 @@ Architecture: any
 Section: devel
 Replaces: koffice-dev
 Conflicts: koffice-dev
-Depends: ${misc:Depends}, calligra-libs (>= ${source:Version}), karbon (>= ${source:Version}), calligraplan (>= ${source:Version}), calligrastage (>= ${source:Version}), krita (>= ${source:Version}), calligratables (>= ${source:Version}), kthesaurus (>= ${source:Version}), calligrawords (>= ${source:Version}), kdelibs5-dev
+Depends: ${misc:Depends}, calligra-libs (= ${binary:Version}), karbon (= ${binary:Version}), calligraplan (= ${binary:Version}), calligrastage (= ${binary:Version}), krita (= ${}), calligratables (= ${binary:Version}), kthesaurus (= ${binary:Version}), calligrawords (= ${binary:Version}), kdelibs5-dev
 Description: common libraries for Calligra (development files)
  This package provides the development files for the libraries that are
  shared amongst the various components of Calligra.
