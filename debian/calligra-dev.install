@@ -8,6 +8,7 @@ usr/lib/libkarbonui.so
 usr/lib/libkdchart.so
 usr/lib/libkexicore.so
 usr/lib/libkexidatatable.so
+usr/lib/libkexidataviewcommon.so
 usr/lib/libkexidb.so
 usr/lib/libkexiextendedwidgets.so
 usr/lib/libkexiformutils.so

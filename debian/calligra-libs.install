@@ -1,5 +1,4 @@
 usr/bin/calligra
-usr/bin/visualimagecompare
 usr/bin/koconverter
 usr/lib/kde4/artistictextshape.so
 usr/lib/kde4/autocorrect.so
@@ -17,7 +16,7 @@ usr/lib/kde4/kolcmsengine.so
 usr/lib/kde4/kopabackgroundtool.so
 usr/lib/kde4/koreport_barcodeplugin.so
 usr/lib/kde4/koreport_chartplugin.so
-usr/lib/kde4/koreport_shapeplugin.so
+usr/lib/kde4/koreport_mapsplugin.so
 usr/lib/kde4/kounavailpart.so
 usr/lib/kde4/musicshape.so
 usr/lib/kde4/pathshapes.so
