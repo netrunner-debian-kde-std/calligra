@@ -5,6 +5,7 @@ usr/lib/kde4/krossmodulekplato.so
 usr/lib/kde4/planicalexport.so
 usr/lib/kde4/plankplatoimport.so
 usr/lib/kde4/planpart.so
+usr/lib/kde4/plantjscheduler.so
 usr/lib/kde4/planworkpart.so
 usr/lib/libkdeinit4_calligraplan.so
 usr/lib/libkdeinit4_calligraplanwork.so
@@ -54,9 +55,11 @@ usr/share/kde4/apps/planwork/
 usr/share/kde4/config.kcfg/plansettings.kcfg
 usr/share/kde4/config/planrc
 usr/share/kde4/config/planworkrc
-usr/share/kde4/services/krossmodulekplato.desktop
-usr/share/kde4/services/kplatorcpsscheduler.desktop
+usr/share/kde4/services/krossmoduleplan.desktop
 usr/share/kde4/services/plan_icalendar_export.desktop
 usr/share/kde4/services/plan_kplato_import.desktop
 usr/share/kde4/services/planpart.desktop
+usr/share/kde4/services/planrcpsscheduler.desktop
+usr/share/kde4/services/plantjscheduler.desktop
 usr/share/kde4/services/planworkpart.desktop
+usr/share/kde4/servicetypes/plan_schedulerplugin.desktop
