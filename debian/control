@@ -17,7 +17,7 @@ Build-Depends: cdbs, debhelper (>= 7.0.50~), cmake (>= 2.6.2), pkg-kde-tools (>=
   libgsl0-dev, libpoppler-dev, libpoppler-qt4-dev,
   libsqlite3-dev, libmysqlclient-dev, libpq-dev, libpqxx3-dev,
   libxbase2.0-dev, freetds-dev,
-  liblcms2-dev,
+  liblcms2-dev, liblcms-dev,
   libmarble-dev,
 # no in koffice
   libgsf-1-dev, libdcmtk2-dev, libspnav-dev, shared-desktop-ontologies
