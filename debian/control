@@ -341,12 +341,25 @@ Description: presentation program for the Calligra Office Suite
 Package: calligraflow
 Architecture: any
 Section: graphics
-Depends: ${misc:Depends}, ${shlibs:Depends}, calligra-libs (>= ${source:Version})
+Depends: ${misc:Depends}, ${shlibs:Depends}, calligraflow-data (>= ${source:Version}), calligra-libs (>= ${source:Version})
 Homepage: http://www.calligra-suite.org/flow/
 Description: flowcharting program for the Calligra Office Suite
  Flow is a flowcharting program that offers basic flowcharting abilities,
  but with a twist.  Objects are scriptable, and a backend plugin system
  offers the ability to make objects do just about anything.
+ .
+ This package is part of the Calligra Office Suite.
+
+Package: calligraflow-data
+Architecture: all
+Section: graphics
+Depends: ${misc:Depends}
+Homepage: http://www.calligra-suite.org/flow/
+Description: data files for Flow flowcharting program
+ This package contains architecture-independent data files for Flow,
+ the flowcharting program shipped with the Calligra Office Suite.
+ .
+ See the calligraflow package for further information.
  .
  This package is part of the Calligra Office Suite.
 
