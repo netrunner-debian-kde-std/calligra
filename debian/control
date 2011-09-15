@@ -374,7 +374,7 @@ Description: formula drawing component for the Calligra Office Suite
 Package: calligramobile
 Architecture: any
 Section: kde
-Depends:${misc:Depends},  ${shlibs:Depends}, calligra-libs(>= ${source:Version})
+Depends: ${misc:Depends}, ${shlibs:Depends}, calligra-libs(>= ${source:Version})
 Description: version of Calligra for mobile
  Calligra Mobile aims to create a version of the Calligra Office Suite for
  mobile devices, such as Maemo or MeeGo.
