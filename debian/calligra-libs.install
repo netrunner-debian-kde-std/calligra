@@ -10,6 +10,7 @@ usr/lib/kde4/changecase.so
 usr/lib/kde4/chartshape.so
 usr/lib/kde4/commentshape.so
 usr/lib/kde4/defaulttools.so
+usr/lib/kde4/formulashape.so
 usr/lib/kde4/generickofilter.so
 usr/lib/kde4/kodocinfopropspage.so
 usr/lib/kde4/kolcmsengine.so
@@ -38,6 +39,8 @@ usr/lib/libflake.so.8
 usr/lib/libflake.so.8.0.0
 usr/lib/libkdchart.so.8
 usr/lib/libkdchart.so.8.0.0
+usr/lib/libkformulalib.so.8
+usr/lib/libkformulalib.so.8.0.0
 usr/lib/libkochart.so.8
 usr/lib/libkochart.so.8.0.0
 usr/lib/libkokross.so.8
