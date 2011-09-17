@@ -37,11 +37,13 @@ Depends: ${misc:Depends}, karbon (>= ${source:Version}), calligraflow (>= ${sour
  kexi (>= ${source:Version}), kformula (>= ${source:Version})
 Suggests: create-resources
 Homepage: http://www.calligra-suite.org
-Description: Calligra Office Suite
- Calligra is an integrated office suite for KDE. It offers a word processor,
- a spreadsheet, a presentation program, graphics tools, and more.
+Description: integrated work applications suite
+ Calligra Suite is a set of applications written to help you to accomplish
+ your work. It includes office applications such as a word processor,
+ a spreadsheet, a presentation program, a database application, etc, and
+ raster and vectorial graphics tools.
  .
- This package provides all the components of Calligra.
+ This metapackage provides all the components of the Calligra Office Suite.
 
 Package: karbon
 Architecture: any
