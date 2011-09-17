@@ -1,2 +1,2 @@
-kexi: package-name-doesnt-match-sonames libkexicore8 libkexidatatable8 libkexidataviewcommonSOVERSION libkexidb8 libkexiextendedwidgets8 libkexiformutils8 libkexiguiutils8 libkeximain8 libkeximigrate8 libkexirelationsview8 libkexiutils8 libkformdesigner8
+kexi: package-name-doesnt-match-sonames libkexicore8 libkexidatatable8 libkexidataviewcommon8 libkexidb8 libkexiextendedwidgets8 libkexiformutils8 libkexiguiutils8 libkeximain8 libkeximigrate8 libkexirelationsview8 libkexiutils8 libkformdesigner8
 

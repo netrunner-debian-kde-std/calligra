@@ -20,7 +20,8 @@ usr/lib/libkexicore.so.8
 usr/lib/libkexicore.so.8.0.0
 usr/lib/libkexidatatable.so.8
 usr/lib/libkexidatatable.so.8.0.0
-usr/lib/libkexidataviewcommon.so.SOVERSION
+usr/lib/libkexidataviewcommon.so.8
+usr/lib/libkexidataviewcommon.so.8.0.0
 usr/lib/libkexidb.so.8
 usr/lib/libkexidb.so.8.0.0
 usr/lib/libkexiextendedwidgets.so.8
