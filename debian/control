@@ -294,7 +294,6 @@ Description: data files for Words word processor
  .
  This package is part of the Calligra Office Suite.
 
-
 Package: calligrastage
 Architecture: any
 Section: kde
@@ -355,7 +354,6 @@ Description: ideas organizer component for the Calligra Office Suite
  .
  This package is part of the Calligra Office Suite.
 
-
 Package: calligramobile
 Architecture: any
 Section: kde
@@ -366,7 +364,6 @@ Description: version of Calligra for mobile
  .
  This package is part of the Calligra Office Suite.
 
-
 Package: calligraactive
 Architecture: any
 Section: kde
@@ -375,7 +372,6 @@ Description: QML version of Calligra
  Calligra Active is ...
  .
  This package is part of the Calligra Office Suite.
-
 
 Package: calligra-libs
 Section: libs
@@ -390,7 +386,6 @@ Description: common libraries and binaries for the Calligra Office Suite
  the various components of Calligra.
  .
  This package is part of the Calligra Office Suite.
-
 
 Package: calligra-data
 Section: libs
