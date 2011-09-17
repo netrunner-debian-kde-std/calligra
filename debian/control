@@ -356,21 +356,6 @@ Description: ideas organizer component for the Calligra Office Suite
  This package is part of the Calligra Office Suite.
 
 
-Package: kformula
-Architecture: any
-Section: math
-Depends: ${misc:Depends}, ${shlibs:Depends}, calligra-libs (>= ${source:Version}), ttf-lyx
-#Suggests: khelpcenter4
-Description: formula drawing component for the Calligra Office Suite
- KFormula contains the formula drawing components.  It can be used to embed
- formulas into Calligra documents.
- .
- Features include easy Greek letter insertion, intelligent cursor
- movement, advanced syntax highlighting, multi-level undo support,
- LaTeX export and MathML import.
- .
- This package is part of the Calligra Office Suite.
-
 Package: calligramobile
 Architecture: any
 Section: kde
@@ -395,8 +380,8 @@ Description: QML version of Calligra
 Package: calligra-libs
 Section: libs
 Architecture: any
-Replaces: koffice-libs
-Conflicts: koffice-libs
+Replaces: koffice-libs, kformula
+Conflicts: koffice-libs, kformula
 Depends: ${misc:Depends}, ${shlibs:Depends}, calligra-data (>= ${source:Version})
 Recommends: ttf-lyx, ruby, python
 Suggests: wordnet, texlive
@@ -411,8 +396,8 @@ Package: calligra-data
 Section: libs
 Architecture: all
 Depends: ${misc:Depends}
-Replaces: koffice-data
-Conflicts: koffice-data
+Replaces: koffice-data, kformula
+Conflicts: koffice-data, kformula
 Suggests: khelpcenter4
 Description: common shared data for the Calligra Office Suite
  This package provides the architecture-independent data that is shared
