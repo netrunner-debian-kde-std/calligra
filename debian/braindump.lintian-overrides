@@ -1,0 +1,2 @@
+braindump: package-name-doesnt-match-sonames libbraindumpcore
+braindump: shlib-without-versioned-soname usr/lib/libbraindumpcore.so libbraindumpcore.so
