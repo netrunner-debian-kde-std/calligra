@@ -122,6 +122,9 @@ Licences: MIT
 Files: kexi/*
 Copyright: 
            2003-2011 Adam Pigg <adam@piggz.co.uk>
+           2011 Aurélien Gâteau <agateau@kde.org>
+           2011 Radosław Wicik <radoslaw@wicik.pl>
+           2011 Shreya Pandit <shreya@shreyapandit.com>
 Licences: LGPL-2.1+
 
 Files: kexi/*
@@ -148,9 +151,14 @@ Copyright:
            2004-2008 Sebastian Sauer <mail@dipe.org>
            2005 Christian Nitschkowski <segfault_ii@web.de>
            2006-2009 Sharan Rao <sharanrao@gmail.com>
+           2007 Fredrik Höglund <fredrik@kde.org>
+           2008 Julia Sanchez-Simon <hithwen@gmail.com>
+           2008 Long Huynh Huu <long.upcase@googlemail.com>
            2008 Lorenzo Villani <lvillani@binaryhelix.net>
            2008 Miguel Angel Aragüez-Rey <fizban87@gmail.com>
-           2008 Julia Sanchez-Simon <hithwen@gmail.com>
+           2009-2010 Hugo Pereira Da Costa <hugo@oxygen-icons.org>
+           2011 Radosław Wicik <radoslaw@wicik.pl>
+           2011 Shreya Pandit <shreya@shreyapandit.com>
 Licences: LGPL-2+
 
 Files: kexi/*
@@ -192,7 +200,7 @@ Copyright:
            2006 Raphael Langerhorst <raphael.langerhorst@kdemail.net>
            2006 Stefan Nikolaus <stefan.nikolaus@kdemail.net>
            2006-2007 Frederic BECQUIER <frederic.becquier@gmail.com>
-           2006-2007 Menard Alexis <kplato@kde.org>
+           2006-2007 Menard Alexis <danders@get2net>
            2006-2007 Sebastian Sauer <mail@dipe.org>
            2007 Alexis Ménard <darktears31@gmail.com>
            2007 Florian Piquemal <flotueur@yahoo.fr>
@@ -210,6 +218,7 @@ Copyright:
            1999 Simon Hausmann <hausmann@kde.org>
            1999-2003 Hans Petter Bieker <bieker@kde.org>
            2000-2005,2007 David Faure <faure@kde.org>
+           2001-2007 Chris Schlaeger <cs@kde.org>
            2002-2011 Dag Andersen <danders@get2net.dk>
            2005-2006 Sven Lüppken <sven@kde.org>
 Licences: GPL-2+
@@ -413,6 +422,7 @@ Copyright:
            2009 Johannes Simon <johannes.simon@gmail.com>
            2010 Boudewijn Rempt <boud@kogmbh.com>
            2011 Arjen Hiemstra <ahiemstra@heimr.nl>
+           2011 Juan Aquino <utcl95@gmail.com>
 Licences: LGPL-2+
 Files: tables/*
 Copyright:
@@ -513,6 +523,7 @@ Copyright:
            2000-2002 Werner Trobin <trobin@kde.org>
            2001 John Califf
            2001 Peter Novodvorsky <nidd@cs.msu.su>
+           2001-2003 Lennart Kudling <kudling@kde.org>
            2002 Igor Jansen <rm@kde.org>
            2002 Tomislav Lukman <tomislav.lukman@ck.t-com.hr>
            2002,2004 Alexander Dymo <cloudtemple@mskat.net>
@@ -575,6 +586,7 @@ Copyright:
            2011 Matus Hanzes <matus.hanzes@ixonos.com>
            2011 Pavol Korinek <pavol.korinek@ixonos.com>
            2011 Silvio Heinrich <plassy@web.de>
+           2011 Smit Patel <smitpatel24@gmail.com>
            2011 Srikanth Tiyyagura <srikanth.tulasiram@gmail.com>
            2011 Stuart Dickson <stuart@furkinfantastic.net>
 Licence: LGPL-2+
@@ -782,6 +794,10 @@ Copyright:
            2007,2011 Pierre Ducroquet <pinaraf@gmail.com>
            2007-2011 Adam Pigg <adam@piggz.co.uk>
            2008 Brad Hards <bradh@frogmouth.net>
+           2008-2009 Simon Schmeisser <mail_to_wrt@gmx.de>
+           2007 Thomas Zander <zander@kde.org>
+           2007 Hambrecht <jaham@gmx.net>
+           2011 Radosław Wicik <radoslaw@wicik.pl>
 Licence: LGPL-2.1+
 Files: plugins/*
 Copyright: 
@@ -830,8 +846,10 @@ Copyright:
            2008 Florian Merz <florianmerz@gmx.de>
            2008 Girish Ramakrishnan <girish@forwardbias.in>
            2008 Hans Bakker <hansmbakker@gmail.com>
+           2008-2009 Simon Schmeisser <mail_to_wrt@gmx.de>
            2008,2010 Sebastian Sauer <sebsauer@kdab.com>
            2008-2010 Pierre Stirnweiss <pstirnweiss@googlemail.com>
+           2008-2011 Lukáš Tvrdý <lukast.dev@gmail.com>
            2009 Jean-Nicolas Artaud <jeannicolasartaud@gmail.com>
            2009 Jeremias Epperlein <jeeree@web.de>
            2009,2011 Ganesh Paramasivam <ganesh@crystalfab.com>
@@ -843,6 +861,8 @@ Copyright:
            2010 Nokia Corporation
            2010 Suresh Chande <suresh.chande@nokia.com>
            2010 Vidhyapria Arunkumar <vidhyapria.arunkumar@nokia.com>
+           2010-2011 Gopalakrishna Bhat A <gopalakbhat@gmail.com>
+           2011 Radosław Wicik <radoslaw@wicik.pl>
            2011 Smit Patel <smitpatel24@gmail.com>
 Licence: LGPL-2+
 Files: plugins/*
