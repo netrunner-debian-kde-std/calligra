@@ -1,0 +1,103 @@
+From: Boudewijn Rempt <boud@valdyas.org>
+Date: Sun, 18 Sep 2011 12:47:42 +0000
+Subject: krita: make jpeg filter compile both with lcms1 and lcms2
+X-Git-Url: http://quickgit.kde.org/?p=calligra.git&amp;a=commitdiff&amp;h=bce5ce530a3b0ef295f99bf1c1a16673267b87cf
+---
+krita: make jpeg filter compile both with lcms1 and lcms2
+
+I tested both with lcms2 and lcms1 both installed and with just lcms1.
+
+CCMAIL: Adrien <adrien.grellier@laposte.net>
+---
+
+
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -264,6 +264,7 @@
+ macro_log_feature(LCMS2_FOUND "LittleCMS" "Color management engine" "http://www.littlecms.com" FALSE "2.0" "Optional replacement for LittleCMS 1.18. Can be used for color management and Krita")
+ if(LCMS2_FOUND)
+     set(HAVE_REQUIRED_LCMS_VERSION TRUE)
++    set(HAVE_LCMS2 TRUE)
+     set(HAVE_LCMS TRUE)
+ endif(LCMS2_FOUND)
+ 
+--- a/KoConfig.h.cmake
++++ b/KoConfig.h.cmake
+@@ -30,7 +30,10 @@
+ 
+ /* Defines if you have GL (Mesa, OpenGL, ...) and Qt GL support */
+ #cmakedefine HAVE_OPENGL 1
+-/* This file contains all the paths that change when changing the installation prefix */
+ 
++/* Defines if we use lcms2 */
++#cmakedefine HAVE_LCMS2 1
++
++/* This file contains all the paths that change when changing the installation prefix */
+ #define CALLIGRAPREFIX "${CMAKE_INSTALL_PREFIX}"
+ 
+--- a/krita/plugins/formats/jpeg/CMakeLists.txt
++++ b/krita/plugins/formats/jpeg/CMakeLists.txt
+@@ -1,6 +1,10 @@
+ add_subdirectory(tests)
+ 
+-include_directories( ${KRITA_INCLUDES} ${LCMS_INCLUDE_DIR} ${CMAKE_SOURCE_DIR}/krita/image/metadata ${EXIV2_INCLUDE_DIR})
++if(LCMS2_FOUND)
++    include_directories( ${KRITA_INCLUDES} ${LCMS2_INCLUDE_DIR} ${CMAKE_SOURCE_DIR}/krita/image/metadata ${EXIV2_INCLUDE_DIR})
++else(LCMS2_FOUND)
++    include_directories( ${KRITA_INCLUDES} ${CMAKE_SOURCE_DIR}/krita/image/metadata ${EXIV2_INCLUDE_DIR} ${LCMS_INCLUDE_DIR})
++endif(LCMS2_FOUND)
+ 
+ set(libkritaconverter_LIB_SRCS
+     kis_jpeg_converter.cc
+@@ -16,7 +20,11 @@
+ 
+ kde4_add_plugin(kritajpegimport ${kritajpegimport_PART_SRCS})
+ 
+-target_link_libraries(kritajpegimport kritaui jpeg ${LCMS_LIBRARIES} ${EXIV2_LIBRARIES} )
++if(LCMS2_FOUND)
++    target_link_libraries(kritajpegimport kritaui jpeg ${LCMS2_LIBRARIES} ${EXIV2_LIBRARIES} )
++else(LCMS2_FOUND)
++    target_link_libraries(kritajpegimport kritaui jpeg ${LCMS_LIBRARIES} ${EXIV2_LIBRARIES} )
++endif(LCMS2_FOUND)
+ 
+ install(TARGETS kritajpegimport  DESTINATION ${PLUGIN_INSTALL_DIR})
+ 
+@@ -31,7 +39,11 @@
+ 
+ kde4_add_plugin(kritajpegexport ${kritajpegexport_PART_SRCS})
+ 
+-target_link_libraries(kritajpegexport kritaui jpeg ${LCMS_LIBRARIES} ${EXIV2_LIBRARIES} )
++if(LCMS2_FOUND)
++    target_link_libraries(kritajpegexport kritaui jpeg ${LCMS2_LIBRARIES} ${EXIV2_LIBRARIES} )
++else(LCMS2_FOUND)
++    target_link_libraries(kritajpegexport kritaui jpeg ${LCMS_LIBRARIES} ${EXIV2_LIBRARIES} )
++endif(LCMS2_FOUND)
+ 
+ install(TARGETS kritajpegexport  DESTINATION ${PLUGIN_INSTALL_DIR})
+ 
+--- a/krita/plugins/formats/jpeg/kis_jpeg_converter.cc
++++ b/krita/plugins/formats/jpeg/kis_jpeg_converter.cc
+@@ -25,7 +25,13 @@
+ 
+ #include <stdio.h>
+ #include <stdint.h>
+-#include <lcms.h>
++
++#include <KoConfig.h>
++#ifdef HAVE_LCMS2
++#   include <lcms2.h>
++#else
++#   include <lcms.h>
++#endif
+ 
+ extern "C" {
+ #include <iccjpeg.h>
+@@ -171,7 +177,7 @@
+     if (read_icc_profile(&cinfo, &profile_data, &profile_len)) {
+         profile_rawdata.resize(profile_len);
+         memcpy(profile_rawdata.data(), profile_data, profile_len);
+-        cmsHPROFILE hProfile = cmsOpenProfileFromMem(profile_data, (DWORD)profile_len);
++        cmsHPROFILE hProfile = cmsOpenProfileFromMem(profile_data, profile_len);
+ 
+         if (hProfile != (cmsHPROFILE) NULL) {
+             profile = KoColorSpaceRegistry::instance()->createColorProfile(modelId, Integer8BitsColorDepthID.id(), profile_rawdata);
