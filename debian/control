@@ -187,6 +187,42 @@ Description: Sybase support for kexi
  .
  This package is part of the Calligra Office Suite.
 
+Package: kexi-web-form-widget
+Architecture: any
+Section: database
+Depends: ${misc:Depends}, ${shlibs:Depends}, kexi (>= ${source:Version})
+Breaks: kexi (<< 1:2.3.70)
+Replaces: kexi (<< 1:2.3.70)
+Description: Kexi web form widget
+ TODO: fill the description
+
+Package: calligra-reports-web-element
+Architecture: any
+Section: database
+Depends: ${misc:Depends}, ${shlibs:Depends}, kexi (>= ${source:Version})
+Breaks: kexi (<< 1:2.3.70)
+Replaces: kexi (<< 1:2.3.70)
+Description: Web element for Calligra Reports
+ TODO: fill the description
+
+Package: kexi-map-form-widget
+Architecture: any
+Section: database
+Depends: ${misc:Depends}, ${shlibs:Depends}, kexi (>= ${source:Version})
+Breaks: kexi (<< 1:2.3.70)
+Replaces: kexi (<< 1:2.3.70)
+Description: Kexi map form widget
+ TODO: fill the description
+
+Package: calligra-reports-map-element
+Architecture: any
+Section: database
+Depends: ${misc:Depends}, ${shlibs:Depends}, kexi (>= ${source:Version})
+Breaks: kexi (<< 1:2.3.70)
+Replaces: kexi (<< 1:2.3.70)
+Description: Map element for Calligra Reports
+ TODO: fill the description
+
 Package: krita
 Architecture: any
 Section: graphics
