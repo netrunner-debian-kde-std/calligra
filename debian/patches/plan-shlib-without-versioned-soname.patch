@@ -1,0 +1,20 @@
+From: Dag Andersen <danders@get2net.dk>
+Date: Sun, 18 Sep 2011 11:41:25 +0000
+Subject: Version librcps_plan
+X-Git-Url: http://quickgit.kde.org/?p=calligra.git&amp;a=commitdiff&amp;h=460a7061258ffd56c4eca3a87cb89e33d3dc9112
+---
+Version librcps_plan
+
+Correct the lintian pb shlib-without-versioned-soname
+---
+
+
+--- a/plan/plugins/schedulers/rcps/libs/src/CMakeLists.txt
++++ b/plan/plugins/schedulers/rcps/libs/src/CMakeLists.txt
+@@ -34,4 +34,6 @@
+     ${CMAKE_THREAD_LIBS_INIT}
+ )
+ 
++set_target_properties(librcps_plan PROPERTIES VERSION ${GENERIC_CALLIGRA_LIB_VERSION} SOVERSION ${GENERIC_CALLIGRA_LIB_SOVERSION} )
++
+ install(TARGETS librcps_plan ${INSTALL_TARGETS_DEFAULT_ARGS})
