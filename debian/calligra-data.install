@@ -361,7 +361,6 @@ usr/share/kde4/services/kolcmsengine.desktop
 usr/share/kde4/services/kopabackgroundtool.desktop
 usr/share/kde4/services/koreport_barcodeplugin.desktop
 usr/share/kde4/services/koreport_chartplugin.desktop
-usr/share/kde4/services/koreport_mapsplugin.desktop
 usr/share/kde4/services/kounavail.desktop
 usr/share/kde4/services/musicshape.desktop
 usr/share/kde4/services/pathshapes.desktop
