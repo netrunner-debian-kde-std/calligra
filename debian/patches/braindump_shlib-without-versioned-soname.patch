@@ -1,0 +1,13 @@
+Index: calligra-2.3.81/braindump/braindumpcore/CMakeLists.txt
+===================================================================
+--- calligra-2.3.81.orig/braindump/braindumpcore/CMakeLists.txt	2011-09-11 15:34:43.000000000 +0200
++++ calligra-2.3.81/braindump/braindumpcore/CMakeLists.txt	2011-09-20 22:02:08.857211970 +0200
+@@ -9,6 +9,8 @@
+ 
+ target_link_libraries(braindumpcore LINK_INTERFACE_LIBRARIES ${QT_QTCORE_LIBRARY})
+ 
++set_target_properties(braindumpcore PROPERTIES VERSION ${GENERIC_CALLIGRA_LIB_VERSION} SOVERSION ${GENERIC_CALLIGRA_LIB_SOVERSION} )
++
+ install(TARGETS braindumpcore ${INSTALL_TARGETS_DEFAULT_ARGS} )
+ 
+ install(
