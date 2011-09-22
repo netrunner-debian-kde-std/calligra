@@ -1,0 +1,63 @@
+From: Dag Andersen <danders@get2net.dk>
+Date: Thu, 22 Sep 2011 07:01:57 +0000
+Subject: Rename liblibrcps_plan -> librcps_plan
+X-Git-Url: http://quickgit.kde.org/?p=calligra.git&amp;a=commitdiff&amp;h=55c1f31299209f099799c6f6b022bffe42bb7f06
+---
+Rename liblibrcps_plan -> librcps_plan
+
+CCMAIL: adrien.grellier@laposte.net
+---
+
+
+Index: calligra-2.3.81/plan/plugins/schedulers/rcps/CMakeLists.txt
+===================================================================
+--- calligra-2.3.81.orig/plan/plugins/schedulers/rcps/CMakeLists.txt	2011-09-11 15:34:44.000000000 +0200
++++ calligra-2.3.81/plan/plugins/schedulers/rcps/CMakeLists.txt	2011-09-22 22:02:29.643114960 +0200
+@@ -16,7 +16,7 @@
+     kplatorcpsscheduler
+     kplatokernel
+     koodf
+-    librcps_plan
++    rcps_plan
+ #    ${LIBRCPS_LIBRARIES}
+ )
+ 
+Index: calligra-2.3.81/plan/plugins/schedulers/rcps/libs/src/CMakeLists.txt
+===================================================================
+--- calligra-2.3.81.orig/plan/plugins/schedulers/rcps/libs/src/CMakeLists.txt	2011-09-18 19:18:52.996864031 +0200
++++ calligra-2.3.81/plan/plugins/schedulers/rcps/libs/src/CMakeLists.txt	2011-09-22 22:02:29.683115157 +0200
+@@ -24,16 +24,16 @@
+ endif()
+ 
+ if(WIN32)
+-    kde4_add_library(librcps_plan STATIC ${librcps_LIB_SRCS})
++    kde4_add_library(rcps_plan STATIC ${librcps_LIB_SRCS})
+ else(WIN32)
+-    kde4_add_library(librcps_plan SHARED ${librcps_LIB_SRCS})
++    kde4_add_library(rcps_plan SHARED ${librcps_LIB_SRCS})
+ endif(WIN32)
+ 
+ target_link_libraries(
+-    librcps_plan
++    rcps_plan
+     ${CMAKE_THREAD_LIBS_INIT}
+ )
+ 
+-set_target_properties(librcps_plan PROPERTIES VERSION ${GENERIC_CALLIGRA_LIB_VERSION} SOVERSION ${GENERIC_CALLIGRA_LIB_SOVERSION} )
++set_target_properties(rcps_plan PROPERTIES VERSION ${GENERIC_CALLIGRA_LIB_VERSION} SOVERSION ${GENERIC_CALLIGRA_LIB_SOVERSION} )
+ 
+-install(TARGETS librcps_plan ${INSTALL_TARGETS_DEFAULT_ARGS})
++install(TARGETS rcps_plan ${INSTALL_TARGETS_DEFAULT_ARGS})
+Index: calligra-2.3.81/plan/plugins/schedulers/rcps/tests/CMakeLists.txt
+===================================================================
+--- calligra-2.3.81.orig/plan/plugins/schedulers/rcps/tests/CMakeLists.txt	2011-09-11 15:34:44.000000000 +0200
++++ calligra-2.3.81/plan/plugins/schedulers/rcps/tests/CMakeLists.txt	2011-09-22 22:02:29.707115280 +0200
+@@ -9,7 +9,7 @@
+  
+ kde4_add_unit_test(ProjectTester TESTNAME Plan-RCPSTester  ${ProjectTester_SRCS})
+  
+-target_link_libraries(ProjectTester  ${KDE4_KDECORE_LIBS} librcps_plan planprivate kplatokernel  ${QT_QTGUI_LIBRARY} ${QT_QTTEST_LIBRARY})
++target_link_libraries(ProjectTester  ${KDE4_KDECORE_LIBS} rcps_plan planprivate kplatokernel  ${QT_QTGUI_LIBRARY} ${QT_QTTEST_LIBRARY})
+  
+ 
+ ########### next target ###############
