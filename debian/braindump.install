@@ -1,7 +1,8 @@
 usr/bin/braindump
 usr/lib/kde4/stateshape.so
 usr/lib/kde4/webshape.so
-usr/lib/libbraindumpcore.so
+usr/lib/libbraindumpcore.so.8
+usr/lib/libbraindumpcore.so.8.0.0
 usr/share/applications/kde4/braindump.desktop
 usr/share/icons/hicolor/22x22/actions/stateshape.png
 usr/share/icons/hicolor/22x22/actions/statetool.png
