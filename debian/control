@@ -34,7 +34,7 @@ Conflicts: koffice
 Depends: ${misc:Depends}, karbon (>= ${source:Version}), calligraflow (>= ${source:Version}), calligraplan (>= ${source:Version}),
  calligrastage (>= ${source:Version}), krita (>= ${source:Version}), calligratables (>= ${source:Version}),
  calligrawords (>= ${source:Version}), kthesaurus (>= ${source:Version}),
- kexi (>= ${source:Version}), kformula (>= ${source:Version})
+ kexi (>= ${source:Version}) 
 Suggests: create-resources
 Homepage: http://www.calligra-suite.org
 Description: integrated work applications suite
