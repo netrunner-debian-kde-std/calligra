@@ -48,7 +48,7 @@ Description: integrated work applications suite
 Package: karbon
 Architecture: any
 Section: graphics
-Depends: ${misc:Depends}, ${shlibs:Depends}, calligra-libs (>= ${source:Version})
+Depends: ${misc:Depends}, ${shlibs:Depends}, calligra-libs (= ${binary:Version})
 Homepage: http://www.calligra-suite.org/karbon/
 Description: vector graphics application for the Calligra Office Suite
  Karbon is a vector drawing application with an user interface that is easy to
@@ -84,7 +84,7 @@ Description: vector graphics application for the Calligra Office Suite
 Package: kexi
 Architecture: any
 Section: database
-Depends: ${misc:Depends}, ${shlibs:Depends}, calligra-libs (>= ${source:Version})
+Depends: ${misc:Depends}, ${shlibs:Depends}, calligra-libs (= ${binary:Version})
 #Suggests: kexi-mdb-plugin
 Replaces: koffice-doc-html
 Conflicts: koffice-doc-html
@@ -106,7 +106,7 @@ Description: integrated database environment for the Calligra Office Suite
 
 Package: kexi-calligratables-driver
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}, kexi (>= ${source:Version}),
+Depends: ${misc:Depends}, ${shlibs:Depends}, kexi (= ${binary:Version}),
  calligratables (>= ${source:Version})
 Description: Tables plugin for kexi
  Kexi is an integrated data management application. It can be used for
@@ -122,7 +122,7 @@ Description: Tables plugin for kexi
 Package: kexi-mysql-driver
 Architecture: any
 Section: database
-Depends: ${misc:Depends}, ${shlibs:Depends}, kexi (>= ${source:Version})
+Depends: ${misc:Depends}, ${shlibs:Depends}, kexi (= ${binary:Version})
 Breaks: kexi (<< 1:2.3.70)
 Replaces: kexi (<< 1:2.3.70)
 Description: MySQL support for kexi
@@ -139,7 +139,7 @@ Description: MySQL support for kexi
 Package: kexi-postgresql-driver
 Architecture: any
 Section: database
-Depends: ${misc:Depends}, ${shlibs:Depends}, kexi (>= ${source:Version})
+Depends: ${misc:Depends}, ${shlibs:Depends}, kexi (= ${binary:Version})
 Breaks: kexi (<< 1:2.3.70)
 Replaces: kexi (<< 1:2.3.70)
 Description: PostgreSQL support for kexi
@@ -156,7 +156,7 @@ Description: PostgreSQL support for kexi
 Package: kexi-xbase-driver
 Architecture: any
 Section: database
-Depends: ${misc:Depends}, ${shlibs:Depends}, kexi (>= ${source:Version})
+Depends: ${misc:Depends}, ${shlibs:Depends}, kexi (= ${binary:Version})
 Breaks: kexi (<< 1:2.3.70)
 Replaces: kexi (<< 1:2.3.70)
 Description: XBase support for kexi
@@ -173,7 +173,7 @@ Description: XBase support for kexi
 Package: kexi-mssql-driver
 Architecture: any
 Section: database
-Depends: ${misc:Depends}, ${shlibs:Depends}, kexi (>= ${source:Version})
+Depends: ${misc:Depends}, ${shlibs:Depends}, kexi (= ${binary:Version})
 Breaks: kexi (<< 1:2.3.70)
 Replaces: kexi (<< 1:2.3.70)
 Description: Sybase support for kexi
@@ -190,7 +190,7 @@ Description: Sybase support for kexi
 Package: krita
 Architecture: any
 Section: graphics
-Depends: ${misc:Depends}, ${shlibs:Depends}, krita-data (>= ${source:Version}), calligra-libs (>= ${source:Version})
+Depends: ${misc:Depends}, ${shlibs:Depends}, krita-data (>= ${source:Version}), calligra-libs (= ${binary:Version})
 Suggests: khelpcenter4
 Homepage: http://www.calligra-suite.org/krita/
 Description: pixel-based image manipulation program for the Calligra Office Suite
@@ -227,7 +227,7 @@ Description: data files for Krita painting program
 Package: kthesaurus
 Architecture: any
 Section: text
-Depends: ${misc:Depends}, ${shlibs:Depends}, calligra-libs (>= ${source:Version})
+Depends: ${misc:Depends}, ${shlibs:Depends}, calligra-libs (= ${binary:Version})
 Suggests: khelpcenter4
 Replaces: koffice-doc-html
 Conflicts: koffice-doc-html
@@ -243,7 +243,7 @@ Architecture: any
 Section: math
 Replaces: kspread
 Conflicts: kspread
-Depends: ${misc:Depends}, ${shlibs:Depends}, calligra-libs (>= ${source:Version})
+Depends: ${misc:Depends}, ${shlibs:Depends}, calligra-libs (= ${binary:Version})
 Suggests: khelpcenter4
 Homepage: http://www.calligra-suite.org/tables/
 Description: spreadsheet for the Calligra Office Suite
@@ -258,7 +258,7 @@ Architecture: any
 Section: kde
 Replaces: kplato
 Conflicts: kplato
-Depends: ${misc:Depends}, ${shlibs:Depends}, calligra-libs (>= ${source:Version})
+Depends: ${misc:Depends}, ${shlibs:Depends}, calligra-libs (= ${binary:Version})
 Suggests: khelpcenter4
 Homepage: http://www.calligra-suite.org/plan/
 Description: integrated project management and planning tool
@@ -272,7 +272,8 @@ Architecture: any
 Section: text
 Replaces: kword
 Conflicts: kword
-Depends: ${misc:Depends}, ${shlibs:Depends}, calligrawords-data (>= ${source:Version})
+Depends: ${misc:Depends}, ${shlibs:Depends}, calligra-libs (= ${binary:Version}),
+ calligrawords-data (>= ${source:Version})
 Suggests: khelpcenter4
 Homepage: http://www.calligra-suite.org/words/
 Description: word processor for the Calligra Office Suite
@@ -301,7 +302,7 @@ Architecture: any
 Section: kde
 Replaces: kpresenter
 Conflicts: kpresenter
-Depends: ${misc:Depends}, ${shlibs:Depends}, calligra-libs (>= ${source:Version})
+Depends: ${misc:Depends}, ${shlibs:Depends}, calligra-libs (= ${binary:Version})
 Suggests: khelpcenter4
 Homepage: http://www.calligra-suite.org/stage/
 Description: presentation program for the Calligra Office Suite
@@ -323,7 +324,7 @@ Description: presentation program for the Calligra Office Suite
 Package: calligraflow
 Architecture: any
 Section: graphics
-Depends: ${misc:Depends}, ${shlibs:Depends}, calligraflow-data (>= ${source:Version}), calligra-libs (>= ${source:Version})
+Depends: ${misc:Depends}, ${shlibs:Depends}, calligraflow-data (>= ${source:Version}), calligra-libs (= ${binary:Version})
 Homepage: http://www.calligra-suite.org/flow/
 Description: flowcharting program for the Calligra Office Suite
  Flow is a flowcharting program that offers basic flowcharting abilities,
@@ -348,7 +349,7 @@ Description: data files for Flow flowcharting program
 Package: braindump
 Architecture: any
 Section: kde
-Depends: ${misc:Depends}, ${shlibs:Depends}, calligra-libs (>= ${source:Version})
+Depends: ${misc:Depends}, ${shlibs:Depends}, calligra-libs (= ${binary:Version})
 Homepage: http://www.calligra-suite.org/braindump/
 Description: ideas organizer component for the Calligra Office Suite
  BrainDump is a tool to help to organize the ideas from your brain to your
@@ -359,7 +360,7 @@ Description: ideas organizer component for the Calligra Office Suite
 Package: calligramobile
 Architecture: any
 Section: kde
-Depends: ${misc:Depends}, ${shlibs:Depends}, calligra-libs (>= ${source:Version})
+Depends: ${misc:Depends}, ${shlibs:Depends}, calligra-libs (= ${binary:Version})
 Description: version of Calligra for mobile
  Calligra Mobile aims to create a version of the Calligra Office Suite for
  mobile devices, such as Maemo or MeeGo.
@@ -369,7 +370,7 @@ Description: version of Calligra for mobile
 Package: calligraactive
 Architecture: any
 Section: kde
-Depends: ${misc:Depends}, ${shlibs:Depends}, calligra-libs (>= ${source:Version})
+Depends: ${misc:Depends}, ${shlibs:Depends}, calligra-libs (= ${binary:Version})
 Description: QML version of Calligra
  Calligra Active is ...
  .
@@ -405,7 +406,7 @@ Description: common shared data for the Calligra Office Suite
 Package: okular-backend-odp
 Architecture: any
 Section: graphics
-Depends: ${misc:Depends}, ${shlibs:Depends}, calligra-libs (>= ${source:Version})
+Depends: ${misc:Depends}, ${shlibs:Depends}, calligra-libs (= ${binary:Version})
 Recommends: okular
 Description: Okular backend for ODP documents
  This package provides a backend for Okular to view OpenDocument Presentation
