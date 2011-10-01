@@ -6,7 +6,7 @@
 export LDFLAGS += -Wl,--as-needed
 
 %:
-	dh $@ --parallel --with kde --with sodeps
+	dh $@ --parallel --with kde --with sodeps --with python2
 
 override_dh_install:
 	dh_install --list-missing
