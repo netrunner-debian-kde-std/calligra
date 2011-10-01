@@ -196,13 +196,12 @@ Replaces: kexi (<< 1:2.3.70)
 Description: Kexi web form widget
  TODO: fill the description
 
-# empty for now
-#Package: calligra-reports-web-element
-#Architecture: any
-#Section: kde
-#Depends: ${misc:Depends}, ${shlibs:Depends}
-#Description: Web element for Calligra Reports
-# TODO: fill the description
+Package: calligra-reports-web-element
+Architecture: any
+Section: kde
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Web element for Calligra Reports
+ TODO: fill the description
 
 Package: kexi-map-form-widget
 Architecture: any
