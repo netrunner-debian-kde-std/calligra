@@ -1,5 +1,8 @@
 usr/bin/calligra
 usr/bin/koconverter
+usr/bin/visualimagecompare
+usr/bin/cstrunner
+usr/bin/cstester
 usr/lib/kde4/artistictextshape.so
 usr/lib/kde4/autocorrect.so
 usr/lib/kde4/calligradockers.so
