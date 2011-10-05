@@ -1,5 +1,1 @@
-jpeg_filter_compile_with_lcms2.patch
-plan-shlib-without-versioned-soname.patch
-upstream_GENERIC_KOFFICE_LIB_-SO-VERSION-GENERIC_CALLIGRA_LIB.patch
 braindump_shlib-without-versioned-soname.patch
-librcps_remvoe_liblib.patch
