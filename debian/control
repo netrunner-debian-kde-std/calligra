@@ -201,6 +201,8 @@ Description: Kexi web form widget
  in the database, making it easy to share data and design.
  .
  This package provides a web widget for kexi using libqtwebkit4.
+ .
+ This package is part of the Calligra Office Suite.
 
 Package: kexi-map-form-widget
 Architecture: any
@@ -216,6 +218,8 @@ Description: Kexi map form widget
  in the database, making it easy to share data and design.
  .
  This package provides a map widget for kexi using libmarblewidget11.
+ .
+ This package is part of the Calligra Office Suite.
 
 Package: calligra-reports-web-element
 Architecture: any
@@ -228,6 +232,8 @@ Description: Web element for Calligra Reports
  raster and vectorial graphics tools.
  .
  This package provides a web element for Calligra Reports, based on libqtwebkit4.
+ .
+ This package is part of the Calligra Office Suite.
 
 Package: calligra-reports-map-element
 Architecture: any
@@ -240,6 +246,8 @@ Description: Map element for Calligra Reports
  raster and vectorial graphics tools.
  .
  This package provides a map element for Calligra Reports, based on libmarblewidget11.
+ .
+ This package is part of the Calligra Office Suite.
 
 Package: calligra-plugin-marble
 Architecture: any
