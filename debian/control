@@ -194,14 +194,13 @@ Depends: ${misc:Depends}, ${shlibs:Depends}, kexi (>= ${source:Version})
 Breaks: kexi (<< 1:2.3.70)
 Replaces: kexi (<< 1:2.3.70)
 Description: Kexi web form widget
- TODO: fill the description
-
-Package: calligra-reports-web-element
-Architecture: any
-Section: kde
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: Web element for Calligra Reports
- TODO: fill the description
+ Kexi is an integrated data management application. It can be used for
+ creating database schemas, inserting data, performing queries, and
+ processing data. Forms can be created to provide a custom interface to
+ your data. All database objects - tables, queries and forms - are stored
+ in the database, making it easy to share data and design.
+ .
+ This package provides a web widget for kexi using libqtwebkit4.
 
 Package: kexi-map-form-widget
 Architecture: any
@@ -210,14 +209,37 @@ Depends: ${misc:Depends}, ${shlibs:Depends}, kexi (>= ${source:Version})
 Breaks: kexi (<< 1:2.3.70)
 Replaces: kexi (<< 1:2.3.70)
 Description: Kexi map form widget
- TODO: fill the description
+ Kexi is an integrated data management application. It can be used for
+ creating database schemas, inserting data, performing queries, and
+ processing data. Forms can be created to provide a custom interface to
+ your data. All database objects - tables, queries and forms - are stored
+ in the database, making it easy to share data and design.
+ .
+ This package provides a map widget for kexi using libmarblewidget11.
+
+Package: calligra-reports-web-element
+Architecture: any
+Section: kde
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Web element for Calligra Reports
+ Calligra Suite is a set of applications written to help you to accomplish
+ your work. It includes office applications such as a word processor,
+ a spreadsheet, a presentation program, a database application, etc, and
+ raster and vectorial graphics tools.
+ .
+ This package provides a web element for Calligra Reports, based on libqtwebkit4.
 
 Package: calligra-reports-map-element
 Architecture: any
 Section: kde
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Map element for Calligra Reports
- TODO: fill the description
+ Calligra Suite is a set of applications written to help you to accomplish
+ your work. It includes office applications such as a word processor,
+ a spreadsheet, a presentation program, a database application, etc, and
+ raster and vectorial graphics tools.
+ .
+ This package provides a map element for Calligra Reports, based on libmarblewidget11.
 
 Package: calligra-plugin-marble
 Architecture: any
