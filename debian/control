@@ -241,13 +241,6 @@ Description: Map element for Calligra Reports
  .
  This package provides a map element for Calligra Reports, based on libmarblewidget11.
 
-Package: calligra-plugin-marble
-Architecture: any
-Section: kde
-Depends: ${misc:Depends}, ${shlibs:Depends},
-Description: Marble integration in Calligra
- TODO: fill the description
-
 Package: krita
 Architecture: any
 Section: graphics
