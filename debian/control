@@ -249,13 +249,6 @@ Description: Map element for Calligra Reports
  .
  This package is part of the Calligra Office Suite.
 
-Package: calligra-plugin-marble
-Architecture: any
-Section: kde
-Depends: ${misc:Depends}, ${shlibs:Depends},
-Description: Marble integration in Calligra
- TODO: fill the description
-
 Package: krita
 Architecture: any
 Section: graphics
