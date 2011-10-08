@@ -2,6 +2,7 @@
 ./usr/lib/libcalligrastageprivate.so
 ./usr/lib/libflowprivate.so
 ./usr/lib/libplanprivate.so
+./usr/lib/librcps_plan.so
 ./usr/lib/libwordsprivate.so
 
 # image/openraster is provided by shared-mime-info >= 0.70
