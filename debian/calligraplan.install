@@ -15,14 +15,14 @@ usr/lib/libkplatomodels.so.8
 usr/lib/libkplatomodels.so.8.0.0
 usr/lib/libkplatoui.so.8
 usr/lib/libkplatoui.so.8.0.0
-usr/lib/librcps_plan.so.8
-usr/lib/librcps_plan.so.8.0.0
 usr/lib/libplanprivate.so.8
 usr/lib/libplanprivate.so.8.0.0
 usr/lib/libplanworkapp.so.8
 usr/lib/libplanworkapp.so.8.0.0
 usr/lib/libplanworkfactory.so.8
 usr/lib/libplanworkfactory.so.8.0.0
+usr/lib/librcps_plan.so.8
+usr/lib/librcps_plan.so.8.0.0
 usr/share/applications/kde4/plan.desktop
 usr/share/applications/kde4/planwork.desktop
 usr/share/icons/hicolor/128x128/apps/calligraplan.png

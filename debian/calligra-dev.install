@@ -1,4 +1,5 @@
 usr/include/
+usr/lib/libbraindumpcore.so
 usr/lib/libcalligratablescommon.so
 usr/lib/libcalligratablesodf.so
 usr/lib/libchartshapelib.so
@@ -47,5 +48,4 @@ usr/lib/libplanworkfactory.so
 usr/lib/libRtfReader.so
 usr/lib/libtextlayout.so
 usr/lib/libwordsexportfilters.so
-usr/lib/libbraindumpcore.so
 usr/share/kde4/apps/cmake/modules/FindCalligraLibs.cmake
