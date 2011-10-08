@@ -29,6 +29,8 @@ usr/lib/kde4/wpimport.so
 usr/lib/libkdeinit4_calligrawords.so
 usr/lib/libkowv2.so.4
 usr/lib/libkowv2.so.4.0.1
+usr/lib/libRtfReader.so.8
+usr/lib/libRtfReader.so.8.0.0
 usr/lib/libwordsexportfilters.so.8
 usr/lib/libwordsexportfilters.so.8.0.0
 usr/lib/libwordsprivate.so.8
