@@ -12,5 +12,7 @@
 # fonts already in tty-lyx package
 ./usr/share/kde4/apps/formulashape/fonts/cmex10.ttf
 
-# add dependency on karbon, words and tables for calligra-libs
+# add dependency on karbon, words and tables to calligra-libs; too generic
 ./usr/bin/cstester
+./usr/bin/cstrunner
+./usr/bin/visualimagecompare
