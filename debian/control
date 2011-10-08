@@ -170,7 +170,7 @@ Description: XBase support for kexi
  .
  This package is part of the Calligra Office Suite.
 
-Package: kexi-mssql-driver
+Package: kexi-sybase-driver
 Architecture: any
 Section: database
 Depends: ${misc:Depends}, ${shlibs:Depends}, kexi (= ${binary:Version})
