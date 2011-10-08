@@ -1,12 +1,14 @@
-Index: calligra-2.3.81/braindump/braindumpcore/CMakeLists.txt
-===================================================================
---- calligra-2.3.81.orig/braindump/braindumpcore/CMakeLists.txt	2011-09-11 15:34:43.000000000 +0200
-+++ calligra-2.3.81/braindump/braindumpcore/CMakeLists.txt	2011-09-20 22:02:08.857211970 +0200
+Author: Adrien Grellier <adrien.grellier@laposte.net>
+Description: set proper SONAME and SOVERSION for the braindumpcore library
+Last-Update: 2011-09-21
+
+--- a/braindump/braindumpcore/CMakeLists.txt
++++ b/braindump/braindumpcore/CMakeLists.txt
 @@ -9,6 +9,8 @@
  
  target_link_libraries(braindumpcore LINK_INTERFACE_LIBRARIES ${QT_QTCORE_LIBRARY})
  
-+set_target_properties(braindumpcore PROPERTIES VERSION ${GENERIC_CALLIGRA_LIB_VERSION} SOVERSION ${GENERIC_CALLIGRA_LIB_SOVERSION} )
++set_target_properties(braindumpcore PROPERTIES VERSION ${GENERIC_CALLIGRA_LIB_VERSION} SOVERSION ${GENERIC_CALLIGRA_LIB_SOVERSION})
 +
  install(TARGETS braindumpcore ${INSTALL_TARGETS_DEFAULT_ARGS} )
  
