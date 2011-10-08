@@ -47,6 +47,5 @@ usr/lib/libplanworkfactory.so
 usr/lib/libRtfReader.so
 usr/lib/libtextlayout.so
 usr/lib/libwordsexportfilters.so
-usr/lib/librcps_plan.so
 usr/lib/libbraindumpcore.so
 usr/share/kde4/apps/cmake/modules/FindCalligraLibs.cmake
