@@ -1,5 +1,5 @@
 usr/bin/calligra
-usr/bin/koconverter
+usr/bin/calligraconverter
 usr/lib/kde4/artistictextshape.so
 usr/lib/kde4/autocorrect.so
 usr/lib/kde4/calligradockers.so
@@ -18,6 +18,7 @@ usr/lib/kde4/kopabackgroundtool.so
 usr/lib/kde4/koreport_barcodeplugin.so
 usr/lib/kde4/koreport_chartplugin.so
 usr/lib/kde4/kounavailpart.so
+usr/lib/kde4/mapshape.so
 usr/lib/kde4/musicshape.so
 usr/lib/kde4/pathshapes.so
 usr/lib/kde4/pictureshape.so

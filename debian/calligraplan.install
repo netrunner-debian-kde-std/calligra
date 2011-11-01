@@ -1,7 +1,7 @@
 usr/bin/calligraplan
 usr/bin/calligraplanwork
 usr/lib/kde4/kplatorcpsscheduler.so
-usr/lib/kde4/krossmodulekplato.so
+usr/lib/kde4/krossmoduleplan.so
 usr/lib/kde4/planicalexport.so
 usr/lib/kde4/plankplatoimport.so
 usr/lib/kde4/planpart.so

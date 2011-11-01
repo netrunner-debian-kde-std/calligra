@@ -46,12 +46,10 @@ usr/lib/kde4/kritajp2export.so
 usr/lib/kde4/kritajp2import.so
 usr/lib/kde4/kritajpegexport.so
 usr/lib/kde4/kritajpegimport.so
-usr/lib/kde4/kritakscolorspacesplugin.so
 usr/lib/kde4/kritalayercompose.so
 usr/lib/kde4/kritalevelfilter.so
 usr/lib/kde4/kritametadataeditor.so
 usr/lib/kde4/kritamodifyselection.so
-usr/lib/kde4/kritamypaintpaintop.so
 usr/lib/kde4/kritanoisefilter.so
 usr/lib/kde4/kritaodgimport.so
 usr/lib/kde4/kritaoilpaintfilter.so
@@ -170,12 +168,10 @@ usr/share/kde4/services/krita_jp2_export.desktop
 usr/share/kde4/services/krita_jp2_import.desktop
 usr/share/kde4/services/krita_jpeg_export.desktop
 usr/share/kde4/services/krita_jpeg_import.desktop
-usr/share/kde4/services/kritakscolorspacesplugin.desktop
 usr/share/kde4/services/kritalayercompose.desktop
 usr/share/kde4/services/kritalevelfilter.desktop
 usr/share/kde4/services/kritametadataeditor.desktop
 usr/share/kde4/services/kritamodifyselection.desktop
-usr/share/kde4/services/kritamypaintpaintop.desktop
 usr/share/kde4/services/kritanoisefilter.desktop
 usr/share/kde4/services/krita_odg_import.desktop
 usr/share/kde4/services/kritaoilpaintfilter.desktop
