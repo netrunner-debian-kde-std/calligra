@@ -1,2 +1,3 @@
+do_not_link_blas
 braindump_shlib-without-versioned-soname.patch
 upstream_KDEinit_pb.patch
