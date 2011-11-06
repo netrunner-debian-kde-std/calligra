@@ -36,6 +36,7 @@ Depends: ${misc:Depends}, karbon (>= ${source:Version}), calligraflow (>= ${sour
  calligrawords (>= ${source:Version}), kthesaurus (>= ${source:Version}),
  kexi (>= ${source:Version}) 
 Suggests: create-resources
+Recommends: calligra-map-shape (>= ${source:Version})
 Homepage: http://www.calligra-suite.org
 Description: integrated work applications suite
  Calligra Suite is a set of applications written to help you to accomplish
@@ -474,6 +475,15 @@ Recommends: okular
 Description: Okular backend for ODP documents
  This package provides a backend for Okular to view OpenDocument Presentation
  (ODP) documents.
+ .
+ This package is part of the Calligra Office Suite.
+
+Package: calligra-map-shape
+Section: libs
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: map shape plugin for the Calligra Office Suite
+ This package provides the map shape, based on the marble libraries.
  .
  This package is part of the Calligra Office Suite.
 
