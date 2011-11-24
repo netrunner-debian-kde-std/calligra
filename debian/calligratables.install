@@ -32,10 +32,10 @@ usr/lib/kde4/qproimport.so
 usr/lib/kde4/spreadsheetshape-deferred.so
 usr/lib/kde4/spreadsheetshape.so
 usr/lib/kde4/xlsximport.so
-usr/lib/libcalligratablescommon.so.8
-usr/lib/libcalligratablescommon.so.8.0.0
-usr/lib/libcalligratablesodf.so.8
-usr/lib/libcalligratablesodf.so.8.0.0
+usr/lib/libcalligratablescommon.so.9
+usr/lib/libcalligratablescommon.so.9.0.0
+usr/lib/libcalligratablesodf.so.9
+usr/lib/libcalligratablesodf.so.9.0.0
 usr/lib/libkdeinit4_calligratables.so
 usr/share/applications/kde4/tables.desktop
 usr/share/doc/kde/HTML/en/tables
