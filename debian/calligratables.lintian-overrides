@@ -1,4 +1,4 @@
-calligratables: package-name-doesnt-match-sonames libcalligratablescommon8 libcalligratablesodf8
+calligratables: package-name-doesnt-match-sonames libcalligratablescommon9 libcalligratablesodf9
 calligratables: unusual-interpreter usr/share/kde4/apps/tables/scripts/docker/consoledocker.py #!kross
 calligratables: unusual-interpreter usr/share/kde4/apps/tables/scripts/extensions/csvexport.py #!kross
 calligratables: unusual-interpreter usr/share/kde4/apps/tables/scripts/extensions/csvimport.py #!kross
