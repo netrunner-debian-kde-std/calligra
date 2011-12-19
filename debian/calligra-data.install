@@ -2,6 +2,8 @@ usr/share/applications/kde4/calligra.desktop
 usr/share/color/icc/pigment/CMY.icm
 usr/share/color/icc/pigment/fogra27l.icm
 usr/share/doc/kde/HTML/en/calligra
+usr/share/icons/hicolor/64x64/apps/words.png
+usr/share/icons/hicolor/scalable/apps/words.svgz
 usr/share/icons/oxygen/16x16/actions/object-align-horizontal-center-calligra.png
 usr/share/icons/oxygen/16x16/actions/object-align-horizontal-left-calligra.png
 usr/share/icons/oxygen/16x16/actions/object-align-horizontal-right-calligra.png
