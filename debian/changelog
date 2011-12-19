@@ -1,5 +1,5 @@
-calligra (1:2.3.85-1) UNRELEASED; urgency=low
+calligra (1:2.3.85-0r1) UNRELEASED; urgency=low
 
-  * New upstream release
+  * Initial release.
 
- -- Raúl Sánchez Siles <rasasi78@gmail.com>  Fri, 16 Dec 2011 23:22:59 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde at lists.debian.org>  Fri, 16 Dec 2011 23:22:59 +0100
