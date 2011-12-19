@@ -1,5 +1,4 @@
 usr/include/
-usr/lib/libbraindumpcore.so
 usr/lib/libcalligratablescommon.so
 usr/lib/libcalligratablesodf.so
 usr/lib/libchartshapelib.so
