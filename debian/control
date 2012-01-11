@@ -50,6 +50,7 @@ Package: karbon
 Architecture: any
 Section: graphics
 Depends: ${misc:Depends}, ${shlibs:Depends}, calligra-libs (= ${binary:Version})
+Recommends: pstoedit
 Homepage: http://www.calligra-suite.org/karbon/
 Description: vector graphics application for the Calligra Office Suite
  Karbon is a vector drawing application with an user interface that is easy to
