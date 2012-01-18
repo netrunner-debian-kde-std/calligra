@@ -20,6 +20,7 @@ usr/lib/libcalligrastageprivate.so.9
 usr/lib/libcalligrastageprivate.so.9.0.0
 usr/lib/libkdeinit4_calligrastage.so
 usr/share/applications/kde4/stage.desktop
+usr/share/doc/kde/HTML/en/stage
 usr/share/icons/hicolor/16x16/actions/black.png
 usr/share/icons/hicolor/16x16/actions/highlight.png
 usr/share/icons/hicolor/16x16/actions/pen.png
