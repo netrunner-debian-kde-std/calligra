@@ -83,145 +83,145 @@ Description: vector graphics application for the Calligra Office Suite
  .
  This package is part of the Calligra Office Suite.
 
-# Package: kexi
-# Architecture: any
-# Section: database
-# Depends: ${misc:Depends}, ${shlibs:Depends}, calligra-libs (= ${binary:Version})
-# #Suggests: kexi-mdb-plugin
-# Replaces: koffice-doc-html
-# Conflicts: koffice-doc-html
-# Homepage: http://www.calligra-suite.org/kexi/
-# Description: integrated database environment for the Calligra Office Suite
-# Kexi is an integrated data management application. It can be used for
-# creating database schemas, inserting data, performing queries, and
-# processing data. Forms can be created to provide a custom interface to
-# your data. All database objects - tables, queries and forms - are stored
-# in the database, making it easy to share data and design.
-# .
-# Kexi is considered as a long awaited Open Source competitor for MS Access,
-# Filemaker and Oracle Forms. Its development is motivated by the lack of
-# Rapid Application Development (RAD) tools for database systems that are
-# sufficiently powerful, inexpensive, open standards driven and portable
-# across many operating systems and hardware platforms.
-# .
-# This package is part of the Calligra Office Suite.
+Package: kexi
+Architecture: any
+Section: database
+Depends: ${misc:Depends}, ${shlibs:Depends}, calligra-libs (= ${binary:Version})
+#Suggests: kexi-mdb-plugin
+Replaces: koffice-doc-html
+Conflicts: koffice-doc-html
+Homepage: http://www.calligra-suite.org/kexi/
+Description: integrated database environment for the Calligra Office Suite
+ Kexi is an integrated data management application. It can be used for
+ creating database schemas, inserting data, performing queries, and
+ processing data. Forms can be created to provide a custom interface to
+ your data. All database objects - tables, queries and forms - are stored
+ in the database, making it easy to share data and design.
+ .
+ Kexi is considered as a long awaited Open Source competitor for MS Access,
+ Filemaker and Oracle Forms. Its development is motivated by the lack of
+ Rapid Application Development (RAD) tools for database systems that are
+ sufficiently powerful, inexpensive, open standards driven and portable
+ across many operating systems and hardware platforms.
+ .
+ This package is part of the Calligra Office Suite.
 
-# Package: kexi-calligratables-driver
-# Architecture: any
-# Depends: ${misc:Depends}, ${shlibs:Depends}, kexi (= ${binary:Version}),
-# calligratables (>= ${source:Version})
-# Description: Tables plugin for kexi
-# Kexi is an integrated data management application. It can be used for
-# creating database schemas, inserting data, performing queries, and
-# processing data. Forms can be created to provide a custom interface to
-# your data. All database objects - tables, queries and forms - are stored
-# in the database, making it easy to share data and design.
-# .
-# This package provides support for Calligra Tables in Kexi.
-# .
-# This package is part of the Calligra Office Suite.
+Package: kexi-calligratables-driver
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}, kexi (= ${binary:Version}),
+ calligratables (>= ${source:Version})
+Description: Tables plugin for kexi
+ Kexi is an integrated data management application. It can be used for
+ creating database schemas, inserting data, performing queries, and
+ processing data. Forms can be created to provide a custom interface to
+ your data. All database objects - tables, queries and forms - are stored
+ in the database, making it easy to share data and design.
+ .
+ This package provides support for Calligra Tables in Kexi.
+ .
+ This package is part of the Calligra Office Suite.
 
-#Package: kexi-mysql-driver
-#Architecture: any
-#Section: database
-#Depends: ${misc:Depends}, ${shlibs:Depends}, kexi (= ${binary:Version})
-#Breaks: kexi (<< 1:2.3.70)
-#Replaces: kexi (<< 1:2.3.70)
-#Description: MySQL support for kexi
-# Kexi is an integrated data management application. It can be used for
-# creating database schemas, inserting data, performing queries, and
-# processing data. Forms can be created to provide a custom interface to
-# your data. All database objects - tables, queries and forms - are stored
-# in the database, making it easy to share data and design.
-# .
-# This package provides support for MySQL in Kexi.
-# .
-# This package is part of the Calligra Office Suite.
+Package: kexi-mysql-driver
+Architecture: any
+Section: database
+Depends: ${misc:Depends}, ${shlibs:Depends}, kexi (= ${binary:Version})
+Breaks: kexi (<< 1:2.3.70)
+Replaces: kexi (<< 1:2.3.70)
+Description: MySQL support for kexi
+ Kexi is an integrated data management application. It can be used for
+ creating database schemas, inserting data, performing queries, and
+ processing data. Forms can be created to provide a custom interface to
+ your data. All database objects - tables, queries and forms - are stored
+ in the database, making it easy to share data and design.
+ .
+ This package provides support for MySQL in Kexi.
+ .
+ This package is part of the Calligra Office Suite.
 
-#Package: kexi-postgresql-driver
-#Architecture: any
-#Section: database
-#Depends: ${misc:Depends}, ${shlibs:Depends}, kexi (= ${binary:Version})
-#Breaks: kexi (<< 1:2.3.70)
-#Replaces: kexi (<< 1:2.3.70)
-#Description: PostgreSQL support for kexi
-# Kexi is an integrated data management application. It can be used for
-# creating database schemas, inserting data, performing queries, and
-# processing data. Forms can be created to provide a custom interface to
-# your data. All database objects - tables, queries and forms - are stored
-# in the database, making it easy to share data and design.
-# .
-# This package provides support for PostgreSQL in Kexi.
-# .
-# This package is part of the Calligra Office Suite.
-#
-#Package: kexi-xbase-driver
-#Architecture: any
-#Section: database
-#Depends: ${misc:Depends}, ${shlibs:Depends}, kexi (= ${binary:Version})
-#Breaks: kexi (<< 1:2.3.70)
-#Replaces: kexi (<< 1:2.3.70)
-#Description: XBase support for kexi
-# Kexi is an integrated data management application. It can be used for
-# creating database schemas, inserting data, performing queries, and
-# processing data. Forms can be created to provide a custom interface to
-# your data. All database objects - tables, queries and forms - are stored
-# in the database, making it easy to share data and design.
-# .
-# This package provides support for XBase in Kexi.
-# .
-# This package is part of the Calligra Office Suite.
-#
-#Package: kexi-sybase-driver
-#Architecture: any
-#Section: database
-#Depends: ${misc:Depends}, ${shlibs:Depends}, kexi (= ${binary:Version})
-#Breaks: kexi (<< 1:2.3.70)
-#Replaces: kexi (<< 1:2.3.70)
-#Description: Sybase support for kexi
-# Kexi is an integrated data management application. It can be used for
-# creating database schemas, inserting data, performing queries, and
-# processing data. Forms can be created to provide a custom interface to
-# your data. All database objects - tables, queries and forms - are stored
-# in the database, making it easy to share data and design.
-# .
-# This package provides support for Sybase in Kexi.
-# .
-# This package is part of the Calligra Office Suite.
-#
-#Package: kexi-web-form-widget
-#Architecture: any
-#Section: database
-#Depends: ${misc:Depends}, ${shlibs:Depends}, kexi (>= ${source:Version})
-#Breaks: kexi (<< 1:2.3.70)
-#Replaces: kexi (<< 1:2.3.70)
-#Description: web form widget for Kexi
-# Kexi is an integrated data management application. It can be used for
-# creating database schemas, inserting data, performing queries, and
-# processing data. Forms can be created to provide a custom interface to
-# your data. All database objects - tables, queries and forms - are stored
-# in the database, making it easy to share data and design.
-# .
-# This package provides a web widget for Kexi using QtWebKit.
-# .
-# This package is part of the Calligra Office Suite.
-#
-#Package: kexi-map-form-widget
-#Architecture: any
-#Section: database
-#Depends: ${misc:Depends}, ${shlibs:Depends}, kexi (>= ${source:Version})
-#Breaks: kexi (<< 1:2.3.70)
-#Replaces: kexi (<< 1:2.3.70)
-#Description: map form widget for Kexi
-# Kexi is an integrated data management application. It can be used for
-# creating database schemas, inserting data, performing queries, and
-# processing data. Forms can be created to provide a custom interface to
-# your data. All database objects - tables, queries and forms - are stored
-# in the database, making it easy to share data and design.
-# .
-# This package provides a map widget for Kexi using the Marble library.
-# .
-# This package is part of the Calligra Office Suite.
+Package: kexi-postgresql-driver
+Architecture: any
+Section: database
+Depends: ${misc:Depends}, ${shlibs:Depends}, kexi (= ${binary:Version})
+Breaks: kexi (<< 1:2.3.70)
+Replaces: kexi (<< 1:2.3.70)
+Description: PostgreSQL support for kexi
+ Kexi is an integrated data management application. It can be used for
+ creating database schemas, inserting data, performing queries, and
+ processing data. Forms can be created to provide a custom interface to
+ your data. All database objects - tables, queries and forms - are stored
+ in the database, making it easy to share data and design.
+ .
+ This package provides support for PostgreSQL in Kexi.
+ .
+ This package is part of the Calligra Office Suite.
+
+Package: kexi-xbase-driver
+Architecture: any
+Section: database
+Depends: ${misc:Depends}, ${shlibs:Depends}, kexi (= ${binary:Version})
+Breaks: kexi (<< 1:2.3.70)
+Replaces: kexi (<< 1:2.3.70)
+Description: XBase support for kexi
+ Kexi is an integrated data management application. It can be used for
+ creating database schemas, inserting data, performing queries, and
+ processing data. Forms can be created to provide a custom interface to
+ your data. All database objects - tables, queries and forms - are stored
+ in the database, making it easy to share data and design.
+ .
+ This package provides support for XBase in Kexi.
+ .
+ This package is part of the Calligra Office Suite.
+
+Package: kexi-sybase-driver
+Architecture: any
+Section: database
+Depends: ${misc:Depends}, ${shlibs:Depends}, kexi (= ${binary:Version})
+Breaks: kexi (<< 1:2.3.70)
+Replaces: kexi (<< 1:2.3.70)
+Description: Sybase support for kexi
+ Kexi is an integrated data management application. It can be used for
+ creating database schemas, inserting data, performing queries, and
+ processing data. Forms can be created to provide a custom interface to
+ your data. All database objects - tables, queries and forms - are stored
+ in the database, making it easy to share data and design.
+ .
+ This package provides support for Sybase in Kexi.
+ .
+ This package is part of the Calligra Office Suite.
+
+Package: kexi-web-form-widget
+Architecture: any
+Section: database
+Depends: ${misc:Depends}, ${shlibs:Depends}, kexi (>= ${source:Version})
+Breaks: kexi (<< 1:2.3.70)
+Replaces: kexi (<< 1:2.3.70)
+Description: web form widget for Kexi
+ Kexi is an integrated data management application. It can be used for
+ creating database schemas, inserting data, performing queries, and
+ processing data. Forms can be created to provide a custom interface to
+ your data. All database objects - tables, queries and forms - are stored
+ in the database, making it easy to share data and design.
+ .
+ This package provides a web widget for Kexi using QtWebKit.
+ .
+ This package is part of the Calligra Office Suite.
+
+Package: kexi-map-form-widget
+Architecture: any
+Section: database
+Depends: ${misc:Depends}, ${shlibs:Depends}, kexi (>= ${source:Version})
+Breaks: kexi (<< 1:2.3.70)
+Replaces: kexi (<< 1:2.3.70)
+Description: map form widget for Kexi
+ Kexi is an integrated data management application. It can be used for
+ creating database schemas, inserting data, performing queries, and
+ processing data. Forms can be created to provide a custom interface to
+ your data. All database objects - tables, queries and forms - are stored
+ in the database, making it easy to share data and design.
+ .
+ This package provides a map widget for Kexi using the Marble library.
+ .
+ This package is part of the Calligra Office Suite.
 
 Package: calligra-reports-web-element
 Architecture: any
