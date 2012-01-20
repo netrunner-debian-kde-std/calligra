@@ -1,5 +1,6 @@
 usr/bin/kexi
 usr/lib/kde4/kexidb_sqlite3driver.so
+usr/lib/kde4/kexidb_sqlite3_icu.so
 usr/lib/kde4/kexihandler_csv_importexport.so
 usr/lib/kde4/kexihandler_form.so
 usr/lib/kde4/kexihandler_migration.so
