@@ -20,7 +20,9 @@ Build-Depends: debhelper (>= 7.4.10), cmake (>= 2.6.2), pkg-kde-tools (>= 0.9),
   liblcms2-dev,
   libmarble-dev,
 # no in koffice
-  libgsf-1-dev, libdcmtk2-dev, libspnav-dev, shared-desktop-ontologies
+  libgsf-1-dev, libdcmtk2-dev, libspnav-dev, shared-desktop-ontologies,
+  libattica-dev,
+  libicu-dev
 Standards-Version: 3.9.2
 Homepage: http://www.calligra-suite.org/
 Vcs-Git: git://git.debian.org/pkg-kde/kde-std/calligra.git
