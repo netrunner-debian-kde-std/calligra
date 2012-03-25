@@ -450,7 +450,7 @@ Architecture: any
 Replaces: koffice-libs, kformula
 Conflicts: koffice-libs, kformula
 Depends: ${misc:Depends}, ${shlibs:Depends}, calligra-data (>= ${source:Version})
-Recommends: ttf-lyx, ruby, python
+Recommends: fonts-lyx, ruby, python
 Suggests: wordnet, texlive
 Description: common libraries and binaries for the Calligra Office Suite
  This package provides the libraries and binaries that are shared amongst
