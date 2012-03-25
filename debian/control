@@ -38,7 +38,6 @@ Depends: ${misc:Depends}, karbon (>= ${source:Version}), calligraflow (>= ${sour
  calligrastage (>= ${source:Version}), krita (>= ${source:Version}), calligratables (>= ${source:Version}),
  calligrawords (>= ${source:Version}), kthesaurus (>= ${source:Version}),
  kexi (>= ${source:Version}) 
-Suggests: create-resources
 Recommends: calligra-map-shape (>= ${source:Version})
 Homepage: http://www.calligra-suite.org
 Description: integrated work applications suite
