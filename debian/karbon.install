@@ -5,7 +5,7 @@ usr/lib/kde4/karbonfiltereffects.so
 usr/lib/kde4/karbon_flattenpathplugin.so
 usr/lib/kde4/karbonpart.so
 usr/lib/kde4/karbonpdfimport.so
-usr/lib/kde4/karbonpngexport.so
+usr/lib/kde4/karbonimageexport.so
 usr/lib/kde4/karbon_refinepathplugin.so
 usr/lib/kde4/karbon_roundcornersplugin.so
 usr/lib/kde4/karbonsvgexport.so
@@ -33,6 +33,7 @@ usr/share/kde4/services/karbon_eps_import.desktop
 usr/share/kde4/services/karbonfiltereffects.desktop
 usr/share/kde4/services/karbonpart.desktop
 usr/share/kde4/services/karbon_pdf_import.desktop
+usr/share/kde4/services/karbon_jpg_export.desktop
 usr/share/kde4/services/karbon_png_export.desktop
 usr/share/kde4/services/karbon_svg_export.desktop
 usr/share/kde4/services/karbon_svg_import.desktop
