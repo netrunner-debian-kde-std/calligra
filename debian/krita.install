@@ -5,7 +5,6 @@ usr/lib/kde4/kritabigbrother.so
 usr/lib/kde4/kritablurfilter.so
 usr/lib/kde4/kritabmpexport.so
 usr/lib/kde4/kritabmpimport.so
-usr/lib/kde4/kritabumpmap.so
 usr/lib/kde4/kritachalkpaintop.so
 usr/lib/kde4/kritachanneldocker.so
 usr/lib/kde4/kritacolorgenerator.so
@@ -26,7 +25,6 @@ usr/lib/kde4/kritadigitalmixer.so
 usr/lib/kde4/kritadodgeburn.so
 usr/lib/kde4/kritadropshadow.so
 usr/lib/kde4/kritadynapaintop.so
-usr/lib/kde4/kritaembossfilter.so
 usr/lib/kde4/kritaexample.so
 usr/lib/kde4/kritaexperimentpaintop.so
 usr/lib/kde4/kritaextensioncolorsfilters.so
@@ -65,7 +63,6 @@ usr/lib/kde4/kritapngimport.so
 usr/lib/kde4/kritappmexport.so
 usr/lib/kde4/kritappmimport.so
 usr/lib/kde4/kritapresetdocker.so
-usr/lib/kde4/kritapsdexport.so
 usr/lib/kde4/kritapsdimport.so
 usr/lib/kde4/kritaraindropsfilter.so
 usr/lib/kde4/kritarandompickfilter.so
@@ -86,7 +83,6 @@ usr/lib/kde4/kritatasksetdocker.so
 usr/lib/kde4/kritatiffexport.so
 usr/lib/kde4/kritatiffimport.so
 usr/lib/kde4/kritatogether.so
-usr/lib/kde4/kritatonemapping.so
 usr/lib/kde4/kritatoolcrop.so
 usr/lib/kde4/kritatooldyna.so
 usr/lib/kde4/kritatoolgrid.so
@@ -127,7 +123,6 @@ usr/share/kde4/services/kritabigbrother.desktop
 usr/share/kde4/services/kritablurfilter.desktop
 usr/share/kde4/services/krita_bmp_export.desktop
 usr/share/kde4/services/krita_bmp_import.desktop
-usr/share/kde4/services/kritabumpmapfilter.desktop
 usr/share/kde4/services/kritachalkpaintop.desktop
 usr/share/kde4/services/krita_channeldocker.desktop
 usr/share/kde4/services/kritacolorgenerator.desktop
@@ -148,7 +143,6 @@ usr/share/kde4/services/krita_digitalmixer.desktop
 usr/share/kde4/services/kritadodgeburn.desktop
 usr/share/kde4/services/kritadropshadow.desktop
 usr/share/kde4/services/kritadynapaintop.desktop
-usr/share/kde4/services/kritaembossfilter.desktop
 usr/share/kde4/services/kritaexample.desktop
 usr/share/kde4/services/kritaexperimentpaintop.desktop
 usr/share/kde4/services/kritaextensioncolorsfilters.desktop
@@ -187,7 +181,6 @@ usr/share/kde4/services/krita_png_import.desktop
 usr/share/kde4/services/krita_ppm_export.desktop
 usr/share/kde4/services/krita_ppm_import.desktop
 usr/share/kde4/services/krita_presetdocker.desktop
-usr/share/kde4/services/krita_psd_export.desktop
 usr/share/kde4/services/krita_psd_import.desktop
 usr/share/kde4/services/kritaraindropsfilter.desktop
 usr/share/kde4/services/kritarandompickfilter.desktop
@@ -208,7 +201,6 @@ usr/share/kde4/services/krita_tasksetdocker.desktop
 usr/share/kde4/services/krita_tiff_export.desktop
 usr/share/kde4/services/krita_tiff_import.desktop
 usr/share/kde4/services/kritatogether.desktop
-usr/share/kde4/services/kritatonemapping.desktop
 usr/share/kde4/services/kritatoolcrop.desktop
 usr/share/kde4/services/kritatooldyna.desktop
 usr/share/kde4/services/kritatoolgrid.desktop
