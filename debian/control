@@ -451,14 +451,14 @@ Description: version of Calligra for mobile
  .
  This package is part of the Calligra Office Suite.
 
-Package: calligraactive
-Architecture: any
-Section: kde
-Depends: ${misc:Depends}, ${shlibs:Depends}, calligra-libs (= ${binary:Version})
-Description: QML version of Calligra
- Calligra Active is ...
- .
- This package is part of the Calligra Office Suite.
+#Package: calligraactive
+#Architecture: any
+#Section: kde
+#Depends: ${misc:Depends}, ${shlibs:Depends}, calligra-libs (= ${binary:Version})
+#Description: QML version of Calligra
+# Calligra Active is ...
+# .
+# This package is part of the Calligra Office Suite.
 
 Package: calligra-libs
 Section: libs
