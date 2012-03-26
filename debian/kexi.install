@@ -1,6 +1,4 @@
 usr/bin/kexi
-usr/lib/kde4/kexidb_sqlite3driver.so
-usr/lib/kde4/kexidb_sqlite3_icu.so
 usr/lib/kde4/kexihandler_csv_importexport.so
 usr/lib/kde4/kexihandler_form.so
 usr/lib/kde4/kexihandler_migration.so
@@ -43,7 +41,6 @@ usr/share/applications/kde4/kexi.desktop
 usr/share/kde4/apps/kexi
 usr/share/kde4/config/kexirc
 usr/share/kde4/services/kexi
-usr/share/kde4/services/kexidb_sqlite3driver.desktop
 usr/share/kde4/services/keximigrate_mdb.desktop
 usr/share/kde4/services/keximigrate_txt.desktop
 usr/share/kde4/services/kexirelationdesignshape.desktop
