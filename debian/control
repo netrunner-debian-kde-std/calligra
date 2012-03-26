@@ -35,7 +35,7 @@ Section: kde
 Replaces: koffice
 Conflicts: koffice
 Depends: ${misc:Depends}, karbon (>= ${source:Version}), calligraflow (>= ${source:Version}), calligraplan (>= ${source:Version}),
- calligrastage (>= ${source:Version}), krita (>= ${source:Version}), calligratables (>= ${source:Version}),
+ calligrastage (>= ${source:Version}), krita (>= ${source:Version}), calligrasheets (>= ${source:Version}),
  calligrawords (>= ${source:Version}), kthesaurus (>= ${source:Version}),
  kexi (>= ${source:Version}) 
 Recommends: calligra-map-shape (>= ${source:Version})
@@ -108,10 +108,10 @@ Description: integrated database environment for the Calligra Office Suite
  .
  This package is part of the Calligra Office Suite.
 
-Package: kexi-calligratables-driver
+Package: kexi-calligrasheets-driver
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}, kexi (= ${binary:Version}),
- calligratables (>= ${source:Version})
+ calligrasheets (>= ${source:Version})
 Description: Tables plugin for kexi
  Kexi is an integrated data management application. It can be used for
  creating database schemas, inserting data, performing queries, and
@@ -322,14 +322,14 @@ Description: thesaurus for the Calligra Office Suite
  .
  This package is part of the Calligra Office Suite.
 
-Package: calligratables
+Package: calligrasheets
 Architecture: any
 Section: math
 Replaces: kspread
 Conflicts: kspread
 Depends: ${misc:Depends}, ${shlibs:Depends}, calligra-libs (= ${binary:Version})
 Suggests: khelpcenter4
-Homepage: http://www.calligra-suite.org/tables/
+Homepage: http://www.calligra-suite.org/sheets/
 Description: spreadsheet for the Calligra Office Suite
  Tables is a powerful spreadsheet application.  It is scriptable and
  provides both table-oriented sheets and support for complex mathematical

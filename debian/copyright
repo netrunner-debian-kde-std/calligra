@@ -364,18 +364,18 @@ Copyright: Trolltech ASA
 Licences: GPL-2
 
 
-Files:tables/*
+Files: sheets/*
 Copyright:
            2005-2006 Raphael Langerhorst <raphael-langerhorst@gmx.at>
 Licences: MIT
-Fils: tables/*
+Fils: sheets/*
 Copyright:
            2000 901 San
            2000 Antonio Road
            2000 Microsystems Inc.
            2000 Palo Alto
 Licences: LGPL-2.1
-Files: tables/*
+Files: sheets/*
 Copyright:
            1998-1999 Reginald Stadlbauer <reggie@kde.org>
            1998-2000 Stephan Kulow <coolo@kde.org>
@@ -424,7 +424,7 @@ Copyright:
            2011 Arjen Hiemstra <ahiemstra@heimr.nl>
            2011 Juan Aquino <utcl95@gmail.com>
 Licences: LGPL-2+
-Files: tables/*
+Files: sheets/*
 Copyright:
            1998-1999 Reginald Stadlbauer <reggie@kde.org>
            1998-2000 Stephan Kulow <coolo@kde.org>
@@ -457,7 +457,7 @@ Copyright:
            2010 Carlos Licea <carlos@kdab.com>
            2010 Suresh Chande <suresh.chande@nokia.com>
 Licences: LGPL-2
-Files: tables/*
+Files: sheets/*
 Copyright:
            2005-2010 Stefan Nikolaus <stefan.nikolaus@kdemail.net>
            2008-2011 Marijn Kruisselbrink <mkruisselbrink@kde.org>

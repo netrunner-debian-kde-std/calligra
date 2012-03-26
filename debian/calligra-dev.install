@@ -1,6 +1,6 @@
 usr/include/
-usr/lib/libcalligratablescommon.so
-usr/lib/libcalligratablesodf.so
+usr/lib/libcalligrasheetscommon.so
+usr/lib/libcalligrasheetsodf.so
 usr/lib/libchartshapelib.so
 usr/lib/libflake.so
 usr/lib/libkarboncommon.so
