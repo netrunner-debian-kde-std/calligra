@@ -157,6 +157,23 @@ Description: PostgreSQL support for kexi
  .
  This package is part of the Calligra Office Suite.
 
+Package: kexi-sqlite-driver
+Architecture: any
+Section: database
+Depends: ${misc:Depends}, ${shlibs:Depends}, kexi (= ${binary:Version})
+Breaks: kexi (<< 1:2.3.70)
+Replaces: kexi (<< 1:2.3.70)
+Description: SQLite support for kexi
+ Kexi is an integrated data management application. It can be used for
+ creating database schemas, inserting data, performing queries, and
+ processing data. Forms can be created to provide a custom interface to
+ your data. All database objects - tables, queries and forms - are stored
+ in the database, making it easy to share data and design.
+ .
+ This package provides support for SQLite in Kexi.
+ .
+ This package is part of the Calligra Office Suite.
+
 Package: kexi-xbase-driver
 Architecture: any
 Section: database
