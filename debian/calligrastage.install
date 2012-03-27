@@ -1,8 +1,8 @@
 usr/bin/calligrastage
+usr/lib/kde4/Filterkpr2odf.so
 usr/lib/kde4/calligrastageeventactions.so
 usr/lib/kde4/calligrastagepart.so
 usr/lib/kde4/calligrastagetoolanimation.so
-usr/lib/kde4/Filterkpr2odf.so
 usr/lib/kde4/kpr_pageeffect_barwipe.so
 usr/lib/kde4/kpr_pageeffect_clockwipe.so
 usr/lib/kde4/kpr_pageeffect_edgewipe.so
@@ -20,6 +20,7 @@ usr/lib/libcalligrastageprivate.so.9
 usr/lib/libcalligrastageprivate.so.9.0.0
 usr/lib/libkdeinit4_calligrastage.so
 usr/share/applications/kde4/stage.desktop
+usr/share/doc/kde/HTML/en/stage
 usr/share/icons/hicolor/16x16/actions/black.png
 usr/share/icons/hicolor/16x16/actions/highlight.png
 usr/share/icons/hicolor/16x16/actions/pen.png
@@ -29,11 +30,10 @@ usr/share/icons/hicolor/32x32/apps/stage.png
 usr/share/icons/hicolor/48x48/apps/stage.png
 usr/share/kde4/apps/stage
 usr/share/kde4/config/stagerc
+usr/share/kde4/services/Filterkpr2odf.desktop
+usr/share/kde4/services/ServiceMenus/kpresenter_konqi.desktop
 usr/share/kde4/services/calligrastageeventactions.desktop
 usr/share/kde4/services/calligrastagetoolanimation.desktop
-usr/share/kde4/services/Filterkpr2odf.desktop
-usr/share/kde4/services/kpresenter_powerpoint_import.desktop
-usr/share/kde4/services/kpresenter_pptx_import.desktop
 usr/share/kde4/services/kpr_pageeffect_barwipe.desktop
 usr/share/kde4/services/kpr_pageeffect_clockwipe.desktop
 usr/share/kde4/services/kpr_pageeffect_edgewipe.desktop
@@ -44,9 +44,9 @@ usr/share/kde4/services/kpr_pageeffect_slidewipe.desktop
 usr/share/kde4/services/kpr_pageeffect_spacerotation.desktop
 usr/share/kde4/services/kpr_pageeffect_swapeffect.desktop
 usr/share/kde4/services/kpr_shapeanimation_example.desktop
+usr/share/kde4/services/kpresenter_powerpoint_import.desktop
+usr/share/kde4/services/kpresenter_pptx_import.desktop
 usr/share/kde4/services/kprvariables.desktop
-usr/share/kde4/services/ServiceMenus/kpresenter_konqi.desktop
 usr/share/kde4/services/stagepart.desktop
 usr/share/kde4/servicetypes/kpr_pageeffect.desktop
 usr/share/kde4/servicetypes/kpr_shapeanimation.desktop
-usr/share/doc/kde/HTML/en/stage

@@ -1,4 +1,5 @@
 usr/include/
+usr/lib/libRtfReader.so
 usr/lib/libcalligrasheetscommon.so
 usr/lib/libcalligrasheetsodf.so
 usr/lib/libchartshapelib.so
@@ -44,7 +45,6 @@ usr/lib/libmsooxml.so
 usr/lib/libpigmentcms.so
 usr/lib/libplanworkapp.so
 usr/lib/libplanworkfactory.so
-usr/lib/libRtfReader.so
 usr/lib/libtextlayout.so
 usr/lib/libwordsexportfilters.so
 usr/share/kde4/apps/cmake/modules/FindCalligraLibs.cmake
