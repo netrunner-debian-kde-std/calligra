@@ -2,16 +2,17 @@ Description: Do not link blas library
  Upstream is linking blas library which is not needed.
 Author: Raúl Sánchez Siles <rasasi78@gmail.com>
 Last-Update: 2011-12-01
-Origin: vendor, http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-std/calligra.git;a=blob;f=debian/patches/do_not_link_blas;hb=HEAD
-Forwarded: needed
-diff -r abb77af91876 tables/plugins/solver/CMakeLists.txt
---- a/tables/plugins/solver/CMakeLists.txt	Tue Nov 01 20:03:45 2011 +0100
-+++ b/tables/plugins/solver/CMakeLists.txt	Wed Nov 02 09:11:38 2011 +0100
+Origin: vendor
+Forwarded: no
+Last-Update: 2012-03-27
+
+--- a/sheets/plugins/solver/CMakeLists.txt
++++ b/sheets/plugins/solver/CMakeLists.txt
 @@ -27,7 +27,6 @@
  
  target_link_libraries( kspreadsolver
  	${GSL_LIBRARIES}
 -	${GSL_CBLAS_LIBRARIES}
-         calligratablescommon
+         calligrasheetscommon
  )
  
