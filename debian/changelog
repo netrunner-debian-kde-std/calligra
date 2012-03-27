@@ -1,6 +1,5 @@
-calligra (1:2.3.92-1) UNRELEASED; urgency=low
+calligra (1:2.3.92-0r1) UNRELEASED; urgency=low
 
-  * Initial release. (Closes: #665903: ITP: calligra -- KDE SC
-    integrated work applications suite)
+  * Initial release. (Closes: #665903)
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 22 Mar 2012 23:25:34 +0100
