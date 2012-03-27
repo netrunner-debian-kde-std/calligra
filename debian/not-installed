@@ -9,10 +9,10 @@
 # (and stable/squeeze has 0.71)
 ./usr/share/mime/packages/krita_ora.xml
 
-# fonts already in tty-lyx package
+# fonts already in fonts-lyx package
 ./usr/share/kde4/apps/formulashape/fonts/cmex10.ttf
 
-# add dependency on karbon, words and tables to calligra-libs; too generic
+# add dependency on karbon, words and sheets to calligra-libs; too generic
 ./usr/bin/cstester
 ./usr/bin/cstrunner
 ./usr/bin/visualimagecompare
