@@ -525,7 +525,7 @@ Architecture: any
 Priority: extra
 Replaces: koffice-dbg
 Conflicts: koffice-dbg
-Depends: ${misc:Depends}, calligra-libs (= ${binary:Version}), kdebase-runtime-dbg
+Depends: ${misc:Depends}, calligra-libs (= ${binary:Version}), kde-runtime-dbg
 Description: debugging symbols for Calligra
  This package contains the debugging symbols associated with Calligra.
  They will automatically be used by gdb for debugging calligra-related
