@@ -15,7 +15,7 @@ Calligra Spreadsheet Application
 Synopsis
 ========
 
-  calligratables [Qt-options] [KDE-options] [Calligra-options] [file]
+  calligrasheets [Qt-options] [KDE-options] [Calligra-options] [file]
 
 Description
 ===========
@@ -43,7 +43,7 @@ Generic options:
 SEE ALSO
 =========
 
-More detailed user documentation is available from **help:/calligratables** (either enter this URL into Konqueror, or run **khelpcenter** *help:/calligratables*).
+More detailed user documentation is available from **help:/calligrasheets** (either enter this URL into Konqueror, or run **khelpcenter** *help:/calligrasheets*).
 
 
 .. |date| date:: %y %B %Y
