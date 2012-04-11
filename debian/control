@@ -59,6 +59,7 @@ Section: kde
 Replaces: koffice
 Conflicts: koffice
 Depends: ${misc:Depends},
+ braindump (>= ${source:Version}),
  calligraflow (>= ${source:Version}),
  calligraplan (>= ${source:Version}),
  calligrasheets (>= ${source:Version}),
