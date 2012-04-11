@@ -58,10 +58,16 @@ Architecture: all
 Section: kde
 Replaces: koffice
 Conflicts: koffice
-Depends: ${misc:Depends}, karbon (>= ${source:Version}), calligraflow (>= ${source:Version}), calligraplan (>= ${source:Version}),
- calligrastage (>= ${source:Version}), krita (>= ${source:Version}), calligrasheets (>= ${source:Version}),
- calligrawords (>= ${source:Version}), kthesaurus (>= ${source:Version}),
- kexi (>= ${source:Version}) 
+Depends: ${misc:Depends},
+ calligraflow (>= ${source:Version}),
+ calligraplan (>= ${source:Version}),
+ calligrasheets (>= ${source:Version}),
+ calligrastage (>= ${source:Version}),
+ calligrawords (>= ${source:Version}),
+ karbon (>= ${source:Version}),
+ kexi (>= ${source:Version}),
+ krita (>= ${source:Version}),
+ kthesaurus (>= ${source:Version})
 Recommends: calligra-map-shape (>= ${source:Version})
 Homepage: http://www.calligra-suite.org
 Description: integrated work applications suite
