@@ -69,7 +69,6 @@ Depends: ${misc:Depends},
  kexi (>= ${source:Version}),
  krita (>= ${source:Version}),
  kthesaurus (>= ${source:Version})
-Recommends: calligra-map-shape (>= ${source:Version})
 Homepage: http://www.calligra-suite.org
 Description: integrated work applications suite
  Calligra Suite is a set of applications written to help you to accomplish
