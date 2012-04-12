@@ -142,7 +142,7 @@ Description: integrated database environment for the Calligra Office Suite
 Package: kexi-calligrasheets-driver
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}, kexi (= ${binary:Version}),
- calligrasheets (>= ${source:Version})
+ calligrasheets (= ${binary:Version})
 Description: Tables plugin for kexi
  Kexi is an integrated data management application. It can be used for
  creating database schemas, inserting data, performing queries, and
