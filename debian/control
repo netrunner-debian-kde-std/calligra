@@ -529,14 +529,14 @@ Description: Okular backend for ODP documents
  .
  This package is part of the Calligra Office Suite.
 
-Package: calligra-map-shape
-Section: libs
-Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: map shape plugin for the Calligra Office Suite
- This package provides the map shape, based on the marble libraries.
- .
- This package is part of the Calligra Office Suite.
+#Package: calligra-map-shape
+#Section: libs
+#Architecture: any
+#Depends: ${misc:Depends}, ${shlibs:Depends}
+#Description: map shape plugin for the Calligra Office Suite
+# This package provides the map shape, based on the marble libraries.
+# .
+# This package is part of the Calligra Office Suite.
 
 #Package: calligra-dev
 #Architecture: any
