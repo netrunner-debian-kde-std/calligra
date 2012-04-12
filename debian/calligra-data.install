@@ -79,7 +79,6 @@ usr/share/kde4/apps/calligra/icons/hicolor/16x16/actions/line.png
 usr/share/kde4/apps/calligra/icons/hicolor/16x16/actions/linewidth.png
 usr/share/kde4/apps/calligra/icons/hicolor/16x16/actions/lsub.png
 usr/share/kde4/apps/calligra/icons/hicolor/16x16/actions/lsup.png
-usr/share/kde4/apps/calligra/icons/hicolor/16x16/actions/map_shape.png
 usr/share/kde4/apps/calligra/icons/hicolor/16x16/actions/matrix.png
 usr/share/kde4/apps/calligra/icons/hicolor/16x16/actions/multiline.png
 usr/share/kde4/apps/calligra/icons/hicolor/16x16/actions/onetwomatrix.png
@@ -179,7 +178,6 @@ usr/share/kde4/apps/calligra/icons/hicolor/22x22/actions/line.png
 usr/share/kde4/apps/calligra/icons/hicolor/22x22/actions/lower.png
 usr/share/kde4/apps/calligra/icons/hicolor/22x22/actions/lsub.png
 usr/share/kde4/apps/calligra/icons/hicolor/22x22/actions/lsup.png
-usr/share/kde4/apps/calligra/icons/hicolor/22x22/actions/map_shape.png
 usr/share/kde4/apps/calligra/icons/hicolor/22x22/actions/matrix.png
 usr/share/kde4/apps/calligra/icons/hicolor/22x22/actions/multiline.png
 usr/share/kde4/apps/calligra/icons/hicolor/22x22/actions/music-cross.png
