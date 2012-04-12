@@ -86,8 +86,6 @@ usr/share/kde4/apps/calligra/icons/hicolor/16x16/actions/over.png
 usr/share/kde4/apps/calligra/icons/hicolor/16x16/actions/paren.png
 usr/share/kde4/apps/calligra/icons/hicolor/16x16/actions/prod.png
 usr/share/kde4/apps/calligra/icons/hicolor/16x16/actions/report_barcode_element.png
-usr/share/kde4/apps/calligra/icons/hicolor/16x16/actions/report_map_element.png
-usr/share/kde4/apps/calligra/icons/hicolor/16x16/actions/report_web_element.png
 usr/share/kde4/apps/calligra/icons/hicolor/16x16/actions/rsub.png
 usr/share/kde4/apps/calligra/icons/hicolor/16x16/actions/rsup.png
 usr/share/kde4/apps/calligra/icons/hicolor/16x16/actions/send_backward.png
@@ -217,8 +215,6 @@ usr/share/kde4/apps/calligra/icons/hicolor/22x22/actions/raise.png
 usr/share/kde4/apps/calligra/icons/hicolor/22x22/actions/remcol.png
 usr/share/kde4/apps/calligra/icons/hicolor/22x22/actions/remrow.png
 usr/share/kde4/apps/calligra/icons/hicolor/22x22/actions/report_barcode_element.png
-usr/share/kde4/apps/calligra/icons/hicolor/22x22/actions/report_map_element.png
-usr/share/kde4/apps/calligra/icons/hicolor/22x22/actions/report_web_element.png
 usr/share/kde4/apps/calligra/icons/hicolor/22x22/actions/rsub.png
 usr/share/kde4/apps/calligra/icons/hicolor/22x22/actions/rsup.png
 usr/share/kde4/apps/calligra/icons/hicolor/22x22/actions/select.png
