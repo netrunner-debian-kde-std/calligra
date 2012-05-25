@@ -120,7 +120,7 @@ Package: kexi
 Architecture: any
 Section: database
 Depends: ${misc:Depends}, ${shlibs:Depends}, calligra-libs (= ${binary:Version})
-#Suggests: kexi-mdb-plugin
+Suggests: kexi-calligrasheets-driver, kexi-mysql-driver, kexi-postgresql-driver, kexi-xbase-driver, kexi-sybase-driver
 Replaces: koffice-doc-html
 Conflicts: koffice-doc-html
 Homepage: http://www.calligra-suite.org/kexi/
