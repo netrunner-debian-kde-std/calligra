@@ -71,13 +71,13 @@ Depends: ${misc:Depends},
  krita (>= ${source:Version}),
  kthesaurus (>= ${source:Version})
 Homepage: http://www.calligra-suite.org
-Description: integrated work applications suite
+Description: extensive productivity and creative suite
  Calligra Suite is a set of applications written to help you to accomplish
  your work. It includes office applications such as a word processor,
  a spreadsheet, a presentation program, a database application, etc, and
  raster and vectorial graphics tools.
  .
- This metapackage provides all the components of the Calligra Office Suite.
+ This metapackage provides all the components of the Calligra Suite.
 
 Package: karbon
 Architecture: any
@@ -85,7 +85,7 @@ Section: graphics
 Depends: ${misc:Depends}, ${shlibs:Depends}, calligra-libs (= ${binary:Version})
 Recommends: pstoedit
 Homepage: http://www.calligra-suite.org/karbon/
-Description: vector graphics application for the Calligra Office Suite
+Description: vector graphics application for the Calligra Suite
  Karbon is a vector drawing application with an user interface that is easy to
  use, highly customizable and extensible. That makes Karbon a great application
  for users starting to explore the world of vector graphics as well as for
@@ -114,7 +114,7 @@ Description: vector graphics application for the Calligra Office Suite
     path flattening, rounding and refining as well as whirl/pinch effects
   * Extensible by writing plugins for new tools, shapes and dockers
  .
- This package is part of the Calligra Office Suite.
+ This package is part of the Calligra Suite.
 
 Package: kexi
 Architecture: any
@@ -124,7 +124,7 @@ Suggests: kexi-calligrasheets-driver, kexi-mysql-driver, kexi-postgresql-driver,
 Replaces: koffice-doc-html
 Conflicts: koffice-doc-html
 Homepage: http://www.calligra-suite.org/kexi/
-Description: integrated database environment for the Calligra Office Suite
+Description: integrated database environment for the Calligra Suite
  Kexi is an integrated data management application. It can be used for
  creating database schemas, inserting data, performing queries, and
  processing data. Forms can be created to provide a custom interface to
@@ -137,7 +137,7 @@ Description: integrated database environment for the Calligra Office Suite
  sufficiently powerful, inexpensive, open standards driven and portable
  across many operating systems and hardware platforms.
  .
- This package is part of the Calligra Office Suite.
+ This package is part of the Calligra Suite.
 
 Package: kexi-calligrasheets-driver
 Architecture: any
@@ -152,7 +152,7 @@ Description: Tables plugin for kexi
  .
  This package provides support for Calligra Tables in Kexi.
  .
- This package is part of the Calligra Office Suite.
+ This package is part of the Calligra Suite.
 
 Package: kexi-mysql-driver
 Architecture: any
@@ -169,7 +169,7 @@ Description: MySQL support for kexi
  .
  This package provides support for MySQL in Kexi.
  .
- This package is part of the Calligra Office Suite.
+ This package is part of the Calligra Suite.
 
 Package: kexi-postgresql-driver
 Architecture: any
@@ -186,7 +186,7 @@ Description: PostgreSQL support for kexi
  .
  This package provides support for PostgreSQL in Kexi.
  .
- This package is part of the Calligra Office Suite.
+ This package is part of the Calligra Suite.
 
 Package: kexi-xbase-driver
 Architecture: any
@@ -203,7 +203,7 @@ Description: XBase support for kexi
  .
  This package provides support for XBase in Kexi.
  .
- This package is part of the Calligra Office Suite.
+ This package is part of the Calligra Suite.
 
 Package: kexi-sybase-driver
 Architecture: any
@@ -220,7 +220,7 @@ Description: Sybase support for kexi
  .
  This package provides support for Sybase in Kexi.
  .
- This package is part of the Calligra Office Suite.
+ This package is part of the Calligra Suite.
 
 Package: kexi-web-form-widget
 Architecture: any
@@ -237,7 +237,7 @@ Description: web form widget for Kexi
  .
  This package provides a web widget for Kexi using QtWebKit.
  .
- This package is part of the Calligra Office Suite.
+ This package is part of the Calligra Suite.
 
 Package: kexi-map-form-widget
 Architecture: any
@@ -254,7 +254,7 @@ Description: map form widget for Kexi
  .
  This package provides a map widget for Kexi using the Marble library.
  .
- This package is part of the Calligra Office Suite.
+ This package is part of the Calligra Suite.
 
 Package: calligra-reports-web-element
 Architecture: any
@@ -268,7 +268,7 @@ Description: web element for Calligra Reports
  .
  This package provides a web element for Calligra Reports, based on QtWebKit.
  .
- This package is part of the Calligra Office Suite.
+ This package is part of the Calligra Suite.
 
 Package: calligra-reports-map-element
 Architecture: any
@@ -283,7 +283,7 @@ Description: map element for Calligra Reports
  This package provides a map element for Calligra Reports, based on the
  Marble library.
  .
- This package is part of the Calligra Office Suite.
+ This package is part of the Calligra Suite.
 
 Package: krita
 Architecture: any
@@ -291,7 +291,7 @@ Section: graphics
 Depends: ${misc:Depends}, ${shlibs:Depends}, krita-data (>= ${source:Version}), calligra-libs (= ${binary:Version})
 Suggests: khelpcenter4
 Homepage: http://www.calligra-suite.org/krita/
-Description: pixel-based image manipulation program for the Calligra Office Suite
+Description: pixel-based image manipulation program for the Calligra Suite
  Krita is a creative application for raster images. Whether you want to create
  from scratch or work with existing images, Krita is for you. You can work with
  photos, scanned images or start with a blank slate. Krita supports most
@@ -307,7 +307,7 @@ Description: pixel-based image manipulation program for the Calligra Office Suit
  "drawing assistants" that help you draw shapes that still have a freehand
  feeling to them.
  .
- This package is part of the Calligra Office Suite.
+ This package is part of the Calligra Suite.
 
 Package: krita-data
 Architecture: all
@@ -316,11 +316,11 @@ Depends: ${misc:Depends}
 Homepage: http://www.calligra-suite.org/krita/
 Description: data files for Krita painting program
  This package contains architecture-independent data files for Krita,
- the painting program shipped with the Calligra Office Suite.
+ the painting program shipped with the Calligra Suite.
  .
  See the krita package for further information.
  .
- This package is part of the Calligra Office Suite.
+ This package is part of the Calligra Suite.
 
 Package: kthesaurus
 Architecture: any
@@ -329,12 +329,12 @@ Depends: ${misc:Depends}, ${shlibs:Depends}, calligra-libs (= ${binary:Version})
 Suggests: khelpcenter4
 Replaces: koffice-doc-html
 Conflicts: koffice-doc-html
-Description: thesaurus for the Calligra Office Suite
+Description: thesaurus for the Calligra Suite
  KThesaurus lists words related to a given term and offers a user interface
  to WordNet, a powerful lexical reference system. By default, only the English
  language is supported.
  .
- This package is part of the Calligra Office Suite.
+ This package is part of the Calligra Suite.
 
 Package: calligrasheets
 Architecture: any
@@ -344,12 +344,12 @@ Conflicts: kspread
 Depends: ${misc:Depends}, ${shlibs:Depends}, calligra-libs (= ${binary:Version})
 Suggests: khelpcenter4
 Homepage: http://www.calligra-suite.org/sheets/
-Description: spreadsheet for the Calligra Office Suite
+Description: spreadsheet for the Calligra Suite
  Tables is a powerful spreadsheet application.  It is scriptable and
  provides both table-oriented sheets and support for complex mathematical
  formulae and statistics. It is the sucessor of KSpread.
  .
- This package is part of the Calligra Office Suite.
+ This package is part of the Calligra Suite.
 
 Package: calligraplan
 Architecture: any
@@ -363,7 +363,7 @@ Description: integrated project management and planning tool
  Plan is a project management application, allowing for the planning and
  scheduling of projects. It was formerly known as KPlato.
  .
- This package is part of the Calligra Office Suite.
+ This package is part of the Calligra Suite.
 
 Package: calligrawords
 Architecture: any
@@ -374,13 +374,13 @@ Depends: ${misc:Depends}, ${shlibs:Depends}, calligra-libs (= ${binary:Version})
  calligrawords-data (>= ${source:Version})
 Suggests: khelpcenter4
 Homepage: http://www.calligra-suite.org/words/
-Description: word processor for the Calligra Office Suite
+Description: word processor for the Calligra Suite
  Words is a FrameMaker-like word processing and desktop publishing
  application.  It is capable of creating demanding and professional
  looking documents.  It can be used for desktop publishing, but also for
  "normal" word processing, like writing letters, reports and so on.
  .
- This package is part of the Calligra Office Suite.
+ This package is part of the Calligra Suite.
 
 Package: calligrawords-data
 Architecture: all
@@ -389,11 +389,11 @@ Depends: ${misc:Depends}
 Homepage: http://www.calligra-suite.org/words/
 Description: data files for Words word processor
  This package contains architecture-independent data files for Words,
- the word processor shipped with the Calligra Office Suite.
+ the word processor shipped with the Calligra Suite.
  .
  See the calligrawords package for further information.
  .
- This package is part of the Calligra Office Suite.
+ This package is part of the Calligra Suite.
 
 Package: calligrastage
 Architecture: any
@@ -403,7 +403,7 @@ Conflicts: kpresenter
 Depends: ${misc:Depends}, ${shlibs:Depends}, calligra-libs (= ${binary:Version})
 Suggests: khelpcenter4
 Homepage: http://www.calligra-suite.org/stage/
-Description: presentation program for the Calligra Office Suite
+Description: presentation program for the Calligra Suite
  Stage is an easy to use yet still flexible presentation application. You can
  easily create presentations containing a rich variety of elements, from
  graphics to text, from charts to images. Stage is extensible through a
@@ -417,19 +417,19 @@ Description: presentation program for the Calligra Office Suite
  for many different master sliders in one presentation, cool transitions and
  a useful notes feature.
  .
- This package is part of the Calligra Office Suite.
+ This package is part of the Calligra Suite.
 
 Package: calligraflow
 Architecture: any
 Section: graphics
 Depends: ${misc:Depends}, ${shlibs:Depends}, calligraflow-data (>= ${source:Version}), calligra-libs (= ${binary:Version})
 Homepage: http://www.calligra-suite.org/flow/
-Description: flowcharting program for the Calligra Office Suite
+Description: flowcharting program for the Calligra Suite
  Flow is a flowcharting program that offers basic flowcharting abilities,
  but with a twist.  Objects are scriptable, and a backend plugin system
  offers the ability to make objects do just about anything.
  .
- This package is part of the Calligra Office Suite.
+ This package is part of the Calligra Suite.
 
 Package: calligraflow-data
 Architecture: all
@@ -438,32 +438,32 @@ Depends: ${misc:Depends}
 Homepage: http://www.calligra-suite.org/flow/
 Description: data files for Flow flowcharting program
  This package contains architecture-independent data files for Flow,
- the flowcharting program shipped with the Calligra Office Suite.
+ the flowcharting program shipped with the Calligra Suite.
  .
  See the calligraflow package for further information.
  .
- This package is part of the Calligra Office Suite.
+ This package is part of the Calligra Suite.
 
 Package: braindump
 Architecture: any
 Section: kde
 Depends: ${misc:Depends}, ${shlibs:Depends}, calligra-libs (= ${binary:Version})
 Homepage: http://www.calligra-suite.org/braindump/
-Description: ideas organizer component for the Calligra Office Suite
+Description: ideas organizer application for the Calligra Suite
  BrainDump is a tool to help to organize the ideas from your brain to your
  computer.
  .
- This package is part of the Calligra Office Suite.
+ This package is part of the Calligra Suite.
 
 Package: calligramobile
 Architecture: any
 Section: kde
 Depends: ${misc:Depends}, ${shlibs:Depends}, calligra-libs (= ${binary:Version})
 Description: version of Calligra for mobile
- Calligra Mobile aims to create a version of the Calligra Office Suite for
+ Calligra Mobile aims to create a version of the Calligra Suite for
  mobile devices, such as Maemo or MeeGo.
  .
- This package is part of the Calligra Office Suite.
+ This package is part of the Calligra Suite.
 
 #Package: calligraactive
 #Architecture: any
@@ -472,7 +472,7 @@ Description: version of Calligra for mobile
 #Description: QML version of Calligra
 # Calligra Active is ...
 # .
-# This package is part of the Calligra Office Suite.
+# This package is part of the Calligra Suite.
 
 Package: calligra-libs
 Section: libs
@@ -482,11 +482,11 @@ Conflicts: koffice-libs, kformula
 Depends: ${misc:Depends}, ${shlibs:Depends}, calligra-data (>= ${source:Version})
 Recommends: fonts-lyx, ruby, python
 Suggests: wordnet, texlive
-Description: common libraries and binaries for the Calligra Office Suite
+Description: common libraries and binaries for the Calligra Suite
  This package provides the libraries and binaries that are shared amongst
  the various components of Calligra.
  .
- This package is part of the Calligra Office Suite.
+ This package is part of the Calligra Suite.
 
 Package: calligra-data
 Section: libs
@@ -495,11 +495,11 @@ Depends: ${misc:Depends}
 Replaces: koffice-data, kformula
 Conflicts: koffice-data, kformula
 Suggests: khelpcenter4
-Description: common shared data for the Calligra Office Suite
+Description: common shared data for the Calligra Suite
  This package provides the architecture-independent data that is shared
  amongst the various components of Calligra.
  .
- This package is part of the Calligra Office Suite.
+ This package is part of the Calligra Suite.
 
 Package: okular-backend-odp
 Architecture: any
@@ -510,16 +510,16 @@ Description: Okular backend for ODP documents
  This package provides a backend for Okular to view OpenDocument Presentation
  (ODP) documents.
  .
- This package is part of the Calligra Office Suite.
+ This package is part of the Calligra Suite.
 
 #Package: calligra-map-shape
 #Section: libs
 #Architecture: any
 #Depends: ${misc:Depends}, ${shlibs:Depends}
-#Description: map shape plugin for the Calligra Office Suite
+#Description: map shape plugin for the Calligra Suite
 # This package provides the map shape, based on the marble libraries.
 # .
-# This package is part of the Calligra Office Suite.
+# This package is part of the Calligra Suite.
 
 #Package: calligra-dev
 #Architecture: any
@@ -531,7 +531,7 @@ Description: Okular backend for ODP documents
 # This package provides the development files for the libraries that are
 # shared amongst the various components of Calligra.
 # .
-# This package is part of the Calligra Office Suite.
+# This package is part of the Calligra Suite.
 
 Package: calligra-dbg
 Section: debug
@@ -545,5 +545,5 @@ Description: debugging symbols for Calligra
  They will automatically be used by gdb for debugging calligra-related
  issues.
  .
- This package is part of the Calligra Office Suite.
+ This package is part of the Calligra Suite.
 
