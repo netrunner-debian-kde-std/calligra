@@ -1,5 +1,8 @@
 calligra (1:2.4.1-0r1) UNRELEASED; urgency=low
 
+  [ Adrien Grellier ]
+  [ Raúl Sánchez Siles ]
+  [ Pino Toscano ]
   * Initial release. (Closes: #665903)
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 28 Apr 2012 10:39:09 +0200
