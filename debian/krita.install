@@ -2,7 +2,6 @@ usr/bin/krita
 usr/lib/kde4/krita_colorspaces_extensions.so
 usr/lib/kde4/krita_raw_import.so
 usr/lib/kde4/kritaartisticcolorselector.so
-usr/lib/kde4/kritabackgrounds.so
 usr/lib/kde4/kritabigbrother.so
 usr/lib/kde4/kritablurfilter.so
 usr/lib/kde4/kritabmpexport.so
@@ -146,7 +145,6 @@ usr/share/kde4/services/krita_tasksetdocker.desktop
 usr/share/kde4/services/krita_tiff_export.desktop
 usr/share/kde4/services/krita_tiff_import.desktop
 usr/share/kde4/services/krita_xcf_import.desktop
-usr/share/kde4/services/kritabackgrounds.desktop
 usr/share/kde4/services/kritabigbrother.desktop
 usr/share/kde4/services/kritablurfilter.desktop
 usr/share/kde4/services/kritachalkpaintop.desktop

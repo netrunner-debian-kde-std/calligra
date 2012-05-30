@@ -80,5 +80,3 @@ usr/share/kde4/services/sheetspart.desktop
 usr/share/kde4/services/spreadsheetshape-deferred.desktop
 usr/share/kde4/services/spreadsheetshape.desktop
 usr/share/kde4/servicetypes/sheets_plugin.desktop
-#scripts should be integrated into apps/sheets
-usr/share/kde4/apps/tables/
