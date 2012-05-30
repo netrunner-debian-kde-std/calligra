@@ -1,4 +1,4 @@
-Format: http://dep.debian.net/deps/dep5
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: calligra
 Source: http://www.calligra-suite.org/get-calligra/
 
@@ -7,7 +7,6 @@ Copyright: 1999 Matthias Elter <elter@kde.org>
            2001-2002 Benoît Vautrin <benoit.vautrin@free.fr>
            2001-2003 Lennart Kudling <kudling@kde.org>
            2001-2007 Rob Buis <buis@kde.org>
-           
            2002 Werner Trobin <trobin@kde.org>
            2002-2003,2005 Tomislav Lukman <tomislav.lukman@ck.t-com.hr>
            2002-2003,2006-2007 Stephan Kulow <coolo@kde.org>
@@ -15,12 +14,10 @@ Copyright: 1999 Matthias Elter <elter@kde.org>
            2002-2006 Stephan Binner <binner@kde.org>
            2002-2006 Laurent Montel <montel@kde.org>
            2002-2007 David Faure <faure@kde.org> 
-
            2003 Lukáš Tinkl <lukas@kde.org>
            2003 Thomas Nagy <tnagyemail-mail@yahoo.fr>
            2003 Patrick Julien <freak@codepimps.org>
            2003,2006 Dirk Mueller <mueller@kde.org>
-
            2004 Waldo Bastian <bastian@kde.org>
            2004 Brad Hards <bradh@frogmouth.net>
            2004 Nicolas Goutte <nicolasg@snafu.de>
@@ -28,7 +25,6 @@ Copyright: 1999 Matthias Elter <elter@kde.org>
            2004-2006 Peter Simonsson <psn@linux.se>
            2004-2006 Bulia Byak <buliabyak@users.sf.net>
            2004-2006 Josh Andler <scislac@users.sf.net>
-
            2005 Johannes Schaub <johannes.schaub@kdemail.net>
            2005 Yann Bodson <yann.bodson@online.fr>
            2005-2006 Tim Beaulen <tbscope@gmail.com>
@@ -37,7 +33,6 @@ Copyright: 1999 Matthias Elter <elter@kde.org>
            2005-2006 Casper Boemann <cbr@boemann.dk>
            2005-2010 Boudewijn Rempt <boud@valdyas.org>
            2005-2012 Jan Hambrecht <jaham@gmx.net>
-
            2006 Martin Ellis <martin.ellis@kdemail.net>
            2006 Adriaan de Groot <groot@kde.org>
            2006 Sebastian Sauer <mail@dipe.org>
@@ -49,30 +44,11 @@ Copyright: 1999 Matthias Elter <elter@kde.org>
            2006 Martin Pfeiffer <hubipete@gmx.net>
            2006-2007 Aaron J. Seigo <aseigo@kde.org>
            2006-2007,2010 Thorsten Zachmann <t.zachmann@zagge.de>
-
            2007 Chusslove Illich <caslav.ilic@gmx.net>
            2007 Matthias Kretz <kretz@kde.org>
-
            2008 Patrick Spendrin <ps_ml@gmx.de>
            2008 Fela Winkelmolen <fela.kde@gmail.com>
-
-Licences: LGPL-2+
- This library is free software; you can redistribute it and/or
- modify it under the terms of the GNU Lesser General Public
- License as published by the Free Software Foundation; either
- version 2.1 of the License, or (at your option) any later version.
-.
- This library is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
- Lesser General Public License for more details.
-.
- You should have received a copy of the GNU Lesser General Public
- License along with this library; if not, write to the Free Software
- Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
-.
- On Debian systems the full text of the GNU LGPL v2.1 can be found
- in the `/usr/share/common-licenses/LGPL-2.1' file.
+License: LGPL-2.1+
 
 Files: flow/*
 Copyright: 2006 David Faure <faure@kde.org>
@@ -82,11 +58,11 @@ Copyright: 2006 David Faure <faure@kde.org>
            2009 Cyrille Berger <cberger@cberger.net>
            2010 Boudewijn Rempt <boud@valdyas.org>
            2010-2011 Yue Liu <opuspace@gmail.com>
-Licences: LGPL-2+
+License: LGPL-2+
 
 Files: flow/*
 Copyright: 2010-2011 Yue Liu <opuspace@gmail.com>
-Licences: GPL-2+
+License: GPL-2+
 
 Files: braindump/*
 Copyright: 1998-1999 Torben Weis <weis@kde.org>
@@ -97,7 +73,7 @@ Copyright: 1998-1999 Torben Weis <weis@kde.org>
            2006-2007 Thorsten Zachmann <zachmann@kde.org>
            2008, 2010-2011 Casper Boemann <cbo@boemann.dk>
            2009-2010 Cyrille Berger <cberger@cberger.net>
-Licences: LGPL-2+
+License: LGPL-2+
 
 Files: kchart/*
 Copyright: 1999-2007 Matthias Kalle Dalheimer <kalle@kde.org>
@@ -107,17 +83,16 @@ Copyright: 1999-2007 Matthias Kalle Dalheimer <kalle@kde.org>
            2007 Thomas Zander <zander@kde.org>
            2007 Thorsten Zachmann <zachmann@kde.org>
            2007-2009 Johannes Simon <johannes.simon@gmail.com>
-Licences: LGPL-2+
+License: LGPL-2+
 
 Files: kchart/*
 Copyright: 2005 Fredrik Edemar <f_edemar@linux.se>
-Licences: GPL-2+
-
+License: GPL-2+
 
 Files: kexi/*
 Copyright:
            2004-2006 Martin Ellis <m.a.ellis@ncl.ac.uk>
-Licences: MIT
+License: MIT
 
 Files: kexi/*
 Copyright: 
@@ -125,7 +100,7 @@ Copyright:
            2011 Aurélien Gâteau <agateau@kde.org>
            2011 Radosław Wicik <radoslaw@wicik.pl>
            2011 Shreya Pandit <shreya@shreyapandit.com>
-Licences: LGPL-2.1+
+License: LGPL-2.1+
 
 Files: kexi/*
 Copyright:
@@ -159,7 +134,7 @@ Copyright:
            2009-2010 Hugo Pereira Da Costa <hugo@oxygen-icons.org>
            2011 Radosław Wicik <radoslaw@wicik.pl>
            2011 Shreya Pandit <shreya@shreyapandit.com>
-Licences: LGPL-2+
+License: LGPL-2+
 
 Files: kexi/*
 Copyright:
@@ -168,24 +143,24 @@ Copyright:
            2002-2004 Lucijan Busch <lucijan@kde.org>
            2003-2011 Adam Pigg <adam@piggz.co.uk>
            2004-2005 Cedric Pasteur <cedric.pasteur@free.fr>
-Licences: LGPL-2
+License: LGPL-2
 
 Files: kexi/*
 Copyright:
            2003-2011 Adam Pigg <adam@piggz.co.uk>
-Licences: GPL-2+
+License: GPL-2+
 
 Files: kexi/webforms/webroot/extjs/*
 Copyright:
            2006-2008 Ext JS <licensing@extjs.com>
-Licences: GPL-3
-
+License: GPL-3
 
 Files: plan/*
 Copyright: 
            2002-2011 Dag Andersen <danders@get2net.dk>
            2007-2011 Adam Pigg <adam@piggz.co.uk>
-Licences: LGPL-2.1+
+License: LGPL-2.1+
+
 Files: plan/*
 Copyright: 
            1997 Tim D. Gilman <tdgilman@best.org
@@ -207,11 +182,13 @@ Copyright:
            2007 Fredy Yanardi <fyanardi@gmail.com>
            2007 Thorsten Zachmann <zachmann@kde.org>
            2011 Pierre Stirnweiss <pstirnweiss@googlemail.com>
-Licences: LGPL-2+
+License: LGPL-2+
+
 Files: plan/*
 Copyright: 
            2002-2011 Dag Andersen <danders@get2net.dk>
-Licences: LGPL-2
+License: LGPL-2
+
 Files: plan/*
 Copyright: 
            1998-2000 Torben Weis <weis@kde.org>
@@ -221,13 +198,14 @@ Copyright:
            2001-2007 Chris Schlaeger <cs@kde.org>
            2002-2011 Dag Andersen <danders@get2net.dk>
            2005-2006 Sven Lüppken <sven@kde.org>
-Licences: GPL-2+
+License: GPL-2+
 
 Files: stage/*
 Copyright:
            2006-2010 Thorsten Zachmann <zachmann@kde.org>
            2009 Amit Aggarwal <amitcs06@gmail.com>
-Licences: LGPL-2.1+
+License: LGPL-2.1+
+
 Files: stage/*
 Copyright:
            1998-1999 Reginald Stadlbauer <reggie@kde.org>
@@ -256,23 +234,25 @@ Copyright:
            2009-2010 Jean-Nicolas Artaud <jeannicolasartaud@gmail.com>
            2010 Gopalakrishna Bhat A <gopalakbhat@gmail.com>
            2011 Paul Mendez <paulestebanms@gmail.com>
-Licences: LGPL-2+
-
+License: LGPL-2+
 
 Files: krita/*
 Copyright: 1998-2004 Marti Maria <x@unknown.com>
-Licences: MIT
+License: MIT
+
 Files: krita/*
 Copyright: 2005 Erik Reinhard
            2005 Greg Ward
            2005 Paul Debevec
            2005 Sumanta Pattanaik
            2007 Shaine Joseph
-Licences: BSD-BY-LC-NE
+License: BSD-BY-LC-NE
+
 Files: krita/*
 Copyright: 2003-2004 Rafal Mantiuk
            2003-2004,2007 Grzegorz Krawczyk <krawczyk@mpi-sb.mpg.de>
-Licences: LGPL-2.1+
+License: LGPL-2.1+
+
 Files: krita/*
 Copyright: 2003-2011 Boudewijn Rempt <boud@kde.org>
            2004-2005,2007-2012 Sven Langkamp <sven.langkamp@gmail.com>
@@ -289,7 +269,8 @@ Copyright: 2003-2011 Boudewijn Rempt <boud@kde.org>
            2010 Nokia Corporation
            2011 Silvio Heinrich <plassy@web.de>
            2011 Srikanth Tiyyagura <srikanth.tulasiram@gmail.com>
-Licences: LGPL-2+
+License: LGPL-2+
+
 Files: krita/*
 Copyright: 2003-2011 Boudewijn Rempt <boud@kde.org>
            2004-2005,2007-2012 Sven Langkamp <sven.langkamp@gmail.com>
@@ -303,7 +284,8 @@ Copyright: 2003-2011 Boudewijn Rempt <boud@kde.org>
            2010 Geoffry Song <goffrie@gmail.com>
            2010 Marc Pegon <pe.marc@free.fr>
            2011 Srikanth Tiyyagura <srikanth.tulasiram@gmail.com>
-Licences: LGPL-2
+License: LGPL-2
+
 Files: krita/*
 Copyright: 1982-1989 Donald H. House <x@unknown.com>
            1989 Robert Allen <x@unknown.com>
@@ -359,23 +341,25 @@ Copyright: 1982-1989 Donald H. House <x@unknown.com>
            2011 Siddharth Sharma <siddharth.kde@gmail.com>
            2011 Silvio Heinrich <plassy@web.de>
            2011 Srikanth Tiyyagura <srikanth.tulasiram@gmail.com>
-Licences: GPL-2+
+License: GPL-2+
+
 Files: krita/*
 Copyright: Trolltech ASA
-Licences: GPL-2
-
+License: GPL-2
 
 Files: sheets/*
 Copyright:
            2005-2006 Raphael Langerhorst <raphael-langerhorst@gmx.at>
-Licences: MIT
-Fils: sheets/*
+License: MIT
+
+Files: sheets/*
 Copyright:
            2000 901 San
            2000 Antonio Road
            2000 Microsystems Inc.
            2000 Palo Alto
-Licences: LGPL-2.1
+License: LGPL-2.1
+
 Files: sheets/*
 Copyright:
            1998-1999 Reginald Stadlbauer <reggie@kde.org>
@@ -424,7 +408,8 @@ Copyright:
            2010 Boudewijn Rempt <boud@kogmbh.com>
            2011 Arjen Hiemstra <ahiemstra@heimr.nl>
            2011 Juan Aquino <utcl95@gmail.com>
-Licences: LGPL-2+
+License: LGPL-2+
+
 Files: sheets/*
 Copyright:
            1998-1999 Reginald Stadlbauer <reggie@kde.org>
@@ -457,13 +442,13 @@ Copyright:
            2008-2011 Marijn Kruisselbrink <mkruisselbrink@kde.org>
            2010 Carlos Licea <carlos@kdab.com>
            2010 Suresh Chande <suresh.chande@nokia.com>
-Licences: LGPL-2
+License: LGPL-2
+
 Files: sheets/*
 Copyright:
            2005-2010 Stefan Nikolaus <stefan.nikolaus@kdemail.net>
            2008-2011 Marijn Kruisselbrink <mkruisselbrink@kde.org>
-Licences: GPL-2+
-
+License: GPL-2+
 
 Files: words/*
 Copyright:
@@ -480,17 +465,18 @@ Copyright:
            2009 Inge Wallin <inge@lysator.liu.se>
            2010 Matus Hanzes
            2011 Jignesh Kakadiya <jigneshhk1992@gmail.com>
-Licences: LGPL-2+
+License: LGPL-2+
+
 Files: words/*
 Copyright:
            2005-2010 Thomas Zander <zander@kde.org>
-Licences: GPL-2+
-
+License: GPL-2+
 
 Files: active/*
 Copyright:
            2011 Shantanu Tushar <jhahoneyk@gmail.com>
-Licence: LGPL-2+
+License: LGPL-2+
+
 Files: active/*
 Copyright:
            2011 Shantanu Tushar <jhahoneyk@gmail.com>
@@ -499,20 +485,21 @@ Copyright:
            2009 Inge Wallin <inge@lysator.liu.se>
            2006-2009 Thorsten Zachmann <zachmann@kde.org>
            2007 Thomas Zander <zander@kde.org>
-Licence: GPL-2+
-
+License: GPL-2+
 
 Files: libs/*
 Copyright: 
            2004-2010 Cyrille Berger <cberger@cberger.net>
-Licence: BSD-BY-LC-NE
+License: BSD-BY-LC-NE
+
 Files: libs/*
 Copyright:
            2001-2007 LLC <info@openmfg.com>
            2004-2010 Jarosław Staniek <staniek@kde.org>
            2007-2011 Adam Pigg <adam@piggz.co.uk>
            2007-2011 Pierre Ducroquet <pinaraf@gmail.com>
-Licence: LGPL-2.1+
+License: LGPL-2.1+
+
 Files: libs/*
 Copyright:
            1998 Raph Levien
@@ -593,7 +580,8 @@ Copyright:
            2011 Srikanth Tiyyagura <srikanth.tulasiram@gmail.com>
            2011-2012 Stuart Dickson <stuart@furkinfantastic.net>
            2011 Robert Mathias Marmorstein <robert@narnia.homeunix.com>
-Licence: LGPL-2+
+License: LGPL-2+
+
 Files: libs/*
 Copyright:
            1998-2007,2010 David Faure <faure@kde.org>
@@ -613,7 +601,8 @@ Copyright:
            2008 Girish Ramakrishnan <girish@forwardbias.in>
            2009-2011 KO GmbH
            2011 Mojtaba Shahi Senobari <mojtaba.shahi3000@gmail.com>
-Licence: LGPL-2
+License: LGPL-2
+
 Files: libs/*
 Copyright:
            2002-2003 Lukas Tinkl <lukas@kde.org>
@@ -625,8 +614,7 @@ Copyright:
            2005-2011 Thomas Zander <zander@kde.org>
            2006-2011 Thorsten Zachmann <zachmann@kde.org>
            2011 Srikanth Tiyyagura <srikanth.tulasiram@gmail.com>
-Licence: GPL-2+
-
+License: GPL-2+
 
 Files: filters/*
 Copyright:
@@ -634,12 +622,14 @@ Copyright:
            2001-2007 Ariya Hidayat <ariya@kde.org>
            2008,2010-2011 Brad Hards <bradh@frogmouth.net>
            2010-2011 Matus Uzak <matus.uzak@ixonos.com>
-Licence: BSD-BY-LC-NE
+License: BSD-BY-LC-NE
+
 Files: filters/*
 Copyright:
            2003,2005-2007,2009-2012 Inge Wallin <inge@lysator.liu.se>
            2009 Amit Aggarwal <amit.5.aggarwal@nokia.com>
-Licence: LGPL-2.1+
+License: LGPL-2.1+
+
 Files: filters/*
 Copyright:
            1998 Kai-Uwe Sattler <kus@iti.cs.uni-magdeburg.de>
@@ -707,7 +697,8 @@ Copyright:
            2010 Srihari Prasad G V <sri-hari@live.com>
            2010-2011 Matus Uzak <matus.uzak@ixonos.com>
            2011 Lukáš Tvrdý <lukas.tvrdy@ixonos.com>
-Licence: LGPL-2+
+License: LGPL-2+
+
 Files: filters/*
 Copyright:
            1998-1999 Torben Weis <weis@kde.org>
@@ -733,7 +724,8 @@ Copyright:
            2010 KoGmbh <casper.boemann@kogmbh.com>
            ???? Christoph Schleifenbaum <christoph@kdab.com>
            ???? Suresh Chande <suresh.chande@nokia.com>
-Licence: LGPL-2.1
+License: LGPL-2.1
+
 Files: filters/*
 Copyright:
            1998,2002-2003 Stefan Taferner <taferner@kde.org>
@@ -746,7 +738,8 @@ Copyright:
            2003,2005-2007,2009-2012 Inge Wallin <inge@lysator.liu.se>
            2005-2012 Hambrecht <jaham@gmx.net>
            2010-2011 Matus Uzak <matus.uzak@ixonos.com>
-Licence: LGPL-2
+License: LGPL-2
+
 Files: filters/*
 Copyright:
            1998,2002-2003 Stefan Taferner <taferner@kde.org>
@@ -756,13 +749,13 @@ Copyright:
            2001-2004 Nicolas GOUTTE <goutte@kde.org>
            2011 Lukáš Tvrdý <lukas.tvrdy@ixonos.com>
            2011-2012 Stuart Dickson <stuart@furkinfantastic.net>
-Licence: GPL-2+
+License: GPL-2+
+
 Files: filters/*
 Copyright: 
            1999-2006,2011 David Faure <faure@kde.org>
            2000-2003 Werner Trobin <trobin@kde.org>
-Licence: GPL-2
-
+License: GPL-2
 
 Files: tools/*
 Copyright:
@@ -776,13 +769,15 @@ Copyright:
            2002 Simon MacMullen <calligra@babysimon.co.uk>
            2010 Sven Langkamp <sven.langkamp@gmail.com>
            2011 Dan Leinir Turthra Jensen <admin@leinir.dk>
-Licence: LGPL-2+
+License: LGPL-2+
+
 Files: tools/*
 Copyright:
            2009-2011 Nokia Corporation
            2012 Hambrecht <jaham@gmx.net>
            2011 Thorsten Zachmann <thorsten.zachmann@nokia.com>
-Licence: LGPL-2.1
+License: LGPL-2.1
+
 Files: tools/*
 Copyright:
            2010 Boudewijn Rempt <boud@kogmbh.com>
@@ -791,8 +786,7 @@ Copyright:
            2001 Daniel Naber <daniel.naber@t-online.de>
            2011 Mani <maninc@gmail.com>
            2010 Thomas Zander <zander@kde.org>
-Licence: GPL-2+
-
+License: GPL-2+
 
 Files: plugins/*
 Copyright: 
@@ -805,7 +799,8 @@ Copyright:
            2007 Thomas Zander <zander@kde.org>
            2007 Hambrecht <jaham@gmx.net>
            2011 Radosław Wicik <radoslaw@wicik.pl>
-Licence: LGPL-2.1+
+License: LGPL-2.1+
+
 Files: plugins/*
 Copyright: 
            1999 Reginald Stadlbauer <reggie@kde.org>
@@ -872,7 +867,8 @@ Copyright:
            2011 Mojtaba Shahi Senobari <mojtaba.shahi3000@gmail.com>
            2011 Radosław Wicik <radoslaw@wicik.pl>
            2011 Smit Patel <smitpatel24@gmail.com>
-Licence: LGPL-2+
+License: LGPL-2+
+
 Files: plugins/*
 Copyright:
            1999 Reginald Stadlbauer <reggie@kde.org>
@@ -888,7 +884,8 @@ Copyright:
            2006-2009 Alfredo Beaumont Sainz <alfredo.beaumont@gmail.com>
            2009 Jeremias Epperlein <jeeree@web.de>
            2011 Mojtaba Shahi Senobari <mojtaba.shahi3000@gmail.com>
-Licence: LGPL-2
+License: LGPL-2
+
 Files: plugins/*
 Copyright: 
            2001-2003 Daniel Naber <daniel.naber@t-online.de>
@@ -896,36 +893,57 @@ Copyright:
            2004-2012 Cyrille Berger <cberger@cberger.net>
            2005-2010 Thomas Zander <zander@kde.org>
            2010 Mani Chandrasekar <maninc@gmail.com>
-Licence: GPL-2+
+License: GPL-2+
+
 Files: plugins/*
 Copyright: 2001-2011 Klaralvdalens Datakonsult AB.
-Licence: GPL-2
-
+License: GPL-2
 
 Files: interface/*
 Copyright: 2004 Cyrille Berger <cberger@cberger.net>
            2006 Boudewijn Rempt <boud@valdyas.org>
            2006 David Faure <faure@kde.org>
            2006 Thomas Zander <zander@kde.org>
-Licence: LGPL-2+
+License: LGPL-2+
+
 Files: interfaces/*
 Copyright: 2000-2002 Kalle Dalheimer <kalle@kde.org>
            2008 Johannes Simon <johannes.simon@gmail.com>
-Licence: LGPL-2
-
+License: LGPL-2
 
 Files: kdgantt/*
 Copyright: 2008 Dag Andersen <kplato@kde.org>
-Licence: LGPL-2+
+License: LGPL-2+
+
 Files: kdgantt/*
 Copyright: 2001-2006 Klarälvdalens Datakonsult AB.
-Licence: GPL-2+
+License: GPL-2+
 
 Files: debian/*
 Copyright: 2011 Ana Beatriz Guerrero Lopez <ana@debian.org>
            2011 Raúl Sánchez Siles <rasasi78@gmail.com>
            2011 Pino Toscano <pino@debian.org>
            2011 Adrien Grellier <adrien.grellier@laposte.net>
+License: GPL-2+
+
+License: GPL-2
+ This program is free software; you can redistribute it and/or
+ modify it under the terms of the GNU General Public
+ License version 2 as published by the Free Software Foundation.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program; see the file COPYING.  If not, write to
+ the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
+ Boston, MA 02110-1301, USA.
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ version 2 can be found in `/usr/share/common-licenses/GPL-2'.
+
 License: GPL-2+
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
@@ -940,6 +958,61 @@ License: GPL-2+
  You should have received a copy of the GNU General Public License
  along with this program. If not, see <http://www.gnu.org/licenses/>
  .
- On Debian systems, the complete text of the GNU General
- Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
+ On Debian systems, the complete text of the GNU General Public License
+ version 2 can be found in `/usr/share/common-licenses/GPL-2'.
+
+License: LGPL-2
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Library General Public
+ License version 2 as published by the Free Software Foundation.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Library General Public License for more details.
+ .
+ You should have received a copy of the GNU Library General Public License
+ along with this library; see the file COPYING.LIB.  If not, write to
+ the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
+ Boston, MA 02110-1301, USA.
+ .
+ On Debian systems the full text of the GNU LGPL v2 can be found
+ in the `/usr/share/common-licenses/LGPL-2' file.
+
+License: LGPL-2+
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Library General Public
+ License as published by the Free Software Foundation; either
+ version 2 of the License, or (at your option) any later version.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Library General Public License for more details.
+ .
+ You should have received a copy of the GNU Library General Public License
+ along with this library; see the file COPYING.LIB.  If not, write to
+ the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
+ Boston, MA 02110-1301, USA.
+ .
+ On Debian systems the full text of the GNU LGPL v2 can be found
+ in the `/usr/share/common-licenses/LGPL-2' file.
+
+License: LGPL-2.1+
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Lesser General Public
+ License as published by the Free Software Foundation; either
+ version 2.1 of the License, or (at your option) any later version.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Lesser General Public License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public
+ License along with this library; if not, write to the Free Software
+ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
+ .
+ On Debian systems the full text of the GNU LGPL v2.1 can be found
+ in the `/usr/share/common-licenses/LGPL-2.1' file.
 
