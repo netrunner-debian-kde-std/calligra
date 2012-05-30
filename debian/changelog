@@ -1,6 +1,8 @@
 calligra (1:2.4.2-0r1) UNRELEASED; urgency=low
 
+  [ Pino Toscano ]
   * New upstream release.
+  * Update install files.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 30 May 2012 19:10:10 +0200
 
