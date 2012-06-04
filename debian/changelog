@@ -1,5 +1,6 @@
 calligra (1:2.4.2-1r0) UNRELEASED; urgency=low
 
+  * Pull a patch from upstream to make calligra build on arm
 
  -- Sune Vuorela <sune@debian.org>  Mon, 04 Jun 2012 08:53:30 +0200
 
