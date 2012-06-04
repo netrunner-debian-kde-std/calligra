@@ -1,3 +1,8 @@
+calligra (1:2.4.2-1r0) UNRELEASED; urgency=low
+
+
+ -- Sune Vuorela <sune@debian.org>  Mon, 04 Jun 2012 08:53:30 +0200
+
 calligra (1:2.4.2-1) unstable; urgency=low
 
   [ Pino Toscano ]
