@@ -1,5 +1,7 @@
 calligra (1:2.4.2-3) UNRELEASED; urgency=low
 
+  [ Pino Toscano ]
+  * Fix conflict/replaces with old koffice names. (Closes: #677085)
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 13 Jun 2012 10:58:57 +0200
 
