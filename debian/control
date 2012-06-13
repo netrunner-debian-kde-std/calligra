@@ -57,8 +57,6 @@ Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-std/calligra.git
 Package: calligra
 Architecture: all
 Section: kde
-Replaces: koffice
-Conflicts: koffice
 Depends: ${misc:Depends},
  braindump (>= ${source:Version}),
  calligraflow (>= ${source:Version}),
@@ -339,8 +337,8 @@ Description: thesaurus for the Calligra Suite
 Package: calligrasheets
 Architecture: any
 Section: math
-Replaces: kspread
-Conflicts: kspread
+Replaces: kspread (<< 1:2.4)
+Breaks: kspread (<< 1:2.4)
 Depends: ${misc:Depends}, ${shlibs:Depends}, calligra-libs (= ${binary:Version})
 Suggests: khelpcenter4
 Homepage: http://www.calligra-suite.org/sheets/
@@ -354,8 +352,8 @@ Description: spreadsheet for the Calligra Suite
 Package: calligraplan
 Architecture: any
 Section: kde
-Replaces: kplato
-Conflicts: kplato
+Replaces: kplato (<< 1:2.4)
+Breaks: kplato (<< 1:2.4)
 Depends: ${misc:Depends}, ${shlibs:Depends}, calligra-libs (= ${binary:Version})
 Suggests: khelpcenter4
 Homepage: http://www.calligra-suite.org/plan/
@@ -368,8 +366,8 @@ Description: integrated project management and planning tool
 Package: calligrawords
 Architecture: any
 Section: text
-Replaces: kword
-Conflicts: kword
+Replaces: kword (<< 1:2.4)
+Breaks: kword (<< 1:2.4)
 Depends: ${misc:Depends}, ${shlibs:Depends}, calligra-libs (= ${binary:Version}),
  calligrawords-data (>= ${source:Version})
 Suggests: khelpcenter4
@@ -398,8 +396,8 @@ Description: data files for Words word processor
 Package: calligrastage
 Architecture: any
 Section: kde
-Replaces: kpresenter
-Conflicts: kpresenter
+Replaces: kpresenter (<< 1:2.4)
+Breaks: kpresenter (<< 1:2.4)
 Depends: ${misc:Depends}, ${shlibs:Depends}, calligra-libs (= ${binary:Version})
 Suggests: khelpcenter4
 Homepage: http://www.calligra-suite.org/stage/
@@ -537,8 +535,6 @@ Package: calligra-dbg
 Section: debug
 Architecture: any
 Priority: extra
-Replaces: koffice-dbg
-Conflicts: koffice-dbg
 Depends: ${misc:Depends}, calligra-libs (= ${binary:Version}), kde-runtime-dbg
 Description: debugging symbols for Calligra
  This package contains the debugging symbols associated with Calligra.
