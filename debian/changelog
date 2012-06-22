@@ -1,10 +1,16 @@
-calligra (1:2.4.2-3) UNRELEASED; urgency=low
+calligra (1:2.4.2-3) unstable; urgency=low
+
+  * Team upload
 
   [ Pino Toscano ]
   * Fix conflict/replaces with old koffice names. (Closes: #677085)
   * Make okular-backend-odp enhance okular.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 13 Jun 2012 10:58:57 +0200
+  [ Sune Vuorela ]
+  * Ensure we are using the new libmarble-dev (this can be relaxed later if
+    needed)
+
+ -- Sune Vuorela <sune@debian.org>  Fri, 22 Jun 2012 08:56:20 +0200
 
 calligra (1:2.4.2-2) unstable; urgency=low
 
