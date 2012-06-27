@@ -1,3 +1,8 @@
+calligra (1:2.4.2-4) UNRELEASED; urgency=low
+
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 27 Jun 2012 14:08:16 +0200
+
 calligra (1:2.4.2-3) unstable; urgency=low
 
   * Team upload
