@@ -1,4 +1,8 @@
-calligra (1:2.4.2-4) UNRELEASED; urgency=low
+calligra (1:2.4.3-1) UNRELEASED; urgency=low
+
+  [ Raúl Sánchez Siles ]
+  * New upstream release
+    - Removed patch compile_on_arm.diff, included upstream.
 
   [ Eshat Cakar ]
   * Improve package descriptions, thanks to Justin B Rye (Closes: #679230)
