@@ -1,5 +1,7 @@
 calligra (1:2.4.2-4) UNRELEASED; urgency=low
 
+  [ Eshat Cakar ]
+  * Improve package descriptions, thanks to Justin B Rye (Closes: #679230)
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 27 Jun 2012 14:08:16 +0200
 
