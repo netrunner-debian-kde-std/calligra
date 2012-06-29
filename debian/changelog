@@ -1,4 +1,6 @@
-calligra (1:2.4.3-0r1) UNRELEASED; urgency=low
+calligra (1:2.4.3-1) unstable; urgency=low
+
+  * Team upload.
 
   [ Raúl Sánchez Siles ]
   * New upstream release
@@ -7,7 +9,7 @@ calligra (1:2.4.3-0r1) UNRELEASED; urgency=low
   [ Eshat Cakar ]
   * Improve package descriptions, thanks to Justin B Rye (Closes: #679230)
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 27 Jun 2012 14:08:16 +0200
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Fri, 29 Jun 2012 14:32:59 +0200
 
 calligra (1:2.4.2-3) unstable; urgency=low
 
