@@ -8,3 +8,5 @@ usr/share/kde4/apps/words
 usr/share/kde4/apps/xsltfilter/export/words/xslfo/main.xsl
 usr/share/kde4/apps/xsltfilter/export/words/xslfo/words2xslfo-table.xsl
 usr/share/kde4/config/wordsrc
+usr/share/templates/.source/TextDocument.kwt
+usr/share/templates/TextDocument.desktop

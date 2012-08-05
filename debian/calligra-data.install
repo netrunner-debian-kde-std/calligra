@@ -399,11 +399,3 @@ usr/share/kde4/servicetypes/scripteventaction.desktop
 usr/share/kde4/servicetypes/texteditingplugin.desktop
 usr/share/kde4/servicetypes/textvariableplugin.desktop
 usr/share/mime/packages/msooxml-all.xml
-usr/share/templates/.source/Illustration.karbon
-usr/share/templates/.source/Presentation.kpt
-usr/share/templates/.source/SpreadSheet.kst
-usr/share/templates/.source/TextDocument.kwt
-usr/share/templates/Illustration.desktop
-usr/share/templates/Presentation.desktop
-usr/share/templates/SpreadSheet.desktop
-usr/share/templates/TextDocument.desktop
