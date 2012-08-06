@@ -11,6 +11,8 @@ calligra (1:2.4.3-2) UNRELEASED; urgency=low
     a buffer overflow in the msword import filter; patch
     upstream_Make-sure-not-to-write-behind-the-allocated-memory.patch.
     (Closes: #684004)
+  * Force the "kde" build system to dh_auto_configure, so the proper kdeinit
+    handling is applied.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 02 Jul 2012 19:05:06 +0200
 
