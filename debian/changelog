@@ -6,6 +6,12 @@ calligra (1:2.4.3-2) UNRELEASED; urgency=low
   * Split the templates from calligra-data to the application's packages.
     (Closes: #682763)
 
+  [ Pino Toscano ]
+  * Backport upstream commit 7d72f7dd8d28d18c59a08a7d43bd4e0654043103 to fix
+    a buffer overflow in the msword import filter; patch
+    upstream_Make-sure-not-to-write-behind-the-allocated-memory.patch.
+    (Closes: #684004)
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 02 Jul 2012 19:05:06 +0200
 
 calligra (1:2.4.3-1) unstable; urgency=low
