@@ -13,6 +13,7 @@ calligra (1:2.4.3-2) UNRELEASED; urgency=low
     (Closes: #684004)
   * Force the "kde" build system to dh_auto_configure, so the proper kdeinit
     handling is applied.
+  * Fix description of krita to be within 80 columns.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 02 Jul 2012 19:05:06 +0200
 
