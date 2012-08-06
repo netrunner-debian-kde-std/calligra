@@ -301,11 +301,11 @@ Description: pixel-based image manipulation program for the Calligra Suite
  pluggable brush engines, some supporting brush resources like Gimp brush files,
  others offering sophisticated simulation of real brushes, and others again
  offering color mixing and image deformations. Moreover, Krita has full
- support for graphics tablets, including such features as pressure, tilt and rate,
- making it a great choice for artists. There are easy to use tools for drawing
- lines, ellipses and rectangles, and the freehand tool is supported by pluggable
- "drawing assistants" that help you draw shapes that still have a freehand
- feeling to them.
+ support for graphics tablets, including such features as pressure, tilt and
+ rate, making it a great choice for artists. There are easy to use tools for
+ drawing lines, ellipses and rectangles, and the freehand tool is supported by
+ pluggable "drawing assistants" that help you draw shapes that still have a
+ freehand feeling to them.
  .
  This package is part of the Calligra Suite.
 
