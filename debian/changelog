@@ -8,7 +8,7 @@ calligra (1:2.4.3-2) UNRELEASED; urgency=low
 
   [ Pino Toscano ]
   * Backport upstream commit 7d72f7dd8d28d18c59a08a7d43bd4e0654043103 to fix
-    a buffer overflow in the msword import filter; patch
+    a buffer overflow in the msword import filter (CVE-2012-3456); patch
     upstream_Make-sure-not-to-write-behind-the-allocated-memory.patch.
     (Closes: #684004)
   * Force the "kde" build system to dh_auto_configure, so the proper kdeinit
