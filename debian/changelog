@@ -1,4 +1,4 @@
-calligra (1:2.4.3-2) UNRELEASED; urgency=low
+calligra (1:2.4.3-2) unstable; urgency=low
 
   * Team upload.
 
@@ -17,7 +17,7 @@ calligra (1:2.4.3-2) UNRELEASED; urgency=low
     handling is applied.
   * Fix description of krita to be within 80 columns.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 02 Jul 2012 19:05:06 +0200
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sun, 19 Aug 2012 15:06:46 -0300
 
 calligra (1:2.4.3-1) unstable; urgency=low
 
