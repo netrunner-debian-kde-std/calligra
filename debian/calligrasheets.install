@@ -44,6 +44,7 @@ usr/share/icons/hicolor/22x22/apps/sheets.png
 usr/share/icons/hicolor/32x32/apps/sheets.png
 usr/share/icons/hicolor/48x48/apps/sheets.png
 usr/share/kde4/apps/sheets/
+usr/share/kde4/apps/tables/
 usr/share/kde4/config.kcfg/sheets.kcfg
 usr/share/kde4/config/sheetsrc
 usr/share/kde4/services/ServiceMenus/kspread_konqi.desktop
