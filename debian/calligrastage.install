@@ -16,8 +16,8 @@ usr/lib/kde4/kpr_shapeanimation_example.so
 usr/lib/kde4/kprvariables.so
 usr/lib/kde4/powerpointimport.so
 usr/lib/kde4/pptximport.so
-usr/lib/libcalligrastageprivate.so.9
-usr/lib/libcalligrastageprivate.so.9.0.0
+usr/lib/libcalligrastageprivate.so.10
+usr/lib/libcalligrastageprivate.so.10.0.0
 usr/lib/libkdeinit4_calligrastage.so
 usr/share/applications/kde4/stage.desktop
 usr/share/doc/kde/HTML/en/stage
@@ -50,5 +50,5 @@ usr/share/kde4/services/kprvariables.desktop
 usr/share/kde4/services/stagepart.desktop
 usr/share/kde4/servicetypes/kpr_pageeffect.desktop
 usr/share/kde4/servicetypes/kpr_shapeanimation.desktop
-usr/share/templates/.source/Presentation.kpt
+usr/share/templates/.source/Presentation.odp
 usr/share/templates/Presentation.desktop
