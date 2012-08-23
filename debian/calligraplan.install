@@ -51,6 +51,7 @@ usr/share/icons/hicolor/scalable/apps/calligraplanwork.svgz
 usr/share/icons/hicolor/scalable/mimetypes/application-x-vnd.kde.plan.svgz
 usr/share/icons/hicolor/scalable/mimetypes/application-x-vnd.kde.plan.work.svgz
 usr/share/kde4/apps/plan/
+usr/share/kde4/apps/planwork/
 usr/share/kde4/config.kcfg/plansettings.kcfg
 usr/share/kde4/config.kcfg/planworksettings.kcfg
 usr/share/kde4/config/planrc
