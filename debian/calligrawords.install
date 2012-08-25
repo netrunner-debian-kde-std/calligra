@@ -6,6 +6,7 @@ usr/lib/kde4/htmlodf_export.so
 usr/lib/kde4/mswordodf_import.so
 usr/lib/kde4/rtfimport.so
 usr/lib/kde4/wordspart.so
+usr/lib/kde4/wpsimport.so
 usr/lib/libRtfReader.so.10
 usr/lib/libRtfReader.so.10.0.0
 usr/lib/libkdeinit4_calligrawords.so
@@ -21,4 +22,5 @@ usr/share/kde4/services/words_ascii_import.desktop
 usr/share/kde4/services/words_docx_import.desktop
 usr/share/kde4/services/words_msword-odf_import.desktop
 usr/share/kde4/services/words_rtf_import.desktop
+usr/share/kde4/services/words_wps_import.desktop
 usr/share/kde4/services/wordspart.desktop
