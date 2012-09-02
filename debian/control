@@ -526,17 +526,17 @@ Description: Okular backend for ODP documents
 # .
 # This package is part of the Calligra Suite.
 
-#Package: calligra-dev
-#Architecture: any
-#Section: devel
-#Replaces: koffice-dev
-#Conflicts: koffice-dev
-#Depends: ${so:Depends}, ${misc:Depends}, kdelibs5-dev
-#Description: common libraries for Calligra (development files)
-# This package provides the development files for the libraries that are
-# shared amongst the various components of Calligra.
-# .
-# This package is part of the Calligra Suite.
+Package: calligra-dev
+Architecture: any
+Section: devel
+Replaces: koffice-dev
+Conflicts: koffice-dev
+Depends: ${so:Depends}, ${misc:Depends}, kdelibs5-dev
+Description: common libraries for Calligra (development files)
+ This package provides the development files for the libraries that are
+ shared amongst the various components of Calligra.
+ .
+ This package is part of the Calligra Suite.
 
 Package: calligra-dbg
 Section: debug
