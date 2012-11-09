@@ -2,6 +2,7 @@ calligra (1:2.5.91-1) UNRELEASED; urgency=low
 
   [ Raúl Sánchez Siles ]
   * New upstream release
+    - Added build_videoshape_thumbnails_phononexperimental.diff to fix FTBFS
 
  -- Adrien Grellier <adrien.grellier@laposte.net>  Tue, 21 Aug 2012 10:17:19 +0200
 
