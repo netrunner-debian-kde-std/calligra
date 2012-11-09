@@ -20,7 +20,12 @@ usr/share/kde4/services/html-odf_export.desktop
 usr/share/kde4/services/words_applixword_import.desktop
 usr/share/kde4/services/words_ascii_import.desktop
 usr/share/kde4/services/words_docx_import.desktop
+usr/share/kde4/services/words_docx_thumbnail.desktop
 usr/share/kde4/services/words_msword-odf_import.desktop
+usr/share/kde4/services/words_msword_thumbnail.desktop
 usr/share/kde4/services/words_rtf_import.desktop
+usr/share/kde4/services/words_rtf_thumbnail.desktop
+usr/share/kde4/services/words_wpd_thumbnail.desktop
 usr/share/kde4/services/words_wps_import.desktop
+usr/share/kde4/services/words_wps_thumbnail.desktop
 usr/share/kde4/services/wordspart.desktop

@@ -31,6 +31,7 @@ usr/share/kde4/apps/karbon
 usr/share/kde4/config/karbonrc
 usr/share/kde4/services/ServiceMenus/karbon_konqi.desktop
 usr/share/kde4/services/karbon_1x_import.desktop
+usr/share/kde4/services/karbon_karbon1x_thumbnail.desktop
 usr/share/kde4/services/karbon_eps_import.desktop
 usr/share/kde4/services/karbon_jpg_export.desktop
 usr/share/kde4/services/karbon_pdf_import.desktop
@@ -40,8 +41,11 @@ usr/share/kde4/services/karbon_svg_import.desktop
 usr/share/kde4/services/karbon_svgz_import.desktop
 usr/share/kde4/services/karbon_wmf_export.desktop
 usr/share/kde4/services/karbon_wmf_import.desktop
+usr/share/kde4/services/karbon_wmf_thumbnail.desktop
 usr/share/kde4/services/karbon_wpg_import.desktop
+usr/share/kde4/services/karbon_wpg_thumbnail.desktop
 usr/share/kde4/services/karbon_xfig_import.desktop
+usr/share/kde4/services/karbon_xfig_thumbnail.desktop
 usr/share/kde4/services/karbonfiltereffects.desktop
 usr/share/kde4/services/karbonpart.desktop
 usr/share/kde4/services/karbontools.desktop
