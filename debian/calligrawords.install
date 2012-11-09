@@ -2,7 +2,6 @@ usr/bin/calligrawords
 usr/lib/kde4/applixwordimport.so
 usr/lib/kde4/asciiimport.so
 usr/lib/kde4/docximport.so
-usr/lib/kde4/htmlodf_export.so
 usr/lib/kde4/mswordodf_import.so
 usr/lib/kde4/rtfimport.so
 usr/lib/kde4/wordspart.so
@@ -16,7 +15,6 @@ usr/lib/libwordsprivate.so.11
 usr/lib/libwordsprivate.so.11.0.0
 usr/share/applications/kde4/words.desktop
 usr/share/kde4/services/ServiceMenus/words_konqi.desktop
-usr/share/kde4/services/html-odf_export.desktop
 usr/share/kde4/services/words_applixword_import.desktop
 usr/share/kde4/services/words_ascii_import.desktop
 usr/share/kde4/services/words_docx_import.desktop
