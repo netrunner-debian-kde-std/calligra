@@ -364,6 +364,7 @@ usr/share/kde4/services/commentshape.desktop
 usr/share/kde4/services/defaulttools.desktop
 usr/share/kde4/services/formulashape.desktop
 usr/share/kde4/services/kchartpart.desktop
+usr/share/kde4/services/kexidb_sqlite3driver.desktop
 usr/share/kde4/services/kformulapart.desktop
 usr/share/kde4/services/kodocinfopropspage.desktop
 usr/share/kde4/services/kolcmsengine.desktop
