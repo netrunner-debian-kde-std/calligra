@@ -132,6 +132,7 @@ usr/share/kde4/services/krita_odg_import.desktop
 usr/share/kde4/services/krita_ora_export.desktop
 usr/share/kde4/services/krita_patterndocker.desktop
 usr/share/kde4/services/krita_ora_import.desktop
+usr/share/kde4/services/krita_ora_thumbnail.desktop
 usr/share/kde4/services/krita_pdf_import.desktop
 usr/share/kde4/services/krita_png_export.desktop
 usr/share/kde4/services/krita_png_import.desktop
