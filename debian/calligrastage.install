@@ -47,6 +47,7 @@ usr/share/kde4/services/kpr_shapeanimation_example.desktop
 usr/share/kde4/services/kpresenter_powerpoint_import.desktop
 usr/share/kde4/services/stage_powerpoint_thumbnail.desktop
 usr/share/kde4/services/kpresenter_pptx_import.desktop
+usr/share/kde4/services/stage_odp_thumbnail.desktop
 usr/share/kde4/services/stage_pptx_thumbnail.desktop
 usr/share/kde4/services/kprvariables.desktop
 usr/share/kde4/services/stagepart.desktop

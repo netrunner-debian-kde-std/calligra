@@ -287,7 +287,6 @@ usr/share/kde4/apps/musicshape/fonts/Emmentaler-14.ttf
 usr/share/kde4/services/artistictextshape.desktop
 usr/share/kde4/services/autocorrect.desktop
 usr/share/kde4/services/calligradockers.desktop
-usr/share/kde4/services/calligrathumbnail.desktop
 usr/share/kde4/services/changecase.desktop
 usr/share/kde4/services/chartshape.desktop
 usr/share/kde4/services/defaulttools.desktop
