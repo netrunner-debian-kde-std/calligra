@@ -308,6 +308,7 @@ usr/share/kde4/services/spellcheck.desktop
 usr/share/kde4/services/textshape.desktop
 usr/share/kde4/services/textvariables.desktop
 usr/share/kde4/services/thesaurustool.desktop
+usr/share/kde4/services/threedshape.desktop
 usr/share/kde4/services/vectorshape.desktop
 usr/share/kde4/services/videoshape.desktop
 usr/share/kde4/servicetypes/calligra_application.desktop

@@ -27,6 +27,7 @@ usr/lib/kde4/spellcheck.so
 usr/lib/kde4/textshape.so
 usr/lib/kde4/textvariables.so
 usr/lib/kde4/thesaurustool.so
+usr/lib/kde4/threedshape.so
 usr/lib/kde4/vectorshape.so
 usr/lib/kde4/videoshape.so
 usr/lib/libcalligradb.so.11.0.0
