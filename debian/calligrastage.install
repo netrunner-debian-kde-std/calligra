@@ -32,7 +32,6 @@ usr/share/kde4/apps/stage
 usr/share/kde4/config/stagerc
 usr/share/kde4/services/Filterkpr2odf.desktop
 usr/share/kde4/services/stage_kpr_thumbnail.desktop
-usr/share/kde4/services/ServiceMenus/kpresenter_konqi.desktop
 usr/share/kde4/services/calligrastageeventactions.desktop
 usr/share/kde4/services/calligrastagetoolanimation.desktop
 usr/share/kde4/services/kpr_pageeffect_barwipe.desktop
@@ -51,6 +50,7 @@ usr/share/kde4/services/kpresenter_pptx_import.desktop
 usr/share/kde4/services/stage_pptx_thumbnail.desktop
 usr/share/kde4/services/kprvariables.desktop
 usr/share/kde4/services/stagepart.desktop
+usr/share/kde4/services/ServiceMenus/stage_print.desktop
 usr/share/kde4/servicetypes/kpr_pageeffect.desktop
 usr/share/kde4/servicetypes/kpr_shapeanimation.desktop
 usr/share/templates/.source/Presentation.odp

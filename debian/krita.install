@@ -115,7 +115,6 @@ usr/share/applications/kde4/krita_psd.desktop
 usr/share/applications/kde4/krita_raw.desktop
 usr/share/applications/kde4/krita_tiff.desktop
 usr/share/applications/kde4/krita_xcf.desktop
-usr/share/kde4/services/ServiceMenus/krita_konqi.desktop
 usr/share/kde4/services/krita_artisticcolorselector.desktop
 usr/share/kde4/services/krita_bmp_export.desktop
 usr/share/kde4/services/krita_bmp_import.desktop
@@ -211,6 +210,7 @@ usr/share/kde4/services/kritatooltext.desktop
 usr/share/kde4/services/kritatooltransform.desktop
 usr/share/kde4/services/kritaunsharpfilter.desktop
 usr/share/kde4/services/kritawavefilter.desktop
+usr/share/kde4/services/ServiceMenus/krita_print.desktop
 usr/share/kde4/servicetypes/krita_brush.desktop
 usr/share/kde4/servicetypes/krita_dock.desktop
 usr/share/kde4/servicetypes/krita_filter.desktop
