@@ -81,6 +81,7 @@ usr/share/kde4/services/kspreadtrigonometrymodule.desktop
 usr/share/kde4/services/sheetspart.desktop
 usr/share/kde4/services/spreadsheetshape-deferred.desktop
 usr/share/kde4/services/spreadsheetshape.desktop
+usr/share/kde4/services/ServiceMenus/sheets_print.desktop
 usr/share/kde4/servicetypes/sheets_plugin.desktop
 usr/share/templates/.source/SpreadSheet.ods
 usr/share/templates/SpreadSheet.desktop
