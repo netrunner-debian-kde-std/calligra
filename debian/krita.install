@@ -28,6 +28,8 @@ usr/lib/kde4/kritadynapaintop.so
 usr/lib/kde4/kritaembossfilter.so
 usr/lib/kde4/kritaexample.so
 usr/lib/kde4/kritaexperimentpaintop.so
+usr/lib/kde4/kritaexrimport.so
+usr/lib/kde4/kritaexrexport.so
 usr/lib/kde4/kritaextensioncolorsfilters.so
 usr/lib/kde4/kritafastcolortransferfilter.so
 usr/lib/kde4/kritafilterop.so
@@ -104,6 +106,7 @@ usr/lib/libkritaui.so.11
 usr/lib/libkritaui.so.11.0.0
 usr/share/applications/kde4/krita.desktop
 usr/share/applications/kde4/krita_bmp.desktop
+usr/share/applications/kde4/krita_exr.desktop
 usr/share/applications/kde4/krita_jp2.desktop
 usr/share/applications/kde4/krita_jpeg.desktop
 usr/share/applications/kde4/krita_odg.desktop
@@ -123,6 +126,8 @@ usr/share/kde4/services/krita_colorselectorng.desktop
 usr/share/kde4/services/krita_colorspaces_extensions_plugin.desktop
 usr/share/kde4/services/krita_compositiondocker.desktop
 usr/share/kde4/services/krita_digitalmixer.desktop
+usr/share/kde4/services/krita_exr_export.desktop
+usr/share/kde4/services/krita_exr_import.desktop
 usr/share/kde4/services/krita_jp2_export.desktop
 usr/share/kde4/services/krita_jp2_import.desktop
 usr/share/kde4/services/krita_jpeg_export.desktop
