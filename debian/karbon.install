@@ -33,6 +33,7 @@ usr/share/kde4/services/karbon_1x_import.desktop
 usr/share/kde4/services/karbon_karbon1x_thumbnail.desktop
 usr/share/kde4/services/karbon_eps_import.desktop
 usr/share/kde4/services/karbon_jpg_export.desktop
+usr/share/kde4/services/calligra_odg_thumbnail.desktop
 usr/share/kde4/services/karbon_pdf_import.desktop
 usr/share/kde4/services/karbon_png_export.desktop
 usr/share/kde4/services/karbon_svg_export.desktop
