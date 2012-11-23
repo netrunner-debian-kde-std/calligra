@@ -313,6 +313,7 @@ usr/share/kde4/services/vectorshape.desktop
 usr/share/kde4/services/videoshape.desktop
 usr/share/kde4/servicetypes/calligra_application.desktop
 usr/share/kde4/servicetypes/calligra_deferred_plugin.desktop
+usr/share/kde4/servicetypes/calligradb_driver.desktop
 usr/share/kde4/servicetypes/calligradocker.desktop
 usr/share/kde4/servicetypes/calligrapart.desktop
 usr/share/kde4/servicetypes/filtereffect.desktop
