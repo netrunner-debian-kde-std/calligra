@@ -27,6 +27,7 @@ usr/share/kde4/services/words_html_export.desktop
 usr/share/kde4/services/words_msword-odf_import.desktop
 usr/share/kde4/services/words_msword_thumbnail.desktop
 usr/share/kde4/services/words_Mobi_export.desktop
+usr/share/kde4/services/words_odt_thumbnail.desktop
 usr/share/kde4/services/words_rtf_import.desktop
 usr/share/kde4/services/words_rtf_thumbnail.desktop
 usr/share/kde4/services/words_wpd_import.desktop
