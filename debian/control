@@ -552,3 +552,18 @@ Description: debugging symbols for Calligra
  .
  This package is part of the Calligra Suite.
 
+Package: calligraauthor
+Architecture: any
+Section: text
+Depends: ${misc:Depends}, ${shlibs:Depends}, calligra-libs (= ${binary:Version})
+Suggests: khelpcenter4
+Description: Authoring tool for the Calligra Suite
+ A specialized tool for serious writers, like novelists or textbook writers,
+ aiming to become what Krita is for painters. The application will support a
+ writer in the process of creating an eBook from concept to publication.
+ Calligra Author will provide interactive content elements like multimedia,
+ 2D and 3D animations, embedded web content and support for javascript
+ scripting.
+ .
+ This package is part of the Calligra Suite.
+
