@@ -1,10 +1,16 @@
 usr/share/color/icc/krita/
+usr/share/icons/hicolor/256x256/apps/krita.png
 usr/share/icons/hicolor/128x128/apps/krita.png
 usr/share/icons/hicolor/16x16/apps/krita.png
 usr/share/icons/hicolor/22x22/apps/krita.png
 usr/share/icons/hicolor/32x32/apps/krita.png
 usr/share/icons/hicolor/48x48/apps/krita.png
 usr/share/icons/hicolor/64x64/apps/krita.png
+usr/share/kde4/apps/calligra/icons/hicolor/128x128/actions/template_ratio_1610.png
+usr/share/kde4/apps/calligra/icons/hicolor/128x128/actions/template_DIN_A4_portrait.png
+usr/share/kde4/apps/calligra/icons/hicolor/128x128/actions/template_ratio_2391.png
+usr/share/kde4/apps/calligra/icons/hicolor/128x128/actions/template_ratio_43.png
+usr/share/kde4/apps/calligra/icons/hicolor/128x128/actions/template_DIN_A3_landscape.png
 usr/share/kde4/apps/color-schemes/
 usr/share/kde4/apps/krita/
 usr/share/kde4/apps/kritaplugins/
