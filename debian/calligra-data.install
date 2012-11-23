@@ -332,4 +332,5 @@ usr/share/kde4/servicetypes/presentationeventaction.desktop
 usr/share/kde4/servicetypes/scripteventaction.desktop
 usr/share/kde4/servicetypes/texteditingplugin.desktop
 usr/share/kde4/servicetypes/textvariableplugin.desktop
+usr/share/mime/packages/calligra_svm.xml
 usr/share/mime/packages/msooxml-all.xml
