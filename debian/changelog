@@ -1,10 +1,13 @@
-calligra (1:2.4.3-3) UNRELEASED; urgency=low
+calligra (1:2.4.3-3) unstable; urgency=low
+
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Team upload.
 
   [ Pino Toscano ]
   * Make calligrawords-data conflict/replace old koffice-data.
     (Closes: #694397)
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 26 Nov 2012 16:35:24 +0100
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Mon, 26 Nov 2012 18:34:10 -0300
 
 calligra (1:2.4.3-2) unstable; urgency=low
 
