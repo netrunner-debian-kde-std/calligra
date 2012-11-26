@@ -1,4 +1,7 @@
 calligra (1:2.5.92-1) UNRELEASED; urgency=low
+  [ Pino Toscano ]
+  * Make calligrawords-data conflict/replace old koffice-data.
+    (Closes: #694397)
 
   [ Raúl Sánchez Siles ]
   * New upstream release

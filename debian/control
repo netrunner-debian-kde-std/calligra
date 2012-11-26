@@ -384,8 +384,9 @@ Package: calligrawords-data
 Architecture: all
 Section: text
 Depends: ${misc:Depends}
+Conflicts: koffice-data
 Breaks: calligra-data (<< 1:2.4.3-2)
-Replaces: calligra-data (<< 1:2.4.3-2)
+Replaces: calligra-data (<< 1:2.4.3-2), koffice-data
 Homepage: http://www.calligra-suite.org/words/
 Description: data files for Words word processor
  This package contains architecture-independent data files for Words,
