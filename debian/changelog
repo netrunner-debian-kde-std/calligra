@@ -1,5 +1,7 @@
 calligra (1:2.4.3-4) UNRELEASED; urgency=low
 
+  [ Pino Toscano ]
+  * Make krita-data break/replace krita-data < 2.4. (Closes: #694854)
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 01 Dec 2012 12:14:37 +0100
 

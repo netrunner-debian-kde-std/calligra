@@ -290,6 +290,8 @@ Architecture: any
 Section: graphics
 Depends: ${misc:Depends}, ${shlibs:Depends}, krita-data (>= ${source:Version}), calligra-libs (= ${binary:Version})
 Suggests: khelpcenter4
+Breaks: krita-data (<< 1:2.4)
+Replaces: krita-data (<< 1:2.4)
 Homepage: http://www.calligra-suite.org/krita/
 Description: pixel-based image manipulation program for the Calligra Suite
  Krita is a creative application for raster images. Whether you want to create
