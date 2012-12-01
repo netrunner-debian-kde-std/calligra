@@ -2,6 +2,8 @@ calligra (1:2.5.92-1) UNRELEASED; urgency=low
   [ Pino Toscano ]
   * Make calligrawords-data conflict/replace old koffice-data.
     (Closes: #694397)
+  [ Pino Toscano ]
+  * Make krita-data break/replace krita-data < 2.4. (Closes: #694854)
 
   [ Raúl Sánchez Siles ]
   * New upstream release
