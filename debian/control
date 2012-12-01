@@ -82,8 +82,8 @@ Architecture: any
 Section: graphics
 Depends: ${misc:Depends}, ${shlibs:Depends}, calligra-libs (= ${binary:Version})
 Recommends: pstoedit
-Breaks: calligra-data (<< 1:2.4.3-2)
-Replaces: calligra-data (<< 1:2.4.3-2)
+Breaks: koffice-data (<< 1:2.4), calligra-data (<< 1:2.4.3-2)
+Replaces: koffice-data (<< 1:2.4), calligra-data (<< 1:2.4.3-2)
 Homepage: http://www.calligra-suite.org/karbon/
 Description: vector graphics application for the Calligra Suite
  Karbon is a vector drawing application with an user interface that is easy to
