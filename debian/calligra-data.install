@@ -35,6 +35,8 @@ usr/share/kde4/apps/calligra/autocorrect/autocorrect.xml
 usr/share/kde4/apps/calligra/autocorrect/en_US.xml
 usr/share/kde4/apps/calligra/calligra_shell.rc
 usr/share/kde4/apps/calligra/icons/cursor_connect.png
+usr/share/kde4/apps/calligra/icons/cursor_rotate.png
+usr/share/kde4/apps/calligra/icons/cursor_shear.png
 usr/share/kde4/apps/calligra/icons/hicolor/16x16/actions/abs.png
 usr/share/kde4/apps/calligra/icons/hicolor/16x16/actions/bevelled.png
 usr/share/kde4/apps/calligra/icons/hicolor/16x16/actions/borderpainter.png
