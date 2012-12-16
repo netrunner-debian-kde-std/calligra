@@ -1,4 +1,4 @@
-calligra (1:2.4.3-4) UNRELEASED; urgency=low
+calligra (1:2.4.3-4) unstable; urgency=low
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Team upload.
@@ -7,7 +7,7 @@ calligra (1:2.4.3-4) UNRELEASED; urgency=low
   * Make krita-data break/replace krita-data < 2.4. (Closes: #694854)
   * Make karbon break/replace koffice-data < 2.4. (Closes: #694855)
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 01 Dec 2012 12:14:37 +0100
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sat, 15 Dec 2012 21:19:38 -0300
 
 calligra (1:2.4.3-3) unstable; urgency=low
 
