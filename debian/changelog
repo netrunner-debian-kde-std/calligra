@@ -1,5 +1,8 @@
 calligra (1:2.4.3-4) UNRELEASED; urgency=low
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Team upload.
+
   [ Pino Toscano ]
   * Make krita-data break/replace krita-data < 2.4. (Closes: #694854)
   * Make karbon break/replace koffice-data < 2.4. (Closes: #694855)
