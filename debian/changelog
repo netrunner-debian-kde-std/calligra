@@ -13,6 +13,10 @@ calligra (1:2.5.92-1) UNRELEASED; urgency=low
   * Make krita break/replace krita-data < 1:2.4. (Closes: #694854)
   * Make karbon break/replace koffice-data < 1:2.4. (Closes: #694855)
 
+  [ Adrien Grellier ]
+  * Fix typo in calligrasheets package description (Closes: #697261) 
+
+
   [ Raúl Sánchez Siles ]
   * New upstream release
     - Removed do_not_link_blas.diff. Included upstream.
