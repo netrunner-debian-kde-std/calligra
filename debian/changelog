@@ -1,4 +1,4 @@
-calligra (1:2.4.3-5) UNRELEASED; urgency=low
+calligra (1:2.4.4-1) UNRELEASED; urgency=low
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Fix the previous changelog:
@@ -10,6 +10,24 @@ calligra (1:2.4.3-5) UNRELEASED; urgency=low
   [ Adrien Grellier ]
   * Fix typo in calligrasheets package description (Closes: #697261) 
   * Make calligrastage break/replace koffice-data < 1:2.4 (Closes: #699200)
+  * New upstream bug fix release 2.4.4:
+    General:
+      - Update some translations
+    Sheets:
+      - A very nasty bug which made recalculations of spreadsheet
+        contents go wrong under some circumstances (BUGS: 312981, 313010)
+    Kexi:
+      - Make palette background color property in text editor work (BUG: 309274)
+      - Fix “data source tag” for text box (regression because of changes in
+        KDE libraries’ line editor)
+      - SQLite Driver: Fix possible data loss of compacted file (when process
+        tools crash or fail for any reason)
+      - Remove limit of 101 fields in Kexi Table Designer (BUG: 309116)
+      - Fix MySql login failure when not saving password – fix for
+        case 3.1 (BUG: 313025)
+      - Fix possible crash when pressing tab in the global search box
+  * remove upstream_Make-sure-not-to-write-behind-the-allocated-memory.patch
+    included upstream
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 16 Dec 2012 00:51:22 -0300
 
