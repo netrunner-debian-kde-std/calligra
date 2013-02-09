@@ -1,4 +1,4 @@
-calligra (1:2.4.4-1) UNRELEASED; urgency=low
+calligra (1:2.4.4-1) unstable; urgency=low
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Team upload.
@@ -30,7 +30,7 @@ calligra (1:2.4.4-1) UNRELEASED; urgency=low
   * Remove upstream_Make-sure-not-to-write-behind-the-allocated-memory.patch
     included upstream
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 16 Dec 2012 00:51:22 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sat, 09 Feb 2013 11:42:46 -0300
 
 calligra (1:2.4.3-4) unstable; urgency=low
 
