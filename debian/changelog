@@ -26,7 +26,7 @@ calligra (1:2.4.4-1) UNRELEASED; urgency=low
       - Fix MySql login failure when not saving password – fix for
         case 3.1 (BUG: 313025)
       - Fix possible crash when pressing tab in the global search box
-  * remove upstream_Make-sure-not-to-write-behind-the-allocated-memory.patch
+  * Remove upstream_Make-sure-not-to-write-behind-the-allocated-memory.patch
     included upstream
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 16 Dec 2012 00:51:22 -0300
