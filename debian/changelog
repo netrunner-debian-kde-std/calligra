@@ -1,6 +1,7 @@
 calligra (1:2.4.4-1) UNRELEASED; urgency=low
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Team upload.
   * Fix the previous changelog:
     - krita is the package that breaks/replaces krita-data.
     - Add the missing epochs.
