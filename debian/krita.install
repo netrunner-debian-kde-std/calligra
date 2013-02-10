@@ -66,6 +66,7 @@ usr/lib/kde4/kritapngimport.so
 usr/lib/kde4/kritappmexport.so
 usr/lib/kde4/kritappmimport.so
 usr/lib/kde4/kritapresetdocker.so
+usr/lib/kde4/kritapsdexport.so
 usr/lib/kde4/kritapsdimport.so
 usr/lib/kde4/kritaraindropsfilter.so
 usr/lib/kde4/kritarandompickfilter.so
@@ -144,6 +145,7 @@ usr/share/kde4/services/krita_png_import.desktop
 usr/share/kde4/services/krita_ppm_export.desktop
 usr/share/kde4/services/krita_ppm_import.desktop
 usr/share/kde4/services/krita_presetdocker.desktop
+usr/share/kde4/services/krita_psd_export.desktop
 usr/share/kde4/services/krita_psd_import.desktop
 usr/share/kde4/services/krita_raw_import.desktop
 usr/share/kde4/services/krita_smallcolorselector.desktop
