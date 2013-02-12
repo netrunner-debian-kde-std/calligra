@@ -59,6 +59,7 @@ usr/lib/kde4/kritapart.so
 usr/lib/kde4/kritaparticlepaintop.so
 usr/lib/kde4/kritapatterndocker.so
 usr/lib/kde4/kritapdfimport.so
+usr/lib/kde4/kritapsdexport.so
 usr/lib/kde4/kritaphongbumpmap.so
 usr/lib/kde4/kritapixelizefilter.so
 usr/lib/kde4/kritapngexport.so
@@ -144,6 +145,7 @@ usr/share/kde4/services/krita_png_import.desktop
 usr/share/kde4/services/krita_ppm_export.desktop
 usr/share/kde4/services/krita_ppm_import.desktop
 usr/share/kde4/services/krita_presetdocker.desktop
+usr/share/kde4/services/krita_psd_export.desktop
 usr/share/kde4/services/krita_psd_import.desktop
 usr/share/kde4/services/krita_raw_import.desktop
 usr/share/kde4/services/krita_smallcolorselector.desktop
