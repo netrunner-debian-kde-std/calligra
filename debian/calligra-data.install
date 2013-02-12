@@ -91,7 +91,6 @@ usr/share/kde4/apps/calligra/icons/hicolor/16x16/actions/rsubup.png
 usr/share/kde4/apps/calligra/icons/hicolor/16x16/actions/rsup.png
 usr/share/kde4/apps/calligra/icons/hicolor/16x16/actions/sqrt.png
 usr/share/kde4/apps/calligra/icons/hicolor/16x16/actions/sum.png
-usr/share/kde4/apps/calligra/icons/hicolor/16x16/actions/tool-text.png
 usr/share/kde4/apps/calligra/icons/hicolor/16x16/actions/under.png
 usr/share/kde4/apps/calligra/icons/hicolor/16x16/actions/vector.png
 usr/share/kde4/apps/calligra/icons/hicolor/16x16/apps/key_bindings.png
@@ -194,6 +193,8 @@ usr/share/kde4/apps/calligra/icons/hicolor/22x22/actions/spreadsheetshape.png
 usr/share/kde4/apps/calligra/icons/hicolor/22x22/actions/sqrt.png
 usr/share/kde4/apps/calligra/icons/hicolor/22x22/actions/sum.png
 usr/share/kde4/apps/calligra/icons/hicolor/22x22/actions/toggle_docbrowser.png
+usr/share/kde4/apps/calligra/icons/hicolor/22x22/actions/tool_references.png
+usr/share/kde4/apps/calligra/icons/hicolor/22x22/actions/tool-text.png
 usr/share/kde4/apps/calligra/icons/hicolor/22x22/actions/under.png
 usr/share/kde4/apps/calligra/icons/hicolor/22x22/actions/vector.png
 usr/share/kde4/apps/calligra/icons/hicolor/22x22/actions/zoom-pixels.png
