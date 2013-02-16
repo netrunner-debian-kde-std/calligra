@@ -341,8 +341,8 @@ Description: thesaurus for the Calligra Suite
 Package: calligrasheets
 Architecture: any
 Section: math
-Replaces: kspread (<< 1:2.4), calligra-data (<< 1:2.4.3-2)
-Breaks: kspread (<< 1:2.4), calligra-data (<< 1:2.4.3-2)
+Replaces: kspread (<< 1:2.4), calligra-data (<< 1:2.4.3-2), koffice-data (<< 1:2.4)
+Breaks: kspread (<< 1:2.4), calligra-data (<< 1:2.4.3-2), koffice-data (<< 1:2.4)
 Depends: ${misc:Depends}, ${shlibs:Depends}, calligra-libs (= ${binary:Version})
 Suggests: khelpcenter4
 Homepage: http://www.calligra-suite.org/sheets/
