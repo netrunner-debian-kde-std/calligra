@@ -30,7 +30,7 @@ Copyright: 1999 Matthias Elter <elter@kde.org>
            2005-2006 Tim Beaulen <tbscope@gmail.com>
            2005-2006 Inge Wallin <inge@lysator.liu.se>
            2005-2006 Sven Langkamp <sven.langkamp@gmail.com>
-           2005-2006,2012 Casper Boemann <cbr@boemann.dk>
+           2005-2006 Casper Boemann <cbr@boemann.dk>
            2005-2010 Boudewijn Rempt <boud@valdyas.org>
            2005-2012 Jan Hambrecht <jaham@gmx.net>
            2006 Martin Ellis <martin.ellis@kdemail.net>
@@ -182,7 +182,6 @@ Copyright:
            2007 Fredy Yanardi <fyanardi@gmail.com>
            2007 Thorsten Zachmann <zachmann@kde.org>
            2011 Pierre Stirnweiss <pstirnweiss@googlemail.com>
-           2012 Casper Boemann <cbo@boemann.dk>
 License: LGPL-2+
 
 Files: plan/*
@@ -236,11 +235,6 @@ Copyright:
            2010 Gopalakrishna Bhat A <gopalakbhat@gmail.com>
            2011 Paul Mendez <paulestebanms@gmail.com>
 License: LGPL-2+
-
-Files: stage/*
-Copyright: Trolltech ASA
-License: GPL-2
-          
 
 Files: krita/*
 Copyright: 1998-2004 Marti Maria <x@unknown.com>
@@ -414,7 +408,6 @@ Copyright:
            2010 Boudewijn Rempt <boud@kogmbh.com>
            2011 Arjen Hiemstra <ahiemstra@heimr.nl>
            2011 Juan Aquino <utcl95@gmail.com>
-           2012 Casper Boemann <cbo@boemann.dk>
 License: LGPL-2+
 
 Files: sheets/*
@@ -472,8 +465,6 @@ Copyright:
            2009 Inge Wallin <inge@lysator.liu.se>
            2010 Matus Hanzes
            2011 Jignesh Kakadiya <jigneshhk1992@gmail.com>
-           2012 Gopalakrishna Bhat A <gopalakbhat@gmail.com>
-           2012 Ben Martin
 License: LGPL-2+
 
 Files: words/*
@@ -483,12 +474,12 @@ License: GPL-2+
 
 Files: active/*
 Copyright:
-           2011-2012 Shantanu Tushar <jhahoneyk@gmail.com>
+           2011 Shantanu Tushar <jhahoneyk@gmail.com>
 License: LGPL-2+
 
 Files: active/*
 Copyright:
-           2011-2012 Shantanu Tushar <jhahoneyk@gmail.com>
+           2011 Shantanu Tushar <jhahoneyk@gmail.com>
            2010 Boudewijn Rempt <boud@kogmbh.com>
            2010-2012 Jarosław Staniek <staniek@kde.org>
            2009 Inge Wallin <inge@lysator.liu.se>
@@ -507,61 +498,52 @@ Copyright:
            2004-2010 Jarosław Staniek <staniek@kde.org>
            2007-2011 Adam Pigg <adam@piggz.co.uk>
            2007-2011 Pierre Ducroquet <pinaraf@gmail.com>
-           2011-2012 Dag Andersen <kplato@kde.org>
 License: LGPL-2.1+
 
 Files: libs/*
 Copyright:
-           1997-1999 Matthias Kalle Dalheimer <kalle@kde.org>   
            1998 Raph Levien
            1998-1999 Reginald Stadlbauer <reggie@kde.org>
            1998-2000 Torben Weis <weis@kde.org>
            1998-2007,2010 David Faure <faure@kde.org>
            1999 Carsten Pfeiffer <pfeiffer@kde.org>
-           1999 Preston Brown <pbrown@kde.org>
            1999-2000 Matthias Elter <elter@kde.org>
            1999-2000 Simon Hausmann <hausmann@kde.org>
-           2000 S.R.Haque <shaheedhaque@hotmail.com>
            2000-2002 Werner Trobin <trobin@kde.org>
            2001 John Califf
            2001 Peter Novodvorsky <nidd@cs.msu.su>
            2001-2003 Lennart Kudling <kudling@kde.org>
            2002 Igor Jansen <rm@kde.org>
-           2002 Till Busch <till@bux.at>
            2002 Tomislav Lukman <tomislav.lukman@ck.t-com.hr>
            2002,2004 Alexander Dymo <cloudtemple@mskat.net>
-           2002-2003 Joseph Wenninger <jowenn@kde.org>
            2002-2003 Lukas Tinkl <lukas@kde.org>
            2002-2003 Patrick Julien <freak@codepimps.org>
            2002-2003,2006 Rob Buis <buis@kde.org>
            2002-2004 Clarence Dang <dang@kde.org>
-           2002-2004 Lucijan Busch <lucijan@kde.org>
            2002-2006 Laurent Montel <montel@kde.org>
-           2003 thierry lorthiois <lorthioist@wanadoo.fr>
            2003-2004 Nicolas GOUTTE <goutte@kde.org>
+           2004 Nicolas Goutte <goutte@kde.org>
            2004-2005 Cedric Pasteur <cedric.pasteur@free.fr>
-           2004-2005 Martin Ellis <m.a.ellis@ncl.ac.uk>
            2004-2006,2010 Ariya Hidayat <ariya.hidayat@gmail.com>
            2004-2007 Adrian Page <adrian@pagenet.plus.com>
            2004-2007,2012 Sven Langkamp <sven.langkamp@gmail.com>
+           2004-2012 Cyrille Berger <cberger@cberger.net>
            2004-2010 Jarosław Staniek <staniek@kde.org>
            2004-2012 Boudewijn Rempt <boud@kde.org>
-           2004-2012 Cyrille Berger <cberger@cberger.net>
            2005 Johannes Schaub <litb_devel@web.de>
            2005,2008 Bart Coppens <kde@bartcoppens.be>
            2005-2006 Inge Wallin <inge@lysator.liu.se>
            2005-2006 Tim Beaulen <tbscope@gmail.com>
            2005-2009 Peter Simonsson <peter.simonsson@gmail.com>
            2005-2011 Casper Boemann <cbo@boemann.dk>
-           2005-2011 Thomas Zander <zander@kde.org>
            2005-2012 Hambrecht <jaham@gmx.net>
+           2005-2011 Thomas Zander <zander@kde.org>
+           2006 Brad Hards <bradh@kde.org>
            2006 Fredrik Edemar <f_edemar@linux.se>
            2006 Gary Cramblitt <garycramblitt@comcast.net>
            2006 Gábor Lehel <illissius@gmail.com>
-           2006 Thomas Braxton <brax108@cox.net>
            2006 Thomas Schaap <thomas.schaap@kdemail.net>
            2006,2008 Martin Pfeiffer <hubipete@gmx.net>
-           2006-2008 Brad Hards <bradh@kde.org>
            2006-2011 Sebastian Sauer <mail@dipe.org>
            2006-2011 Thorsten Zachmann <zachmann@kde.org>
            2007 Emanuele Tamponi <emanuele@valinor.it>
@@ -593,14 +575,11 @@ Copyright:
            2011 Matus Hanzes <matus.hanzes@ixonos.com>
            2011 Mojtaba Shahi Senobari <mojtaba.shahi3000@gmail.com>
            2011 Pavol Korinek <pavol.korinek@ixonos.com>
-           2011 Robert Mathias Marmorstein <robert@narnia.homeunix.com>
            2011 Silvio Heinrich <plassy@web.de>
            2011 Smit Patel <smitpatel24@gmail.com>
            2011 Srikanth Tiyyagura <srikanth.tulasiram@gmail.com>
-           2011 Steven Kakoczky <steven.kakoczky@gmail.com>
-           2011-2012 José Luis Vergara <pentalis@gmail.com>
            2011-2012 Stuart Dickson <stuart@furkinfantastic.net>
-           2011-2013 Gopalakrishna Bhat A <gopalakbhat@gmail.com>
+           2011 Robert Mathias Marmorstein <robert@narnia.homeunix.com>
 License: LGPL-2+
 
 Files: libs/*
@@ -625,10 +604,6 @@ Copyright:
 License: LGPL-2
 
 Files: libs/*
-Copyright: Free Software Foundation Inc.  
-License: GPL-3+
-
-Files: libs/*
 Copyright:
            2002-2003 Lukas Tinkl <lukas@kde.org>
            2004-2007 Adrian Page <adrian@pagenet.plus.com>
@@ -637,10 +612,8 @@ Copyright:
            2005,2008 Bart Coppens <kde@bartcoppens.be>
            2005-2011 Casper Boemann <cbo@boemann.dk>
            2005-2011 Thomas Zander <zander@kde.org>
-           2006-2011 Gilles Caulier <caulier.gilles@gmail.com>
            2006-2011 Thorsten Zachmann <zachmann@kde.org>
            2011 Srikanth Tiyyagura <srikanth.tulasiram@gmail.com>
-           2012 Dimitri Kazakov <dimula73@gmail.com>
 License: GPL-2+
 
 Files: filters/*
@@ -721,9 +694,9 @@ Copyright:
            2009 Jarosław Staniek <staniek@kde.org>
            2009-2010 Manikandaprasad Chandrasekar <manikandaprasad.chandrasekar@nokia.com>
            2010 Christoph Cullmann <cullmann@kde.org>
+           2010 Srihari Prasad G V <sri-hari@live.com>
            2010-2011 Matus Uzak <matus.uzak@ixonos.com>
            2011 Lukáš Tvrdý <lukas.tvrdy@ixonos.com>
-           2012 Mojtaba Shahi Senobari <mojtaba.shahi3000@gmail.com>
 License: LGPL-2+
 
 Files: filters/*
@@ -775,6 +748,7 @@ Copyright:
            2001 Graham Short. <grahshrt@netscape.net>
            2001-2004 Nicolas GOUTTE <goutte@kde.org>
            2011 Lukáš Tvrdý <lukas.tvrdy@ixonos.com>
+           2011-2012 Stuart Dickson <stuart@furkinfantastic.net>
 License: GPL-2+
 
 Files: filters/*
@@ -795,7 +769,6 @@ Copyright:
            2002 Simon MacMullen <calligra@babysimon.co.uk>
            2010 Sven Langkamp <sven.langkamp@gmail.com>
            2011 Dan Leinir Turthra Jensen <admin@leinir.dk>
-           2012 Friedrich W. H. Kossebau <kossebau@kde.org>
 License: LGPL-2+
 
 Files: tools/*
