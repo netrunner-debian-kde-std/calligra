@@ -30,7 +30,7 @@ Copyright: 1999 Matthias Elter <elter@kde.org>
            2005-2006 Tim Beaulen <tbscope@gmail.com>
            2005-2006 Inge Wallin <inge@lysator.liu.se>
            2005-2006 Sven Langkamp <sven.langkamp@gmail.com>
-           2005-2006 Casper Boemann <cbr@boemann.dk>
+           2005-2006,2012 Casper Boemann <cbr@boemann.dk>
            2005-2010 Boudewijn Rempt <boud@valdyas.org>
            2005-2012 Jan Hambrecht <jaham@gmx.net>
            2006 Martin Ellis <martin.ellis@kdemail.net>
@@ -183,6 +183,7 @@ Copyright:
            2007 Fredy Yanardi <fyanardi@gmail.com>
            2007 Thorsten Zachmann <zachmann@kde.org>
            2011 Pierre Stirnweiss <pstirnweiss@googlemail.com>
+           2012 Casper Boemann <cbo@boemann.dk>
 License: LGPL-2+
 
 Files: plan/*
@@ -236,6 +237,11 @@ Copyright:
            2010 Gopalakrishna Bhat A <gopalakbhat@gmail.com>
            2011-2012 Paul Mendez <paulestebanms@gmail.com>
 License: LGPL-2+
+
+Files: stage/*
+Copyright: Trolltech ASA
+License: GPL-2
+          
 
 Files: krita/*
 Copyright: 1998-2004 Marti Maria <x@unknown.com>
@@ -406,6 +412,7 @@ Copyright:
            2010 Boudewijn Rempt <boud@kogmbh.com>
            2011 Arjen Hiemstra <ahiemstra@heimr.nl>
            2011 Juan Aquino <utcl95@gmail.com>
+           2012 Casper Boemann <cbo@boemann.dk>
 License: LGPL-2+
 
 Files: sheets/*
@@ -473,12 +480,12 @@ License: GPL-2+
 
 Files: active/*
 Copyright:
-           2011 Shantanu Tushar <jhahoneyk@gmail.com>
+           2011-2012 Shantanu Tushar <jhahoneyk@gmail.com>
 License: LGPL-2+
 
 Files: active/*
 Copyright:
-           2011 Shantanu Tushar <jhahoneyk@gmail.com>
+           2011-2012 Shantanu Tushar <jhahoneyk@gmail.com>
            2010 Boudewijn Rempt <boud@kogmbh.com>
            2010-2012 Jarosław Staniek <staniek@kde.org>
            2009 Inge Wallin <inge@lysator.liu.se>
@@ -602,6 +609,10 @@ Copyright:
            2009-2011 KO GmbH
            2011 Mojtaba Shahi Senobari <mojtaba.shahi3000@gmail.com>
 License: LGPL-2
+
+Files: libs/*
+Copyright: Free Software Foundation Inc.  
+License: GPL-3+
 
 Files: libs/*
 Copyright:
@@ -743,7 +754,6 @@ Copyright:
            2001-2004 Nicolas GOUTTE <goutte@kde.org>
            2004-2007 Fridrich Strba <fridrich.strba@bluewin.ch>
            2011 Lukáš Tvrdý <lukas.tvrdy@ixonos.com>
-           2011-2012 Stuart Dickson <stuart@furkinfantastic.net>
 License: GPL-2+
 
 Files: filters/*
