@@ -1,4 +1,4 @@
-calligra (1:2.4.4-2) UNRELEASED; urgency=low
+calligra (1:2.4.4-2) unstable; urgency=low
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Team upload.
@@ -6,7 +6,7 @@ calligra (1:2.4.4-2) UNRELEASED; urgency=low
   [ Adrien Grellier ]
   * Make calligrasheets break/replace koffice-data < 1:2.4. (Closes: #700667)
 
- -- Adrien Grellier <adrien.grellier@laposte.net>  Sat, 16 Feb 2013 19:14:31 +0100
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Wed, 20 Feb 2013 14:48:41 -0300
 
 calligra (1:2.4.4-1) unstable; urgency=low
 
