@@ -16,6 +16,7 @@ calligra (1:2.6.0-1) UNRELEASED; urgency=low
   [ Adrien Grellier ]
   * Fix typo in calligrasheets package description (Closes: #697261) 
   * Make calligrastage break/replace koffice-data < 1:2.4 (Closes: #699200)
+  * Make calligrasheets break/replace koffice-data < 1:2.4 (Closes: #699200)
 
   [ Raúl Sánchez Siles ]
   * New upstream release
