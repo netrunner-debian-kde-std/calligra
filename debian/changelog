@@ -3,6 +3,10 @@ calligra (1:2.6.1-1) experimental; urgency=low
   [ Raúl Sánchez Siles ]
   * New upstream release
     - Removed do_not_link_blas.diff. Included upstream.
+    - calligramobile and kthesaurus are removed
+    - A new component appears : calligraauthor
+    - Build Dep: Add libglib2.0-dev for kexi mdb migration
+    - Build Dep: switch from libwmf to libvectorimage
 
  -- Adrien Grellier <adrien.grellier@laposte.net>  Sun, 03 Mar 2013 10:32:54 +0100
 
