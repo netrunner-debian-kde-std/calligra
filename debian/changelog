@@ -1,28 +1,76 @@
-calligra (1:2.6.1-1) UNRELEASED; urgency=low
+calligra (1:2.6.1-1) experimental; urgency=low
+
+  [ Raúl Sánchez Siles ]
+  * New upstream release
+    - Removed do_not_link_blas.diff. Included upstream.
+
+ -- Adrien Grellier <adrien.grellier@laposte.net>  Sun, 03 Mar 2013 10:32:54 +0100
+
+calligra (1:2.4.4-2) unstable; urgency=low
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Team upload.
+
+  [ Adrien Grellier ]
+  * Make calligrasheets break/replace koffice-data < 1:2.4. (Closes: #700667)
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Wed, 20 Feb 2013 14:48:41 -0300
+
+calligra (1:2.4.4-1) unstable; urgency=low
+
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Team upload.
   * Fix the previous changelog:
     - krita is the package that breaks/replaces krita-data.
     - Add the missing epochs.
     The changes were correctly done in the control file, the changes were just
     typos in the changelog. Thanks Thorsten Glaser for noticing.
 
-  [ Pino Toscano ]
-  * Make calligrawords-data conflict/replace old koffice-data.
-    (Closes: #694397)
-  * Make krita break/replace krita-data < 1:2.4. (Closes: #694854)
-  * Make karbon break/replace koffice-data < 1:2.4. (Closes: #694855)
-
   [ Adrien Grellier ]
   * Fix typo in calligrasheets package description (Closes: #697261) 
   * Make calligrastage break/replace koffice-data < 1:2.4 (Closes: #699200)
-  * Make calligrasheets break/replace koffice-data < 1:2.4 (Closes: #699200)
+  * New upstream bug fix release 2.4.4:
+    General:
+      - Update some translations
+    Sheets:
+      - A very nasty bug which made recalculations of spreadsheet
+        contents go wrong under some circumstances (BUGS: 312981, 313010)
+    Kexi:
+      - Make palette background color property in text editor work (BUG: 309274)
+      - Fix “data source tag” for text box (regression because of changes in
+        KDE libraries’ line editor)
+      - SQLite Driver: Fix possible data loss of compacted file (when process
+        tools crash or fail for any reason)
+      - Remove limit of 101 fields in Kexi Table Designer (BUG: 309116)
+      - Fix MySql login failure when not saving password – fix for
+        case 3.1 (BUG: 313025)
+      - Fix possible crash when pressing tab in the global search box
+  * Remove upstream_Make-sure-not-to-write-behind-the-allocated-memory.patch
+    included upstream
 
-  [ Raúl Sánchez Siles ]
-  * New upstream release
-    - Removed do_not_link_blas.diff. Included upstream.
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sat, 09 Feb 2013 11:42:46 -0300
 
- -- Adrien Grellier <adrien.grellier@laposte.net>  Tue, 21 Aug 2012 10:17:19 +0200
+calligra (1:2.4.3-4) unstable; urgency=low
+
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Team upload.
+
+  [ Pino Toscano ]
+  * Make krita break/replace krita-data < 1:2.4. (Closes: #694854)
+  * Make karbon break/replace koffice-data < 1:2.4. (Closes: #694855)
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sat, 15 Dec 2012 21:19:38 -0300
+
+calligra (1:2.4.3-3) unstable; urgency=low
+
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Team upload.
+
+  [ Pino Toscano ]
+  * Make calligrawords-data conflict/replace old koffice-data.
+    (Closes: #694397)
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Mon, 26 Nov 2012 18:34:10 -0300
 
 calligra (1:2.4.3-2) unstable; urgency=low
 
