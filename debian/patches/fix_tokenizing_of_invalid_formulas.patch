@@ -1,0 +1,53 @@
+--- a/sheets/Formula.cpp
++++ b/sheets/Formula.cpp
+@@ -656,7 +656,8 @@
+     tokens.reserve(50);
+ 
+     ++data;
+-    const QChar *start = data;
++    const QChar * const start = data;
++    const QChar * const end = start + expr.length();
+     const QChar *tokenStart = data;
+     const QChar *cellStart = data;
+ 
+@@ -667,9 +668,9 @@
+     QString token(length, QChar());
+     token.reserve(length); // needed to not realloc at the resize at the end
+     QChar * out = token.data();
+-    QChar * outStart = token.data();
+-
+-    while (state != Finish) {
++    QChar * const outStart = token.data();
++
++    while (state != Finish && data < end) {
+         switch (state) {
+         case Start:
+             tokenStart = data;
+@@ -1060,7 +1061,7 @@
+     }
+ 
+     // parse error if any text remains
+-    if (!data->isNull())  {
++    if (data+1 < end)  {
+         tokens.append(Token(Token::Unknown, expr.mid(tokenStart - start), tokenStart - start));
+         parseError = true;
+     }
+
+--- a/sheets/tests/TestFormula.cpp
++++ b/sheets/tests/TestFormula.cpp
+@@ -177,9 +177,13 @@
+     // invalid formulas, can't be parsed correctly
+     CHECK_TOKENIZE("+1.23E", QString());
+ 
++    // incomplete formulas
++    CHECK_TOKENIZE("COMPARE(\"", "xo");
++    CHECK_TOKENIZE("SHEETS(Sheet2!", "");
++
+     // empty parameter
+     CHECK_TOKENIZE("IF(A1;A2;)", "xococoo");
+-    CHECK_TOKENIZE("=OFFSET(Sheet2'!B7;0;0)", "");
++    CHECK_TOKENIZE("OFFSET(Sheet2'!B7;0;0)", "");
+ 
+     // function cascade
+     CHECK_TOKENIZE("SUM(ABS(-1);ABS(-1))", "xoxooiooxooioo");
+
