@@ -1,0 +1,78 @@
+
+==============================
+Debian packaging of calligra
+===============================
+
+This file aims to document the packaging of calligra for Debian. Please feel free to improve it if necessary.
+
+It is mainly a reminder for myself, and an help for the newcomers :)
+
+Howto get the upstream sources ?
+=================================
+
+Upstream provide an archive for each release, accessible on the FTP_ of KDE:
+
+
+.. _FTP: ftp://ftp.kde.org/pub/kde/stable/calligra-latest/
+
+Debian Packaging
+=================
+
+The upstream code is not included in git, but only the debian/ directory.
+
+The master branch should be for sid, and each debian release (wheezy, etc.) has its own branch.
+
+To prepare a release into Debian, don't forget:
+- to update the copyright file
+- write every debian changes on the changelog.
+- correct all the lintian warnings
+- be sure about if files has been added or removed
+- dch -r and add a tag in git
+
+How to create the debian package?
+==================================
+
+I am using sbuild_ to ensure everything will be OK. The settings of sbuild is describe here :
+
+First copy and untar the upstream tarball. rename it to calligra_VERSION.orig.tar.bz2.
+Then run sbuild to build it :
+
+..
+    sbuild-update -udg unstable
+    sbuild -A -d unstable
+
+
+.. _sbuild: http://wiki.debian.org/sbuild
+
+Localization files
+====================
+
+The localization files of calligra belongs to the source package calligra-l10n.
+
+To package it, just copy each calligra-l10n-LANG.tar.bz2 from the FTP, and then run sbuild.
+
+Copyright file
+===============
+
+Each subdirectory of the upstream source has a paragraph in the Copyright File.
+
+To update it, I am using a custom script based on copyright_helper_
+
+TODO finish the script to have an automatic way of updating the copyright file.
+
+.. _copyright_helper: git://anonscm.debian.org/users/modax/copyright-helper.git
+
+Dealing with bugs
+==================
+
+TODO
+
+Usefull links
+==============
+
+http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-std/calligra.git;a=summary
+http://packages.qa.debian.org/c/calligra.html
+http://packages.qa.debian.org/c/calligra-l10n.html
+
+
+.. vim:set filetype=rst:
