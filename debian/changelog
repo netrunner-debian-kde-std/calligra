@@ -1,8 +1,12 @@
 calligra (1:2.6.2-1) UNRELEASED; urgency=low
 
+  [ Raúl Sánchez Siles ]
   * New upstream release.
 
- -- Raúl Sánchez Siles <rasasi78@gmail.com>  Fri, 22 Mar 2013 21:29:31 +0100
+  [ Adrien Grellier ]
+  * Make calligra-data Break/Replace kexi < 1:2.4 (Closes: #704597)
+
+ -- Adrien Grellier <adrien.grellier@laposte.net>  Sat, 06 Apr 2013 19:05:49 +0200
 
 calligra (1:2.6.1-1) experimental; urgency=low
 

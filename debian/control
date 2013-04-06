@@ -496,8 +496,9 @@ Package: calligra-data
 Section: libs
 Architecture: all
 Depends: ${misc:Depends}
-Replaces: koffice-data, kformula
+Replaces: koffice-data, kformula, kexi (<< 1:2.4.4-3)
 Conflicts: koffice-data, kformula
+Breaks: kexi (<< 1:2.4.4-3)
 Suggests: khelpcenter4
 Description: common shared data for the Calligra Suite
  This package provides the architecture-independent data that is shared
