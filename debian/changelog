@@ -1,4 +1,4 @@
-calligra (1:2.6.2-1) experimental; urgency=low
+calligra (1:2.6.3-1) experimental; urgency=low
 
   [ Raúl Sánchez Siles ]
   * New upstream release.
@@ -6,7 +6,7 @@ calligra (1:2.6.2-1) experimental; urgency=low
   [ Adrien Grellier ]
   * Make calligra-data Break/Replace kexi < 1:2.4 (Closes: #704597)
 
- -- Adrien Grellier <adrien.grellier@laposte.net>  Mon, 08 Apr 2013 18:14:45 +0200
+ -- Adrien Grellier <adrien.grellier@laposte.net>  Tue, 16 Apr 2013 18:08:27 +0200
 
 calligra (1:2.6.1-1) experimental; urgency=low
 
