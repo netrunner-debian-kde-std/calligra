@@ -373,6 +373,7 @@ Replaces: kword (<< 1:2.4)
 Breaks: kword (<< 1:2.4)
 Depends: ${misc:Depends}, ${shlibs:Depends}, calligra-libs (= ${binary:Version}),
  calligrawords-data (>= ${source:Version})
+Recommends: libqca2-plugin-ossl
 Suggests: khelpcenter4
 Homepage: http://www.calligra-suite.org/words/
 Description: word processor for the Calligra Suite

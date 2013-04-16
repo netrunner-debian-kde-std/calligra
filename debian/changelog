@@ -6,6 +6,10 @@ calligra (1:2.6.3-1) experimental; urgency=low
   [ Adrien Grellier ]
   * Make calligra-data Break/Replace kexi < 1:2.4 (Closes: #704597)
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Make calligrawords recommend libqca2-plugin-ossl for encryption
+    (Closes: #705567).
+
  -- Adrien Grellier <adrien.grellier@laposte.net>  Tue, 16 Apr 2013 18:08:27 +0200
 
 calligra (1:2.6.1-1) experimental; urgency=low
