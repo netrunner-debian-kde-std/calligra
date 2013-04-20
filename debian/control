@@ -373,7 +373,6 @@ Replaces: kword (<< 1:2.4)
 Breaks: kword (<< 1:2.4)
 Depends: ${misc:Depends}, ${shlibs:Depends}, calligra-libs (= ${binary:Version}),
  calligrawords-data (>= ${source:Version})
-Recommends: libqca2-plugin-ossl
 Suggests: khelpcenter4
 Homepage: http://www.calligra-suite.org/words/
 Description: word processor for the Calligra Suite
@@ -485,7 +484,7 @@ Architecture: any
 Replaces: koffice-libs, kformula
 Conflicts: koffice-libs, kformula
 Depends: ${misc:Depends}, ${shlibs:Depends}, calligra-data (>= ${source:Version})
-Recommends: fonts-lyx, ruby, python
+Recommends: fonts-lyx, ruby, python, libqca2-plugin-ossl
 Suggests: wordnet, texlive
 Description: common libraries and binaries for the Calligra Suite
  This package provides the libraries and binaries that are shared amongst
