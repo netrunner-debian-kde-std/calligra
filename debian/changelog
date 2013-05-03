@@ -5,6 +5,7 @@ calligra (1:2.6.3-1) experimental; urgency=low
 
   [ Adrien Grellier ]
   * Make calligra-data Break/Replace kexi < 1:2.4 (Closes: #704597)
+  * Add a manpage for calligraauthor, as requested by lintian
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Make calligra-libs recommend libqca2-plugin-ossl for encryption

@@ -63,6 +63,21 @@ TODO finish the script to have an automatic way of updating the copyright file.
 
 .. _copyright_helper: git://anonscm.debian.org/users/modax/copyright-helper.git
 
+Man pages
+==========
+
+Upstream doesn't provide any man page, but the Debian policy specify to have 
+a man page for each binary. So I created very basic page in debian/man, but 
+it can be improved...
+
+I prefer to use the restructuredText_ format (.rst files), which is much more
+readable. To actually creates the man pages:
+
+..
+    rst2man calligraauthor.rst > calligraauthor.1
+
+.. _restructuredText: http://docutils.sourceforge.net/
+
 Dealing with bugs
 ==================
 
