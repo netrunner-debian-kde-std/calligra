@@ -2,10 +2,12 @@ calligra (1:2.6.3-1) experimental; urgency=low
 
   [ Raúl Sánchez Siles ]
   * New upstream release.
+  * fix lintian override for libkdgantt11 and libkowv2_9
 
   [ Adrien Grellier ]
   * Make calligra-data Break/Replace kexi < 1:2.4 (Closes: #704597)
   * Add a manpage for calligraauthor, as requested by lintian
+  * Add a Readme.source to document the Debian packaging
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Make calligra-libs recommend libqca2-plugin-ossl for encryption
