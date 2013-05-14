@@ -7,6 +7,7 @@ calligra (1:2.6.3-1) experimental; urgency=low
   [ Adrien Grellier ]
   * Make calligra-data Break/Replace kexi < 1:2.4 (Closes: #704597)
   * Add a manpage for calligraauthor, as requested by lintian
+  * Add a manpage for calligraconverter
   * Add a Readme.source to document the Debian packaging
   * update to Debian policy 3.9.4 
   * create calligrastage-data, for arch-independant files 
