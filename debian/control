@@ -50,8 +50,8 @@ Build-Depends: debhelper (>= 9), cmake (>= 2.6.2), pkg-kde-tools (>= 0.9),
  zlib1g-dev,
 Standards-Version: 3.9.4
 Homepage: http://www.calligra-suite.org/
-Vcs-Git: git://git.debian.org/pkg-kde/kde-std/calligra.git
-Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-std/calligra.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-std/calligra.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-std/calligra.git
 
 Package: calligra
 Architecture: all

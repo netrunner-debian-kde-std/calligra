@@ -11,6 +11,7 @@ calligra (1:2.6.3-1) experimental; urgency=low
   * update to Debian policy 3.9.4 
   * create calligrastage-data, for arch-independant files 
     (lintian: arch-dep-package-has-big-usr-share 7564kB 63%)
+  * use canonical URI for VCS-* fields (lintian: vcs-field-not-canonical)
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Make calligra-libs recommend libqca2-plugin-ossl for encryption
