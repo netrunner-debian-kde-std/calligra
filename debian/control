@@ -404,7 +404,8 @@ Architecture: any
 Section: kde
 Replaces: kpresenter (<< 1:2.4), calligra-data (<< 1:2.4.3-2), koffice-data (<< 1:2.4)
 Breaks: kpresenter (<< 1:2.4), calligra-data (<< 1:2.4.3-2), koffice-data (<< 1:2.4)
-Depends: ${misc:Depends}, ${shlibs:Depends}, calligra-libs (= ${binary:Version})
+Depends: ${misc:Depends}, ${shlibs:Depends}, calligra-libs (= ${binary:Version}), 
+ calligra-data (>=${source:Version})
 Suggests: khelpcenter4
 Homepage: http://www.calligra-suite.org/stage/
 Description: presentation program for the Calligra Suite
@@ -420,6 +421,20 @@ Description: presentation program for the Calligra Suite
  special slide overview view during presentations for the presenter, support
  for many different master sliders in one presentation, cool transitions and
  a useful notes feature.
+ .
+ This package is part of the Calligra Suite.
+
+Package: calligrastage-data
+Architecture: all
+Section: kde
+Depends: ${misc:Depends}
+Breaks: calligrastage (<< 1:2.6.3)
+Replaces: calligrastage (<< 1:2.6.3)
+Description: data files for Calligra Stage
+ This package contains architecture-independent data files for Stage,
+ the presentation program shipped with the Calligra Suite.
+ .
+ See the calligrastage package for further information.
  .
  This package is part of the Calligra Suite.
 

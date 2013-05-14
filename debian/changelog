@@ -9,6 +9,8 @@ calligra (1:2.6.3-1) experimental; urgency=low
   * Add a manpage for calligraauthor, as requested by lintian
   * Add a Readme.source to document the Debian packaging
   * update to Debian policy 3.9.4 
+  * create calligrastage-data, for arch-independant files 
+    (lintian: arch-dep-package-has-big-usr-share 7564kB 63%)
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Make calligra-libs recommend libqca2-plugin-ossl for encryption
