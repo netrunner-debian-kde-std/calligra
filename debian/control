@@ -55,7 +55,6 @@ Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-std/calligra.git
 
 Package: calligra
 Architecture: all
-Section: kde
 Depends: ${misc:Depends},
  braindump (>= ${source:Version}),
  calligraflow (>= ${source:Version}),
@@ -257,7 +256,6 @@ Description: map form widget for Kexi
 
 Package: calligra-reports-web-element
 Architecture: any
-Section: kde
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: web element for Calligra Reports
  Calligra Suite is a set of applications written to help you to accomplish
@@ -271,7 +269,6 @@ Description: web element for Calligra Reports
 
 Package: calligra-reports-map-element
 Architecture: any
-Section: kde
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: map element for Calligra Reports
  Calligra Suite is a set of applications written to help you to accomplish
@@ -354,7 +351,6 @@ Description: spreadsheet for the Calligra Suite
 
 Package: calligraplan
 Architecture: any
-Section: kde
 Replaces: kplato (<< 1:2.4)
 Breaks: kplato (<< 1:2.4)
 Depends: ${misc:Depends}, ${shlibs:Depends}, calligra-libs (= ${binary:Version})
@@ -401,7 +397,6 @@ Description: data files for Words word processor
 
 Package: calligrastage
 Architecture: any
-Section: kde
 Replaces: kpresenter (<< 1:2.4), calligra-data (<< 1:2.4.3-2), koffice-data (<< 1:2.4)
 Breaks: kpresenter (<< 1:2.4), calligra-data (<< 1:2.4.3-2), koffice-data (<< 1:2.4)
 Depends: ${misc:Depends}, ${shlibs:Depends}, calligra-libs (= ${binary:Version}), 
@@ -426,7 +421,6 @@ Description: presentation program for the Calligra Suite
 
 Package: calligrastage-data
 Architecture: all
-Section: kde
 Depends: ${misc:Depends}
 Breaks: calligrastage (<< 1:2.6.3)
 Replaces: calligrastage (<< 1:2.6.3)
@@ -465,7 +459,6 @@ Description: data files for Flow flowcharting program
 
 Package: braindump
 Architecture: any
-Section: kde
 Depends: ${misc:Depends}, ${shlibs:Depends}, calligra-libs (= ${binary:Version})
 Homepage: http://www.calligra-suite.org/braindump/
 Description: ideas organizer application for the Calligra Suite
@@ -476,7 +469,6 @@ Description: ideas organizer application for the Calligra Suite
 
 #Package: calligramobile
 #Architecture: any
-#Section: kde
 #Depends: ${misc:Depends}, ${shlibs:Depends}, calligra-libs (= ${binary:Version})
 #Description: version of Calligra for mobile
 # Calligra Mobile aims to create a version of the Calligra Suite for
@@ -486,7 +478,6 @@ Description: ideas organizer application for the Calligra Suite
 
 #Package: calligraactive
 #Architecture: any
-#Section: kde
 #Depends: ${misc:Depends}, ${shlibs:Depends}, calligra-libs (= ${binary:Version})
 #Description: QML version of Calligra
 # Calligra Active is ...
