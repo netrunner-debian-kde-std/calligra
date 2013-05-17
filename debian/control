@@ -422,8 +422,8 @@ Description: presentation program for the Calligra Suite
 Package: calligrastage-data
 Architecture: all
 Depends: ${misc:Depends}
-Breaks: calligrastage (<< 1:2.6.3)
-Replaces: calligrastage (<< 1:2.6.3)
+Breaks: calligrastage (<< 1:2.6.3-1~)
+Replaces: calligrastage (<< 1:2.6.3-1~)
 Description: data files for Calligra Stage
  This package contains architecture-independent data files for Stage,
  the presentation program shipped with the Calligra Suite.
