@@ -16,6 +16,8 @@ calligra (1:2.6.3-1) experimental; urgency=low
   * use canonical URI for VCS-* fields (lintian: vcs-field-not-canonical)
   * inherit « Section: kde » in the control file
     (lintian: binary-control-field-duplicates-source)
+  * Copyright: removes lintian warning by adding the licenses paragraph
+    missing
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Make calligra-libs recommend libqca2-plugin-ossl for encryption
