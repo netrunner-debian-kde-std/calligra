@@ -1,5 +1,5 @@
 
-==============================
+===============================
 Debian packaging of calligra
 ===============================
 
@@ -23,6 +23,7 @@ The upstream code is not included in git, but only the debian/ directory.
 The master branch should be for sid, and each debian release (wheezy, etc.) has its own branch.
 
 To prepare a release into Debian, don't forget:
+
 - to update the copyright file
 - write every debian changes on the changelog.
 - correct all the lintian warnings
@@ -36,9 +37,8 @@ How to create the debian package?
 I am using sbuild_ to ensure everything will be OK. The settings of sbuild is describe here :
 
 First copy and untar the upstream tarball. rename it to calligra_VERSION.orig.tar.bz2.
-Then run sbuild to build it :
-
-..
+Then run sbuild to build it ::
+    
     sbuild-update -udg unstable
     sbuild -A -d unstable
 
@@ -71,9 +71,8 @@ a man page for each binary. So I created very basic page in debian/man, but
 it can be improved...
 
 I prefer to use the restructuredText_ format (.rst files), which is much more
-readable. To actually creates the man pages:
-
-..
+readable. To actually creates the man pages::
+    
     rst2man calligraauthor.rst > calligraauthor.1
 
 .. _restructuredText: http://docutils.sourceforge.net/
