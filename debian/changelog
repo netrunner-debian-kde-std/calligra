@@ -1,4 +1,4 @@
-calligra (1:2.6.3-1) experimental; urgency=low
+calligra (1:2.6.3-1) unstable; urgency=low
 
   [ Raúl Sánchez Siles ]
   * New upstream release.
@@ -23,7 +23,7 @@ calligra (1:2.6.3-1) experimental; urgency=low
   * Make calligra-libs recommend libqca2-plugin-ossl for encryption
     (Closes: #705567).
 
- -- Adrien Grellier <adrien.grellier@laposte.net>  Tue, 16 Apr 2013 18:08:27 +0200
+ -- Adrien Grellier <adrien.grellier@laposte.net>  Fri, 24 May 2013 20:52:47 +0200
 
 calligra (1:2.6.1-1) experimental; urgency=low
 
