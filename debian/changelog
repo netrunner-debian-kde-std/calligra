@@ -5,6 +5,7 @@ calligra (1:2.6.3-1) unstable; urgency=low
   * fix lintian override for libkdgantt11 and libkowv2_9
 
   [ Adrien Grellier ]
+  * Release Calligra 2.6.3 to unstable.
   * Make calligra-data Break/Replace kexi < 1:2.4 (Closes: #704597)
   * Add a manpage for calligraauthor, as requested by lintian
   * Add a manpage for calligraconverter
