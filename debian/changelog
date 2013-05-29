@@ -1,7 +1,7 @@
 calligra (1:2.6.3-2) unstable; urgency=low
 
   [ Adrien Grellier ]
-  * calligrastage must depend on calligrastage-data 
+  * calligrastage must depend on calligrastage-data
   * calligrastage-data: add a lintian override for
     desktop-command-not-in-package for calligrastage
 
