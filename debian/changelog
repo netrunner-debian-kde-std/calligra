@@ -5,6 +5,11 @@ calligra (1:2.6.3-2) unstable; urgency=low
   * calligrastage-data: add a lintian override for
     desktop-command-not-in-package for calligrastage
 
+  [ Pino Toscano ]
+  * Make calligra-libs break/replace kexi < 1:2.6.1, and raise the
+    calligra-data breaks/replaces wrt kexi to the same version (related to
+    #704597).
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 29 May 2013 13:28:12 +0200
 
 calligra (1:2.6.3-1) unstable; urgency=low

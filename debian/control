@@ -487,8 +487,9 @@ Description: ideas organizer application for the Calligra Suite
 Package: calligra-libs
 Section: libs
 Architecture: any
-Replaces: koffice-libs, kformula
+Replaces: koffice-libs, kformula, kexi (<< 1:2.6.1)
 Conflicts: koffice-libs, kformula
+Breaks: kexi (<< 1:2.6.1)
 Depends: ${misc:Depends}, ${shlibs:Depends}, calligra-data (>= ${source:Version})
 Recommends: fonts-lyx, ruby, python, libqca2-plugin-ossl
 Suggests: wordnet, texlive
@@ -502,9 +503,9 @@ Package: calligra-data
 Section: libs
 Architecture: all
 Depends: ${misc:Depends}
-Replaces: koffice-data, kformula, kexi (<< 1:2.4.4-3)
+Replaces: koffice-data, kformula, kexi (<< 1:2.6.1)
 Conflicts: koffice-data, kformula
-Breaks: kexi (<< 1:2.4.4-3)
+Breaks: kexi (<< 1:2.6.1)
 Suggests: khelpcenter4
 Description: common shared data for the Calligra Suite
  This package provides the architecture-independent data that is shared
