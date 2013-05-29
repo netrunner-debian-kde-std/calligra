@@ -13,7 +13,10 @@ calligra (1:2.6.3-2) unstable; urgency=low
     kdelibs 4.9, while since 4.10 they are.
   * Update lintian overrides.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 29 May 2013 13:28:12 +0200
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Team upload.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Wed, 29 May 2013 10:49:24 -0300
 
 calligra (1:2.6.3-1) unstable; urgency=low
 
