@@ -400,7 +400,7 @@ Architecture: any
 Replaces: kpresenter (<< 1:2.4), calligra-data (<< 1:2.4.3-2), koffice-data (<< 1:2.4)
 Breaks: kpresenter (<< 1:2.4), calligra-data (<< 1:2.4.3-2), koffice-data (<< 1:2.4)
 Depends: ${misc:Depends}, ${shlibs:Depends}, calligra-libs (= ${binary:Version}), 
- calligra-data (>=${source:Version})
+ calligrastage-data (>=${source:Version})
 Suggests: khelpcenter4
 Homepage: http://www.calligra-suite.org/stage/
 Description: presentation program for the Calligra Suite
