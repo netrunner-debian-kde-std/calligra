@@ -11,6 +11,7 @@ calligra (1:2.6.3-2) unstable; urgency=low
     #704597).
   * Manually disable the unit tests; they are not enabled by default until
     kdelibs 4.9, while since 4.10 they are.
+  * Update lintian overrides.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 29 May 2013 13:28:12 +0200
 
