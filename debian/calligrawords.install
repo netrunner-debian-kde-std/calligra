@@ -18,6 +18,7 @@ usr/lib/libkowv2.so.9.0.0
 usr/lib/libwordsprivate.so.11
 usr/lib/libwordsprivate.so.11.0.0
 usr/share/applications/kde4/words.desktop
+usr/share/kde4/services/ServiceMenus/words_print.desktop
 usr/share/kde4/services/words_Mobi_export.desktop
 usr/share/kde4/services/words_applixword_import.desktop
 usr/share/kde4/services/words_ascii_import.desktop
@@ -35,4 +36,3 @@ usr/share/kde4/services/words_wpd_thumbnail.desktop
 usr/share/kde4/services/words_wps_import.desktop
 usr/share/kde4/services/words_wps_thumbnail.desktop
 usr/share/kde4/services/wordspart.desktop
-usr/share/kde4/services/ServiceMenus/words_print.desktop
