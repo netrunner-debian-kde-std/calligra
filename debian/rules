@@ -17,6 +17,7 @@ override_dh_auto_install:
 	dh_auto_install
 	# Remove symlinks of private libraries
 	find debian/tmp/usr/lib -maxdepth 1 -name '*private*.so' -type l -delete
+	rm -f debian/tmp/usr/lib/librcps_plan.so
 	# image/openraster is provided by shared-mime-info >= 0.70
 	# (and squeeze has 0.71)
 	rm -f debian/tmp/usr/share/mime/packages/krita_ora.xml
