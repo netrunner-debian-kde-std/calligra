@@ -13,6 +13,21 @@ export DEB_LDFLAGS_MAINT_APPEND := -Wl,--as-needed
 override_dh_auto_configure:
 	dh_auto_configure -Skde -- -DKDE4_BUILD_TESTS=OFF
 
+override_dh_auto_install:
+	dh_auto_install
+	# Remove symlinks of private libraries
+	find debian/tmp/usr/lib -maxdepth 1 -name '*private*.so' -type l -delete
+	# image/openraster is provided by shared-mime-info >= 0.70
+	# (and squeeze has 0.71)
+	rm -f debian/tmp/usr/share/mime/packages/krita_ora.xml
+ifeq (,$(filter %-dev, $(shell dh_listpackages)))
+	# No -dev stuff, so remove their content to shorten the output
+	# of dh_install --list-missing
+	rm -rf debian/tmp/usr/include
+	rm -rf debian/tmp/usr/share/kde4/apps/cmake
+	find debian/tmp/usr/lib -maxdepth 1 -name '*.so' -type l -delete
+endif
+
 override_dh_install:
 	dh_install --list-missing
 
