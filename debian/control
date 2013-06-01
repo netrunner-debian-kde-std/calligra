@@ -57,6 +57,7 @@ Package: calligra
 Architecture: all
 Depends: ${misc:Depends},
  braindump (>= ${source:Version}),
+ calligraauthor (>= ${source:Version}),
  calligraflow (>= ${source:Version}),
  calligraplan (>= ${source:Version}),
  calligrasheets (>= ${source:Version}),
