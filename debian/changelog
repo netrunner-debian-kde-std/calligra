@@ -2,6 +2,7 @@ calligra (1:2.6.3-3) UNRELEASED; urgency=low
 
   [ Pino Toscano ]
   * Add calligraauthor to the calligra metapackage.
+  * Remove unused stuff of kthesaurus and calligramobile.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 01 Jun 2013 10:32:27 +0200
 
