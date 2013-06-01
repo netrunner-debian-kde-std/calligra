@@ -6,6 +6,7 @@ calligra (1:2.6.3-3) UNRELEASED; urgency=low
   * Remove koconverter man page, no such tool anymore.
   * Manually remove from debian/tmp all the things that are known to not be
     installed anywhere; this shortens the output of dh_install --list-missing.
+  * Properly install the calligraconverter man page.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 01 Jun 2013 10:32:27 +0200
 
