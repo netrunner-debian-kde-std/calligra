@@ -1,4 +1,6 @@
-calligra (1:2.6.4-1) UNRELEASED; urgency=low
+calligra (1:2.6.4-0r1) UNRELEASED; urgency=low
+
+  * New upstream release.
 
   [ Pino Toscano ]
   * Add calligraauthor to the calligra metapackage.
@@ -7,10 +9,9 @@ calligra (1:2.6.4-1) UNRELEASED; urgency=low
   * Manually remove from debian/tmp all the things that are known to not be
     installed anywhere; this shortens the output of dh_install --list-missing.
   * Properly install the calligraconverter and kexi_sqlite3_dump man pages.
-  
-    [ Adrien Grellier ]
-  * New upstream release.
-  * add icons for calligraauthor
+
+  [ Adrien Grellier ]
+  * Update installed files.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 01 Jun 2013 10:32:27 +0200
 
