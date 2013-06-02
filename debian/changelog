@@ -3,7 +3,7 @@ calligra (1:2.6.4-0r1) UNRELEASED; urgency=low
   * New upstream release.
 
   [ Pino Toscano ]
-  * Add calligraauthor to the calligra metapackage.
+  * Add calligraauthor to the calligra metapackage. (Closes: #710832)
   * Remove unused stuff of kthesaurus and calligramobile.
   * Remove koconverter man page, no such tool anymore.
   * Manually remove from debian/tmp all the things that are known to not be
