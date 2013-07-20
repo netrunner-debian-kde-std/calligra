@@ -1,6 +1,7 @@
-calligra (1:2.6.4-0r1) UNRELEASED; urgency=low
+calligra (1:2.6.4-1) unstable; urgency=low
 
   * New upstream release.
+  * Team upload.
 
   [ Pino Toscano ]
   * Add calligraauthor to the calligra metapackage. (Closes: #710832)
@@ -16,7 +17,7 @@ calligra (1:2.6.4-0r1) UNRELEASED; urgency=low
   [ Adrien Grellier ]
   * Update installed files.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 01 Jun 2013 10:32:27 +0200
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sat, 20 Jul 2013 13:59:37 -0300
 
 calligra (1:2.6.3-2) unstable; urgency=low
 
