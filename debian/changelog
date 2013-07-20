@@ -9,6 +9,9 @@ calligra (1:2.6.4-0r1) UNRELEASED; urgency=low
   * Manually remove from debian/tmp all the things that are known to not be
     installed anywhere; this shortens the output of dh_install --list-missing.
   * Properly install the calligraconverter and kexi_sqlite3_dump man pages.
+  * Add the nepomuk-core-dev build dependency, needed with KDE >= 4.9/4.10.
+    (Closes: #717413) This effectively raises the minimum requirements to
+    KDE 4.10.
 
   [ Adrien Grellier ]
   * Update installed files.
