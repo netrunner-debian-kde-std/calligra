@@ -80,9 +80,26 @@ readable. To actually creates the man pages::
 Particularities
 ================
 
-- Calligra forks kexi/migration/mdb [#]_ and filters/words/msword-odf/wv2/ [#]_ for their purpose;
 - Unit test files does not have a license [#]_;
 - The file ./kexi/kexidb/sqlitedump/shell.c has a funny license, but we should assume it's the same license as SQLite3 [#]_
+
+.. [#] From upstream, may 2013:
+ “At one point, I think we had the explicit policy that unittests weren't going to have a license header. I don't know why... That was back in the KOffice days.”
+
+.. [#] From upstream, may 2013:
+ “Regarding this please assume the same license as you use with SQLite3
+ since the code is based on a small tool from SQLite3. This is
+ basically public domain.”
+
+Embeeded libs
+==============
+
+Calligra forks some library to fit to their purpose.
+
+- kexi/migration/mdb [#]_ 
+- filters/words/msword-odf/wv2 [#]_
+- 3rdparty/kdgantt
+- 3rdparty/kdchart
 
 .. [#] From upstream may 2013:
  “This is not just a copy but a fork of software that was not actively
@@ -94,14 +111,6 @@ Particularities
 .. [#] From upstream, may 2013:
  “The wv2 in Calligra is different from the one on sourceforge (which is pretty much dead and no longer developed), that's why wv2 in filters/words/msword-odf creates a library called kowv2.
  You cannot build Calligra against the sourceforge wv2.”
-
-.. [#] From upstream, may 2013:
- “At one point, I think we had the explicit policy that unittests weren't going to have a license header. I don't know why... That was back in the KOffice days.”
-
-.. [#] From upstream, may 2013:
- “Regarding this please assume the same license as you use with SQLite3
- since the code is based on a small tool from SQLite3. This is
- basically public domain.”
 
 Missing libs
 =============
