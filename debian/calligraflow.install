@@ -2,8 +2,8 @@ usr/bin/calligraflow
 usr/lib/kde4/flowdockersplugin.so
 usr/lib/kde4/flowpart.so
 usr/lib/kde4/vsdximport.so
-usr/lib/libflowprivate.so.11
-usr/lib/libflowprivate.so.11.0.0
+usr/lib/libflowprivate.so.12
+usr/lib/libflowprivate.so.12.0.0
 usr/lib/libkdeinit4_calligraflow.so
 usr/share/applications/kde4/flow.desktop
 usr/share/kde4/services/ServiceMenus/flow_print.desktop

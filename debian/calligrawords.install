@@ -10,13 +10,13 @@ usr/lib/kde4/rtfimport.so
 usr/lib/kde4/wordspart.so
 usr/lib/kde4/wpdimport.so
 usr/lib/kde4/wpsimport.so
-usr/lib/libRtfReader.so.11
-usr/lib/libRtfReader.so.11.0.0
+usr/lib/libRtfReader.so.12
+usr/lib/libRtfReader.so.12.0.0
 usr/lib/libkdeinit4_calligrawords.so
 usr/lib/libkowv2.so.9
 usr/lib/libkowv2.so.9.0.0
-usr/lib/libwordsprivate.so.11
-usr/lib/libwordsprivate.so.11.0.0
+usr/lib/libwordsprivate.so.12
+usr/lib/libwordsprivate.so.12.0.0
 usr/share/applications/kde4/words.desktop
 usr/share/kde4/services/ServiceMenus/words_print.desktop
 usr/share/kde4/services/words_Mobi_export.desktop

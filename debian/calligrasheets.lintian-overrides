@@ -1,4 +1,4 @@
-calligrasheets: package-name-doesnt-match-sonames libcalligrasheetscommon11 libcalligrasheetsodf11
+calligrasheets: package-name-doesnt-match-sonames libcalligrasheetscommon12 libcalligrasheetsodf12
 calligrasheets: unusual-interpreter usr/share/kde4/apps/sheets/scripts/docker/consoledocker.py #!kross
 calligrasheets: unusual-interpreter usr/share/kde4/apps/sheets/scripts/extensions/csvexport.py #!kross
 calligrasheets: unusual-interpreter usr/share/kde4/apps/sheets/scripts/extensions/csvimport.py #!kross

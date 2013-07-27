@@ -1,8 +1,8 @@
 usr/bin/braindump
 usr/lib/kde4/stateshape.so
 usr/lib/kde4/webshape.so
-usr/lib/libbraindumpcore.so.11
-usr/lib/libbraindumpcore.so.11.0.0
+usr/lib/libbraindumpcore.so.12
+usr/lib/libbraindumpcore.so.12.0.0
 usr/share/applications/kde4/braindump.desktop
 usr/share/icons/hicolor/1024x1024/apps/braindump.png
 usr/share/icons/hicolor/128x128/apps/braindump.png
