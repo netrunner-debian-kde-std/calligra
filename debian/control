@@ -120,7 +120,8 @@ Package: kexi
 Architecture: any
 Section: database
 Depends: ${misc:Depends}, ${shlibs:Depends}, calligra-libs (= ${binary:Version})
-Suggests: kexi-calligrasheets-driver, kexi-mysql-driver, kexi-postgresql-driver, kexi-xbase-driver, kexi-sybase-driver
+Suggests: kexi-calligrasheets-driver, kexi-mysql-driver, kexi-postgresql-driver,
+ kexi-xbase-driver, kexi-sybase-driver, kexi-data (>= ${source:Version})
 Replaces: koffice-doc-html
 Conflicts: koffice-doc-html
 Homepage: http://www.calligra-suite.org/kexi/
@@ -136,6 +137,19 @@ Description: integrated database environment for the Calligra Suite
  Rapid Application Development (RAD) tools for database systems that are
  sufficiently powerful, inexpensive, open standards driven and portable
  across many operating systems and hardware platforms.
+ .
+ This package is part of the Calligra Suite.
+
+Package: kexi-data
+Architecture: all
+Depends: ${misc:Depends}
+Breaks: kexi (<< 1:2.6.4-1~)
+Replaces: kexi (<< 1:2.6.4-1~)
+Description: data files for Kexi
+ This package contains architecture-independent data files for Kexi, the
+ database program shipped with the Calligra Suite.
+ .
+ See the kexi package for further information.
  .
  This package is part of the Calligra Suite.
 

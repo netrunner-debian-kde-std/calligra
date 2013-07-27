@@ -9,6 +9,7 @@ calligra (1:2.7.0-0r1.1) UNRELEASED; urgency=low
   * change the priority from optional to extra (calligra-libs depends on
     extra packages)
   * update to my new official email address
+  * split kexi to kexi-data for arch-indep files
 
 
  -- Adrien Grellier <perso@adrieng.fr>  Sat, 27 Jul 2013 17:54:00 +0200
