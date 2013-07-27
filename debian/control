@@ -509,6 +509,17 @@ Description: common shared data for the Calligra Suite
  .
  This package is part of the Calligra Suite.
 
+Package: fonts-calligra
+Architecture: all
+Depends: ${misc:Depends}
+Breaks: calligra-data (<< 1:2.6.4-1~)
+Replaces: calligra-data (<< 1:2.6.4-1~)
+Description: fonts for the Calligra Office Suite
+ This package provide the fonts for the Calligra Office Suite:
+  - Arev, ArevBI, ArevBd and ArevIT
+  - Emmentaler
+ .
+ This package is part of the Calligra Suite.
 Package: okular-backend-odp
 Architecture: any
 Section: graphics

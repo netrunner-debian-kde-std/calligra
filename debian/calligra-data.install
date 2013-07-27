@@ -279,12 +279,7 @@ usr/share/kde4/apps/calligra/icons/zoom_out_cursor.png
 usr/share/kde4/apps/calligra/palettes/
 usr/share/kde4/apps/calligra/styles/markers.xml
 usr/share/kde4/apps/calligra/thesaurus/thesaurus.txt
-usr/share/kde4/apps/formulashape/fonts/Arev.ttf
-usr/share/kde4/apps/formulashape/fonts/ArevBI.ttf
-usr/share/kde4/apps/formulashape/fonts/ArevBd.ttf
-usr/share/kde4/apps/formulashape/fonts/ArevIt.ttf
 usr/share/kde4/apps/koproperty/icons/hicolor/16x16/actions/button_no.png
-usr/share/kde4/apps/musicshape/fonts/Emmentaler-14.ttf
 usr/share/kde4/services/artistictextshape.desktop
 usr/share/kde4/services/autocorrect.desktop
 usr/share/kde4/services/basicflakesplugin.desktop
