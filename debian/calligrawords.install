@@ -21,6 +21,7 @@ usr/share/applications/kde4/words.desktop
 usr/share/kde4/services/ServiceMenus/words_print.desktop
 usr/share/kde4/services/words_Mobi_export.desktop
 usr/share/kde4/services/words_applixword_import.desktop
+usr/share/kde4/services/words_ascii_export.desktop
 usr/share/kde4/services/words_ascii_import.desktop
 usr/share/kde4/services/words_docx_import.desktop
 usr/share/kde4/services/words_docx_thumbnail.desktop

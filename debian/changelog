@@ -1,8 +1,9 @@
 calligra (1:2.7.0-0r1.1) UNRELEASED; urgency=low
 
   * New upstream release.
-  [ Adrien Grellier ]
 
+  [ Adrien Grellier ]
+  * update install files for calligra 2.7
   * build with libkactivites, as the version 6.1 is now in sid 
   * build with libphononexperimental
 

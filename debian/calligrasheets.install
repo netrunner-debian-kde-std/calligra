@@ -28,6 +28,7 @@ usr/lib/kde4/kspreadtrigonometrymodule.so
 usr/lib/kde4/opencalcexport.so
 usr/lib/kde4/opencalcimport.so
 usr/lib/kde4/qproimport.so
+usr/lib/kde4/sheetspivottables.so
 usr/lib/kde4/sheetssolver.so
 usr/lib/kde4/spreadsheetshape-deferred.so
 usr/lib/kde4/spreadsheetshape.so
