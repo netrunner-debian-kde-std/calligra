@@ -103,6 +103,54 @@ Particularities
  since the code is based on a small tool from SQLite3. This is
  basically public domain.”
 
+Missing libs
+=============
+
+Calligra could optionnaly use some libraries that are not yet in Debian. I am listing them here, not to forget the day they will be in Debian.
+
+VC
+---
+
+Required by the Krita for vectorization.
+
+already in Ubuntu : https://launchpad.net/ubuntu/+source/vc
+
+http://code.compeng.uni-frankfurt.de/projects/vc
+
+OCIO
+-----
+
+Required by the Krita LUT docker
+
+soon in Debian ? http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=700676
+
+http://www.opencolorio.org
+
+OpenGTL
+--------
+
+Required for Shiva based Generators and Filters 
+
+soon in Debian ? http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=642208
+already in Ubuntu: https://launchpad.net/ubuntu/+source/opengtl
+
+http://www.opengtl.org
+
+Cauchy's M2MML
+----------------
+
+Required for the matlab/octave formula tool
+
+https://bitbucket.org/cyrille/cauchy
+
+Java MPXJ
+----------
+
+Required by Plan mpxj import filter 
+
+http://mpxj.sourceforge.net/
+
+
 Dealing with bugs
 ==================
 
