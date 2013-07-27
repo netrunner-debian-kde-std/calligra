@@ -18,6 +18,8 @@ calligra (1:2.6.4-1) unstable; urgency=low
 
   * New upstream release.
     - A new component appears: calligraactive
+    - New import filter for calligraplan, based on Java MPXJ.
+      See /usr/share/doc/README.Debian for using it.
 
   * Team upload.
 

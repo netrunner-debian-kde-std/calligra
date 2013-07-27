@@ -6,6 +6,7 @@ Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Adrien Grellier <perso@adrieng.fr>,
  Raúl Sánchez Siles <rasasi78@gmail.com>
 Build-Depends: debhelper (>= 9), cmake (>= 2.6.2), pkg-kde-tools (>= 0.9),
+ default-jdk,
  kdelibs5-dev (>= 4:4.4.0),
  freetds-dev,
  kdepimlibs5-dev (>= 4:4.4.3),
@@ -356,6 +357,7 @@ Architecture: any
 Replaces: kplato (<< 1:2.4)
 Breaks: kplato (<< 1:2.4)
 Depends: ${misc:Depends}, ${shlibs:Depends}, calligra-libs (= ${binary:Version})
+Recommends: default-jre, libapache-poi-java
 Suggests: khelpcenter4
 Homepage: http://www.calligra-suite.org/plan/
 Description: integrated project management and planning tool
