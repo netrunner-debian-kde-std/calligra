@@ -520,6 +520,7 @@ Description: fonts for the Calligra Office Suite
   - Emmentaler
  .
  This package is part of the Calligra Suite.
+
 Package: okular-backend-odp
 Architecture: any
 Section: graphics
