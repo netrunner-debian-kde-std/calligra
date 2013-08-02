@@ -289,7 +289,6 @@ usr/share/kde4/services/changecase.desktop
 usr/share/kde4/services/chartshape.desktop
 usr/share/kde4/services/defaulttools.desktop
 usr/share/kde4/services/formulashape.desktop
-usr/share/kde4/services/kchartpart.desktop
 usr/share/kde4/services/kexidb_sqlite3driver.desktop
 usr/share/kde4/services/kformulapart.desktop
 usr/share/kde4/services/kolcmsengine.desktop
@@ -309,7 +308,6 @@ usr/share/kde4/services/threedshape.desktop
 usr/share/kde4/services/vectorshape.desktop
 usr/share/kde4/services/videoshape.desktop
 usr/share/kde4/servicetypes/calligra_application.desktop
-usr/share/kde4/servicetypes/calligra_chart.desktop
 usr/share/kde4/servicetypes/calligra_deferred_plugin.desktop
 usr/share/kde4/servicetypes/calligra_filter.desktop
 usr/share/kde4/servicetypes/calligra_part.desktop
