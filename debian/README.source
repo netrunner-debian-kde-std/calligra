@@ -55,13 +55,27 @@ To package it, just copy each calligra-l10n-LANG.tar.bz2 from the FTP, and then 
 Copyright file
 ===============
 
-Each subdirectory of the upstream source has a paragraph in the Copyright File.
+To update the debian/copyright file:
 
-To update it, I am using a custom script based on copyright_helper_
+1. download the lcheck_ script::
+   brz clone lp:~clint-fewbar/+junk/lcheck
 
-TODO finish the script to have an automatic way of updating the copyright file.
+2. execute licensecheck, from CDBS:::
+   licensecheck --copyright -r . | ../../lcheck/licensecheck2dep5 > ../copyright_2.7
 
-.. _copyright_helper: git://anonscm.debian.org/users/modax/copyright-helper.git
+3. Correct the errors (vimdiff is a great help)
+   grep "License: UNKNOWN" copyright_2.7, and correct it with the current copyright file.
+   (The unknown licence are GPL-2+ according to upstream)
+
+   remove all FIXME (FIRST change the FIXME at the beginning « Upstream-Name » and « Source »
+   (sed '/FIXME/d' copyright_2.7 > copyright)
+   add the License paragraph at the end (take it from the current copyright file)
+
+   Be carefull to the headers, and if new licences has been added.
+
+Now you have a debian/copyright up-to-date.
+
+.. _lcheck: see http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=597861
 
 Man pages
 ==========

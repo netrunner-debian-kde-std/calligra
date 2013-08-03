@@ -4,6 +4,7 @@ calligra (1:2.7.1-0r1) UNRELEASED; urgency=low
 
   [ Adrien Grellier ]
   * update install files for calligra 2.7.1
+  * update copyright file for calligra 2.7.1
   * build with libkactivites, as the version 6.1 is now in sid 
   * build with libphononexperimental
   * change the priority from optional to extra (calligra-libs depends on
