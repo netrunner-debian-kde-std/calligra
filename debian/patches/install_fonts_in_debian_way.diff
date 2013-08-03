@@ -1,3 +1,4 @@
+this patch installs the calligra fonts in the Debian way, in /usr/share/fonts/calligra
 --- a/plugins/formulashape/fonts/CMakeLists.txt
 +++ b/plugins/formulashape/fonts/CMakeLists.txt
 @@ -1,5 +1,6 @@
