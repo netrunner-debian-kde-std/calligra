@@ -1,0 +1,84 @@
+--- a/kexi/kexi.desktop
++++ b/kexi/kexi.desktop
+@@ -171,3 +171,4 @@
+ X-KDE-NativeMimeType=application/x-kexiproject-sqlite
+ X-KDE-NOTKoDocumentEmbeddable=true
+ Categories=Qt;KDE;Office;
++Keywords=Database;SQL;Access
+--- a/stage/app/stage.desktop
++++ b/stage/app/stage.desktop
+@@ -126,3 +126,4 @@
+ X-DocPath=stage/index.html
+ X-KDE-StartupNotify=true
+ Categories=Qt;KDE;Office;
++Keywords=Slideshow;Slides;Presentation;PowerPoint;odp;ppt;pptx
+--- a/active/calligraactive.desktop
++++ b/active/calligraactive.desktop
+@@ -39,3 +39,4 @@
+ #The right solution would be to make it possible to build libs without building the apps
+ InitialPreference=4
+ Categories=Qt;KDE;Office;
++Keywords=tablet;mobile;Plasma Active;touch
+--- a/words/part/author/author.desktop
++++ b/words/part/author/author.desktop
+@@ -86,3 +86,4 @@
+ X-DBUS-ServiceName=org.calligra.author
+ Categories=Qt;KDE;Office;
+ InitialPreference=3
++Keywords=Word;book;ebook;epub
+--- a/flow/part/flow.desktop
++++ b/flow/part/flow.desktop
+@@ -100,3 +100,4 @@
+ X-DBUS-StartupType=Multi
+ X-DBUS-ServiceName=org.calligra.flow
+ Categories=Qt;KDE;Office;
++Keywords=Diagram;flowchart;chart
+--- a/braindump/data/braindump.desktop
++++ b/braindump/data/braindump.desktop
+@@ -75,3 +75,4 @@
+ X-KDE-NativeMimeType=application/vnd.oasis.opendocument.graphics
+ X-KDE-SubstituteUID=false
+ X-KDE-Username=
++Keywords=Organize;whiteboard;brainstorming
+--- a/sheets/sheets.desktop
++++ b/sheets/sheets.desktop
+@@ -119,3 +119,4 @@
+ X-DocPath=sheets/index.html
+ X-KDE-StartupNotify=true
+ Categories=Qt;KDE;Office;
++Keywords=Spreadsheet;Excel;Calc;xls;xlsx;ods
+--- a/krita/krita.desktop
++++ b/krita/krita.desktop
+@@ -126,3 +126,4 @@
+ X-DBUS-StartupType=Multi
+ X-DBUS-ServiceName=org.krita.krita
+ X-Krita-Version=27
++Keywords=Photo;Photoshop;Paint;art;sketch
+--- a/karbon/data/karbon.desktop
++++ b/karbon/data/karbon.desktop
+@@ -140,3 +140,4 @@
+ Comment[zh_CN]=创建可缩放矢量绘图
+ Comment[zh_TW]=建立可調整向量圖
+ X-DocPath=http://userbase.kde.org/Special:MyLanguage/Karbon
++Keywords=Vector;Illustration;graphics
+--- a/words/app/words.desktop
++++ b/words/app/words.desktop
+@@ -128,3 +128,4 @@
+ X-DBUS-ServiceName=org.calligra.words
+ Categories=Qt;KDE;Office;
+ InitialPreference=4
++Keywords=Text;Word;odt;doc;docx
+--- a/plan/plan.desktop
++++ b/plan/plan.desktop
+@@ -101,3 +101,4 @@
+ Categories=Qt;KDE;Office;
+ X-KDE-StartupNotify=true
+ X-KDE-NOTKoDocumentEmbeddable=true
++Keywords=Organization;Project;Gantt;Management;
+--- a/plan/workpackage/planwork.desktop
++++ b/plan/workpackage/planwork.desktop
+@@ -93,3 +93,4 @@
+ Categories=Qt;KDE;Office;
+ X-KDE-StartupNotify=true
+ X-DocPath=http://userbase.kde.org/PlanWork/Manual
++Keywords=Management;Projects;Package
