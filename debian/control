@@ -510,6 +510,7 @@ Description: common shared data for the Calligra Suite
  This package is part of the Calligra Suite.
 
 Package: fonts-calligra
+Section: fonts
 Architecture: all
 Depends: ${misc:Depends}
 Breaks: calligra-data (<< 1:2.6.4-1~)
