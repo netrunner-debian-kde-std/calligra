@@ -13855,11 +13855,17 @@ License: GPL
  of the GNU General Public License along with this program; if not, write
  to the Free Software Foundation, Inc, 51 Franklin Street, Fifth Floor,
  Boston, MA 02110-1301, USA.
+ .
+ A copy of the GNU General Public License is available in
+ /usr/share/common-licenses/GPL-2
 
 License: GPL-2
  This program is free software; you can redistribute it and/or modify
  it under the terms of version 2 of the GNU General Public License as
  published by the Free Software Foundation.
+ .
+ A copy of the GNU General Public License is available in
+ /usr/share/common-licenses/GPL-2
 
 License: GPL-2+
  This program is free software; you can redistribute it and/or modify
@@ -13872,9 +13878,8 @@ License: GPL-2+
  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  GNU General Public License for more details.
  .
- You should have received a copy of the GNU General Public License
- along with this program; if not, write to the Free Software
- Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
+ A copy of the GNU General Public License is available in
+ /usr/share/common-licenses/GPL-2
 
 License: GPL-3
  Alternatively, this file may be used under the terms of the GNU Lesser
@@ -13902,8 +13907,8 @@ License: GPL-3+
  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  GNU General Public License for more details.
  .
- You should have received a copy of the GNU General Public License
- along with this program.  If not, see <http://www.gnu.org/licenses/>. 
+ A copy of the GNU General Public License is available in
+ /usr/share/common-licenses/GPL-3
 
 License: LGPL
  This library is free software; you can redistribute it and/or
@@ -13916,10 +13921,8 @@ License: LGPL
  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
  Library General Public License for more details.
  .
- You should have received a copy of the GNU Library General Public License
- along with this library; see the file COPYING.LIB.  If not, write to
- the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
- Boston, MA 02110-1301, USA.
+ A copy of the GNU Library General Public License is available in
+ /usr/share/common-licenses/LGPL.
 
 License: LGPL-2
  This program is free software; you can redistribute it and/or modify
@@ -13931,9 +13934,8 @@ License: LGPL-2
  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  GNU General Public License for more details.
  .
- You should have received a copy of the GNU Lesser General Public License
- along with this program; if not, write to the Free Software
- Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
+ A copy of the GNU Lesser General Public License is available in
+ /usr/share/common-licenses/LGPL-2
 
 License: LGPL-2+
  This library is free software; you can redistribute it and/or
@@ -13946,10 +13948,8 @@ License: LGPL-2+
  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
  Library General Public License for more details.
  .
- You should have received a copy of the GNU Library General Public License
- along with this library; see the file COPYING.LIB.  If not, write to
- the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
- Boston, MA 02110-1301, USA.
+ A copy of the GNU Lesser General Public License is available in
+ /usr/share/common-licenses/LGPL-2
 
 License: LGPL-2.1
  This library is free software; you can redistribute it and/or
@@ -13961,10 +13961,8 @@ License: LGPL-2.1
  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
  Lesser General Public License for more details.
  .
- You should have received a copy of the GNU Lesser General Public
- License along with this library; if not, write to the Free Software
- Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA
- 02110-1301 USA
+ A copy of the GNU Lesser General Public License is available in
+ /usr/share/common-licenses/LGPL-2.1
 
 License: LGPL-2.1+
  This library is free software; you can redistribute it and/or
@@ -13977,8 +13975,8 @@ License: LGPL-2.1+
  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
  Lesser General Public License for more details.
  .
- You should have received a copy of the GNU Lesser General Public
- License along with this library.  If not, see <http://www.gnu.org/licenses/>.
+ A copy of the GNU Lesser General Public License is available in
+ /usr/share/common-licenses/LGPL-2.1
 
 License: MIT/X11 (BSD like)
  Permission is hereby granted, free of charge, to any person obtaining
