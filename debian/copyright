@@ -3995,7 +3995,7 @@ Files: ./sheets/tests/TestUtil.h
  ./stage/part/tools/*
  ./stage/plugins/eventactions/sound/*
 Copyright: 2007-2011 Thorsten Zachmann <zachmann@kde.org>
-License: LGPL
+License: LGPL-2+
 
 Files: ./karbon/ui/KarbonPrintJob.cpp
  ./karbon/ui/KarbonPrintJob.h
@@ -4337,7 +4337,7 @@ Files: ./libs/kopageapp/tests/PAMock.h
  ./stage/part/tests/TestCustomSlideShows.cpp
  ./stage/part/tests/TestCustomSlideShows.h
 Copyright: 2007 ( C ) Thorsten Zachmann <zachmann@kde.org>
-License: LGPL
+License: LGPL-2+
 
 Files: ./krita/ui/kis_image_view_converter.cpp
  ./krita/ui/kis_image_view_converter.h
@@ -5008,7 +5008,7 @@ Files: ./stage/part/animations/KPrAnimationData.cpp
  ./stage/part/animations/strategy/KPrSmilValues.cpp
  ./stage/part/animations/strategy/KPrSmilValues.h
 Copyright: 2010 Benjamin Port <port.benjamin@gmail.com>
-License: LGPL
+License: LGPL-2+
 
 Files: ./stage/part/KPrSlidesSorterItemDelegate.cpp
  ./stage/part/KPrSlidesSorterItemDelegate.h
@@ -5029,7 +5029,7 @@ Files: ./stage/part/KPrSlidesSorterItemDelegate.cpp
  ./stage/part/tools/animationtool/KPrTimeLineView.cpp
  ./stage/part/tools/animationtool/KPrTimeLineView.h
 Copyright: 2011-2012 Paul Mendez <paulestebanms@gmail.com>
-License: LGPL
+License: LGPL-2+
 
 Files: ./krita/plugins/extensions/dockers/advancedcolorselector/kis_color_history.cpp
  ./krita/plugins/extensions/dockers/advancedcolorselector/kis_color_history.h
@@ -5766,7 +5766,7 @@ Files: ./stage/part/KPrAnimationDirector.cpp
  ./stage/part/animations/KPrAnimationSubStep.h
 Copyright: 2010 Benjamin Port <port.benjamin@gmail.com>
  2007-2010 Thorsten Zachmann <zachmann@kde.org>
-License: LGPL
+License: LGPL-2+
 
 Files: ./kexi/kexidb/drivers/oracle/oracle_keywords.sh
  ./kexi/kexidb/drivers/oracle/oracleconnection.cpp
@@ -5927,7 +5927,7 @@ Files: ./sheets/Formula.h
  ./sheets/tests/inspector.cpp
  ./sheets/tests/inspector.h
 Copyright: 2003-2007 Ariya Hidayat <ariya@kde.org>
-License: LGPL
+License: LGPL-2+
 
 Files: ./krita/plugins/extensions/dockers/defaultdockers/defaultdockers.cpp
  ./krita/plugins/extensions/dockers/defaultdockers/defaultdockers.h
@@ -6059,7 +6059,7 @@ Files: ./sheets/Damages.cpp
  ./sheets/tests/TestValue.cpp
 Copyright: 2003-2006 Ariya Hidayat <ariya@kde.org>
  2006-2007 Stefan Nikolaus <stefan.nikolaus@kdemail.net>
-License: LGPL
+License: LGPL-2+
 
 Files: ./sheets/functions/conversion.cpp
  ./sheets/functions/database.cpp
@@ -6071,7 +6071,7 @@ Files: ./sheets/functions/conversion.cpp
  ./sheets/functions/trig.cpp
 Copyright: 1998-2003 The KSpread Team <calligra-devel@kde.org>
  2005 Tomas Mecir <mecirt@gmail.com>
-License: LGPL
+License: LGPL-2+
 
 Files: ./libs/koproperty/editors/dummywidget.cpp
  ./libs/koproperty/editors/dummywidget.h
@@ -6320,7 +6320,7 @@ Files: ./sheets/tests/TestBitopsFunctions.cpp
  ./sheets/tests/TestTextFunctions.cpp
  ./sheets/tests/TestTextFunctions.h
 Copyright: 2007 Brad Hards <bradh@frogmouth.net>
-License: LGPL
+License: LGPL-2+
 
 Files: ./krita/plugins/assistants/RulerAssistant/EllipseAssistant.cc
  ./krita/plugins/assistants/RulerAssistant/EllipseAssistant.h
@@ -6512,7 +6512,7 @@ Files: ./sheets/Function.cpp
  ./sheets/FunctionRepository.h
 Copyright: 2003-2004 Ariya Hidayat <ariya@kde.org>
  2005 Tomas Mecir <mecirt@gmail.com>
-License: LGPL
+License: LGPL-2+
 
 Files: ./sheets/tests/TestDatabaseFunctions.cpp
  ./sheets/tests/TestDatabaseFunctions.h
@@ -6521,7 +6521,7 @@ Files: ./sheets/tests/TestDatabaseFunctions.cpp
  ./sheets/tests/TestRegion.cpp
  ./sheets/tests/TestRegion.h
 Copyright: 2007 Stefan Nikolaus <stefan.nikolaus@kdemail.net>
-License: LGPL
+License: LGPL-2+
 
 Files: ./sheets/Number.cpp
  ./sheets/Number.h
@@ -6530,7 +6530,7 @@ Files: ./sheets/Number.cpp
  ./sheets/commands/SortManipulator.cpp
  ./sheets/commands/SortManipulator.h
 Copyright: 2006-2007 Tomas Mecir <mecirt@gmail.com>
-License: LGPL
+License: LGPL-2+
 
 Files: ./plan/libs/kernel/kpteffortcostmap.cpp
  ./plan/libs/kernel/kpteffortcostmap.h
@@ -6832,7 +6832,7 @@ Files: ./sheets/tests/TestPasteCommand.cpp
  ./sheets/tests/TestValueFormatter.cpp
  ./sheets/tests/TestValueFormatter.h
 Copyright: 2009-2012 Marijn Kruisselbrink <mkruisselbrink@kde.org>
-License: LGPL
+License: LGPL-2+
 
 Files: ./filters/words/msword-odf/wv2/src/annotations.cpp
  ./filters/words/msword-odf/wv2/src/footnotes97.cpp
@@ -7147,7 +7147,7 @@ Files: ./plugins/formulashape/tests/TestLayout.cpp
  ./plugins/formulashape/tests/TestLoad.h
  ./plugins/formulashape/tests/TestLoadAndSave.h
 Copyright: 2007 Alfredo Beaumont Sainz <alfredo.beaumont@gmail.com>
-License: LGPL
+License: LGPL-2+
 
 Files: ./sheets/tests/TestFinancialFunctions.cpp
  ./sheets/tests/TestFinancialFunctions.h
@@ -7155,7 +7155,7 @@ Files: ./sheets/tests/TestFinancialFunctions.cpp
  ./sheets/tests/TestMathFunctions.h
 Copyright: 2006-2007 Ariya Hidayat <ariya@kde.org>
  2007 Sascha Pfau <MrPeacock@gmail.com>
-License: LGPL
+License: LGPL-2+
 
 Files: ./libs/main/KoApplicationAdaptor.cpp
  ./libs/main/KoApplicationAdaptor.h
@@ -7163,7 +7163,7 @@ Files: ./libs/main/KoApplicationAdaptor.cpp
  ./libs/main/KoPartAdaptor.h
 Copyright: 2000 David Faure <faure@kde.org>
  2006 Fredrik Edemar <f_edemar@linux.se>
-License: LGPL
+License: LGPL-2+
 
 Files: ./krita/plugins/extensions/dockers/advancedcolorselector/colorselectorng.cpp
  ./krita/plugins/extensions/dockers/advancedcolorselector/colorselectorng.h
@@ -7777,7 +7777,7 @@ Files: ./stage/part/KPrAnimationDirector.h
  ./stage/part/KPrShapeManagerAnimationStrategy.cpp
 Copyright: 2007 ( C ) Thorsten Zachmann <zachmann@kde.org>
  2010 Benjamin Port <port.benjamin@gmail.com>
-License: LGPL
+License: LGPL-2+
 
 Files: ./kexi/migration/AlterSchemaTableModel.cpp
  ./kexi/widget/navigator/KexiProjectModel.cpp
@@ -8290,7 +8290,7 @@ License: BSD (2 clause)
 Files: ./libs/vectorimage/libwmf/qwmf.cc
  ./libs/vectorimage/libwmf/qwmf.h
 Copyright: 1998 ( C ) Stefan Taferner
-License: GPL
+License: GPL-2+
 
 Files: ./filters/writerperfect/OutputFileHelper.cxx
  ./filters/writerperfect/OutputFileHelper.hxx
@@ -8550,25 +8550,25 @@ Files: ./stage/part/KPrShapeAnimations.cpp
 Copyright: 2012 ( C ) Paul Mendez <paulestebanms@gmail.com>
  2010 ( C ) Benjamin Port <port.benjamin@gmail.com>
  2007 ( C ) Thorsten Zachmann <zachmann@kde.org>
-License: LGPL
+License: LGPL-2+
 
 Files: ./stage/part/tests/TestShapeAnimations.cpp
  ./stage/part/tests/TestShapeAnimations.h
 Copyright: 2012 ( C ) Paul Mendez <paulestebanms@gmail.com>
  2007 ( C ) Thorsten Zachmann <zachmann@kde.org>
-License: LGPL
+License: LGPL-2+
 
 Files: ./stage/part/animations/KPrAnimationCache.cpp
  ./stage/part/animations/KPrAnimationCache.h
 Copyright: 2010 ( C ) C. Boemann <cbo@boemannn.dk>
  2010 Benjamin Port <port.benjamin@gmail.com>
-License: LGPL
+License: LGPL-2+
 
 Files: ./plugins/formulashape/tests/TestLoad.cpp
  ./plugins/formulashape/tests/TestLoadAndSave.cpp
 Copyright: 2010 Inge wallin <inge@lysator.liu.se>
  2007-2009 Alfredo Beaumont Sainz <alfredo.beaumont@gmail.com>
-License: LGPL
+License: LGPL-2+
 
 Files: ./sheets/ui/CellToolBase.cpp
  ./sheets/ui/CellToolBase_p.h
@@ -8582,55 +8582,55 @@ Copyright: 1999-2001 Simon Hausmann <hausmann@kde.org>
  2002-2003 Philipp Mueller <philipp.mueller@gmx.de>
  1999-2003 Laurent Montel <montel@kde.org>
  2006-2008 Stefan Nikolaus <stefan.nikolaus@kdemail.net>
-License: LGPL
+License: LGPL-2+
 
 Files: ./sheets/tests/TestOpenFormula.cpp
  ./sheets/tests/TestOpenFormula.h
 Copyright: 2005 Tomas Mecir <mecirt@gmail.com>
  2007 Ariya Hidayat <ariya@kde.org>
  2006 Stefan Nikolaus <stefan.nikolaus@kdemail.net>
-License: LGPL
+License: LGPL-2+
 
 Files: ./stage/part/animations/strategy/KPrFormulaParser.cpp
  ./stage/part/animations/strategy/KPrFormulaParser.h
 Copyright: 2012 Paul Mendez <paulestebanms@gmail.com>
  2010 Benjamin Port <port.benjamin@gmail.com>
-License: LGPL
+License: LGPL-2+
 
 Files: ./stage/part/animations/KPrShapeAnimation.cpp
  ./stage/part/animations/KPrShapeAnimation.h
 Copyright: 2012 Paul Mendez <paulestebanms@gmail.com>
  2010 Thorsten Zachmann <zachmann@kde.org>
  2010 Benjamin Port <port.benjamin@gmail.com>
-License: LGPL
+License: LGPL-2+
 
 Files: ./sheets/tests/TestInformationFunctions.cpp
  ./sheets/tests/TestInformationFunctions.h
 Copyright: 2007 Brad Hards <bradh@frogmouth.net>
  2007 Sascha Pfau <MrPeacock@gmail.com>
-License: LGPL
+License: LGPL-2+
 
 Files: ./braindump/src/TreeSortFilter.cpp
  ./braindump/src/TreeSortFilter.h
 Copyright: 2006 Frans Englich <frans.englich@telia.com>
-License: LGPL
+License: LGPL-2+
 
 Files: ./plugins/formulashape/tests/TestCursor.cpp
  ./plugins/formulashape/tests/TestCursor.h
 Copyright: 2009 Jeremias Epperlein <jeeree@web.de>
-License: LGPL
+License: LGPL-2+
 
 Files: ./sheets/functions/engineering.cpp
  ./sheets/functions/statistical.cpp
 Copyright: 1998-2002 The KSpread Team <calligra-devel@kde.org>
  2005 Tomas Mecir <mecirt@gmail.com>
  2007 Sascha Pfau <MrPeacock@gmail.com>
-License: LGPL
+License: LGPL-2+
 
 Files: ./sheets/tests/TestDatetimeFunctions.cpp
  ./sheets/tests/TestDatetimeFunctions.h
 Copyright: 2007 Sascha Pfau <MrPeacock@web.de>
-License: LGPL
+License: LGPL-2+
 
 Files: ./krita/plugins/paintops/experiment/kis_experiment_shape_option.h
  ./krita/plugins/paintops/hairy/kis_hairy_ink_option.h
@@ -10988,11 +10988,11 @@ License: GPL-2+
 Files: ./libs/kopageapp/tests/TestPAPageMoveCommand.cpp
 Copyright: 2009 Fredy Yanardi <fyanardi@gmail.com>
  2007 ( C ) Thorsten Zachmann <zachmann@kde.org>
-License: LGPL
+License: LGPL-2+
 
 Files: ./stage/part/tests/MockShapeAnimation.h
 Copyright: 2012 ( C ) Paul Mendez <paulestebanms@gmail.com>
-License: LGPL
+License: LGPL-2+
 
 Files: ./sheets/ui/CellToolBase_p.cpp
 Copyright: 2006 Robert Knight <robertknight@gmail.com>
@@ -11018,7 +11018,7 @@ Copyright: 2006 Robert Knight <robertknight@gmail.com>
  2001-2003 Philipp Mueller <philipp.mueller@gmx.de>
  2006-2008 Stefan Nikolaus <stefan.nikolaus@kdemail.net>
  1999 Boris Wedl <boris.wedl@kfunigraz.ac.at>
-License: LGPL
+License: LGPL-2+
 
 Files: ./sheets/ui/CellView.cpp
 Copyright: 1999 Stephan Kulow <coolo@kde.org>
@@ -11042,7 +11042,7 @@ Copyright: 1999 Stephan Kulow <coolo@kde.org>
  2003 Peter Simonsson <psn@linux.se>
  2006-2007 Stefan Nikolaus <stefan.nikolaus@kdemail.net>
  1999 Boris Wedl <boris.wedl@kfunigraz.ac.at>
-License: LGPL
+License: LGPL-2+
 
 Files: ./sheets/ui/CellView.h
 Copyright: 2002 John Dailey <dailey@vt.edu>
@@ -11058,7 +11058,7 @@ Copyright: 2002 John Dailey <dailey@vt.edu>
  2001-2002 Philipp Mueller <philipp.mueller@gmx.de>
  2003 Stefan Hetzl <shetzl@chello.at>
  2006-2007 Stefan Nikolaus <stefan.nikolaus@kdemail.net>
-License: LGPL
+License: LGPL-2+
 
 Files: ./sheets/functions/financial.cpp
 Copyright: 1998-1999 Torben Weis <weis@kde.org>
@@ -11068,35 +11068,35 @@ Copyright: 1998-1999 Torben Weis <weis@kde.org>
  1999-2000 Laurent Montel <montel@kde.org>
  2007 Sascha Pfau <MrPeacock@gmail.com>
  2006 Stefan Nikolaus <stefan.nikolaus@kdemail.net>
-License: LGPL
+License: LGPL-2+
 
 Files: ./sheets/Formula.cpp
 Copyright: 2005 Tomas Mecir <mecirt@gmail.com>
  2003-2004 Ariya Hidayat <ariya@kde.org>
  2008-2010 Marijn Kruisselbrink <mkruisselbrink@kde.org>
-License: LGPL
+License: LGPL-2+
 
 Files: ./sheets/tests/TestStatisticalFunctions.cpp
 Copyright: 2006 Ariya Hidayat <ariya@kde.org>
  2007 Stefan Nikolaus <stefan.nikolaus@kdemail.net>
  2007 Sascha Pfau <MrPeacock@gmail.com>
-License: LGPL
+License: LGPL-2+
 
 Files: ./sheets/functions/bitops.cpp
 Copyright: 2006 Brad Hards <bradh@frogmouth.net>
  1998-2002 The KSpread Team <calligra-devel@kde.org>
-License: LGPL
+License: LGPL-2+
 
 Files: ./stage/part/KPrViewModePreviewPageEffect.cpp
 Copyright: 2008 Fredy Yanardi <fyanardi@kde.org>
  2008 C. Boemann <cbo@boemann.dk>
  2007-2008 Thorsten Zachmann <zachmann@kde.org>
-License: LGPL
+License: LGPL-2+
 
 Files: ./stage/part/KPrViewModePreviewPageEffect.h
 Copyright: 2008 C. Boemann <cbo@boemann.dk>
  2007 Thorsten Zachmann <zachmann@kde.org>
-License: LGPL
+License: LGPL-2+
 
 Files: ./sheets/functions/math.cpp
 Copyright: 1998-2002 The KSpread Team <calligra-devel@kde.org>
@@ -11104,30 +11104,30 @@ Copyright: 1998-2002 The KSpread Team <calligra-devel@kde.org>
  2010 Carlos Licea <carlos@kdab.com>
  2010 Nokia Corporation and/or its subsidiary(-ies)
  2007 Sascha Pfau <MrPeacock@gmail.com>
-License: LGPL
+License: LGPL-2+
 
 Files: ./stage/part/KPrViewModePresentation.cpp
 Copyright: 2008 Fredy Yanardi <fyanardi@kde.org>
  2007-2008 Thorsten Zachmann <zachmann@kde.org>
-License: LGPL
+License: LGPL-2+
 
 Files: ./sheets/functions/helper.cpp
 Copyright: 1998-2002 The KSpread Team <calligra-devel@kde.org>
  2007 Sascha Pfau <MrPeacock@gmail.com>
-License: LGPL
+License: LGPL-2+
 
 Files: ./sheets/RecalcManager.cpp
 Copyright: 2004 Tomas Mecir <mecirt@gmail.com>
  2006-2007 Stefan Nikolaus <stefan.nikolaus@kdemail.net>
-License: LGPL
+License: LGPL-2+
 
 Files: ./sheets/functions/helper.h
 Copyright: 1998-2002 The KSpread Team <calligra-devel@kde.org>
-License: LGPL
+License: LGPL-2+
 
 Files: ./flow/part/FlowPage.h
 Copyright: 2011 Yue Liu <opuspace@gmail.com>
-License: LGPL
+License: LGPL-2+
 
 Files: ./kexi/widget/navigator/KexiProjectModelItem.h
 Copyright: 2003-2004 Jarosław Staniek <staniek@kde.org>
@@ -13842,23 +13842,6 @@ License: BSL-1.0
  ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
  DEALINGS IN THE SOFTWARE.
 
-License: GPL
- This program is free software; you can redistribute it and/or modify it
- under the terms of the GNU General Public License as published by the
- Free Software Foundation; either version 2 of the License, or ( at your
- option ) any later version.
- .
- This program is distributed in the hope that it will be useful, but
- WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABLILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
- General Public License for more details. You should have received a copy
- of the GNU General Public License along with this program; if not, write
- to the Free Software Foundation, Inc, 51 Franklin Street, Fifth Floor,
- Boston, MA 02110-1301, USA.
- .
- A copy of the GNU General Public License is available in
- /usr/share/common-licenses/GPL
-
 License: GPL-2
  This program is free software; you can redistribute it and/or modify
  it under the terms of version 2 of the GNU General Public License as
@@ -13894,20 +13877,6 @@ License: GPL-3+
  .
  A copy of the GNU General Public License is available in
  /usr/share/common-licenses/GPL-3
-
-License: LGPL
- This library is free software; you can redistribute it and/or
- modify it under the terms of the GNU Library General Public
- License as published by the Free Software Foundation; either
- version 2 of the License, or (  at your option ) any later version.
- .
- This library is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
- Library General Public License for more details.
- .
- A copy of the GNU Library General Public License is available in
- /usr/share/common-licenses/LGPL.
 
 License: LGPL-2
  This program is free software; you can redistribute it and/or modify
