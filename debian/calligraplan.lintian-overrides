@@ -1,7 +1,12 @@
-calligraplan: package-name-doesnt-match-sonames libkdgantt12 libkplatokernel12 libkplatomodels12 libkplatoui12 libplanprivate12 libplanworkapp12 libplanworkfactory12 librcps-plan12
+calligraplan: package-name-doesnt-match-sonames libkplatokernel12 libkplatomodels12 libkplatoui12 libplanprivate12 libplanworkapp12 libplanworkfactory12 librcps-plan12
 calligraplan: unusual-interpreter usr/share/kde4/apps/plan/scripts/extensions/busyinfoclear.py #!kross
 calligraplan: unusual-interpreter usr/share/kde4/apps/plan/scripts/extensions/busyinfoexport.py #!kross
 calligraplan: unusual-interpreter usr/share/kde4/apps/plan/scripts/extensions/busyinfoimport.py #!kross
 calligraplan: unusual-interpreter usr/share/kde4/apps/plan/scripts/extensions/resourcesimport.py #!kross
 calligraplan: unusual-interpreter usr/share/kde4/apps/plan/scripts/samples/sample_busyinfocheck.py #!kross
 calligraplan: unusual-interpreter usr/share/kde4/apps/plan/scripts/samples/sample_project.py #!kross
+calligraplan: unusual-interpreter usr/share/kde4/apps/plan/scripts/extensions/plan2csvexport.py #!kross
+calligraplan: unusual-interpreter usr/share/kde4/apps/plan/scripts/extensions/plan2odsexport.py #!kross
+# mpxj is not included in Debian, but if the user add it manually, calligraplan can use it
+# cf Readme.Debian for more information
+calligraplan: classpath-contains-relative-path usr/lib/kde4/planconvert/PlanConvert.jar: mpxj/*.jar:mpxj/lib/*.jar
