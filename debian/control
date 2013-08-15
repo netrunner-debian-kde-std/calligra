@@ -515,8 +515,6 @@ Description: common shared data for the Calligra Suite
  .
  This package is part of the Calligra Suite.
 
-Multi-Arch: foreign
-
 Package: okular-backend-odp
 Architecture: any
 Section: graphics
