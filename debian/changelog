@@ -15,8 +15,6 @@ calligra (1:2.7.1-0r1) UNRELEASED; urgency=low
     extra packages)
   * update to my new official email address
   * split kexi to kexi-data for arch-indep files
-  * split the fonts in a separated package, and follow the Debian Policy
-    fonts are now installed in /usr/share/fonts/truetype/calligra/
   * add Multi-Arch: foreign tag for all the packages with Arch:all
     (lintian: font-package-not-multi-arch-foreign)
   * patch to add keywords to desktop files
