@@ -18,6 +18,7 @@ calligra (1:2.7.1-0r1) UNRELEASED; urgency=low
 
   [ Pino Toscano ]
   * Update .install files.
+  * Specify the required version for libkactivities-dev.
 
  -- Adrien Grellier <perso@adrieng.fr>  Sat, 27 Jul 2013 17:54:00 +0200
 
