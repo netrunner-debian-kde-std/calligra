@@ -1,7 +1,7 @@
 Source: calligra
 Section: kde
 # single application should be placed in more proper sections.
-Priority: extra
+Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Adrien Grellier <perso@adrieng.fr>,
  Raúl Sánchez Siles <rasasi78@gmail.com>
@@ -539,6 +539,7 @@ Description: Okular backend for ODP documents
 Package: calligra-dbg
 Section: debug
 Architecture: any
+Priority: extra
 Depends: ${misc:Depends}, calligra-libs (= ${binary:Version}), kde-runtime-dbg
 Description: debugging symbols for Calligra
  This package contains the debugging symbols associated with Calligra.
