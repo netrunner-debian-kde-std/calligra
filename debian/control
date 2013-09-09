@@ -146,7 +146,6 @@ Architecture: all
 Depends: ${misc:Depends}
 Breaks: kexi (<< 1:2.6.4-1~)
 Replaces: kexi (<< 1:2.6.4-1~)
-Multi-Arch: foreign
 Description: data files for Kexi
  This package contains architecture-independent data files for Kexi, the
  database program shipped with the Calligra Suite.
@@ -330,7 +329,6 @@ Architecture: all
 Section: graphics
 Depends: ${misc:Depends}
 Homepage: http://www.calligra-suite.org/krita/
-Multi-Arch: foreign
 Description: data files for Krita painting program
  This package contains architecture-independent data files for Krita,
  the painting program shipped with the Calligra Suite.
@@ -393,7 +391,6 @@ Conflicts: koffice-data
 Breaks: calligra-data (<< 1:2.4.3-2)
 Replaces: calligra-data (<< 1:2.4.3-2), koffice-data
 Homepage: http://www.calligra-suite.org/words/
-Multi-Arch: foreign
 Description: data files for Words word processor
  This package contains architecture-independent data files for Words,
  the word processor shipped with the Calligra Suite.
@@ -431,7 +428,6 @@ Architecture: all
 Depends: ${misc:Depends}
 Breaks: calligrastage (<< 1:2.6.3-1~)
 Replaces: calligrastage (<< 1:2.6.3-1~)
-Multi-Arch: foreign
 Description: data files for Calligra Stage
  This package contains architecture-independent data files for Stage,
  the presentation program shipped with the Calligra Suite.
@@ -457,7 +453,6 @@ Architecture: all
 Section: graphics
 Depends: ${misc:Depends}
 Homepage: http://www.calligra-suite.org/flow/
-Multi-Arch: foreign
 Description: data files for Flow flowcharting program
  This package contains architecture-independent data files for Flow,
  the flowcharting program shipped with the Calligra Suite.
@@ -508,7 +503,6 @@ Replaces: koffice-data, kformula, kexi (<< 1:2.6.1)
 Conflicts: koffice-data, kformula
 Breaks: kexi (<< 1:2.6.1)
 Suggests: khelpcenter4
-Multi-Arch: foreign
 Description: common shared data for the Calligra Suite
  This package provides the architecture-independent data that is shared
  amongst the various components of Calligra.
