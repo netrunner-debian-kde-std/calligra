@@ -3,12 +3,13 @@
 Debian packaging of calligra
 ===============================
 
-This file aims to document the packaging of calligra for Debian. Please feel free to improve it if necessary.
+This file aims to document the packaging of calligra for Debian. Please feel
+free to improve it if necessary.
 
 It is mainly a reminder for myself, and an help for the newcomers :)
 
-Howto get the upstream sources ?
-=================================
+Howto get the upstream sources?
+================================
 
 Upstream provide an archive for each release, accessible on the FTP_ of KDE:
 
@@ -18,15 +19,16 @@ Upstream provide an archive for each release, accessible on the FTP_ of KDE:
 Debian Packaging
 =================
 
-The upstream code is not included in git, but only the debian/ directory.
+The upstream code is not included in Git, but only the debian/ directory.
 
-The master branch should be for sid, and each debian release (wheezy, etc.) has its own branch.
+The master branch should be for sid, and each Debian release (wheezy, etc.) has
+its own branch.
 
 To prepare a release into Debian, don't forget:
 
 - to update the copyright file
-- write every debian changes on the changelog.
-- correct all the lintian warnings
+- write every Debian changes in changelog
+- try to fix/address when possible all the lintian warnings
 - be sure about if files has been added or removed
 - dch -r to prepare the changelog for an upload
 - tag the release in git when we get the accepted mail
@@ -34,7 +36,8 @@ To prepare a release into Debian, don't forget:
 How to create the debian package?
 ==================================
 
-I am using sbuild_ to ensure everything will be OK. The settings of sbuild is describe here :
+I am using sbuild_ to ensure everything will be OK. The settings of sbuild is
+described here:
 
 First copy and untar the upstream tarball. rename it to calligra_VERSION.orig.tar.bz2.
 Then run sbuild to build it ::
@@ -46,11 +49,12 @@ Then run sbuild to build it ::
 .. _sbuild: http://wiki.debian.org/sbuild
 
 Localization files
-====================
+===================
 
-The localization files of calligra belongs to the source package calligra-l10n.
+The localization files of calligra belong to the source package calligra-l10n.
 
-To package it, just copy each calligra-l10n-LANG.tar.bz2 from the FTP, and then run sbuild.
+To package it, just copy each calligra-l10n-LANG.tar.bz2 from the FTP, and then
+run sbuild.
 
 Copyright file
 ===============
@@ -71,7 +75,7 @@ To update the debian/copyright file:
    (sed '/FIXME/d' copyright_2.7 > copyright)
    add the License paragraph at the end (take it from the current copyright file)
 
-   Be carefull to the headers, and if new licences has been added.
+   Pay attention to the headers, and whether new licenses has been added.
 
 Now you have a debian/copyright up-to-date.
 
@@ -94,23 +98,26 @@ readable. To actually creates the man pages::
 Particularities
 ================
 
-- Unit test files does not have a license [#]_;
-- The file ./kexi/kexidb/sqlitedump/shell.c has a funny license, but we should assume it's the same license as SQLite3 [#]_
+- Unit test files do not have a license [#]_;
+- The file ./kexi/kexidb/sqlitedump/shell.c has a funny license, but we should
+ assume it's the same license as SQLite3 [#]_
 
 .. [#] From upstream, may 2013:
- “At one point, I think we had the explicit policy that unittests weren't going to have a license header. I don't know why... That was back in the KOffice days.”
+ “At one point, I think we had the explicit policy that unittests weren't
+ going to have a license header. I don't know why... That was back in the
+ KOffice days.”
 
 .. [#] From upstream, may 2013:
  “Regarding this please assume the same license as you use with SQLite3
  since the code is based on a small tool from SQLite3. This is
  basically public domain.”
 
-Embeeded libs
+Embedded libs
 ==============
 
 Calligra forks some library to fit to their purpose.
 
-- kexi/migration/mdb [#]_ 
+- kexi/migration/mdb [#]_
 - filters/words/msword-odf/wv2 [#]_
 - 3rdparty/kdgantt
 - 3rdparty/kdchart
@@ -123,20 +130,23 @@ Calligra forks some library to fit to their purpose.
  and this is a bug-for-bug type of dependency.” 
 
 .. [#] From upstream, may 2013:
- “The wv2 in Calligra is different from the one on sourceforge (which is pretty much dead and no longer developed), that's why wv2 in filters/words/msword-odf creates a library called kowv2.
+ “The wv2 in Calligra is different from the one on sourceforge (which is
+ pretty much dead and no longer developed), that's why wv2 in
+ filters/words/msword-odf creates a library called kowv2.
  You cannot build Calligra against the sourceforge wv2.”
 
 Missing libs
 =============
 
-Calligra could optionnaly use some libraries that are not yet in Debian. I am listing them here, not to forget the day they will be in Debian.
+Calligra could optionally use some libraries that are not yet in Debian.
+I am listing them here, not to forget the day they will be in Debian.
 
 VC
 ---
 
 Required by the Krita for vectorization.
 
-already in Ubuntu : https://launchpad.net/ubuntu/+source/vc
+already in Ubuntu: https://launchpad.net/ubuntu/+source/vc
 
 http://code.compeng.uni-frankfurt.de/projects/vc
 
@@ -145,16 +155,16 @@ OCIO
 
 Required by the Krita LUT docker
 
-soon in Debian ? http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=700676
+soon in Debian? http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=700676
 
 http://www.opencolorio.org
 
 OpenGTL
 --------
 
-Required for Shiva based Generators and Filters 
+Required for Shiva based Generators and Filters
 
-soon in Debian ? http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=642208
+soon in Debian? http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=642208
 already in Ubuntu: https://launchpad.net/ubuntu/+source/opengtl
 
 http://www.opengtl.org
@@ -169,7 +179,7 @@ https://bitbucket.org/cyrille/cauchy
 Java MPXJ
 ----------
 
-Required by Plan mpxj import filter 
+Required by Plan mpxj import filter
 
 http://mpxj.sourceforge.net/
 
