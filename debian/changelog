@@ -3,7 +3,7 @@ calligra (1:2.7.1-0r1) UNRELEASED; urgency=low
   * New upstream release.
     - A new component appears: calligraactive
     - New import filter for calligraplan, based on Java MPXJ.
-      See /usr/share/doc/calligra/README.Debian for using it.
+      See /usr/share/doc/calligraplan/README.Debian for using it.
 
   [ Adrien Grellier ]
   * update install files for calligra 2.7.1
