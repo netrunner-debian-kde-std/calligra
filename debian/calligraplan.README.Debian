@@ -3,23 +3,23 @@
 Calligra in Debian
 ===================
 
-How to use import MS Projet or Planner files into Calligraplan ?
------------------------------------------------------------------
+Importing MS Project and Planner files
+--------------------------------------
 
-Calligraplan 2.7 uses the java libraray mpxj to import Ms Project or Planner
-files. Unfortunately, mpxj is not in Debian so some hand manipulation are
-necessary to use it:
+Calligraplan 2.7 uses the Java library mpxj to import MS Project and Planner
+files. Currently mpxj is not available in Debian so it needs to be installed
+manually:
 
-1. install apache-poi (needed by mpxj) ::
+1. install apache-poi (needed by mpxj)::
 
-	apt-get install libapache-poi-java
+    apt-get install libapache-poi-java
 
-2 . download mpxj from the official website (http://mpxj.sourceforge.net)::
+2. download mpxj from the official website (http://mpxj.sourceforge.net)::
 
     wget -O mpxj-latest.zip http://sourceforge.net/projects/mpxj/files/latest/download?source=files
     unzip mpxj-latest.zip
 
-3. when running calligraplan, indicate where to find the mpxj.jar::
+3. when running calligraplan, point it to the location of mpxj.jar::
 
    PLAN_CLASSPATH=mpxj/mpxj.jar calligraplan 
 
