@@ -120,9 +120,10 @@ Description: vector graphics application for the Calligra Suite
 Package: kexi
 Architecture: any
 Section: database
-Depends: ${misc:Depends}, ${shlibs:Depends}, calligra-libs (= ${binary:Version})
+Depends: ${misc:Depends}, ${shlibs:Depends}, calligra-libs (= ${binary:Version}),
+ kexi-data (>= ${source:Version})
 Suggests: kexi-calligrasheets-driver, kexi-mysql-driver, kexi-postgresql-driver,
- kexi-xbase-driver, kexi-sybase-driver, kexi-data (>= ${source:Version})
+ kexi-xbase-driver, kexi-sybase-driver
 Replaces: koffice-doc-html
 Conflicts: koffice-doc-html
 Homepage: http://www.calligra-suite.org/kexi/
@@ -144,8 +145,8 @@ Description: integrated database environment for the Calligra Suite
 Package: kexi-data
 Architecture: all
 Depends: ${misc:Depends}
-Breaks: kexi (<< 1:2.6.4-1~)
-Replaces: kexi (<< 1:2.6.4-1~)
+Breaks: kexi (<< 1:2.7.1)
+Replaces: kexi (<< 1:2.7.1)
 Description: data files for Kexi
  This package contains architecture-independent data files for Kexi, the
  database program shipped with the Calligra Suite.
