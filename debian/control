@@ -403,7 +403,7 @@ Package: calligrastage
 Architecture: any
 Replaces: kpresenter (<< 1:2.4), calligra-data (<< 1:2.4.3-2), koffice-data (<< 1:2.4)
 Breaks: kpresenter (<< 1:2.4), calligra-data (<< 1:2.4.3-2), koffice-data (<< 1:2.4)
-Depends: ${misc:Depends}, ${shlibs:Depends}, calligra-libs (= ${binary:Version}), 
+Depends: ${misc:Depends}, ${shlibs:Depends}, calligra-libs (= ${binary:Version}),
  calligrastage-data (>=${source:Version})
 Suggests: khelpcenter4
 Homepage: http://www.calligra-suite.org/stage/
@@ -475,7 +475,7 @@ Package: calligraactive
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}, calligra-libs (= ${binary:Version})
 Description: Tablet version of Calligra
- Calligra Active is a project to bring Calligra to the Plasma Active Desktop, 
+ Calligra Active is a project to bring Calligra to the Plasma Active Desktop,
  designed for tablets, smartphones, and touching devices.
  .
  This package is part of the Calligra Suite.
