@@ -1,4 +1,3 @@
-usr/share/applications/kde4/kexi.desktop
 usr/share/doc/kde/HTML/en/kexi
 usr/share/icons/hicolor/1024x1024/apps/calligrakexi.png
 usr/share/icons/hicolor/128x128/apps/calligrakexi.png
@@ -12,13 +11,6 @@ usr/share/icons/hicolor/64x64/apps/calligrakexi.png
 usr/share/icons/hicolor/scalable/apps/calligrakexi.svgz
 usr/share/kde4/apps/kexi
 usr/share/kde4/config/kexirc
-usr/share/kde4/services/kexi
-usr/share/kde4/services/keximigrate_mdb.desktop
-usr/share/kde4/services/keximigrate_txt.desktop
-usr/share/kde4/services/kexirelationdesignshape.desktop
-usr/share/kde4/services/kformdesigner/kformdesigner_containers.desktop
-usr/share/kde4/services/kformdesigner/kformdesigner_kexidbfactory.desktop
-usr/share/kde4/services/kformdesigner/kformdesigner_stdwidgets.desktop
 usr/share/kde4/servicetypes/kexihandler.desktop
 usr/share/kde4/servicetypes/keximigration_driver.desktop
 usr/share/kde4/servicetypes/widgetfactory.desktop

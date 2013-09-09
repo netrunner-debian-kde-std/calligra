@@ -1,5 +1,6 @@
 usr/bin/calligrawords
 usr/lib/kde4/applixwordimport.so
+usr/lib/kde4/asciiexport.so
 usr/lib/kde4/asciiimport.so
 usr/lib/kde4/docximport.so
 usr/lib/kde4/exportMobi.so
