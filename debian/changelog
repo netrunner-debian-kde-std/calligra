@@ -20,6 +20,9 @@ calligra (1:2.7.5-1) UNRELEASED; urgency=low
   * Specify the required version for libkactivities-dev.
   * Update watch file to look for .xz extension too.
 
+  [ Maximiliano Curia ]
+  * Migrate from eigen2 to eigen3, thanks to Anton Gladky. (Closes: #726643)
+
  -- Maximiliano Curia <maxy@debian.org>  Wed, 27 Nov 2013 10:20:58 +0100
 
 calligra (1:2.6.4-1) unstable; urgency=low
