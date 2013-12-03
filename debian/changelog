@@ -23,6 +23,7 @@ calligra (1:2.7.5-1) UNRELEASED; urgency=low
   [ Maximiliano Curia ]
   * Migrate from eigen2 to eigen3, thanks to Anton Gladky. (Closes: #726643)
   * Add pqxx 4 support. (Closes: #730632)
+  * Refresh patches.
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 27 Nov 2013 10:20:58 +0100
 
