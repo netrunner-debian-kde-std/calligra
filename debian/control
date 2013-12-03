@@ -4,7 +4,8 @@ Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Adrien Grellier <perso@adrieng.fr>,
- Raúl Sánchez Siles <rasasi78@gmail.com>
+ Raúl Sánchez Siles <rasasi78@gmail.com>,
+ Maximiliano Curia <maxy@debian.org>
 Build-Depends: debhelper (>= 9), cmake (>= 2.6.2), pkg-kde-tools (>= 0.9),
  default-jdk,
  kdelibs5-dev (>= 4:4.4.0),
