@@ -3,10 +3,10 @@ Author: Anton Gladky <gladk@debian.org>
 Bug-Debian: http://bugs.debian.org/726643
 Last-Update: 2013-10-17
 
-Index: calligra-2.7.5/CMakeLists.txt
+Index: calligra/CMakeLists.txt
 ===================================================================
---- calligra-2.7.5.orig/CMakeLists.txt	2013-12-02 15:00:26.989520734 +0100
-+++ calligra-2.7.5/CMakeLists.txt	2013-12-02 15:02:12.476765727 +0100
+--- calligra.orig/CMakeLists.txt	2013-12-03 09:29:50.677176948 +0100
++++ calligra/CMakeLists.txt	2013-12-03 09:29:50.673177105 +0100
 @@ -391,10 +391,10 @@
  
  
@@ -40,10 +40,10 @@ Index: calligra-2.7.5/CMakeLists.txt
  
  if (NOT ${QTVERSION} VERSION_GREATER 4.7.0)
      calligra_disable_product(ACTIVE "Qt version <= 4.7.0")
-Index: calligra-2.7.5/cmake/modules/FindEigen3.cmake
+Index: calligra/cmake/modules/FindEigen3.cmake
 ===================================================================
 --- /dev/null	1970-01-01 00:00:00.000000000 +0000
-+++ calligra-2.7.5/cmake/modules/FindEigen3.cmake	2013-12-02 15:00:26.973521458 +0100
++++ calligra/cmake/modules/FindEigen3.cmake	2013-12-03 09:29:50.673177105 +0100
 @@ -0,0 +1,81 @@
 +# - Try to find Eigen3 lib
 +#
@@ -126,10 +126,10 @@ Index: calligra-2.7.5/cmake/modules/FindEigen3.cmake
 +
 +endif(EIGEN3_INCLUDE_DIR)
 +
-Index: calligra-2.7.5/krita/CMakeLists.txt
+Index: calligra/krita/CMakeLists.txt
 ===================================================================
---- calligra-2.7.5.orig/krita/CMakeLists.txt	2013-12-02 15:00:26.989520734 +0100
-+++ calligra-2.7.5/krita/CMakeLists.txt	2013-12-02 15:03:28.341369494 +0100
+--- calligra.orig/krita/CMakeLists.txt	2013-12-03 09:29:50.677176948 +0100
++++ calligra/krita/CMakeLists.txt	2013-12-03 09:29:50.677176948 +0100
 @@ -89,7 +89,7 @@
      ${CMAKE_SOURCE_DIR}/libs/widgets/colorwidgets
      ${CMAKE_SOURCE_DIR}/libs/widgetutils
@@ -139,10 +139,10 @@ Index: calligra-2.7.5/krita/CMakeLists.txt
  
      # 'Export' this for use by filters
      CACHE INTERNAL ""
-Index: calligra-2.7.5/krita/image/kis_perspective_math.cpp
+Index: calligra/krita/image/kis_perspective_math.cpp
 ===================================================================
---- calligra-2.7.5.orig/krita/image/kis_perspective_math.cpp	2013-12-02 15:00:26.989520734 +0100
-+++ calligra-2.7.5/krita/image/kis_perspective_math.cpp	2013-12-02 15:00:26.973521458 +0100
+--- calligra.orig/krita/image/kis_perspective_math.cpp	2013-12-03 09:29:50.677176948 +0100
++++ calligra/krita/image/kis_perspective_math.cpp	2013-12-03 09:29:50.677176948 +0100
 @@ -86,7 +86,7 @@
      b.coeffRef(8) = 1;
  //     dbgImage <<" a := { {" << a(0,0) <<" ," << a(0,1) <<" ," << a(0,2) <<" ," << a(0,3) <<" ," << a(0,4) <<" ," << a(0,5) <<" ," << a(0,6) <<" ," << a(0,7) <<" ," << a(0,8) <<" } , {" << a(1,0) <<" ," << a(1,1) <<" ," << a(1,2) <<" ," << a(1,3) <<" ," << a(1,4) <<" ," << a(1,5) <<" ," << a(1,6) <<" ," << a(1,7) <<" ," << a(1,8) <<" } , {" << a(2,0) <<" ," << a(2,1) <<" ," << a(2,2) <<" ," << a(2,3) <<" ," << a(2,4) <<" ," << a(2,5) <<" ," << a(2,6) <<" ," << a(2,7) <<" ," << a(2,8) <<" } , {" << a(3,0) <<" ," << a(3,1) <<" ," << a(3,2) <<" ," << a(3,3) <<" ," << a(3,4) <<" ," << a(3,5) <<" ," << a(3,6) <<" ," << a(3,7) <<" ," << a(3,8) <<" } , {" << a(4,0) <<" ," << a(4,1) <<" ," << a(4,2) <<" ," << a(4,3) <<" ," << a(4,4) <<" ," << a(4,5) <<" ," << a(4,6) <<" ," << a(4,7) <<" ," << a(4,8) <<" } , {" << a(5,0) <<" ," << a(5,1) <<" ," << a(5,2) <<" ," << a(5,3) <<" ," << a(5,4) <<" ," << a(5,5) <<" ," << a(5,6) <<" ," << a(5,7) <<" ," << a(5,8) <<" } , {" << a(6,0) <<" ," << a(6,1) <<" ," << a(6,2) <<" ," << a(6,3) <<" ," << a(6,4) <<" ," << a(6,5) <<" ," << a(6,6) <<" ," << a(6,7) <<" ," << a(6,8) <<" } , {"<< a(7,0) <<" ," << a(7,1) <<" ," << a(7,2) <<" ," << a(7,3) <<" ," << a(7,4) <<" ," << a(7,5) <<" ," << a(7,6) <<" ," << a(7,7) <<" ," << a(7,8) <<" } , {"<< a(8,0) <<" ," << a(8,1) <<" ," << a(8,2) <<" ," << a(8,3) <<" ," << a(8,4) <<" ," << a(8,5) <<" ," << a(8,6) <<" ," << a(8,7) <<" ," << a(8,8) <<" } };";
@@ -152,10 +152,10 @@ Index: calligra-2.7.5/krita/image/kis_perspective_math.cpp
      Matrix3qreal matrix;
      for (int r = 0; r < 3; r++) for (int c = 0; c < 3; c++) matrix.coeffRef(r, c) = v.coeff(3 * r + c);
      return matrix;
-Index: calligra-2.7.5/krita/plugins/extensions/dockers/advancedcolorselector/kis_color_selector_ring.cpp
+Index: calligra/krita/plugins/extensions/dockers/advancedcolorselector/kis_color_selector_ring.cpp
 ===================================================================
---- calligra-2.7.5.orig/krita/plugins/extensions/dockers/advancedcolorselector/kis_color_selector_ring.cpp	2013-12-02 15:00:26.989520734 +0100
-+++ calligra-2.7.5/krita/plugins/extensions/dockers/advancedcolorselector/kis_color_selector_ring.cpp	2013-12-02 15:00:26.973521458 +0100
+--- calligra.orig/krita/plugins/extensions/dockers/advancedcolorselector/kis_color_selector_ring.cpp	2013-12-03 09:29:50.677176948 +0100
++++ calligra/krita/plugins/extensions/dockers/advancedcolorselector/kis_color_selector_ring.cpp	2013-12-03 09:29:50.677176948 +0100
 @@ -21,7 +21,7 @@
  #include <QMouseEvent>
  
@@ -165,10 +165,10 @@ Index: calligra-2.7.5/krita/plugins/extensions/dockers/advancedcolorselector/kis
  #include <cmath>
  
  #include "KoColor.h"
-Index: calligra-2.7.5/krita/plugins/extensions/dockers/advancedcolorselector/kis_color_selector_triangle.cpp
+Index: calligra/krita/plugins/extensions/dockers/advancedcolorselector/kis_color_selector_triangle.cpp
 ===================================================================
---- calligra-2.7.5.orig/krita/plugins/extensions/dockers/advancedcolorselector/kis_color_selector_triangle.cpp	2013-12-02 15:00:26.989520734 +0100
-+++ calligra-2.7.5/krita/plugins/extensions/dockers/advancedcolorselector/kis_color_selector_triangle.cpp	2013-12-02 15:00:26.973521458 +0100
+--- calligra.orig/krita/plugins/extensions/dockers/advancedcolorselector/kis_color_selector_triangle.cpp	2013-12-03 09:29:50.677176948 +0100
++++ calligra/krita/plugins/extensions/dockers/advancedcolorselector/kis_color_selector_triangle.cpp	2013-12-03 09:29:50.677176948 +0100
 @@ -21,7 +21,7 @@
  #include <QMouseEvent>
  
@@ -178,10 +178,10 @@ Index: calligra-2.7.5/krita/plugins/extensions/dockers/advancedcolorselector/kis
  #include <cmath>
          
  #include "KoColor.h"
-Index: calligra-2.7.5/krita/plugins/paintops/libbrush/CMakeLists.txt
+Index: calligra/krita/plugins/paintops/libbrush/CMakeLists.txt
 ===================================================================
---- calligra-2.7.5.orig/krita/plugins/paintops/libbrush/CMakeLists.txt	2013-12-02 15:00:26.989520734 +0100
-+++ calligra-2.7.5/krita/plugins/paintops/libbrush/CMakeLists.txt	2013-12-02 15:09:37.728550266 +0100
+--- calligra.orig/krita/plugins/paintops/libbrush/CMakeLists.txt	2013-12-03 09:29:50.677176948 +0100
++++ calligra/krita/plugins/paintops/libbrush/CMakeLists.txt	2013-12-03 09:29:50.677176948 +0100
 @@ -1,5 +1,6 @@
  add_subdirectory( tests )
  
@@ -189,10 +189,10 @@ Index: calligra-2.7.5/krita/plugins/paintops/libbrush/CMakeLists.txt
  set(kritalibbrush_LIB_SRCS
      kis_auto_brush.cpp
      kis_boundary.cc
-Index: calligra-2.7.5/krita/plugins/tools/selectiontools/kis_tool_select_brush.cc
+Index: calligra/krita/plugins/tools/selectiontools/kis_tool_select_brush.cc
 ===================================================================
---- calligra-2.7.5.orig/krita/plugins/tools/selectiontools/kis_tool_select_brush.cc	2013-12-02 15:00:26.989520734 +0100
-+++ calligra-2.7.5/krita/plugins/tools/selectiontools/kis_tool_select_brush.cc	2013-12-02 15:00:26.973521458 +0100
+--- calligra.orig/krita/plugins/tools/selectiontools/kis_tool_select_brush.cc	2013-12-03 09:29:50.677176948 +0100
++++ calligra/krita/plugins/tools/selectiontools/kis_tool_select_brush.cc	2013-12-03 09:29:50.677176948 +0100
 @@ -33,7 +33,7 @@
  #include <KoCompositeOp.h>
  
@@ -202,10 +202,10 @@ Index: calligra-2.7.5/krita/plugins/tools/selectiontools/kis_tool_select_brush.c
  
  #include "kis_cursor.h"
  #include "kis_canvas2.h"
-Index: calligra-2.7.5/krita/plugins/tools/selectiontools/kis_tool_select_magnetic.h
+Index: calligra/krita/plugins/tools/selectiontools/kis_tool_select_magnetic.h
 ===================================================================
---- calligra-2.7.5.orig/krita/plugins/tools/selectiontools/kis_tool_select_magnetic.h	2013-12-02 15:00:26.989520734 +0100
-+++ calligra-2.7.5/krita/plugins/tools/selectiontools/kis_tool_select_magnetic.h	2013-12-02 15:00:26.973521458 +0100
+--- calligra.orig/krita/plugins/tools/selectiontools/kis_tool_select_magnetic.h	2013-12-03 09:29:50.677176948 +0100
++++ calligra/krita/plugins/tools/selectiontools/kis_tool_select_magnetic.h	2013-12-03 09:29:50.677176948 +0100
 @@ -42,7 +42,7 @@
  }
  
@@ -215,10 +215,10 @@ Index: calligra-2.7.5/krita/plugins/tools/selectiontools/kis_tool_select_magneti
  
  typedef Eigen::Matrix3d FilterMatrix;
  
-Index: calligra-2.7.5/sheets/CMakeLists.txt
+Index: calligra/sheets/CMakeLists.txt
 ===================================================================
---- calligra-2.7.5.orig/sheets/CMakeLists.txt	2013-12-02 15:00:26.989520734 +0100
-+++ calligra-2.7.5/sheets/CMakeLists.txt	2013-12-02 15:00:26.973521458 +0100
+--- calligra.orig/sheets/CMakeLists.txt	2013-12-03 09:29:50.677176948 +0100
++++ calligra/sheets/CMakeLists.txt	2013-12-03 09:29:50.677176948 +0100
 @@ -5,7 +5,7 @@
                      ${KOTEXT_INCLUDES}
                      ${TEXTLAYOUT_INCLUDES}
@@ -228,20 +228,20 @@ Index: calligra-2.7.5/sheets/CMakeLists.txt
  
  if (SHOULD_BUILD_SHEETS_PART)
  
-Index: calligra-2.7.5/sheets/functions/CMakeLists.txt
+Index: calligra/sheets/functions/CMakeLists.txt
 ===================================================================
---- calligra-2.7.5.orig/sheets/functions/CMakeLists.txt	2013-12-02 15:00:26.989520734 +0100
-+++ calligra-2.7.5/sheets/functions/CMakeLists.txt	2013-12-02 15:00:26.973521458 +0100
+--- calligra.orig/sheets/functions/CMakeLists.txt	2013-12-03 09:29:50.677176948 +0100
++++ calligra/sheets/functions/CMakeLists.txt	2013-12-03 09:29:50.677176948 +0100
 @@ -1,4 +1,4 @@
 -include_directories(${CMAKE_SOURCE_DIR}/sheets ${KOMAIN_INCLUDES} ${FLAKE_INCLUDES} ${EIGEN2_INCLUDE_DIR})
 +include_directories(${CMAKE_SOURCE_DIR}/sheets ${KOMAIN_INCLUDES} ${FLAKE_INCLUDES} ${EIGEN3_INCLUDE_DIR})
  
  
  ########### next target ###############
-Index: calligra-2.7.5/sheets/functions/math.cpp
+Index: calligra/sheets/functions/math.cpp
 ===================================================================
---- calligra-2.7.5.orig/sheets/functions/math.cpp	2013-12-02 15:00:26.989520734 +0100
-+++ calligra-2.7.5/sheets/functions/math.cpp	2013-12-02 15:00:26.973521458 +0100
+--- calligra.orig/sheets/functions/math.cpp	2013-12-03 09:29:50.677176948 +0100
++++ calligra/sheets/functions/math.cpp	2013-12-03 09:29:50.677176948 +0100
 @@ -1223,9 +1223,9 @@
  
      Eigen::MatrixXd eMatrix = convert(matrix, calc),
@@ -254,10 +254,10 @@ Index: calligra-2.7.5/sheets/functions/math.cpp
          return convert(eMatrixInverse);
      } else
          return Value::errorDIV0();
-Index: calligra-2.7.5/sheets/tests/CMakeLists.txt
+Index: calligra/sheets/tests/CMakeLists.txt
 ===================================================================
---- calligra-2.7.5.orig/sheets/tests/CMakeLists.txt	2013-11-24 14:09:40.000000000 +0100
-+++ calligra-2.7.5/sheets/tests/CMakeLists.txt	2013-12-02 15:09:55.559682460 +0100
+--- calligra.orig/sheets/tests/CMakeLists.txt	2013-12-03 09:29:50.677176948 +0100
++++ calligra/sheets/tests/CMakeLists.txt	2013-12-03 09:29:50.677176948 +0100
 @@ -1,6 +1,6 @@
  include(MacroAddCompileFlags)
  set( EXECUTABLE_OUTPUT_PATH ${CMAKE_CURRENT_BINARY_DIR} )
@@ -266,3 +266,34 @@ Index: calligra-2.7.5/sheets/tests/CMakeLists.txt
  
  ########### Core Functionality ###############
  
+Index: calligra/krita/plugins/paintops/libbrush/kis_brush.cpp
+===================================================================
+--- calligra.orig/krita/plugins/paintops/libbrush/kis_brush.cpp	2013-12-03 09:29:06.514912783 +0100
++++ calligra/krita/plugins/paintops/libbrush/kis_brush.cpp	2013-12-03 09:32:21.915239005 +0100
+@@ -524,7 +524,7 @@
+         outputImage = interpolate(scaledBelowImage, scaledAboveImage, t);
+ 
+     } else {
+-        if (Eigen::ei_isApprox(scale, aboveBrush->scale())) {
++        if (Eigen::internal::isApprox(scale, aboveBrush->scale())) {
+             // Exact match.
+             outputImage = scaleImage(aboveBrush, scale, subPixelX, subPixelY);
+ 
+@@ -667,7 +667,7 @@
+ 
+         outputMask = scaleMask( (t >= 0.5) ? aboveBrush : belowBrush, scale, subPixelX, subPixelY);
+     } else {
+-        if (Eigen::ei_isApprox(scale, aboveBrush->scale())) {
++        if (Eigen::internal::isApprox(scale, aboveBrush->scale())) {
+             // Exact match.
+             outputMask = scaleMask(aboveBrush, scale, subPixelX, subPixelY);
+         } else {
+@@ -1009,7 +1009,7 @@
+     while (true) {
+         *aboveBrush = &(d->scaledBrushes[current]);
+ 
+-        if (Eigen::ei_isApprox(scale, (*aboveBrush)->scale())) {
++        if (Eigen::internal::isApprox(scale, (*aboveBrush)->scale())) {
+             // Scale matches exactly
+             break;
+         }
