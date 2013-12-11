@@ -9,8 +9,6 @@ usr/lib/kde4/planmpxjimport.so
 usr/lib/kde4/planpart.so
 usr/lib/kde4/plantjscheduler.so
 usr/lib/kde4/planworkpart.so
-usr/lib/libcalligrakdgantt.so.12
-usr/lib/libcalligrakdgantt.so.12.0.0
 usr/lib/libkdeinit4_calligraplan.so
 usr/lib/libkdeinit4_calligraplanwork.so
 usr/lib/libkplatokernel.so.12

@@ -20,6 +20,9 @@ calligra (1:2.7.5-0r1) UNRELEASED; urgency=low
   * Specify the required version for libkactivities-dev.
   * Update watch file to look for .xz extension too.
 
+  [ Raúl Sánchez Siles ]
+  * Move libcalligrakdgantt to calligra-libs from calligraplan.
+
  -- Adrien Grellier <perso@adrieng.fr>  Sat, 27 Jul 2013 17:54:00 +0200
 
 calligra (1:2.6.4-1) unstable; urgency=low
