@@ -1,1 +1,2 @@
 add_keywords_to_desktop_files.patch
+kexidb-relax_pqxx_version.patch

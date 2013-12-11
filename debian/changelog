@@ -22,6 +22,8 @@ calligra (1:2.7.5-0r1) UNRELEASED; urgency=low
 
   [ Raúl Sánchez Siles ]
   * Move libcalligrakdgantt to calligra-libs from calligraplan.
+  * Added kexidb-relax_pqxx_version.patch to make pqxx driver build with
+    libpqxx >= 0.4
 
  -- Adrien Grellier <perso@adrieng.fr>  Sat, 27 Jul 2013 17:54:00 +0200
 
