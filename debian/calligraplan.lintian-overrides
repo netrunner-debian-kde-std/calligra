@@ -1,4 +1,4 @@
-calligraplan: package-name-doesnt-match-sonames libkplatokernel12 libkplatomodels12 libkplatoui12 libplanprivate12 libplanworkapp12 libplanworkfactory12 librcps-plan12
+calligraplan: package-name-doesnt-match-sonames libcalligrakdgantt12 libkplatokernel12 libkplatomodels12 libkplatoui12 libplanprivate12 libplanworkapp12 libplanworkfactory12 librcps-plan12
 calligraplan: unusual-interpreter usr/share/kde4/apps/plan/scripts/extensions/busyinfoclear.py #!kross
 calligraplan: unusual-interpreter usr/share/kde4/apps/plan/scripts/extensions/busyinfoexport.py #!kross
 calligraplan: unusual-interpreter usr/share/kde4/apps/plan/scripts/extensions/busyinfoimport.py #!kross
