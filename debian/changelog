@@ -9,6 +9,9 @@ calligra (1:2.7.90-0r1) UNRELEASED; urgency=low
   [ Maximiliano Curia ]
   * Remove obsolete patch: pqxx_4_support.diff
 
+  [ Adrien Grellier ]
+  * new dependency for krita: libxi-dev
+
   [ Pino Toscano ]
   * Add the pkg-config build dependency.
   * Update lintian overrides.
