@@ -11,6 +11,7 @@ calligra (1:2.7.90-0r1) UNRELEASED; urgency=low
 
   [ Adrien Grellier ]
   * new dependency for krita: libxi-dev
+  * refresh add_keywords_to_desktop_files.patch to work with 2.8
 
   [ Pino Toscano ]
   * Add the pkg-config build dependency.
@@ -18,7 +19,7 @@ calligra (1:2.7.90-0r1) UNRELEASED; urgency=low
   * Remove the uninstalled man page of visualimagecompare, since that tool
     is not installed either.
 
- -- Adrien Grellier <perso@adrieng.fr>  Sun, 15 Dec 2013 20:15:30 +0100
+ -- Adrien Grellier <perso@adrieng.fr>  Sun, 15 Dec 2013 20:15:29 +0100
 
 calligra (1:2.7.5-1) unstable; urgency=low
 
