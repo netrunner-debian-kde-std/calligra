@@ -12,6 +12,7 @@ calligra (1:2.7.90-0r1) UNRELEASED; urgency=low
   [ Adrien Grellier ]
   * new dependency for krita: libxi-dev
   * refresh add_keywords_to_desktop_files.patch to work with 2.8
+  * refresh eigen3.patch to work with 2.8
 
   [ Pino Toscano ]
   * Add the pkg-config build dependency.
