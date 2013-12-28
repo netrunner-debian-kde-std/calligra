@@ -1,4 +1,6 @@
 usr/bin/krita
+usr/bin/gmicparser
+usr/lib/*/calligra/imports/org/krita/draganddrop/
 usr/lib/kde4/krita_colorspaces_extensions.so
 usr/lib/kde4/krita_raw_import.so
 usr/lib/kde4/kritaartisticcolorselector.so
@@ -8,6 +10,7 @@ usr/lib/kde4/kritabmpexport.so
 usr/lib/kde4/kritabmpimport.so
 usr/lib/kde4/kritachalkpaintop.so
 usr/lib/kde4/kritachanneldocker.so
+usr/lib/kde4/kritaclonesarray.so
 usr/lib/kde4/kritacolorgenerator.so
 usr/lib/kde4/kritacolorrange.so
 usr/lib/kde4/kritacolorselectorng.so
@@ -22,6 +25,7 @@ usr/lib/kde4/kritadefaultpaintops.so
 usr/lib/kde4/kritadefaulttools.so
 usr/lib/kde4/kritadeformpaintop.so
 usr/lib/kde4/kritadigitalmixer.so
+usr/lib/kde4/kritadodgeburn.so
 usr/lib/kde4/kritadropshadow.so
 usr/lib/kde4/kritadynapaintop.so
 usr/lib/kde4/kritaembossfilter.so
@@ -33,6 +37,7 @@ usr/lib/kde4/kritaextensioncolorsfilters.so
 usr/lib/kde4/kritafastcolortransferfilter.so
 usr/lib/kde4/kritafilterop.so
 usr/lib/kde4/kritaflipbookimport.so
+usr/lib/kde4/kritagmic.so
 usr/lib/kde4/kritagridpaintop.so
 usr/lib/kde4/kritahairypaintop.so
 usr/lib/kde4/kritahatchingpaintop.so
@@ -56,9 +61,12 @@ usr/lib/kde4/kritaoffsetimage.so
 usr/lib/kde4/kritaoilpaintfilter.so
 usr/lib/kde4/kritaoraexport.so
 usr/lib/kde4/kritaoraimport.so
+usr/lib/kde4/kritaoverviewdocker.so
+usr/lib/kde4/kritapalettedocker.so
 usr/lib/kde4/kritapart.so
 usr/lib/kde4/kritaparticlepaintop.so
 usr/lib/kde4/kritapatterndocker.so
+usr/lib/kde4/kritapatterngenerator.so
 usr/lib/kde4/kritapdfimport.so
 usr/lib/kde4/kritaphongbumpmap.so
 usr/lib/kde4/kritapixelizefilter.so
@@ -99,14 +107,14 @@ usr/lib/kde4/kritaunsharpfilter.so
 usr/lib/kde4/kritawavefilter.so
 usr/lib/kde4/kritaxcfimport.so
 usr/lib/libkdeinit4_krita.so
-usr/lib/libkritaimage.so.12
-usr/lib/libkritaimage.so.12.0.0
-usr/lib/libkritalibbrush.so.12
-usr/lib/libkritalibbrush.so.12.0.0
-usr/lib/libkritalibpaintop.so.12
-usr/lib/libkritalibpaintop.so.12.0.0
-usr/lib/libkritaui.so.12
-usr/lib/libkritaui.so.12.0.0
+usr/lib/libkritaimage.so.13
+usr/lib/libkritaimage.so.13.0.0
+usr/lib/libkritalibbrush.so.13
+usr/lib/libkritalibbrush.so.13.0.0
+usr/lib/libkritalibpaintop.so.13
+usr/lib/libkritalibpaintop.so.13.0.0
+usr/lib/libkritaui.so.13
+usr/lib/libkritaui.so.13.0.0
 usr/share/applications/kde4/krita.desktop
 usr/share/applications/kde4/krita_bmp.desktop
 usr/share/applications/kde4/krita_exr.desktop

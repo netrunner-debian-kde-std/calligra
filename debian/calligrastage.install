@@ -1,4 +1,6 @@
 usr/bin/calligrastage
+usr/lib/kde4/calligra_filter_ppt2odp.so
+usr/lib/kde4/calligra_filter_pptx2odp.so
 usr/lib/kde4/calligrastageeventactions.so
 usr/lib/kde4/calligrastagepart.so
 usr/lib/kde4/calligrastagetoolanimation.so
@@ -13,8 +15,6 @@ usr/lib/kde4/kpr_pageeffect_spacerotation.so
 usr/lib/kde4/kpr_pageeffect_swapeffect.so
 usr/lib/kde4/kpr_shapeanimation_example.so
 usr/lib/kde4/kprvariables.so
-usr/lib/kde4/powerpointimport.so
-usr/lib/kde4/pptximport.so
-usr/lib/libcalligrastageprivate.so.12
-usr/lib/libcalligrastageprivate.so.12.0.0
+usr/lib/libcalligrastageprivate.so.13
+usr/lib/libcalligrastageprivate.so.13.0.0
 usr/lib/libkdeinit4_calligrastage.so

@@ -1,8 +1,8 @@
 usr/bin/braindump
-usr/lib/kde4/stateshape.so
-usr/lib/kde4/webshape.so
-usr/lib/libbraindumpcore.so.12
-usr/lib/libbraindumpcore.so.12.0.0
+usr/lib/kde4/braindump_shape_state.so
+usr/lib/kde4/braindump_shape_web.so
+usr/lib/libbraindumpcore.so.13
+usr/lib/libbraindumpcore.so.13.0.0
 usr/share/applications/kde4/braindump.desktop
 usr/share/icons/hicolor/1024x1024/apps/braindump.png
 usr/share/icons/hicolor/128x128/apps/braindump.png
@@ -18,6 +18,6 @@ usr/share/icons/hicolor/64x64/apps/braindump.png
 usr/share/icons/hicolor/scalable/apps/braindump.svgz
 usr/share/kde4/apps/braindump
 usr/share/kde4/apps/stateshape
-usr/share/kde4/services/stateshape.desktop
-usr/share/kde4/services/webshape.desktop
+usr/share/kde4/services/braindump_shape_state.desktop
+usr/share/kde4/services/braindump_shape_web.desktop
 usr/share/kde4/servicetypes/braindump_extensions.desktop
