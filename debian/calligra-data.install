@@ -289,9 +289,6 @@ usr/share/kde4/apps/musicshape/fonts/Emmentaler-14.ttf
 usr/share/kde4/services/calligra_device_spacenavigator.desktop
 usr/share/kde4/services/calligra_docker_defaults.desktop
 usr/share/kde4/services/calligra_docker_textdocumentinspection.desktop
-usr/share/kde4/services/calligra_semanticitem_contact.desktop
-usr/share/kde4/services/calligra_semanticitem_event.desktop
-usr/share/kde4/services/calligra_semanticitem_location.desktop
 usr/share/kde4/services/calligra_shape_artistictext.desktop
 usr/share/kde4/services/calligra_shape_chart.desktop
 usr/share/kde4/services/calligra_shape_formular.desktop
