@@ -24,9 +24,4 @@ usr/share/kde4/config/kritaiccprofiles.knsrc
 usr/share/kde4/config/kritapatterns.knsrc
 usr/share/kde4/config/kritapresets.knsrc
 usr/share/kde4/config/kritarc
-usr/share/kde4/services/krita_palettedocker.desktop
-usr/share/kde4/services/kritaclonesarray.desktop
-usr/share/kde4/services/kritadodgeburn.desktop
-usr/share/kde4/services/kritagmic.desktop
-usr/share/kde4/services/kritapatterngenerator.desktop
 usr/share/mime/packages/krita.xml
