@@ -360,9 +360,9 @@ Description: data files for Krita painting program
 #Depends: ${misc:Depends}
 #Homepage: http://www.calligra-suite.org/krita/
 #Description: fusion between Krita Sketch and Krita Desktop
-# Krita Gemini is a fusion between Krita Sketch and Krita Desktop: 
-# Krita Gemini switches seamlessly between the full-featured 
-# desktop/notebook user interface and the sketch interface, 
+# Krita Gemini is a fusion between Krita Sketch and Krita Desktop:
+# Krita Gemini switches seamlessly between the full-featured
+# desktop/notebook user interface and the sketch interface,
 # which is optimized for tablets.
 # .
 # See the krita package for further information.
@@ -533,7 +533,7 @@ Section: libs
 Architecture: any
 Description: semantic item plugins for calligara
  This package provides the semantic item plugins for Calligra.
- . 
+ .
  This package is part of the Calligra Suite.
 
 Package: calligra-data
