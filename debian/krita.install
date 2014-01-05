@@ -1,5 +1,5 @@
-usr/bin/krita
 usr/bin/gmicparser
+usr/bin/krita
 usr/lib/*/calligra/imports/org/krita/draganddrop/
 usr/lib/kde4/krita_colorspaces_extensions.so
 usr/lib/kde4/krita_raw_import.so

@@ -32,9 +32,9 @@ usr/share/applications/kde4/planwork.desktop
 usr/share/icons/hicolor/1024x1024/apps/calligraplan.png
 usr/share/icons/hicolor/128x128/apps/calligraplan.png
 usr/share/icons/hicolor/128x128/apps/calligraplanwork.png
-usr/share/icons/hicolor/128x128/mimetypes/application-x-vnd.kde.plan.png
 usr/share/icons/hicolor/128x128/mimetypes/application-x-vnd.kde.kplato.png
 usr/share/icons/hicolor/128x128/mimetypes/application-x-vnd.kde.kplato.work.png
+usr/share/icons/hicolor/128x128/mimetypes/application-x-vnd.kde.plan.png
 usr/share/icons/hicolor/128x128/mimetypes/application-x-vnd.kde.plan.work.png
 usr/share/icons/hicolor/16x16/apps/calligraplan.png
 usr/share/icons/hicolor/16x16/apps/calligraplanwork.png
