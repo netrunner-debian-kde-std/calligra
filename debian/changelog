@@ -3,8 +3,7 @@ calligra (1:2.7.92-0r1) UNRELEASED; urgency=low
   * New upstream release 2.8 beta
 
   [ Raúl Sánchez Siles ]
-  * Added kexidb-relax_pqxx_version.patch to make pqxx driver build with
-    libpqxx >= 0.4
+  * Refreshed eigen3.patch
 
   [ Maximiliano Curia ]
   * Remove obsolete patch: pqxx_4_support.diff
