@@ -53,6 +53,7 @@ usr/lib/kde4/kritajpegexport.so
 usr/lib/kde4/kritajpegimport.so
 usr/lib/kde4/kritalayergroupswitcher.so
 usr/lib/kde4/kritalevelfilter.so
+usr/lib/kde4/kritalutdocker.so
 usr/lib/kde4/kritametadataeditor.so
 usr/lib/kde4/kritamodifyselection.so
 usr/lib/kde4/kritanoisefilter.so
@@ -147,6 +148,7 @@ usr/share/kde4/services/krita_jp2_import.desktop
 usr/share/kde4/services/krita_jpeg_export.desktop
 usr/share/kde4/services/krita_jpeg_import.desktop
 usr/share/kde4/services/krita_kra_thumbnail.desktop
+usr/share/kde4/services/krita_lutdocker.desktop
 usr/share/kde4/services/krita_odg_import.desktop
 usr/share/kde4/services/krita_ora_export.desktop
 usr/share/kde4/services/krita_ora_import.desktop
