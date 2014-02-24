@@ -61,6 +61,7 @@ usr/share/kde4/services/karbonrefinepathplugin.desktop
 usr/share/kde4/services/karbonroundcornersplugin.desktop
 usr/share/kde4/services/karbontools.desktop
 usr/share/kde4/services/karbonwhirlpinchplugin.desktop
+usr/share/kde4/servicetypes/karbon_dock.desktop
 usr/share/kde4/servicetypes/karbon_viewplugin.desktop
 usr/share/templates/.source/Illustration.odg
 usr/share/templates/Illustration.desktop
