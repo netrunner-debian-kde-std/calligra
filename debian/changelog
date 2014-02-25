@@ -2,9 +2,6 @@ calligra (1:2.7.92-0r1) UNRELEASED; urgency=low
 
   * New upstream release 2.8 beta
 
-  [ Raúl Sánchez Siles ]
-  * Refreshed eigen3.patch
-
   [ Maximiliano Curia ]
   * Remove obsolete patch: pqxx_4_support.diff
 
