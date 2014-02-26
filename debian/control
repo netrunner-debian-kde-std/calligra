@@ -536,6 +536,7 @@ Description: common libraries and binaries for the Calligra Suite
 Package: calligra-semanticitems
 Section: libs
 Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: semantic item plugins for the Calligra Suite
  This package provides the semantic item plugins for Calligra.
  .

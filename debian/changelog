@@ -21,6 +21,7 @@ calligra (1:2.8.0-1~2) UNRELEASED; urgency=medium
   * Add libodfgen-dev and libopencolorio-dev build dependencies.
   * Update install files.
   * Update sonames in lintian-overrides.
+  * Add calligra-semanticitems depends.
 
   [ Maximiliano Curia ]
   * Remove obsolete patch: pqxx_4_support.diff
