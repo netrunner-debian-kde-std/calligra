@@ -9,9 +9,9 @@ usr/lib/libkdeinit4_calligraflow.so
 usr/share/applications/kde4/flow.desktop
 usr/share/kde4/services/ServiceMenus/flow_print.desktop
 usr/share/kde4/services/calligra_filter_vsdx2odg.desktop
+usr/share/kde4/services/calligra_filter_wpg2odg.desktop
 usr/share/kde4/services/flow_vsdx_thumbnail.desktop
 usr/share/kde4/services/flow_wpg_thumbnail.desktop
-usr/share/kde4/services/calligra_filter_wpg2odg.desktop
 usr/share/kde4/services/flowdockersplugin.desktop
 usr/share/kde4/services/flowpart.desktop
 usr/share/kde4/servicetypes/flow_dock.desktop
