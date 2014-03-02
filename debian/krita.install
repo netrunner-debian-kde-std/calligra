@@ -107,6 +107,8 @@ usr/lib/kde4/kritatooltransform.so
 usr/lib/kde4/kritaunsharpfilter.so
 usr/lib/kde4/kritawavefilter.so
 usr/lib/kde4/kritaxcfimport.so
+#usr/lib/kde4/plugins/imageformats/kimg_kra.so
+#usr/lib/kde4/plugins/imageformats/kimg_ora.so
 usr/lib/libkdeinit4_krita.so
 usr/lib/libkritaimage.so.13
 usr/lib/libkritaimage.so.13.0.0
@@ -240,6 +242,8 @@ usr/share/kde4/services/kritatooltext.desktop
 usr/share/kde4/services/kritatooltransform.desktop
 usr/share/kde4/services/kritaunsharpfilter.desktop
 usr/share/kde4/services/kritawavefilter.desktop
+#usr/share/kde4/services/qimageioplugins/kra.desktop
+#usr/share/kde4/services/qimageioplugins/ora.desktop
 usr/share/kde4/servicetypes/krita_brush.desktop
 usr/share/kde4/servicetypes/krita_dock.desktop
 usr/share/kde4/servicetypes/krita_filter.desktop
