@@ -1,12 +1,4 @@
-usr/share/icons/hicolor/1024x1024/apps/calligraflow.png
-usr/share/icons/hicolor/128x128/apps/calligraflow.png
-usr/share/icons/hicolor/16x16/apps/calligraflow.png
-usr/share/icons/hicolor/22x22/apps/calligraflow.png
-usr/share/icons/hicolor/256x256/apps/calligraflow.png
-usr/share/icons/hicolor/32x32/apps/calligraflow.png
-usr/share/icons/hicolor/48x48/apps/calligraflow.png
-usr/share/icons/hicolor/512x512/apps/calligraflow.png
-usr/share/icons/hicolor/64x64/apps/calligraflow.png
+usr/share/icons/hicolor/*/apps/calligraflow.png
 usr/share/icons/hicolor/scalable/apps/calligraflow.svgz
 usr/share/kde4/apps/flow
 usr/share/kde4/config/flow_stencils.knsrc

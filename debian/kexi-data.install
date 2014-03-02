@@ -1,13 +1,5 @@
 usr/share/doc/kde/HTML/en/kexi
-usr/share/icons/hicolor/1024x1024/apps/calligrakexi.png
-usr/share/icons/hicolor/128x128/apps/calligrakexi.png
-usr/share/icons/hicolor/16x16/apps/calligrakexi.png
-usr/share/icons/hicolor/22x22/apps/calligrakexi.png
-usr/share/icons/hicolor/256x256/apps/calligrakexi.png
-usr/share/icons/hicolor/32x32/apps/calligrakexi.png
-usr/share/icons/hicolor/48x48/apps/calligrakexi.png
-usr/share/icons/hicolor/512x512/apps/calligrakexi.png
-usr/share/icons/hicolor/64x64/apps/calligrakexi.png
+usr/share/icons/hicolor/*/apps/calligrakexi.png
 usr/share/icons/hicolor/scalable/apps/calligrakexi.svgz
 usr/share/kde4/apps/kexi
 usr/share/kde4/config/kexirc
