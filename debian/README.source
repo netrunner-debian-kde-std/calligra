@@ -184,6 +184,15 @@ Required by Plan mpxj import filter
 http://mpxj.sourceforge.net/
 
 
+LibEtonyek
+------------
+
+Apple Keynote Document Library
+Required by the Stage keynote import filter
+
+http://www.freedesktop.org/wiki/Software/libetonyek/
+
+
 Dealing with bugs
 ==================
 
