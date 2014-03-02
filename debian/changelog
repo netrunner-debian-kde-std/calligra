@@ -17,6 +17,10 @@ calligra (1:2.7.92-0r1) UNRELEASED; urgency=low
   * Remove the uninstalled man page of visualimagecompare, since that tool
     is not installed either.
 
+  [ Raúl Sánchez Siles ]
+  * Add libodfgen-dev and libopencolorio-dev build dependencies.
+  * Update install files.
+
  -- Adrien Grellier <perso@adrieng.fr>  Sun, 15 Dec 2013 20:15:29 +0100
 
 calligra (1:2.7.5-1) unstable; urgency=low
