@@ -22,6 +22,9 @@ calligra (1:2.7.92-0r1) UNRELEASED; urgency=low
   * Add libodfgen-dev and libopencolorio-dev build dependencies.
   * Update install files.
 
+  [ Adrien Grellier ]
+  * update to Standards-Version 3.9.5 (no changes)
+
  -- Adrien Grellier <perso@adrieng.fr>  Sun, 15 Dec 2013 20:15:29 +0100
 
 calligra (1:2.7.5-1) unstable; urgency=low
