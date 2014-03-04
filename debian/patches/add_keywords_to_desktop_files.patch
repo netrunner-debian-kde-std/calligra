@@ -1,107 +1,107 @@
 Index: calligra/kexi/kexi.desktop
 ===================================================================
---- calligra.orig/kexi/kexi.desktop	2013-12-26 11:12:41.429000355 +0100
-+++ calligra/kexi/kexi.desktop	2013-12-26 11:12:41.421000310 +0100
-@@ -171,3 +171,4 @@
+--- calligra.orig/kexi/kexi.desktop	2014-03-04 17:45:02.760217957 +0100
++++ calligra/kexi/kexi.desktop	2014-03-04 17:45:02.756217861 +0100
+@@ -172,3 +172,4 @@
  X-KDE-NativeMimeType=application/x-kexiproject-sqlite
  X-KDE-NOTKoDocumentEmbeddable=true
  Categories=Qt;KDE;Office;
 +Keywords=Database;SQL;Access
 Index: calligra/stage/app/stage.desktop
 ===================================================================
---- calligra.orig/stage/app/stage.desktop	2013-12-26 11:12:41.429000355 +0100
-+++ calligra/stage/app/stage.desktop	2013-12-26 11:12:41.421000310 +0100
-@@ -127,3 +127,4 @@
+--- calligra.orig/stage/app/stage.desktop	2014-03-04 17:45:02.760217957 +0100
++++ calligra/stage/app/stage.desktop	2014-03-04 17:45:02.756217861 +0100
+@@ -130,3 +130,4 @@
  X-DocPath=stage/index.html
  X-KDE-StartupNotify=true
  Categories=Qt;KDE;Office;
 +Keywords=Slideshow;Slides;Presentation;PowerPoint;odp;ppt;pptx
 Index: calligra/active/calligraactive.desktop
 ===================================================================
---- calligra.orig/active/calligraactive.desktop	2013-12-26 11:12:41.429000355 +0100
-+++ calligra/active/calligraactive.desktop	2013-12-26 11:12:41.421000310 +0100
-@@ -40,3 +40,4 @@
+--- calligra.orig/active/calligraactive.desktop	2014-03-04 17:45:02.760217957 +0100
++++ calligra/active/calligraactive.desktop	2014-03-04 17:45:02.756217861 +0100
+@@ -41,3 +41,4 @@
  #The right solution would be to make it possible to build libs without building the apps
  InitialPreference=4
  Categories=Qt;KDE;Office;
 +Keywords=tablet;mobile;Plasma Active;touch
 Index: calligra/words/part/author/author.desktop
 ===================================================================
---- calligra.orig/words/part/author/author.desktop	2013-12-26 11:12:41.429000355 +0100
-+++ calligra/words/part/author/author.desktop	2013-12-26 11:12:41.421000310 +0100
-@@ -95,3 +95,4 @@
+--- calligra.orig/words/part/author/author.desktop	2014-03-04 17:45:02.760217957 +0100
++++ calligra/words/part/author/author.desktop	2014-03-04 17:45:02.756217861 +0100
+@@ -98,3 +98,4 @@
  X-DBUS-ServiceName=org.calligra.author
  Categories=Qt;KDE;Office;
  InitialPreference=3
 +Keywords=Word;book;ebook;epub
 Index: calligra/flow/part/flow.desktop
 ===================================================================
---- calligra.orig/flow/part/flow.desktop	2013-12-26 11:12:41.429000355 +0100
-+++ calligra/flow/part/flow.desktop	2013-12-26 11:12:41.421000310 +0100
-@@ -102,3 +102,4 @@
+--- calligra.orig/flow/part/flow.desktop	2014-03-04 17:45:02.760217957 +0100
++++ calligra/flow/part/flow.desktop	2014-03-04 17:45:02.756217861 +0100
+@@ -103,3 +103,4 @@
  X-DBUS-StartupType=Multi
  X-DBUS-ServiceName=org.calligra.flow
  Categories=Qt;KDE;Office;
 +Keywords=Diagram;flowchart;chart
 Index: calligra/braindump/data/braindump.desktop
 ===================================================================
---- calligra.orig/braindump/data/braindump.desktop	2013-12-26 11:12:41.429000355 +0100
-+++ calligra/braindump/data/braindump.desktop	2013-12-26 11:12:41.421000310 +0100
-@@ -78,3 +78,4 @@
+--- calligra.orig/braindump/data/braindump.desktop	2014-03-04 17:45:02.760217957 +0100
++++ calligra/braindump/data/braindump.desktop	2014-03-04 17:45:02.756217861 +0100
+@@ -80,3 +80,4 @@
  X-KDE-NativeMimeType=application/vnd.oasis.opendocument.graphics
  X-KDE-SubstituteUID=false
  X-KDE-Username=
 +Keywords=Organize;whiteboard;brainstorming
 Index: calligra/sheets/sheets.desktop
 ===================================================================
---- calligra.orig/sheets/sheets.desktop	2013-12-26 11:12:41.429000355 +0100
-+++ calligra/sheets/sheets.desktop	2013-12-26 11:12:41.421000310 +0100
-@@ -121,3 +121,4 @@
+--- calligra.orig/sheets/sheets.desktop	2014-03-04 17:45:02.760217957 +0100
++++ calligra/sheets/sheets.desktop	2014-03-04 17:45:02.756217861 +0100
+@@ -124,3 +124,4 @@
  X-DocPath=sheets/index.html
  X-KDE-StartupNotify=true
  Categories=Qt;KDE;Office;
 +Keywords=Spreadsheet;Excel;Calc;xls;xlsx;ods
 Index: calligra/krita/krita.desktop
 ===================================================================
---- calligra.orig/krita/krita.desktop	2013-12-26 11:12:41.429000355 +0100
-+++ calligra/krita/krita.desktop	2013-12-26 11:13:19.109187194 +0100
-@@ -128,3 +128,4 @@
+--- calligra.orig/krita/krita.desktop	2014-03-04 17:45:02.760217957 +0100
++++ calligra/krita/krita.desktop	2014-03-04 17:45:02.756217861 +0100
+@@ -130,3 +130,4 @@
  X-DBUS-StartupType=Multi
  X-DBUS-ServiceName=org.krita.krita
  X-Krita-Version=28
 +Keywords=Photo;Photoshop;Paint;art;sketch
 Index: calligra/karbon/data/karbon.desktop
 ===================================================================
---- calligra.orig/karbon/data/karbon.desktop	2013-12-26 11:12:41.429000355 +0100
-+++ calligra/karbon/data/karbon.desktop	2013-12-26 11:12:41.425000329 +0100
-@@ -142,3 +142,4 @@
+--- calligra.orig/karbon/data/karbon.desktop	2014-03-04 17:45:02.760217957 +0100
++++ calligra/karbon/data/karbon.desktop	2014-03-04 17:45:02.756217861 +0100
+@@ -144,3 +144,4 @@
  Comment[zh_CN]=创建可缩放矢量绘图
  Comment[zh_TW]=建立可調整向量圖
  X-DocPath=http://userbase.kde.org/Special:MyLanguage/Karbon
 +Keywords=Vector;Illustration;graphics
 Index: calligra/words/app/words.desktop
 ===================================================================
---- calligra.orig/words/app/words.desktop	2013-12-26 11:12:41.429000355 +0100
-+++ calligra/words/app/words.desktop	2013-12-26 11:12:41.425000329 +0100
-@@ -131,3 +131,4 @@
+--- calligra.orig/words/app/words.desktop	2014-03-04 17:45:02.760217957 +0100
++++ calligra/words/app/words.desktop	2014-03-04 17:45:02.756217861 +0100
+@@ -134,3 +134,4 @@
  X-DBUS-ServiceName=org.calligra.words
  Categories=Qt;KDE;Office;
  InitialPreference=4
 +Keywords=Text;Word;odt;doc;docx
 Index: calligra/plan/plan.desktop
 ===================================================================
---- calligra.orig/plan/plan.desktop	2013-12-26 11:12:41.429000355 +0100
-+++ calligra/plan/plan.desktop	2013-12-26 11:13:56.217371218 +0100
-@@ -100,3 +100,4 @@
+--- calligra.orig/plan/plan.desktop	2014-03-04 17:45:02.760217957 +0100
++++ calligra/plan/plan.desktop	2014-03-04 17:45:02.756217861 +0100
+@@ -102,3 +102,4 @@
  X-DocPath=http://userbase.kde.org/Plan/Manual
  Categories=Qt;KDE;Office;
  X-KDE-StartupNotify=true
 +Keywords=Organization;Project;Gantt;Management;
 Index: calligra/plan/workpackage/planwork.desktop
 ===================================================================
---- calligra.orig/plan/workpackage/planwork.desktop	2013-12-26 11:12:41.429000355 +0100
-+++ calligra/plan/workpackage/planwork.desktop	2013-12-26 11:12:41.425000329 +0100
-@@ -94,3 +94,4 @@
+--- calligra.orig/plan/workpackage/planwork.desktop	2014-03-04 17:45:02.760217957 +0100
++++ calligra/plan/workpackage/planwork.desktop	2014-03-04 17:45:02.756217861 +0100
+@@ -96,3 +96,4 @@
  Categories=Qt;KDE;Office;
  X-KDE-StartupNotify=true
  X-DocPath=http://userbase.kde.org/PlanWork/Manual
