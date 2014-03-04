@@ -26,6 +26,7 @@ calligra (1:2.8.0-1) UNRELEASED; urgency=low
   * Update build dependencies.
   * Add autopkgtests.
   * Refresh patches
+  * New patch: eigen3_in_tests
 
  -- Adrien Grellier <perso@adrieng.fr>  Sun, 15 Dec 2013 20:15:29 +0100
 
