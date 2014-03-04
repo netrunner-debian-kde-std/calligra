@@ -24,6 +24,7 @@ calligra (1:2.8.0-1) UNRELEASED; urgency=low
   [ Maximiliano Curia ]
   * Remove obsolete patch: pqxx_4_support.diff
   * Update build dependencies.
+  * Add autopkgtests.
 
  -- Adrien Grellier <perso@adrieng.fr>  Sun, 15 Dec 2013 20:15:29 +0100
 
