@@ -1,0 +1,13 @@
+Index: calligra/krita/image/tests/kis_convolution_painter_test.cpp
+===================================================================
+--- calligra.orig/krita/image/tests/kis_convolution_painter_test.cpp	2014-03-04 19:58:17.289301983 +0100
++++ calligra/krita/image/tests/kis_convolution_painter_test.cpp	2014-03-04 20:15:57.634424561 +0100
+@@ -134,7 +134,7 @@
+     QImage resultImage = dev->convertToQImage(0, 0, 0, qimage.width(), qimage.height());
+ 
+     QPoint errpoint;
+-    if (TestUtil::compareQImages(errpoint, qimage, resultImage)) {
++    if (! TestUtil::compareQImages(errpoint, qimage, resultImage)) {
+         resultImage.save("identity_convolution.png");
+         QFAIL(QString("Identity kernel did change image, first different pixel: %1,%2 ").arg(errpoint.x()).arg(errpoint.y()).toLatin1());
+     }

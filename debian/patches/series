@@ -1,3 +1,5 @@
 add_keywords_to_desktop_files.patch
 eigen3.patch
 eigen3_in_tests
+convolution_tests_fix
+disable_convolution_failling_tests
