@@ -5096,7 +5096,7 @@ Files: ./krita/plugins/filters/phongbumpmap/kis_phong_bumpmap_config_widget.cpp
  ./krita/ui/widgets/kis_preset_selector_strip.h
  ./krita/ui/widgets/kis_tool_button.cpp
  ./krita/ui/widgets/kis_tool_button.h
-Copyright: 2010-2012 Jos√ Luis Vergara <pentalis@gmail.com>
+Copyright: 2010-2012 Jos√© Luis Vergara <pentalis@gmail.com>
 License: GPL-2+
 
 Files: ./.pc/eigen3.patch/krita/plugins/extensions/dockers/advancedcolorselector/*
@@ -6217,7 +6217,7 @@ Copyright: 2007 Sven Langkamp <sven.langkamp@gmail.com>
  2013 Sascha Suelzer <s.suelzer@gmail.com>
  2011 Srikanth Tiyyagura <srikanth.tulasiram@gmail.com>
  2007 Jan Hambrecht <jaham@gmx.net>
- 2011 Jos√ Luis Vergara <pentalis@gmail.com>
+ 2011 Jos√© Luis Vergara <pentalis@gmail.com>
 License: LGPL-2+
 
 Files: ./devtools/slidecompare/*
@@ -6598,7 +6598,7 @@ Files: ./stage/part/KPrPresentationDrawStrategy.cpp
  ./stage/part/KPrPresentationStrategy.h
  ./stage/part/KPrPresentationStrategyBase.h
 Copyright: 2009 Alexia Allanic <alexia_allanic@yahoo.fr>
- 2009 J√r√my Lugagne <jejewindsurf@hotmail.com>
+ 2009 J√©r√©my Lugagne <jejewindsurf@hotmail.com>
  2009 Thorsten Zachmann <zachmann@kde.org>
 License: LGPL-2+
 
@@ -6767,7 +6767,7 @@ Files: ./krita/plugins/paintops/hatching/hatching_brush.cpp
  ./krita/plugins/paintops/hatching/kis_hatching_paintop_settings.h
  ./krita/plugins/paintops/hatching/kis_hatching_paintop_settings_widget.cpp
 Copyright: 2008-2010 Luk√°≈° Tvrd√Ω <lukast.dev@gmail.com>
- 2010 Jos√ Luis Vergara <pentalis@gmail.com>
+ 2010 Jos√© Luis Vergara <pentalis@gmail.com>
 License: GPL-2+
 
 Files: ./krita/plugins/extensions/modify_selection/dlg_border_selection.cc
@@ -7484,7 +7484,7 @@ Files: ./plan/libs/ui/kptperteditor.cpp
  ./plan/libs/ui/kptperteditor.h
  ./plan/libs/ui/kptpertresult.cpp
  ./plan/libs/ui/kptpertresult.h
-Copyright: 2007 Alexis M√nard <darktears31@gmail.com>
+Copyright: 2007 Alexis M√©nard <darktears31@gmail.com>
  2007 Florian Piquemal <flotueur@yahoo.fr>
  2007-2012 Dag Andersen <danders@get2net>
 License: LGPL-2+
@@ -7863,7 +7863,7 @@ Files: ./stage/plugins/pageeffects/barwipe/KPrBarWipeFromBottomStrategy.cpp
  ./stage/plugins/pageeffects/barwipe/KPrBarWipeFromRightStrategy.cpp
  ./stage/plugins/pageeffects/barwipe/KPrBarWipeFromRightStrategy.h
 Copyright: 2008 Thorsten Zachmann <zachmann@kde.org>
- 2008 Timoth√e Lacroix <dakeyras.khan@gmail.com>
+ 2008 Timoth√©e Lacroix <dakeyras.khan@gmail.com>
 License: LGPL-2+
 
 Files: ./filters/libmsooxml/MsooXmlDiagramReader.cpp
@@ -8008,7 +8008,7 @@ Files: ./krita/plugins/paintops/hatching/kis_hatching_options.cpp
  ./krita/plugins/paintops/hatching/kis_hatching_paintop_settings_widget.h
  ./krita/plugins/paintops/hatching/kis_hatching_preferences.cpp
 Copyright: 2008 Lukas Tvrdy <lukast.dev@gmail.com>
- 2010 Jos√ Luis Vergara <pentalis@gmail.com>
+ 2010 Jos√© Luis Vergara <pentalis@gmail.com>
 License: GPL-2+
 
 Files: ./krita/plugins/paintops/libbrush/abrStructv2.cpp
@@ -8423,7 +8423,7 @@ License: LGPL-2+
 Files: ./devtools/rng2cpp/*
  ./filters/stage/powerpoint/tests/*
  ./libs/odf/writeodf/*
-Copyright: 2013 Jos van den Oever <jos@vandenoever.info>
+Copyright: 2013 Jos√© van den Oever <jos@vandenoever.info>
 License: LGPL-2+
 
 Files: ./libs/rdf/KoRdfSemanticTree.cpp
@@ -8529,7 +8529,7 @@ Files: ./kexi/kexiutils/kmessagewidget.cpp
  ./kexi/kexiutils/kmessagewidget.h
  ./kexi/kexiutils/kmessagewidget_p.h
 Copyright: 2011-2013 Jaros≈Çaw Staniek <staniek@kde.org>
- 2011 Aur√lien G√¢teau <agateau@kde.org>
+ 2011 Aur√©lien G√¢teau <agateau@kde.org>
 License: LGPL-2.1+
 
 Files: ./libs/vectorimage/libemf/EmfHeader.cpp
@@ -8618,7 +8618,7 @@ License: GPL-2+
 
 Files: ./libs/widgets/KoContextBarButton.cpp
  ./libs/widgets/KoContextBarButton.h
-Copyright: 2011 Aur√lien G√¢teau <agateau@kde.org>
+Copyright: 2011 Aur√©lien G√¢teau <agateau@kde.org>
  2011 Paul Mendez <paulestebanms@gmail.com>
 License: GPL-2+
 
@@ -8677,7 +8677,7 @@ License: GPL-2+
 
 Files: ./krita/ui/dialogs/kis_dlg_layer_properties.cc
  ./krita/ui/dialogs/kis_dlg_layer_properties.h
-Copyright: 2011 Jos√ Luis Vergara <pentalis@gmail.com>
+Copyright: 2011 Jos√© Luis Vergara <pentalis@gmail.com>
  2005 Boudewijn Rempt <boud@valdyas.org>
 License: GPL-2+
 
@@ -8980,7 +8980,7 @@ Files: ./libs/widgetutils/KoGroupButton.cpp
  ./libs/widgetutils/KoGroupButton.h
 Copyright: 2012 Jaros≈Çaw Staniek <staniek@kde.org>
  2012 Jean-Nicolas Artaud <jeannicolasartaud@gmail.com>
- 2007 Aur√lien G√¢teau <agateau@kde.org>
+ 2007 Aur√©lien G√¢teau <agateau@kde.org>
 License: LGPL-2
 
 Files: ./libs/odf/KoOdfNotesConfiguration.cpp
@@ -9087,7 +9087,7 @@ License: LGPL-2+
 Files: ./stage/part/KPrPresentationTool.cpp
  ./stage/part/KPrPresentationTool.h
 Copyright: 2009 Jean-Nicolas Artaud <jeannicolasartaud@gmail.com>
- 2009 J√r√my Lugagne <jejewindsurf@hotmail.com>
+ 2009 J√©r√©my Lugagne <jejewindsurf@hotmail.com>
  2009 Johann Hingue <yoan1703@hotmail.fr>
  2008 Jim Courtiau <jeremy.courtiau@gmail.com>
  2009 Alexia Allanic <alexia_allanic@yahoo.fr>
@@ -9098,14 +9098,14 @@ Files: ./stage/part/KPrPresentationDrawWidget.cpp
  ./stage/part/KPrPresentationDrawWidget.h
 Copyright: 2009 Alexia Allanic <alexia_allanic@yahoo.fr>
  2009 Thorsten Zachmann <zachmann@kde.org>
- 2009 J√r√my Lugagne <jejewindsurf@hotmail.com>
+ 2009 J√©r√©my Lugagne <jejewindsurf@hotmail.com>
  2009 Johann Hingue <yoan1703@hotmail.fr>
  2009 Jean-Nicolas Artaud <jeannicolasartaud@gmail.com>
 License: LGPL-2+
 
 Files: ./plan/libs/kernel/kptproject.h
  ./plan/libs/kernel/kpttask.h
-Copyright: 2007 Alexis M√nard <darktears31@gmail.com>
+Copyright: 2007 Alexis M√©nard <darktears31@gmail.com>
  2004,2007-2010 - Dag Andersen <danders@get2net.dk>
  2001 Thomas Zander zander@kde.org
  2007 Florian Piquemal <flotueur@yahoo.fr>
@@ -9114,7 +9114,7 @@ License: LGPL-2+
 Files: ./plan/libs/kernel/kptproject.cpp
  ./plan/libs/kernel/kpttask.cpp
 Copyright: 2004,2007,2010-2012 - Dag Andersen <danders@get2net.dk>
- 2007 Alexis M√nard <darktears31@gmail.com>
+ 2007 Alexis M√©nard <darktears31@gmail.com>
  2001 Thomas zander <zander@kde.org>
  2007 Florian Piquemal <flotueur@yahoo.fr>
 License: LGPL-2+
@@ -9950,7 +9950,7 @@ License: LGPL-2+
 
 Files: ./filters/karbon/eps/PsCommentLexer.cpp
  ./filters/karbon/eps/PsCommentLexer.h
-Copyright: 2002 Dirk Schˆnberger <dirk.schoenberger@sz-online.de>
+Copyright: 2002 Dirk Sch√∂nberger <dirk.schoenberger@sz-online.de>
 License: LGPL-2+
 
 Files: ./krita/image/kis_async_merger.cpp
@@ -10485,12 +10485,12 @@ License: LGPL-2+
 
 Files: ./stage/plugins/pageeffects/barwipe/KPrBarWipeFromLeftStrategy.cpp
  ./stage/plugins/pageeffects/barwipe/KPrBarWipeFromTopStrategy.cpp
-Copyright: 2008 Timothe Lacroix <dakeyras.khan@gmail.com>
+Copyright: 2008 Timoth√©e Lacroix <dakeyras.khan@gmail.com>
 License: LGPL-2+
 
 Files: ./stage/plugins/pageeffects/barwipe/KPrBarWipeFromLeftStrategy.h
  ./stage/plugins/pageeffects/barwipe/KPrBarWipeFromTopStrategy.h
-Copyright: 2008 Timoth√e Lacroix <dakeyras.khan@gmail.com>
+Copyright: 2008 Timoth√©e Lacroix <dakeyras.khan@gmail.com>
 License: LGPL-2+
 
 Files: ./flow/part/FlowCanvas.cpp
@@ -10630,7 +10630,7 @@ License: LGPL-2.1+
 
 Files: ./devtools/scripts/downloadMSOfficeDocuments.pl
  ./devtools/scripts/profileOfficeFileLoading.py
-Copyright: 2009-2010 Jos van den Oever <jos@vandenoever.info>
+Copyright: 2009-2010 Jos√© van den Oever <jos@vandenoever.info>
 License: GPL-2+
 
 Files: ./krita/ui/input/wintab/pktdef.h
@@ -10730,7 +10730,7 @@ License: GPL-2+
 Files: ./krita/image/kis_painter.cc
 Copyright: 2008-2010 Luk√°≈° Tvrd√Ω <lukast.dev@gmail.com>
  2011 Silvio Heinrich <plassy@web.de>
- 2010 Jos√ Luis Vergara Toloza <pentalis@gmail.com>
+ 2010 Jos√© Luis Vergara Toloza <pentalis@gmail.com>
  2004 Cyrille Berger <cberger@cberger.net>
  2002 Patrick Julien <freak@codepimps.org>
  2004 Clarence Dang <dang@kde.org>
@@ -11031,7 +11031,7 @@ License: GPL-2+
 Files: ./krita/plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp
 Copyright: 2002 Patrick Julien <freak@codepimps.org>
  2007 Boudewijn Rempt <boud@valdyas.org>
- 2011 Jos√ Luis Vergara <pentalis@gmail.com>
+ 2011 Jos√© Luis Vergara <pentalis@gmail.com>
  2007 Thomas Zander <zander@kde.org>
  2006 G√°bor Lehel <illissius@gmail.com>
 License: GPL-2+
@@ -11067,13 +11067,13 @@ Files: ./krita/plugins/tools/selectiontools/kis_tool_select_contiguous.cc
 Copyright: 1999 Michael Koch <koch@kde.org>
  2002 Patrick Julien <freak@codepimps.org>
  2004 Boudewijn Rempt <boud@valdyas.org>
- 2012 Jos√ Luis Vergara <pentalis@gmail.com>
+ 2012 Jos√© Luis Vergara <pentalis@gmail.com>
 License: GPL-2+
 
 Files: ./krita/plugins/paintops/hatching/kis_hatching_paintop.h
 Copyright: 2008 Boudewijn Rempt <boud@valdyas.org>
  2008-2009 Luk√°≈° Tvrd√Ω <lukast.dev@gmail.com>
- 2010 Jos√ Luis Vergara Toloza <pentalis@gmail.com>
+ 2010 Jos√© Luis Vergara Toloza <pentalis@gmail.com>
 License: GPL-2+
 
 Files: ./krita/plugins/extensions/imagesize/dlg_imagesize.h
@@ -11155,7 +11155,7 @@ License: GPL-2+
 
 Files: ./krita/image/kis_painter.h
 Copyright: 2008-2010 Luk√°≈° Tvrd√Ω <lukast.dev@gmail.com>
- 2010 Jos√ Luis Vergara Toloza <pentalis@gmail.com>
+ 2010 Jos√© Luis Vergara Toloza <pentalis@gmail.com>
  2004 Clarence Dang <dang@kde.org>
  2002 Patrick Julien <freak@codepimps.org>
 License: GPL-2+
@@ -11197,7 +11197,7 @@ Copyright: 2001 Daniel Naber <daniel.naber@t-online.de>
 License: GPL-2+
 
 Files: ./krita/plugins/filters/phongbumpmap/kis_phong_bumpmap_filter.h
-Copyright: 2010-2011 Jos√ Luis Vergara <pentalis@gmail.com>
+Copyright: 2010-2011 Jos√© Luis Vergara <pentalis@gmail.com>
  2010 Dmitry Kazakov <dimula73@gmail.com>
 License: GPL-2+
 
@@ -11208,7 +11208,7 @@ License: GPL-2+
 
 Files: ./krita/image/kis_convolution_worker_fft.h
 Copyright: 2010 Edward Apap <schumifer@hotmail.com>
- 2011 Jos√ Luis Vergara Toloza <pentalis@gmail.com>
+ 2011 Jos√© Luis Vergara Toloza <pentalis@gmail.com>
 License: GPL-2+
 
 Files: ./krita/plugins/paintops/libbrush/abrbrush.cpp
@@ -11236,7 +11236,7 @@ Copyright: 2012-2013 Jigar Raisinghani <jigarraisinghani@gmail.com>
 License: GPL-2+
 
 Files: ./krita/ui/widgets/kis_preset_chooser.h
-Copyright: 2011 Jos√ Luis Vergara <pentalis@gmail.com>
+Copyright: 2011 Jos√© Luis Vergara <pentalis@gmail.com>
  2002 Patrick Julien <freak@codepimps.org>
  2011 Silvio Heinrich <plassy@web.de>
 License: GPL-2+
@@ -11246,7 +11246,7 @@ Copyright: 2011 Silvio Heinrich <plassy@web.de>
  2011 Srikanth Tiyyagura <srikanth.tulasiram@gmail.com>
  2009 Sven Langkamp <sven.langkamp@gmail.com>
  2002 Patrick Julien <freak@codepimps.org>
- 2011 Jos√ Luis Vergara <pentalis@gmail.com>
+ 2011 Jos√© Luis Vergara <pentalis@gmail.com>
 License: GPL-2+
 
 Files: ./krita/ui/kis_view2.cpp
@@ -11686,7 +11686,7 @@ Files: ./stage/part/KPrPresentationHighlightWidget.h
 Copyright: 2009 Jean-Nicolas Artaud <jeannicolasartaud@gmail.com>
  2009 Thorsten Zachmann <zachmann@kde.org>
  2009 Alexia Allanic <alexia_allanic@yahoo.fr>
- 2009 J√r√my Lugagne <jejewindsurf@hotmail.com>
+ 2009 J√©r√©my Lugagne <jejewindsurf@hotmail.com>
 License: LGPL-2+
 
 Files: ./stage/part/KPrPresentationHighlightWidget.cpp
@@ -12522,7 +12522,7 @@ License: LGPL-2+
 
 Files: ./libs/widgets/KoResourceItemChooser.h
 Copyright: 2007 Jan Hambrecht <jaham@gmx.net>
- 2011 Jos√ Luis Vergara <pentalis@gmail.com>
+ 2011 Jos√© Luis Vergara <pentalis@gmail.com>
  2010 Boudewijn Rempt <boud@valdyas.org>
  2007 Sven Langkamp <sven.langkamp@gmail.com>
  2002 Patrick Julien <freak@codepimps.org>
@@ -12872,7 +12872,7 @@ Copyright: 2006-2010 Cyrille Berger <cberger@cberger.net>
 License: LGPL-2+
 
 Files: ./libs/main/KoDocumentSectionDelegate.cpp
-Copyright: 2011 Jos√ Luis Vergara <pentalis@gmail.com>
+Copyright: 2011 Jos√© Luis Vergara <pentalis@gmail.com>
  2006 G√°bor Lehel <illissius@gmail.com>
  2008 Cyrille Berger <cberger@cberger.net>
 License: LGPL-2+
@@ -13460,7 +13460,7 @@ Copyright: 1998-1999 Reginald Stadlbauer <reggie@kde.org>
 License: LGPL-2+
 
 Files: ./libs/main/KoDocumentSectionModel.h
-Copyright: 2011 Jos√ Luis Vergara <pentalis@gmail.com>
+Copyright: 2011 Jos√© Luis Vergara <pentalis@gmail.com>
  2006 G√°bor Lehel <illissius@gmail.com>
 License: LGPL-2+
 
@@ -13533,16 +13533,16 @@ Files: ./libs/flake/KoFlake.cpp
 Copyright: 2009 Thomas Zander <zander@kde.org>
  2008 Jan Hambrecht <jaham@gmx.net>
  2010 Thorsten Zachmann <zachmann@kde.org>
- 2009 Jos van den Oever <jos@vandenoever.info>
+ 2009 Jos√© van den Oever <jos@vandenoever.info>
 License: LGPL-2+
 
 Files: ./libs/widgets/KoResourceItemView.cpp
-Copyright: 2011 Jos√ Luis Vergara <pentalis@gmail.com
+Copyright: 2011 Jos√© Luis Vergara <pentalis@gmail.com
  2008 Jan Hambrecht <jaham@gmx.net>
 License: LGPL-2+
 
 Files: ./libs/widgets/KoResourceItemView.h
-Copyright: 2011 Jos√ Luis Vergara <pentalis@gmail.com>
+Copyright: 2011 Jos√© Luis Vergara <pentalis@gmail.com>
  2008 Jan Hambrecht <jaham@gmx.net>
 License: LGPL-2+
 
@@ -13698,7 +13698,7 @@ Copyright: 2003 Joseph Wenninger<jowenn@kde.org>
 License: LGPL-2+
 
 Files: ./libs/pigment/compositeops/KoCompositeOpBehind.h
-Copyright: 2012 Jos√ Luis Vergara <pentalis@gmail.com>
+Copyright: 2012 Jos√© Luis Vergara <pentalis@gmail.com>
 License: LGPL-2+
 
 Files: ./krita/ui/widgets/kis_slider_spin_box.h

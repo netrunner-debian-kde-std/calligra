@@ -30,6 +30,7 @@ calligra (1:2.8.0-1) UNRELEASED; urgency=low
   * New patch: convolution_tests_fix
   * New patch: disable_convolution_failling_tests
   * New patch: temporarily_disable_failing_tests
+  * Update copyright file.
 
  -- Adrien Grellier <perso@adrieng.fr>  Sun, 15 Dec 2013 20:15:29 +0100
 
