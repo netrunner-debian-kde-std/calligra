@@ -593,3 +593,30 @@ Description: Authoring tool for the Calligra Suite
  scripting.
  .
  This package is part of the Calligra Suite.
+
+Package: krita-sketch
+Architecture: any
+Section: graphics
+Depends: krita (= ${binary:Version}), ${shlibs:Depends}, ${misc:Depends}
+Homepage: http://www.calligra-suite.org/krita/
+Description:  touch-friendly version of krita
+ This package contains the touch-friendly version of krita.
+ .
+ See the krita package for further information.
+ .
+ This package is part of the Calligra Suite.
+
+Package: krita-gemini
+Architecture: any
+Section: graphics
+Depends: krita-sketch (= ${binary:Version}), ${shlibs:Depends}, ${misc:Depends}
+Homepage: http://www.calligra-suite.org/krita/
+Description: fusion between Krita Sketch and Krita Desktop
+ Krita Gemini is a fusion between Krita Sketch and Krita Desktop:
+ Krita Gemini switches seamlessly between the full-featured
+ desktop/notebook user interface and the sketch interface,
+ which is optimized for tablets.
+ .
+ See the krita package for further information.
+ .
+ This package is part of the Calligra Suite.
