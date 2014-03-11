@@ -32,6 +32,7 @@ calligra (1:2.8.0-1) UNRELEASED; urgency=low
   * New patch: temporarily_disable_failing_tests
   * Update copyright file.
   * Reenable krita-sketch and krita-gemini.
+  * New patch: calligra_imports_search_path
 
  -- Adrien Grellier <perso@adrieng.fr>  Sun, 15 Dec 2013 20:15:29 +0100
 
