@@ -8,7 +8,7 @@ calligra (1:2.8.0-1~1) UNRELEASED; urgency=medium
   * refresh eigen3.patch to work with 2.8
   * new package: calligra-semanticitems
   * update to Standards-Version 3.9.5 (no changes)
-  * update copyright informations for beta3
+  * update copyright information for beta3
 
   [ Pino Toscano ]
   * Add the pkg-config build dependency.
@@ -31,7 +31,7 @@ calligra (1:2.8.0-1~1) UNRELEASED; urgency=medium
   * New patch: disable_convolution_failling_tests
   * New patch: temporarily_disable_failing_tests
   * Update copyright file.
-  * Reenable krita-sketch and krita-gemini.
+  * Re-enable krita-sketch and krita-gemini.
   * New patch: calligra_imports_search_path
   * New patch: set_kritasketch_lib_soversion
   * New patch: install_images_in_datadir
