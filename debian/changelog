@@ -34,6 +34,7 @@ calligra (1:2.8.0-1~1) UNRELEASED; urgency=medium
   * Reenable krita-sketch and krita-gemini.
   * New patch: calligra_imports_search_path
   * New patch: set_kritasketch_lib_soversion
+  * New patch: install_images_in_datadir
 
  -- Maximiliano Curia <maxy@debian.org>  Sat, 08 Mar 2014 15:57:40 +0100
 
