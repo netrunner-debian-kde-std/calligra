@@ -1,3 +1,4 @@
+set_kritasketch_lib_soversion
 add_keywords_to_desktop_files.patch
 eigen3.patch
 eigen3_in_tests
