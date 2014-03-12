@@ -1,9 +1,0 @@
-set_kritasketch_lib_soversion
-install_images_in_datadir
-add_keywords_to_desktop_files.patch
-eigen3.patch
-eigen3_in_tests
-convolution_tests_fix
-disable_convolution_failling_tests
-temporarily_disable_failing_tests
-calligra_imports_search_path
