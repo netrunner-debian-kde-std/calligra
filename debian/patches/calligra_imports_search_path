@@ -1,0 +1,60 @@
+Index: calligra/krita/gemini/MainWindow.cpp
+===================================================================
+--- calligra.orig/krita/gemini/MainWindow.cpp	2014-03-11 16:39:05.601183949 +0100
++++ calligra/krita/gemini/MainWindow.cpp	2014-03-11 16:39:05.569183174 +0100
+@@ -158,6 +158,11 @@
+         sketchView->engine()->addImportPath(appdir.canonicalPath() + "/lib64/calligra/imports");
+         QString mainqml = appdir.canonicalPath() + "/share/apps/kritagemini/kritagemini.qml";
+ #else
++
++#ifdef LIBRARY_ARCHITECTURE
++        sketchView->engine()->addImportPath(KGlobal::dirs()->findDirs("lib", LIBRARY_ARCHITECTURE "/calligra/imports").value(0));
++#endif
++
+         sketchView->engine()->addImportPath(KGlobal::dirs()->findDirs("lib", "calligra/imports").value(0));
+         QString mainqml = KGlobal::dirs()->findResource("data", "kritagemini/kritagemini.qml");
+ #endif
+Index: calligra/krita/sketch/CMakeLists.txt
+===================================================================
+--- calligra.orig/krita/sketch/CMakeLists.txt	2014-03-11 16:39:05.601183949 +0100
++++ calligra/krita/sketch/CMakeLists.txt	2014-03-11 16:39:05.581183465 +0100
+@@ -126,6 +126,9 @@
+ 
+ kde4_add_executable(kritasketch ${kritasketch_SRCS})
+ 
++set_target_properties(kritasketch PROPERTIES COMPILE_DEFINITIONS
++    LIBRARY_ARCHITECTURE="${CMAKE_LIBRARY_ARCHITECTURE}")
++
+ target_link_libraries(kritasketch
+     ${QT_QTDECLARATIVE_LIBRARY}
+     ${QT_QTGUI_LIBRARIES}
+Index: calligra/krita/sketch/MainWindow.cpp
+===================================================================
+--- calligra.orig/krita/sketch/MainWindow.cpp	2014-03-11 16:39:05.601183949 +0100
++++ calligra/krita/sketch/MainWindow.cpp	2014-03-11 16:39:27.009702862 +0100
+@@ -114,6 +114,11 @@
+     view->engine()->addImportPath(appdir.canonicalPath() + "/lib64/calligra/imports");
+     QString mainqml = appdir.canonicalPath() + "/share/apps/kritasketch/kritasketch.qml";
+ #else
++
++#ifdef LIBRARY_ARCHITECTURE
++    view->engine()->addImportPath(KGlobal::dirs()->findDirs("lib", LIBRARY_ARCHITECTURE "/calligra/imports").value(0));
++#endif
++
+     view->engine()->addImportPath(KGlobal::dirs()->findDirs("lib", "calligra/imports").value(0));
+     QString mainqml = KGlobal::dirs()->findResource("appdata", "kritasketch.qml");
+ #endif
+Index: calligra/krita/gemini/CMakeLists.txt
+===================================================================
+--- calligra.orig/krita/gemini/CMakeLists.txt	2014-03-11 16:39:05.601183949 +0100
++++ calligra/krita/gemini/CMakeLists.txt	2014-03-11 16:39:05.601183949 +0100
+@@ -31,6 +31,9 @@
+ 
+ kde4_add_executable(kritagemini ${kritagemini_SRCS})
+ 
++set_target_properties(kritagemini PROPERTIES COMPILE_DEFINITIONS
++    LIBRARY_ARCHITECTURE="${CMAKE_LIBRARY_ARCHITECTURE}")
++
+ target_link_libraries(kritagemini
+     ${QT_QTDECLARATIVE_LIBRARY}
+     ${QT_QTGUI_LIBRARIES}

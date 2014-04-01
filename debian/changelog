@@ -30,7 +30,6 @@ calligra (1:2.8.1-1) UNRELEASED; urgency=medium
   * Add autopkgtests.
   * Refresh patches
   * New patch: eigen3_in_tests
-  * New patch: convolution_tests_fix
   * New patch: disable_convolution_failling_tests
   * New patch: temporarily_disable_failing_tests
   * Update copyright file.

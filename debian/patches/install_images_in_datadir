@@ -1,0 +1,12 @@
+Index: calligra/krita/sketch/CMakeLists.txt
+===================================================================
+--- calligra.orig/krita/sketch/CMakeLists.txt	2014-03-11 17:04:19.705862942 +0100
++++ calligra/krita/sketch/CMakeLists.txt	2014-03-11 17:30:35.159978130 +0100
+@@ -177,6 +177,6 @@
+                   qml/WelcomePage.qml
+                                     DESTINATION ${CMAKE_INSTALL_LIBDIR}/calligra/imports/org/krita/sketch)
+ install(DIRECTORY qml/components    DESTINATION ${CMAKE_INSTALL_LIBDIR}/calligra/imports/org/krita/sketch PATTERN "*~" EXCLUDE)
+-install(DIRECTORY qml/images        DESTINATION ${CMAKE_INSTALL_LIBDIR}/calligra/imports/org/krita/sketch PATTERN "*~" EXCLUDE)
++install(DIRECTORY qml/images        DESTINATION ${DATA_INSTALL_DIR}/kritasketch PATTERN "*~" EXCLUDE)
+ install(DIRECTORY qml/panels        DESTINATION ${CMAKE_INSTALL_LIBDIR}/calligra/imports/org/krita/sketch PATTERN "*~" EXCLUDE)
+ install(DIRECTORY fonts             DESTINATION ${DATA_INSTALL_DIR}/kritasketch)
