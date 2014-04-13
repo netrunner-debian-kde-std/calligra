@@ -18,6 +18,7 @@ usr/lib/libkowv2.so.9
 usr/lib/libkowv2.so.9.0.0
 usr/lib/libwordsprivate.so.13
 usr/lib/libwordsprivate.so.13.0.0
+usr/share/applications/kde4/calligrawords_ascii.desktop
 usr/share/applications/kde4/words.desktop
 usr/share/kde4/services/ServiceMenus/words_print.desktop
 usr/share/kde4/services/calligra_filter_applixword2odt.desktop
