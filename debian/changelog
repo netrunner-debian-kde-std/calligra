@@ -1,6 +1,6 @@
 calligra (1:2.8.2-1) UNRELEASED; urgency=medium
 
-  * New upstream release.
+  * New upstream release. (Closes: #744291)
 
   [ Adrien Grellier ]
   * new dependency for krita: libxi-dev
