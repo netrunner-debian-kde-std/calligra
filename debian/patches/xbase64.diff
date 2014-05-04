@@ -1,0 +1,67 @@
+Index: b/cmake/modules/FindXBase.cmake
+===================================================================
+--- a/cmake/modules/FindXBase.cmake
++++ b/cmake/modules/FindXBase.cmake
+@@ -13,11 +13,11 @@
+ 
+ ELSE (XBase_INCLUDE_DIR AND XBase_LIBRARIES)
+ 
+-       FIND_PATH(XBase_INCLUDE_DIR NAMES xbase.h
+-        PATHS /usr/include/xbase /usr/local/include/xbase
++       FIND_PATH(XBase_INCLUDE_DIR NAMES xbase64.h
++        PATHS /usr/include/xbase64 /usr/local/include/xbase
+        )
+ 
+-       FIND_LIBRARY(XBase_LIBRARIES NAMES xbase )
++       FIND_LIBRARY(XBase_LIBRARIES NAMES xbase64 )
+ 
+        include(FindPackageHandleStandardArgs)
+        FIND_PACKAGE_HANDLE_STANDARD_ARGS(XBase DEFAULT_MSG XBase_INCLUDE_DIR XBase_LIBRARIES )
+Index: b/kexi/kexidb/drivers/xbase/xbaseexport.cpp
+===================================================================
+--- a/kexi/kexidb/drivers/xbase/xbaseexport.cpp
++++ b/kexi/kexidb/drivers/xbase/xbaseexport.cpp
+@@ -33,7 +33,7 @@
+ 
+ #include <cstring>
+ 
+-#include "xbase.h"
++#include "xbase64.h"
+ 
+ using namespace KexiDB;
+ 
+Index: b/kexi/migration/xbase/xbasemigrate.h
+===================================================================
+--- a/kexi/migration/xbase/xbasemigrate.h
++++ b/kexi/migration/xbase/xbasemigrate.h
+@@ -24,7 +24,7 @@
+ 
+ #include <migration/keximigrate.h>
+ #include <migration/keximigrate_p.h>
+-#include "xbase.h"
++#include "xbase64.h"
+ 
+ namespace KexiMigration
+ {
+Index: b/kexi/migration/xbase/xbasemigrate.cpp
+===================================================================
+--- a/kexi/migration/xbase/xbasemigrate.cpp
++++ b/kexi/migration/xbase/xbasemigrate.cpp
+@@ -254,7 +254,7 @@
+           memoBuffer = new char[blobFieldLength];
+ 
+           #ifdef XB_LOCKING_ON
+-            tableDbf->LockMemoFile( F_SETLK, F_RDLCK );
++            // tableDbf->LockMemoFile( F_SETLK, F_RDLCK );
+           #endif
+ 
+           if ( ( returnCode = tableDbf->GetMemoField( j , blobFieldLength, memoBuffer, F_SETLKW ) ) != XB_NO_ERROR ) {
+@@ -263,7 +263,7 @@
+             val = KexiDB::cstringToVariant( memoBuffer, fieldsExpanded.at(j)->field, blobFieldLength );
+           }
+           #ifdef XB_LOCKING_ON
+-            tableDbf->LockMemoFile( F_SETLK, F_UNLCK );
++            // tableDbf->LockMemoFile( F_SETLK, F_UNLCK );
+           #endif
+ 
+           break;

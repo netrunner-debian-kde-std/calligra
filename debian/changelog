@@ -9,6 +9,7 @@ calligra (1:2.8.2-1) UNRELEASED; urgency=medium
   * new package: calligra-semanticitems
   * update to Standards-Version 3.9.5 (no changes)
   * update copyright information for beta3
+  * patch to build using xbase64, thanks Matthias Klose! (Closes: #746227)
 
   [ Pino Toscano ]
   * Add the pkg-config build dependency.

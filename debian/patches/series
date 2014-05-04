@@ -1,3 +1,4 @@
+xbase64.diff
 set_kritasketch_lib_soversion
 install_images_in_datadir
 add_keywords_to_desktop_files.patch
