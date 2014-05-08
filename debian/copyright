@@ -1408,7 +1408,7 @@ Files: ./3rdparty/kdgantt/Messages.sh
  ./words/plugins/scripting/Messages.sh
  ./words/plugins/scripting/scripts/*
  ./words/templates/*
-Copyright: 
+Copyright:
 License: GPL-2+
 
 Files: ./krita/image/brushengine/brushengine.h
@@ -6546,7 +6546,7 @@ Files: ./plan/plugins/schedulers/tj/taskjuggler/Project.cpp
  ./plan/plugins/schedulers/tj/taskjuggler/TjMessageHandler.cpp
  ./plan/plugins/schedulers/tj/taskjuggler/TjMessageHandler.h
 Copyright: 2011 Dag Andersen <danders@get2net.dk>
- 2001-2007 
+ 2001-2007
 License: GPL-2
 
 Files: ./krita/ui/canvas/kis_prescaled_projection.h
@@ -7117,7 +7117,7 @@ Files: ./kexi/kexidb/drivers/oracle/oraclecursor.h
  ./plugins/chartshape/tests/odf/default-calligra-chart/*
  ./plugins/chartshape/tests/odf/me07_percentage_stacked_bar_chart/*
  ./plugins/chartshape/tests/odf/template/*
-Copyright: 
+Copyright:
 License: LGPL-2+
 
 Files: ./sheets/commands/LinkCommand.cpp
@@ -8584,7 +8584,7 @@ License: BSD (2 clause)
 
 Files: ./krita/plugins/extensions/gmic/gmic.cpp
  ./krita/plugins/extensions/gmic/gmic.h
-Copyright: 
+Copyright:
 License: CeCILL
 
 Files: ./libs/vectorimage/libwmf/qwmf.cc
@@ -8966,7 +8966,7 @@ License: LGPL
 
 Files: ./krita/plugins/paintops/experiment/kis_experiment_shape_option.h
  ./krita/plugins/paintops/hairy/kis_hairy_ink_option.h
-Copyright: 
+Copyright:
 License: LGPL-2
 
 Files: ./krita/plugins/extensions/dockers/advancedcolorselector/kis_my_paint_shade_selector.cpp
@@ -10653,7 +10653,7 @@ Copyright: 2007-2008 Atomic Labs Inc. (http://www.atomiclabs.com)
 License: BSL-1.0
 
 Files: ./krita/plugins/extensions/gmic/CImg.h
-Copyright: 
+Copyright:
 License: CeCILL
 
 Files: ./plugins/colorengines/lcms2/compositeops/RgbCompositeOps.h
@@ -10662,7 +10662,7 @@ Copyright: 2002 GraphicsMagick Group an organization dedicated
 License: GPL LGPL-2+
 
 Files: ./plan/plugins/schedulers/tj/taskjuggler/Shift.h
-Copyright: 2001-2006 
+Copyright: 2001-2006
 License: GPL-2
 
 Files: ./plan/plugins/schedulers/tj/taskjuggler/Interval.cpp
@@ -10685,7 +10685,7 @@ Copyright: 2012 Sujith Haridasan <sujith.haridasan@kdemail.net>
 License: GPL-2+
 
 Files: ./krita/image/kis_rect_mask_generator.cpp
-Copyright: 
+Copyright:
 License: GPL-2+
 
 Files: ./libs/flake/tests/TestShapeContainer.cpp
@@ -11326,7 +11326,7 @@ Copyright: 2006 Stefan Nikolaus <stefan.nikolaus@kdemail.net>
 License: GPL-2+
 
 Files: ./krita/ui/kis_statusbar.h
-Copyright: 
+Copyright:
 License: GPL-2+
 
 Files: ./libs/kopageapp/tests/TestPAPageMoveCommand.cpp
@@ -11613,7 +11613,7 @@ Copyright: 2012 2007. Dag Andersen <danders@get2net.dk>
 License: LGPL-2+
 
 Files: ./libs/vectorimage/libwmf/WmfStructs.h
-Copyright: 
+Copyright:
 License: LGPL-2+
 
 Files: ./plugins/formulashape/Dictionary.cpp
@@ -14043,7 +14043,7 @@ Copyright: 1998 Raph Levien
 License: MPL-1.0 LGPL-2+
 
 Files: ./kexi/migration/mdb/src/mdbtools/libmdb/dump.c
-Copyright: 
+Copyright:
 License: LGPL-2+
 
 Files: ./filters/words/msword-odf/paragraph.h
@@ -14128,7 +14128,7 @@ License: BSD (2 clause)
  Redistribution and use in source and binary forms, with or without
  modification, are permitted provided that the following conditions
  are met:
- . 
+ .
  1. Redistributions of source code must retain the above copyright
    notice, this list of conditions and the following disclaimer.
  2. Redistributions in binary form must reproduce the above copyright
@@ -14221,7 +14221,7 @@ License: GPL-3+
  it under the terms of the GNU General Public License as published by
  the Free Software Foundation, either version 3 of the License, or
  (at your option) any later version.
- . 
+ .
  This program is distributed in the hope that it will be useful,
  but WITHOUT ANY WARRANTY; without even the implied warranty of
  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
@@ -14261,7 +14261,7 @@ License: LGPL-2.1
  This library is free software; you can redistribute it and/or
  modify it under the terms of the GNU Lesser General Public License
  version 2.1 as published by the Free Software Foundation.
- . 
+ .
  This library is distributed in the hope that it will be useful, but
  WITHOUT ANY WARRANTY; without even the implied warranty of
  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
