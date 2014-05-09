@@ -10,6 +10,7 @@ calligra (1:2.8.2-1) UNRELEASED; urgency=medium
   * update to Standards-Version 3.9.5 (no changes)
   * update copyright information for beta3
   * patch to build using xbase64, thanks Matthias Klose! (Closes: #746227)
+  * move html2ods.so from calligrawords to calligrasheets, thanks shadeslayer!
 
   [ Pino Toscano ]
   * Add the pkg-config build dependency.

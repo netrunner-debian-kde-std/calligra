@@ -3,6 +3,7 @@ usr/lib/kde4/calligra_filter_applixspread2kspread.so
 usr/lib/kde4/calligra_filter_csv2sheets.so
 usr/lib/kde4/calligra_filter_dbase2kspread.so
 usr/lib/kde4/calligra_filter_gnumeric2sheets.so
+usr/lib/kde4/calligra_filter_html2ods.so
 usr/lib/kde4/calligra_filter_kspread2tex.so
 usr/lib/kde4/calligra_filter_opencalc2sheets.so
 usr/lib/kde4/calligra_filter_qpro2sheets.so

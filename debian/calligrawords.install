@@ -3,7 +3,6 @@ usr/lib/kde4/calligra_filter_applixword2odt.so
 usr/lib/kde4/calligra_filter_ascii2words.so
 usr/lib/kde4/calligra_filter_doc2odt.so
 usr/lib/kde4/calligra_filter_docx2odt.so
-usr/lib/kde4/calligra_filter_html2ods.so
 usr/lib/kde4/calligra_filter_odt2ascii.so
 usr/lib/kde4/calligra_filter_odt2epub2.so
 usr/lib/kde4/calligra_filter_odt2html.so
