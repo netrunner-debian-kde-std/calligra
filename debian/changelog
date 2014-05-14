@@ -39,6 +39,7 @@ calligra (1:2.8.2-1) UNRELEASED; urgency=medium
   * New patch: calligra_imports_search_path
   * New patch: set_kritasketch_lib_soversion
   * New patch: install_images_in_datadir
+  * Bump libkdcraw and marble b-d, to help the kde4.12 transition.
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 11 Mar 2014 18:09:08 +0100
 
