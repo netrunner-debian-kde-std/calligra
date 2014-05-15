@@ -1,7 +1,7 @@
 Index: calligra/krita/gemini/MainWindow.cpp
 ===================================================================
---- calligra.orig/krita/gemini/MainWindow.cpp	2014-03-11 16:39:05.601183949 +0100
-+++ calligra/krita/gemini/MainWindow.cpp	2014-03-11 16:39:05.569183174 +0100
+--- calligra.orig/krita/gemini/MainWindow.cpp	2014-05-15 17:22:40.814772549 +0200
++++ calligra/krita/gemini/MainWindow.cpp	2014-05-15 17:22:40.810772707 +0200
 @@ -158,6 +158,11 @@
          sketchView->engine()->addImportPath(appdir.canonicalPath() + "/lib64/calligra/imports");
          QString mainqml = appdir.canonicalPath() + "/share/apps/kritagemini/kritagemini.qml";
@@ -16,9 +16,9 @@ Index: calligra/krita/gemini/MainWindow.cpp
  #endif
 Index: calligra/krita/sketch/CMakeLists.txt
 ===================================================================
---- calligra.orig/krita/sketch/CMakeLists.txt	2014-03-11 16:39:05.601183949 +0100
-+++ calligra/krita/sketch/CMakeLists.txt	2014-03-11 16:39:05.581183465 +0100
-@@ -126,6 +126,9 @@
+--- calligra.orig/krita/sketch/CMakeLists.txt	2014-05-15 17:22:40.814772549 +0200
++++ calligra/krita/sketch/CMakeLists.txt	2014-05-15 17:22:40.810772707 +0200
+@@ -131,6 +131,9 @@
  
  kde4_add_executable(kritasketch ${kritasketch_SRCS})
  
@@ -30,8 +30,8 @@ Index: calligra/krita/sketch/CMakeLists.txt
      ${QT_QTGUI_LIBRARIES}
 Index: calligra/krita/sketch/MainWindow.cpp
 ===================================================================
---- calligra.orig/krita/sketch/MainWindow.cpp	2014-03-11 16:39:05.601183949 +0100
-+++ calligra/krita/sketch/MainWindow.cpp	2014-03-11 16:39:27.009702862 +0100
+--- calligra.orig/krita/sketch/MainWindow.cpp	2014-05-15 17:22:40.814772549 +0200
++++ calligra/krita/sketch/MainWindow.cpp	2014-05-15 17:22:40.810772707 +0200
 @@ -114,6 +114,11 @@
      view->engine()->addImportPath(appdir.canonicalPath() + "/lib64/calligra/imports");
      QString mainqml = appdir.canonicalPath() + "/share/apps/kritasketch/kritasketch.qml";
@@ -46,8 +46,8 @@ Index: calligra/krita/sketch/MainWindow.cpp
  #endif
 Index: calligra/krita/gemini/CMakeLists.txt
 ===================================================================
---- calligra.orig/krita/gemini/CMakeLists.txt	2014-03-11 16:39:05.601183949 +0100
-+++ calligra/krita/gemini/CMakeLists.txt	2014-03-11 16:39:05.601183949 +0100
+--- calligra.orig/krita/gemini/CMakeLists.txt	2014-05-15 17:22:40.814772549 +0200
++++ calligra/krita/gemini/CMakeLists.txt	2014-05-15 17:22:40.810772707 +0200
 @@ -31,6 +31,9 @@
  
  kde4_add_executable(kritagemini ${kritagemini_SRCS})

@@ -1,8 +1,8 @@
 Index: calligra/krita/plugins/extensions/gmic/tests/CMakeLists.txt
 ===================================================================
---- calligra.orig/krita/plugins/extensions/gmic/tests/CMakeLists.txt	2014-03-05 13:40:18.222668133 +0100
-+++ calligra/krita/plugins/extensions/gmic/tests/CMakeLists.txt	2014-03-06 13:40:40.062795911 +0100
-@@ -18,9 +18,9 @@
+--- calligra.orig/krita/plugins/extensions/gmic/tests/CMakeLists.txt	2014-05-15 17:22:31.387146685 +0200
++++ calligra/krita/plugins/extensions/gmic/tests/CMakeLists.txt	2014-05-15 17:22:31.383146845 +0200
+@@ -23,9 +23,9 @@
  
  ########### next target ###############
  
@@ -17,8 +17,8 @@ Index: calligra/krita/plugins/extensions/gmic/tests/CMakeLists.txt
  set(kis_gmic_benchmarks_SRCS kis_gmic_benchmarks.cpp ${kritagmic_parser_PART_SRCS})
 Index: calligra/krita/plugins/paintops/libbrush/tests/CMakeLists.txt
 ===================================================================
---- calligra.orig/krita/plugins/paintops/libbrush/tests/CMakeLists.txt	2014-03-05 13:40:18.378671833 +0100
-+++ calligra/krita/plugins/paintops/libbrush/tests/CMakeLists.txt	2014-03-06 13:40:52.687094644 +0100
+--- calligra.orig/krita/plugins/paintops/libbrush/tests/CMakeLists.txt	2014-05-15 17:22:31.387146685 +0200
++++ calligra/krita/plugins/paintops/libbrush/tests/CMakeLists.txt	2014-05-15 17:22:31.387146685 +0200
 @@ -7,9 +7,9 @@
  
  ########### next target ###############
@@ -34,8 +34,8 @@ Index: calligra/krita/plugins/paintops/libbrush/tests/CMakeLists.txt
  
 Index: calligra/krita/ui/tests/CMakeLists.txt
 ===================================================================
---- calligra.orig/krita/ui/tests/CMakeLists.txt	2014-03-05 13:40:18.518675155 +0100
-+++ calligra/krita/ui/tests/CMakeLists.txt	2014-03-06 13:40:19.106298256 +0100
+--- calligra.orig/krita/ui/tests/CMakeLists.txt	2014-05-15 17:22:31.387146685 +0200
++++ calligra/krita/ui/tests/CMakeLists.txt	2014-05-15 17:22:31.387146685 +0200
 @@ -100,15 +100,15 @@
  
  ########### next target ###############
