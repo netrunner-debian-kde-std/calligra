@@ -1,4 +1,4 @@
-calligra (1:2.8.2-1) UNRELEASED; urgency=medium
+calligra (1:2.8.3-1) UNRELEASED; urgency=medium
 
   * New upstream release. (Closes: #744291)
 
@@ -41,7 +41,7 @@ calligra (1:2.8.2-1) UNRELEASED; urgency=medium
   * New patch: install_images_in_datadir
   * Bump libkdcraw and marble b-d, to help the kde4.12 transition.
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 11 Mar 2014 18:09:08 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 15 May 2014 17:21:04 +0200
 
 calligra (1:2.7.5-1) unstable; urgency=low
 
