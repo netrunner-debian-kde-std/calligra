@@ -95,6 +95,14 @@ readable. To actually creates the man pages::
 
 .. _restructuredText: http://docutils.sourceforge.net/
 
+Tests
+======
+
+We now use autopkgtest to run the tests from calligra. To run it in a schroot::
+
+  adt-run -B *.deb calligra_2.8.3-1.dsc --- schroot unstable-amd64-sbuild
+
+
 Particularities
 ================
 
