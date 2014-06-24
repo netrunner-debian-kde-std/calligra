@@ -1,0 +1,34 @@
+commit 13657911836f1996de6154b305386c3e72944c34
+Author: Dmitry Kazakov <dimula73@gmail.com>
+Date:   Mon May 5 12:50:00 2014 +0400
+
+    Fix using a transaction in the Filter Op
+    
+    Otherwise the filters like Gaussian Blur and Unsharp Mask will not work
+    correctly.
+    
+    BUG:332130
+
+diff --git a/krita/plugins/paintops/filterop/kis_filterop.cpp b/krita/plugins/paintops/filterop/kis_filterop.cpp
+index c42757a..1c6e413 100644
+--- a/krita/plugins/paintops/filterop/kis_filterop.cpp
++++ b/krita/plugins/paintops/filterop/kis_filterop.cpp
+@@ -45,6 +45,7 @@
+ #include <kis_filterop_settings.h>
+ #include <kis_iterator_ng.h>
+ #include <kis_fixed_paint_device.h>
++#include <kis_transaction.h>
+ 
+ KisFilterOp::KisFilterOp(const KisFilterOpSettings *settings, KisPainter *painter, KisImageWSP image)
+     : KisBrushBasedPaintOp(settings, painter)
+@@ -123,7 +124,10 @@ KisSpacingInformation KisFilterOp::paintAt(const KisPaintInformation& info)
+         p.setCompositeOp(COMPOSITE_COPY);
+     }
+     p.bitBltOldData(neededRect.topLeft() - dstRect.topLeft(), source(), neededRect);
++
++    KisTransaction transaction("", m_tmpDevice);
+     m_filter->process(m_tmpDevice, dabRect, m_filterConfiguration, 0);
++    transaction.end();
+ 
+ 
+     painter()->

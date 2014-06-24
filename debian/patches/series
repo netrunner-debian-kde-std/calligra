@@ -7,3 +7,4 @@ eigen3_in_tests
 disable_convolution_failling_tests
 temporarily_disable_failing_tests
 calligra_imports_search_path
+upstream_fix_using_a_transaction_in_the_filter_op.patch
