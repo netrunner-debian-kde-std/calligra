@@ -1,4 +1,4 @@
-calligra (1:2.8.3-1) UNRELEASED; urgency=medium
+calligra (1:2.8.5-1) UNRELEASED; urgency=medium
 
   * New upstream release. (Closes: #744291)
 
@@ -43,7 +43,7 @@ calligra (1:2.8.3-1) UNRELEASED; urgency=medium
   * Refresh patches for 2.8.3.
   * New patch: upstream_fix_using_a_transaction_in_the_filter_op.patch
 
- -- Maximiliano Curia <maxy@debian.org>  Thu, 15 May 2014 17:21:04 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 04 Jul 2014 10:46:34 +0200
 
 calligra (1:2.7.5-1) unstable; urgency=low
 
