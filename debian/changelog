@@ -41,7 +41,6 @@ calligra (1:2.8.5-1) UNRELEASED; urgency=medium
   * New patch: install_images_in_datadir
   * Bump libkdcraw and marble b-d, to help the kde4.12 transition.
   * Refresh patches for 2.8.3.
-  * New patch: upstream_fix_using_a_transaction_in_the_filter_op.patch
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 04 Jul 2014 10:46:34 +0200
 
