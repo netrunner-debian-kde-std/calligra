@@ -1,4 +1,5 @@
 usr/bin/calligrastage
+usr/lib/kde4/calligra_filter_kpr2odp.so
 usr/lib/kde4/calligra_filter_ppt2odp.so
 usr/lib/kde4/calligra_filter_pptx2odp.so
 usr/lib/kde4/calligrastageeventactions.so

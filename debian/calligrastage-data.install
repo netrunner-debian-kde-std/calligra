@@ -8,6 +8,7 @@ usr/share/icons/hicolor/scalable/apps/calligrastage.svgz
 usr/share/kde4/apps/stage
 usr/share/kde4/config/stagerc
 usr/share/kde4/services/ServiceMenus/stage_print.desktop
+usr/share/kde4/services/calligra_filter_kpr2odp.desktop
 usr/share/kde4/services/calligra_filter_ppt2odp.desktop
 usr/share/kde4/services/calligra_filter_pptx2odp.desktop
 usr/share/kde4/services/calligrastageeventactions.desktop
@@ -23,6 +24,7 @@ usr/share/kde4/services/kpr_pageeffect_spacerotation.desktop
 usr/share/kde4/services/kpr_pageeffect_swapeffect.desktop
 usr/share/kde4/services/kpr_shapeanimation_example.desktop
 usr/share/kde4/services/kprvariables.desktop
+usr/share/kde4/services/stage_kpr_thumbnail.desktop
 usr/share/kde4/services/stage_odp_thumbnail.desktop
 usr/share/kde4/services/stage_powerpoint_thumbnail.desktop
 usr/share/kde4/services/stage_pptx_thumbnail.desktop

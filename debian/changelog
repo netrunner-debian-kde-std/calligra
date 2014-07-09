@@ -25,6 +25,7 @@ calligra (1:2.8.5-1) UNRELEASED; urgency=medium
   * Update sonames in lintian-overrides.
   * Add calligra-semanticitems depends.
   * Adding lintian-overrides for krita-sketch.
+  * Enable kpresenter to odp filter.
 
   [ Maximiliano Curia ]
   * Remove obsolete patch: pqxx_4_support.diff
