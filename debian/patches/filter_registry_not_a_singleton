@@ -1,0 +1,13 @@
+Index: calligra/krita/image/filter/kis_filter_registry.cc
+===================================================================
+--- calligra.orig/krita/image/filter/kis_filter_registry.cc	2014-07-11 17:55:57.105757838 +0200
++++ calligra/krita/image/filter/kis_filter_registry.cc	2014-07-11 18:00:21.635344917 +0200
+@@ -53,7 +53,7 @@
+ 
+ KisFilterRegistry* KisFilterRegistry::instance()
+ {
+-    KisFilterRegistry *reg = qApp->findChild<KisFilterRegistry *>("");
++    static KisFilterRegistry *reg = qApp->findChild<KisFilterRegistry *>("");
+     if (!reg) {
+         reg = new KisFilterRegistry(qApp);
+         KoPluginLoader::instance()->load("Krita/Filter", "Type == 'Service' and ([X-Krita-Version] == 28)");
