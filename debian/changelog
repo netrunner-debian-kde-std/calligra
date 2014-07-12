@@ -43,6 +43,7 @@ calligra (1:2.8.5-1) UNRELEASED; urgency=medium
   * Refresh patches for 2.8.5.
   * New patch: kisjpegtest_call_kisexiv2_initialize
   * New patch: filter_registry_not_a_singleton
+  * New patch: channelFlags_logic_change
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 04 Jul 2014 10:46:34 +0200
 

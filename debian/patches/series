@@ -9,3 +9,4 @@ temporarily_disable_failing_tests
 calligra_imports_search_path
 kisjpegtest_call_kisexiv2_initialize
 filter_registry_not_a_singleton
+channelFlags_logic_change
