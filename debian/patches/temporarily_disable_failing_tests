@@ -1,24 +1,7 @@
-Index: calligra/krita/plugins/extensions/gmic/tests/CMakeLists.txt
-===================================================================
---- calligra.orig/krita/plugins/extensions/gmic/tests/CMakeLists.txt	2014-05-15 17:22:31.387146685 +0200
-+++ calligra/krita/plugins/extensions/gmic/tests/CMakeLists.txt	2014-05-15 17:22:31.383146845 +0200
-@@ -23,9 +23,9 @@
- 
- ########### next target ###############
- 
--set(kis_gmic_tests_SRCS kis_gmic_tests.cpp ${kritagmic_parser_PART_SRCS})
--kde4_add_unit_test(KisGmicTests TESTNAME krita-plugins-extensions-gmic-GmicTests ${kis_gmic_tests_SRCS})
--target_link_libraries(KisGmicTests gmic kritaimage ${QT_QTTEST_LIBRARY} ${QT_QTXML_LIBRARY})
-+# set(kis_gmic_tests_SRCS kis_gmic_tests.cpp ${kritagmic_parser_PART_SRCS})
-+# kde4_add_unit_test(KisGmicTests TESTNAME krita-plugins-extensions-gmic-GmicTests ${kis_gmic_tests_SRCS})
-+# target_link_libraries(KisGmicTests gmic kritaimage ${QT_QTTEST_LIBRARY} ${QT_QTXML_LIBRARY})
- 
- 
- set(kis_gmic_benchmarks_SRCS kis_gmic_benchmarks.cpp ${kritagmic_parser_PART_SRCS})
 Index: calligra/krita/plugins/paintops/libbrush/tests/CMakeLists.txt
 ===================================================================
---- calligra.orig/krita/plugins/paintops/libbrush/tests/CMakeLists.txt	2014-05-15 17:22:31.387146685 +0200
-+++ calligra/krita/plugins/paintops/libbrush/tests/CMakeLists.txt	2014-05-15 17:22:31.387146685 +0200
+--- calligra.orig/krita/plugins/paintops/libbrush/tests/CMakeLists.txt	2014-07-12 22:32:14.775492014 +0200
++++ calligra/krita/plugins/paintops/libbrush/tests/CMakeLists.txt	2014-07-12 22:32:14.771492173 +0200
 @@ -7,9 +7,9 @@
  
  ########### next target ###############
@@ -34,8 +17,8 @@ Index: calligra/krita/plugins/paintops/libbrush/tests/CMakeLists.txt
  
 Index: calligra/krita/ui/tests/CMakeLists.txt
 ===================================================================
---- calligra.orig/krita/ui/tests/CMakeLists.txt	2014-05-15 17:22:31.387146685 +0200
-+++ calligra/krita/ui/tests/CMakeLists.txt	2014-05-15 17:22:31.387146685 +0200
+--- calligra.orig/krita/ui/tests/CMakeLists.txt	2014-07-12 22:32:14.775492014 +0200
++++ calligra/krita/ui/tests/CMakeLists.txt	2014-07-12 22:32:14.771492173 +0200
 @@ -100,15 +100,15 @@
  
  ########### next target ###############
