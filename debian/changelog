@@ -47,7 +47,7 @@ calligra (1:2.8.5-1) UNRELEASED; urgency=medium
 
   [ Rene Engelhard ]
   * Add patch to build against the new librevenge-based import libs and update
-    build-dependencies
+    build-dependencies. (Closes: #754568)
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 04 Jul 2014 10:46:34 +0200
 
