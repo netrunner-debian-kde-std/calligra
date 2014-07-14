@@ -1,6 +1,6 @@
 calligra (1:2.8.5-1) UNRELEASED; urgency=medium
 
-  * New upstream release. (Closes: #744291)
+  * New upstream release. (Closes: #744291, #748990)
 
   [ Adrien Grellier ]
   * new dependency for krita: libxi-dev
@@ -137,7 +137,7 @@ calligra (1:2.6.3-1) unstable; urgency=low
   * Add a manpage for kexi_sqlite3_dump
   * Add a Readme.source to document the Debian packaging
   * update to Standards-Version 3.9.4 (no changes)
-  * create calligrastage-data, for arch-independant files 
+  * create calligrastage-data, for arch-independant files
     (lintian: arch-dep-package-has-big-usr-share 7564kB 63%)
   * use canonical URI for VCS-* fields (lintian: vcs-field-not-canonical)
   * inherit « Section: kde » in the control file
@@ -184,7 +184,7 @@ calligra (1:2.4.4-1) unstable; urgency=low
     typos in the changelog. Thanks Thorsten Glaser for noticing.
 
   [ Adrien Grellier ]
-  * Fix typo in calligrasheets package description (Closes: #697261) 
+  * Fix typo in calligrasheets package description (Closes: #697261)
   * Make calligrastage break/replace koffice-data < 1:2.4 (Closes: #699200)
   * New upstream bug fix release 2.4.4:
     General:
