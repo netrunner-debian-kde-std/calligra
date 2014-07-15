@@ -46,6 +46,7 @@ calligra (1:2.8.5.repack-1) UNRELEASED; urgency=medium
   * New patch: filter_registry_not_a_singleton
   * New patch: channelFlags_logic_change
   * New patch: do_not_install_removed_files
+  * Update install files for the repack version.
 
   [ Rene Engelhard ]
   * Add patch to build against the new librevenge-based import libs and update
