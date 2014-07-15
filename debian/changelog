@@ -1,4 +1,4 @@
-calligra (1:2.8.5-1) UNRELEASED; urgency=medium
+calligra (1:2.8.5.repack-1) UNRELEASED; urgency=medium
 
   * New upstream release. (Closes: #744291, #748990)
 
@@ -50,7 +50,7 @@ calligra (1:2.8.5-1) UNRELEASED; urgency=medium
   * Add patch to build against the new librevenge-based import libs and update
     build-dependencies. (Closes: #754568)
 
- -- Maximiliano Curia <maxy@debian.org>  Fri, 04 Jul 2014 10:46:34 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 15 Jul 2014 13:48:36 +0200
 
 calligra (1:2.7.5-1) unstable; urgency=low
 
