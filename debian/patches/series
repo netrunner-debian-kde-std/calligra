@@ -11,3 +11,4 @@ kisjpegtest_call_kisexiv2_initialize
 switch-to-librevenge-based-import-libs.patch
 filter_registry_not_a_singleton
 channelFlags_logic_change
+do_not_install_removed_files
