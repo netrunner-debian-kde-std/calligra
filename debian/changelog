@@ -1,6 +1,6 @@
 calligra (1:2.8.5.repack-2) UNRELEASED; urgency=medium
 
-  * 
+  * Add hspell dependency to the tests.
 
  -- Maximiliano Curia <maxy@debian.org>  Thu, 17 Jul 2014 09:54:23 +0200
 
