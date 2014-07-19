@@ -158,15 +158,6 @@ already in Ubuntu: https://launchpad.net/ubuntu/+source/vc
 
 http://code.compeng.uni-frankfurt.de/projects/vc
 
-OCIO
------
-
-Required by the Krita LUT docker
-
-soon in Debian? http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=700676
-
-http://www.opencolorio.org
-
 OpenGTL
 --------
 
