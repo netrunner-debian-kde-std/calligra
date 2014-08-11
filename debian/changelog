@@ -1,16 +1,4 @@
-calligra (1:2.8.5.repack-2) UNRELEASED; urgency=medium
-
-  [ Maximiliano Curia ]
-  * Add hspell dependency to the tests.
-  * Update debian/copyright generation instructions, added a static part
-    in copyright.tail for the things missed by lcheck.
-
-  [ Adrien Grellier ]
-  * update copyright information for calligra 2.8.5
-
- -- Maximiliano Curia <maxy@debian.org>  Thu, 17 Jul 2014 09:54:23 +0200
-
-calligra (1:2.8.5.repack-1) experimental; urgency=medium
+calligra (1:2.8.5.repack-1) UNRELEASED; urgency=medium
 
   * New upstream release. (Closes: #744291, #748990)
 
@@ -23,6 +11,7 @@ calligra (1:2.8.5.repack-1) experimental; urgency=medium
   * update copyright information for beta3
   * patch to build using xbase64, thanks Matthias Klose! (Closes: #746227)
   * move html2ods.so from calligrawords to calligrasheets, thanks shadeslayer!
+  * update copyright information for calligra 2.8.5
 
   [ Pino Toscano ]
   * Add the pkg-config build dependency.
@@ -59,6 +48,9 @@ calligra (1:2.8.5.repack-1) experimental; urgency=medium
   * New patch: channelFlags_logic_change
   * New patch: do_not_install_removed_files
   * Update install files for the repack version.
+  * Add hspell dependency to the tests.
+  * Update debian/copyright generation instructions, added a static part
+    in copyright.tail for the things missed by lcheck.
 
   [ Rene Engelhard ]
   * Add patch to build against the new librevenge-based import libs and update
