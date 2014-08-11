@@ -41,7 +41,7 @@ described here:
 
 First copy and untar the upstream tarball. rename it to calligra_VERSION.orig.tar.bz2.
 Then run sbuild to build it ::
-    
+
     sbuild-update -udg unstable
     sbuild -A -d unstable
 
@@ -65,32 +65,45 @@ To update the debian/copyright file:
    brz clone lp:~clint-fewbar/+junk/lcheck
 
 2. execute licensecheck, from CDBS:::
-   licensecheck --copyright -r . | ../../lcheck/licensecheck2dep5 > ../copyright_2.7
+   licensecheck --copyright -r . | ../../lcheck/licensecheck2dep5 > ../copyright_new
 
-3. Correct the errors (vimdiff is a great help)
-   grep "License: UNKNOWN" copyright_2.7, and correct it with the current copyright file.
+3. fix encoding errors, (some copyrights notices are in latin1 while some are
+   in utf-8), a useful command could be::
+   sed -i 's/\xc3\([^\xa1]\)/é\1/g;
+           s/\xf6\([^\xa1]\)/ö\1/g;
+           s/\xe0\([^\xa1]\)/à\1/g' debian/copyright_new
+
+   Check the result with::
+   iconv -f utf8 -t utf8 debian/copyright
+
+4. Correct the errors (vimdiff is a great help)
+   grep "License: UNKNOWN" debian/copyright_new, and correct it with the current copyright file.
    (The unknown licence are GPL-2+ according to upstream)
 
    remove all FIXME (FIRST change the FIXME at the beginning « Upstream-Name » and « Source »
-   (sed '/FIXME/d' copyright_2.7 > copyright)
+   (sed -i '/FIXME/d' debian/copyright_new)
    add the License paragraph at the end (take it from the current copyright file)
 
    Pay attention to the headers, and whether new licenses has been added.
 
-Now you have a debian/copyright up-to-date.
+5. Append the static part (debian/copyright.tail)::
+   cat debian/copyright.tail >> debian/copyright_new
+
+Now you have a debian/copyright_new up-to-date. Check, and double check the
+differences with the debian/copyright file before replacing it.
 
 .. _lcheck: see http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=597861
 
 Man pages
 ==========
 
-Upstream doesn't provide any man page, but the Debian policy specify to have 
-a man page for each binary. So I created very basic page in debian/man, but 
+Upstream doesn't provide any man page, but the Debian policy specify to have
+a man page for each binary. So I created very basic page in debian/man, but
 it can be improved...
 
 I prefer to use the restructuredText_ format (.rst files), which is much more
 readable. To actually creates the man pages::
-    
+
     rst2man calligraauthor.rst > calligraauthor.1
 
 .. _restructuredText: http://docutils.sourceforge.net/
@@ -135,7 +148,7 @@ Calligra forks some library to fit to their purpose.
  developed for years (that might have changes in the meantime but).
  Unless volunteers come and move the modifications upsteam (what can or
  cannot be practical but I asked for that) we depend on this exact fork
- and this is a bug-for-bug type of dependency.” 
+ and this is a bug-for-bug type of dependency.”
 
 .. [#] From upstream, may 2013:
  “The wv2 in Calligra is different from the one on sourceforge (which is

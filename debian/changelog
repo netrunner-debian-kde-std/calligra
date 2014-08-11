@@ -2,6 +2,8 @@ calligra (1:2.8.5.repack-2) UNRELEASED; urgency=medium
 
   [ Maximiliano Curia ]
   * Add hspell dependency to the tests.
+  * Update debian/copyright generation instructions, added a static part
+    in copyright.tail for the things missed by lcheck.
 
   [ Adrien Grellier ]
   * update copyright information for calligra 2.8.5
