@@ -46,3 +46,15 @@ override_dh_shlibdeps:
 	dh_shlibdeps --remaining-packages
 
 .PHONY: override_dh_auto_test
+
+prune-nonfree:
+	# minimized extjs, not installed, nor used
+	rm -f kexi/webforms/webroot/extjs/ext-all.js
+	rm -f kexi/webforms/webroot/extjs/extjs/adapter/ext/ext-base.js
+	# copyright Sun Microsystems, 1996 unknown license
+	# Help needed to clarify the license.
+	rm -f plugins/colorengines/lcms2/colorprofiles/data/CMY.icm
+	# Claims itself as public domain, but included in non-free package
+	# icc-profiles.
+	# Help needed to clarify the license.
+	rm -f plugins/colorengines/lcms2/colorprofiles/data/fogra27l.icm

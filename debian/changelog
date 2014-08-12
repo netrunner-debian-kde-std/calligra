@@ -1,4 +1,4 @@
-calligra (1:2.8.5.repack-1) unstable; urgency=medium
+calligra (1:2.8.5+dfsg-1) unstable; urgency=medium
 
   * New upstream release. (Closes: #744291, #748990)
 
