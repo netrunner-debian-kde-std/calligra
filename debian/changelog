@@ -1,5 +1,7 @@
 calligra (1:2.8.5+dfsg-2) UNRELEASED; urgency=medium
 
+  [ Pino Toscano ]
+  * watch file: ignore +dfsg suffix in Debian version number.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 14 Sep 2014 19:03:51 +0200
 
