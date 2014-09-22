@@ -61,7 +61,7 @@ Build-Depends: cmake (>= 2.8),
                zlib1g-dev
 Standards-Version: 3.9.5
 XS-Testsuite: autopkgtest
-Homepage: http://www.calligra-suite.org/
+Homepage: http://www.calligra.org/
 Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-std/calligra.git
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-std/calligra.git
 
@@ -79,7 +79,7 @@ Depends: braindump (>= ${source:Version}),
          krita (>= ${source:Version}),
          ${misc:Depends}
 Recommends: calligra-semanticitems
-Homepage: http://www.calligra-suite.org
+Homepage: http://www.calligra.org
 Description: extensive productivity and creative suite
  Calligra Suite is a set of applications written to help you to accomplish
  your work. It includes office applications such as a word processor,
@@ -95,7 +95,7 @@ Depends: calligra-libs (= ${binary:Version}), ${misc:Depends}, ${shlibs:Depends}
 Recommends: pstoedit
 Breaks: calligra-data (<< 1:2.4.3-2), koffice-data (<< 1:2.4)
 Replaces: calligra-data (<< 1:2.4.3-2), koffice-data (<< 1:2.4)
-Homepage: http://www.calligra-suite.org/karbon/
+Homepage: http://www.calligra.org/karbon/
 Description: vector graphics application for the Calligra Suite
  Karbon is a vector drawing application with an user interface that is easy to
  use, highly customizable and extensible. That makes Karbon a great application
@@ -141,7 +141,7 @@ Suggests: kexi-calligrasheets-driver,
           kexi-xbase-driver
 Replaces: koffice-doc-html
 Conflicts: koffice-doc-html
-Homepage: http://www.calligra-suite.org/kexi/
+Homepage: http://www.calligra.org/kexi/
 Description: integrated database environment for the Calligra Suite
  Kexi is an integrated data management application. It can be used for
  creating database schemas, inserting data, performing queries, and
@@ -326,7 +326,7 @@ Depends: calligra-libs (= ${binary:Version}),
 Suggests: khelpcenter4
 Breaks: krita-data (<< 1:2.4)
 Replaces: krita-data (<< 1:2.4)
-Homepage: http://www.calligra-suite.org/krita/
+Homepage: http://www.calligra.org/krita/
 Description: pixel-based image manipulation program for the Calligra Suite
  Krita is a creative application for raster images. Whether you want to create
  from scratch or work with existing images, Krita is for you. You can work with
@@ -349,7 +349,7 @@ Package: krita-data
 Architecture: all
 Section: graphics
 Depends: ${misc:Depends}
-Homepage: http://www.calligra-suite.org/krita/
+Homepage: http://www.calligra.org/krita/
 Description: data files for Krita painting program
  This package contains architecture-independent data files for Krita,
  the painting program shipped with the Calligra Suite.
@@ -369,7 +369,7 @@ Breaks: calligra-data (<< 1:2.4.3-2),
         kspread (<< 1:2.4)
 Depends: calligra-libs (= ${binary:Version}), ${misc:Depends}, ${shlibs:Depends}
 Suggests: khelpcenter4
-Homepage: http://www.calligra-suite.org/sheets/
+Homepage: http://www.calligra.org/sheets/
 Description: spreadsheet for the Calligra Suite
  Tables is a powerful spreadsheet application.  It is scriptable and
  provides both table-oriented sheets and support for complex mathematical
@@ -384,7 +384,7 @@ Breaks: kplato (<< 1:2.4)
 Depends: calligra-libs (= ${binary:Version}), ${misc:Depends}, ${shlibs:Depends}
 Recommends: default-jre, libapache-poi-java
 Suggests: khelpcenter4
-Homepage: http://www.calligra-suite.org/plan/
+Homepage: http://www.calligra.org/plan/
 Description: integrated project management and planning tool
  Plan is a project management application, allowing for the planning and
  scheduling of projects. It was formerly known as KPlato.
@@ -401,7 +401,7 @@ Depends: calligra-libs (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Suggests: khelpcenter4
-Homepage: http://www.calligra-suite.org/words/
+Homepage: http://www.calligra.org/words/
 Description: word processor for the Calligra Suite
  Words is a FrameMaker-like word processing and desktop publishing
  application. It is capable of creating polished and professional
@@ -417,7 +417,7 @@ Depends: ${misc:Depends}
 Conflicts: koffice-data
 Breaks: calligra-data (<< 1:2.4.3-2)
 Replaces: calligra-data (<< 1:2.4.3-2), koffice-data
-Homepage: http://www.calligra-suite.org/words/
+Homepage: http://www.calligra.org/words/
 Description: data files for Words word processor
  This package contains architecture-independent data files for Words,
  the word processor shipped with the Calligra Suite.
@@ -439,7 +439,7 @@ Depends: calligra-libs (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Suggests: khelpcenter4
-Homepage: http://www.calligra-suite.org/stage/
+Homepage: http://www.calligra.org/stage/
 Description: presentation program for the Calligra Suite
  Stage is an easy to use yet still flexible presentation application. You can
  easily create presentations containing a rich variety of elements, from
@@ -476,7 +476,7 @@ Depends: calligra-libs (= ${binary:Version}),
          calligraflow-data (>= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
-Homepage: http://www.calligra-suite.org/flow/
+Homepage: http://www.calligra.org/flow/
 Description: flowcharting program for the Calligra Suite
  Flow offers basic flowcharting abilities, but with a twist. Objects are
  scriptable, and a backend plugin system offers the ability to make objects
@@ -488,7 +488,7 @@ Package: calligraflow-data
 Architecture: all
 Section: graphics
 Depends: ${misc:Depends}
-Homepage: http://www.calligra-suite.org/flow/
+Homepage: http://www.calligra.org/flow/
 Description: data files for Flow flowcharting program
  This package contains architecture-independent data files for Flow,
  the flowcharting program shipped with the Calligra Suite.
@@ -500,7 +500,7 @@ Description: data files for Flow flowcharting program
 Package: braindump
 Architecture: any
 Depends: calligra-libs (= ${binary:Version}), ${misc:Depends}, ${shlibs:Depends}
-Homepage: http://www.calligra-suite.org/braindump/
+Homepage: http://www.calligra.org/braindump/
 Description: ideas organizer application for the Calligra Suite
  BrainDump is a tool to help to organize the ideas from your brain to your
  computer.
@@ -599,7 +599,7 @@ Package: krita-sketch
 Architecture: any
 Section: graphics
 Depends: krita (= ${binary:Version}), ${misc:Depends}, ${shlibs:Depends}
-Homepage: http://www.calligra-suite.org/krita/
+Homepage: http://www.calligra.org/krita/
 Description: touch-friendly version of krita
  This package contains the touch-friendly version of krita.
  .
@@ -611,7 +611,7 @@ Package: krita-gemini
 Architecture: any
 Section: graphics
 Depends: krita-sketch (= ${binary:Version}), ${misc:Depends}, ${shlibs:Depends}
-Homepage: http://www.calligra-suite.org/krita/
+Homepage: http://www.calligra.org/krita/
 Description: fusion between Krita Sketch and Krita Desktop
  Krita Gemini is a fusion between Krita Sketch and Krita Desktop:
  Krita Gemini switches seamlessly between the full-featured
