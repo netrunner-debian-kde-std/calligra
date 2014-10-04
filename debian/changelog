@@ -1,6 +1,7 @@
 calligra (1:2.8.6+dfsg-1) UNRELEASED; urgency=medium
 
   * New upstream version 2.8.6
+  	- Refresh xbase64.diff patch
 
   [ Pino Toscano ]
   * watch file: ignore +dfsg suffix in Debian version number.

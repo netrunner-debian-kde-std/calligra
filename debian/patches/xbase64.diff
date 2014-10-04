@@ -1,5 +1,3 @@
-Index: b/cmake/modules/FindXBase.cmake
-===================================================================
 --- a/cmake/modules/FindXBase.cmake
 +++ b/cmake/modules/FindXBase.cmake
 @@ -13,11 +13,11 @@
@@ -17,8 +15,6 @@ Index: b/cmake/modules/FindXBase.cmake
  
         include(FindPackageHandleStandardArgs)
         FIND_PACKAGE_HANDLE_STANDARD_ARGS(XBase DEFAULT_MSG XBase_INCLUDE_DIR XBase_LIBRARIES )
-Index: b/kexi/kexidb/drivers/xbase/xbaseexport.cpp
-===================================================================
 --- a/kexi/kexidb/drivers/xbase/xbaseexport.cpp
 +++ b/kexi/kexidb/drivers/xbase/xbaseexport.cpp
 @@ -33,7 +33,7 @@
@@ -30,24 +26,20 @@ Index: b/kexi/kexidb/drivers/xbase/xbaseexport.cpp
  
  using namespace KexiDB;
  
-Index: b/kexi/migration/xbase/xbasemigrate.h
-===================================================================
 --- a/kexi/migration/xbase/xbasemigrate.h
 +++ b/kexi/migration/xbase/xbasemigrate.h
-@@ -24,7 +24,7 @@
+@@ -23,7 +23,7 @@
+ #include <QHash>
  
  #include <migration/keximigrate.h>
- #include <migration/keximigrate_p.h>
 -#include "xbase.h"
 +#include "xbase64.h"
  
  namespace KexiMigration
  {
-Index: b/kexi/migration/xbase/xbasemigrate.cpp
-===================================================================
 --- a/kexi/migration/xbase/xbasemigrate.cpp
 +++ b/kexi/migration/xbase/xbasemigrate.cpp
-@@ -254,7 +254,7 @@
+@@ -255,7 +255,7 @@
            memoBuffer = new char[blobFieldLength];
  
            #ifdef XB_LOCKING_ON
@@ -56,7 +48,7 @@ Index: b/kexi/migration/xbase/xbasemigrate.cpp
            #endif
  
            if ( ( returnCode = tableDbf->GetMemoField( j , blobFieldLength, memoBuffer, F_SETLKW ) ) != XB_NO_ERROR ) {
-@@ -263,7 +263,7 @@
+@@ -264,7 +264,7 @@
              val = KexiDB::cstringToVariant( memoBuffer, fieldsExpanded.at(j)->field, blobFieldLength );
            }
            #ifdef XB_LOCKING_ON
