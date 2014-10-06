@@ -38,10 +38,11 @@ usr/lib/libkexiutils.so.13.0.0
 usr/lib/libkformdesigner.so.13
 usr/lib/libkformdesigner.so.13.0.0
 usr/share/applications/kde4/kexi.desktop
-usr/share/kde4/services/kexi
+usr/share/kde4/services/calligra
 usr/share/kde4/services/calligra/keximigrate_mdb.desktop
 usr/share/kde4/services/calligra/keximigrate_txt.desktop
 usr/share/kde4/services/calligra/kexirelationdesignshape.desktop
 usr/share/kde4/services/calligra/kformdesigner_containers.desktop
 usr/share/kde4/services/calligra/kformdesigner_kexidbfactory.desktop
 usr/share/kde4/services/calligra/kformdesigner_stdwidgets.desktop
+usr/share/kde4/servicetypes/kexihandler.desktop
