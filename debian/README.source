@@ -62,7 +62,7 @@ Copyright file
 To update the debian/copyright file:
 
 1. download the lcheck_ script::
-   brz clone lp:~clint-fewbar/+junk/lcheck
+   bzr clone lp:~clint-fewbar/+junk/lcheck
 
 2. execute licensecheck, from CDBS:::
    licensecheck --copyright -r . | ../../lcheck/licensecheck2dep5 > ../copyright_new
