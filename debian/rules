@@ -58,3 +58,13 @@ prune-nonfree:
 	# icc-profiles.
 	# Help needed to clarify the license.
 	rm -f plugins/colorengines/lcms2/colorprofiles/data/fogra27l.icm
+	# Remove precompiled files
+	rm -f 3rdparty/google-breakpad/src/client/mac/gcov/libgcov.a
+	rm -f 3rdparty/google-breakpad/src/third_party/linux/lib/glog/libglog.a
+	rm -f 3rdparty/google-breakpad/src/third_party/linux/lib/gflags/libgflags.a
+	# Remove binary files
+	rm -f 3rdparty/google-breakpad/src/tools/windows/binaries/symupload.exe
+	rm -f 3rdparty/google-breakpad/src/tools/windows/binaries/dump_syms.exe
+	# Remove java generated files
+	rm -f filters/libmso/generated/mso.jar
+	rm -f filters/plan/mpxj/planconvert/jar/PlanConvert.jar
