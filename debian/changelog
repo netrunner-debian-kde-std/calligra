@@ -9,6 +9,8 @@ calligra (1:2.8.6+dfsg-1) UNRELEASED; urgency=medium
 
   [ Maximiliano Curia ]
   * Update homepage links. (Closes: #762305) Thanks to Julian Gilbey
+  * New patch: upstream_review_120609_pixmapcachesheetview_crash, thanks
+    to Philip Van Hoof.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 14 Sep 2014 19:03:51 +0200
 
