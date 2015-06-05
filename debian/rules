@@ -46,25 +46,3 @@ override_dh_shlibdeps:
 	dh_shlibdeps --remaining-packages
 
 .PHONY: override_dh_auto_test
-
-prune-nonfree:
-	# minimized extjs, not installed, nor used
-	rm -f kexi/webforms/webroot/extjs/ext-all.js
-	rm -f kexi/webforms/webroot/extjs/extjs/adapter/ext/ext-base.js
-	# copyright Sun Microsystems, 1996 unknown license
-	# Help needed to clarify the license.
-	rm -f plugins/colorengines/lcms2/colorprofiles/data/CMY.icm
-	# Claims itself as public domain, but included in non-free package
-	# icc-profiles.
-	# Help needed to clarify the license.
-	rm -f plugins/colorengines/lcms2/colorprofiles/data/fogra27l.icm
-	# Remove precompiled files
-	rm -f 3rdparty/google-breakpad/src/client/mac/gcov/libgcov.a
-	rm -f 3rdparty/google-breakpad/src/third_party/linux/lib/glog/libglog.a
-	rm -f 3rdparty/google-breakpad/src/third_party/linux/lib/gflags/libgflags.a
-	# Remove binary files
-	rm -f 3rdparty/google-breakpad/src/tools/windows/binaries/symupload.exe
-	rm -f 3rdparty/google-breakpad/src/tools/windows/binaries/dump_syms.exe
-	# Remove java generated files
-	rm -f filters/libmso/generated/mso.jar
-	rm -f filters/plan/mpxj/planconvert/jar/PlanConvert.jar

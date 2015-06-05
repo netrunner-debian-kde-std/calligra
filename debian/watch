@@ -1,11 +1,14 @@
 version=3
 
 ## latest version:
-opts=dversionmangle=s/\+dfsg\d*$// \
-http://download.kde.org/stable/calligra-([\d\.]+)/calligra-([\d\.]+)\.tar\.(?:bz2|xz)
+opts=\
+repacksuffix=+dfsg,\
+dversionmangle=s/\+dfsg\d*$// \
+ http://download.kde.org/stable/calligra-([\d\.]+)/calligra-([\d\.]+)\.tar\.(?:bz2|xz)
 
 ## all available versions:
 opts=\
+repacksuffix=+dfsg,\
 dversionmangle=s/\+dfsg\d*$//,\
 downloadurlmangle=s/([0-9.]+)\//$1\/source\/calligra-$1\.tar\.xz/,\
 filenamemangle=s/.*/orig.tar.xz/,\
@@ -13,6 +16,7 @@ filenamemangle=s/.*/orig.tar.xz/,\
 
 ## mirror:
 opts=\
+repacksuffix=+dfsg,\
 dversionmangle=s/\+dfsg\d*$//,\
 downloadurlmangle=s/([0-9.]+)\//$1\/source\/calligra-$1\.tar\.xz/,\
 filenamemangle=s/.*/orig.tar.xz/,\
