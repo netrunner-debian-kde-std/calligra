@@ -1,4 +1,5 @@
-calligraplan: package-name-doesnt-match-sonames libcalligrakdgantt13 libkplatokernel13 libkplatomodels13 libkplatoui13 libplanprivate13 libplanworkapp13 libplanworkfactory13 librcps-plan13
+no-symbols-control-file *
+package-name-doesnt-match-sonames *
 calligraplan: unusual-interpreter usr/share/kde4/apps/plan/scripts/extensions/busyinfoclear.py #!kross
 calligraplan: unusual-interpreter usr/share/kde4/apps/plan/scripts/extensions/busyinfoexport.py #!kross
 calligraplan: unusual-interpreter usr/share/kde4/apps/plan/scripts/extensions/busyinfoimport.py #!kross

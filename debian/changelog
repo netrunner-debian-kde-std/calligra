@@ -1,6 +1,38 @@
-calligra (1:2.8.6+dfsg-1) UNRELEASED; urgency=medium
+calligra (1:2.9.5+dfsg-1) UNRELEASED; urgency=low
 
-  * New upstream version 2.8.6
+  * New upstream version [June 2015] (Closes: #787033).
+
+  [ Dmitry Smirnov ]
+  * Added "debian/TODO.Debian".
+  * Patchworks:
+    - eigen3.patch
+    - eigen3_in_tests
+    - install_images_in_datadir
+    - kisjpegtest_call_kisexiv2_initialize
+    - switch-to-librevenge-based-import-libs.patch
+    - upstream_review_120609_pixmapcachesheetview_crash
+    * patches refreshed, sorted and renamed consistently ending with ".patch".
+  * Build-Depends:
+    + libboost-system-dev
+    + postgresql-server-dev-9.4
+  * calligra-libs.install:
+    + liblibglobal.so.1*
+    + liblibkispsd.so.1*
+  * calligrawords.install:
+    + libkoversion.so.1*
+  * krita.install:
+    + libkritacolor.so.1*
+  * Updated "package-name-doesnt-match-sonames" lintian-overrides.
+  * Added "no-symbols-control-file" lintian-overrides.
+  * Converted "debian/prune-nonfree" target to "copyright/Files-Excluded";
+    Added "repacksuffix=+dfsg" to "debian/watch".
+  * Files-Excluded:
+    + 3rdparty/google-breakpad/src/client/mac/handler/breakpad_nlist_64.cc
+  * watch: updated and corrected watch file; added mirrors.
+  * Lintianisation:
+    - xs-testsuite-header-in-debian-control
+
+  [ Raúl Sánchez Siles ]
     - Refresh xbase64.diff patch
     - Refresh switch-to-librevenge-based-import-libs.patch
 

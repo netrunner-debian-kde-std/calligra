@@ -1,1 +1,2 @@
-calligrastage: package-name-doesnt-match-sonames libcalligrastageprivate13
+no-symbols-control-file *
+package-name-doesnt-match-sonames *

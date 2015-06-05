@@ -1,23 +1,26 @@
 --- a/cmake/modules/FindXBase.cmake
 +++ b/cmake/modules/FindXBase.cmake
-@@ -13,11 +13,11 @@
+@@ -12,13 +12,13 @@
+ 	SET(XBASE_FOUND TRUE)
  
- ELSE (XBase_INCLUDE_DIR AND XBase_LIBRARIES)
+ else ()
  
--       FIND_PATH(XBase_INCLUDE_DIR NAMES xbase.h
+-       find_path(XBase_INCLUDE_DIR NAMES xbase.h
 -        PATHS /usr/include/xbase /usr/local/include/xbase
-+       FIND_PATH(XBase_INCLUDE_DIR NAMES xbase64.h
++       find_path(XBase_INCLUDE_DIR NAMES xbase64.h
 +        PATHS /usr/include/xbase64 /usr/local/include/xbase
         )
  
--       FIND_LIBRARY(XBase_LIBRARIES NAMES xbase )
-+       FIND_LIBRARY(XBase_LIBRARIES NAMES xbase64 )
+-       find_library(XBase_LIBRARIES NAMES xbase )
++       find_library(XBase_LIBRARIES NAMES xbase64 )
  
         include(FindPackageHandleStandardArgs)
-        FIND_PACKAGE_HANDLE_STANDARD_ARGS(XBase DEFAULT_MSG XBase_INCLUDE_DIR XBase_LIBRARIES )
+        find_package_handle_standard_args(XBase DEFAULT_MSG XBase_INCLUDE_DIR XBase_LIBRARIES )
+ 
 --- a/kexi/kexidb/drivers/xbase/xbaseexport.cpp
 +++ b/kexi/kexidb/drivers/xbase/xbaseexport.cpp
-@@ -33,7 +33,7 @@
+@@ -32,9 +32,9 @@
+ #include <migration/keximigratedata.h>
  
  #include <cstring>
  
@@ -26,9 +29,11 @@
  
  using namespace KexiDB;
  
+ class KexiDB::xBaseExportPrivate {
 --- a/kexi/migration/xbase/xbasemigrate.h
 +++ b/kexi/migration/xbase/xbasemigrate.h
-@@ -23,7 +23,7 @@
+@@ -22,9 +22,9 @@
+ 
  #include <QHash>
  
  #include <migration/keximigrate.h>
@@ -37,9 +42,11 @@
  
  namespace KexiMigration
  {
+ 
 --- a/kexi/migration/xbase/xbasemigrate.cpp
 +++ b/kexi/migration/xbase/xbasemigrate.cpp
-@@ -255,7 +255,7 @@
+@@ -253,18 +253,18 @@
+           blobFieldLength = tableDbf->GetMemoFieldLen(j);
            memoBuffer = new char[blobFieldLength];
  
            #ifdef XB_LOCKING_ON
@@ -48,7 +55,8 @@
            #endif
  
            if ( ( returnCode = tableDbf->GetMemoField( j , blobFieldLength, memoBuffer, F_SETLKW ) ) != XB_NO_ERROR ) {
-@@ -264,7 +264,7 @@
+             kDebug()<<"Error reading blob field. Error code: "<<returnCode; // make error message more verbose
+           } else {
              val = KexiDB::cstringToVariant( memoBuffer, fieldsExpanded.at(j)->field, blobFieldLength );
            }
            #ifdef XB_LOCKING_ON
@@ -57,3 +65,4 @@
            #endif
  
            break;
+         #else

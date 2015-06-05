@@ -1,0 +1,16 @@
+--- a/krita/sketch/CMakeLists.txt
++++ b/krita/sketch/CMakeLists.txt
+@@ -115,8 +115,13 @@
+     PROPERTIES VERSION ${GENERIC_CALLIGRA_LIB_VERSION} SOVERSION ${GENERIC_CALLIGRA_LIB_SOVERSION} DEFINE_SYMBOL MAKE_KRITA_SKETCH_LIB
+ )
+ 
+ 
++set_target_properties(kritasketchlib
++    PROPERTIES VERSION ${GENERIC_CALLIGRA_LIB_VERSION}
++    SOVERSION ${GENERIC_CALLIGRA_LIB_SOVERSION}
++)
++
+ target_link_libraries(kritasketchlib
+     ${QT_QTDECLARATIVE_LIBRARY}
+     ${QT_QTGUI_LIBRARIES}
+     ${QT_QTCORE_LIBRARIES}

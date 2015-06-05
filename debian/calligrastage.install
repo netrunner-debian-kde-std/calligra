@@ -16,6 +16,5 @@ usr/lib/kde4/kpr_pageeffect_spacerotation.so
 usr/lib/kde4/kpr_pageeffect_swapeffect.so
 usr/lib/kde4/kpr_shapeanimation_example.so
 usr/lib/kde4/kprvariables.so
-usr/lib/libcalligrastageprivate.so.13
-usr/lib/libcalligrastageprivate.so.13.0.0
+usr/lib/libcalligrastageprivate.so.1*
 usr/lib/libkdeinit4_calligrastage.so

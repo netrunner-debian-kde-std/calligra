@@ -6,4 +6,4 @@ usr/share/icons/hicolor/*/apps/calligraauthor.png
 usr/share/icons/hicolor/scalable/apps/calligraauthor.svgz
 usr/share/kde4/apps/author/
 usr/share/kde4/config/authorrc
-usr/share/kde4/services/authorpart.desktop
+usr/share/kde4/services/calligra/authorpart.desktop

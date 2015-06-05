@@ -1,1 +1,2 @@
-krita: package-name-doesnt-match-sonames libkritaimage13 libkritalibbrush13 libkritalibpaintop13 libkritaui13
+no-symbols-control-file *
+package-name-doesnt-match-sonames *
