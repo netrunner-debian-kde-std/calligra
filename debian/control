@@ -60,7 +60,6 @@ Build-Depends: cmake (>= 2.8),
                shared-mime-info,
                zlib1g-dev
 Standards-Version: 3.9.5
-XS-Testsuite: autopkgtest
 Homepage: http://www.calligra.org/
 Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-std/calligra.git
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-std/calligra.git
