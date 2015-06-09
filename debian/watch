@@ -10,7 +10,7 @@ dversionmangle=s/\+dfsg\d*$// \
 opts=\
 repacksuffix=+dfsg,\
 dversionmangle=s/\+dfsg\d*$//,\
-downloadurlmangle=s/([0-9.]+)\//$1\/source\/calligra-$1\.tar\.xz/,\
+downloadurlmangle=s/([0-9.]+)\//$1\/calligra-$1\.tar\.xz/,\
 filenamemangle=s/.*/orig.tar.xz/,\
  http://download.kde.org/stable/ calligra-([\d\.]+)/
 
@@ -18,6 +18,6 @@ filenamemangle=s/.*/orig.tar.xz/,\
 opts=\
 repacksuffix=+dfsg,\
 dversionmangle=s/\+dfsg\d*$//,\
-downloadurlmangle=s/([0-9.]+)\//$1\/source\/calligra-$1\.tar\.xz/,\
+downloadurlmangle=s/([0-9.]+)\//$1\/calligra-$1\.tar\.xz/,\
 filenamemangle=s/.*/orig.tar.xz/,\
  http://mirrorservice.org/sites/ftp.kde.org/pub/kde/stable/ calligra-([\d\.]+)/
