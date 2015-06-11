@@ -195,6 +195,10 @@ Required by Plan mpxj import filter
 
 http://mpxj.sourceforge.net/
 
+libqgit2
+---------
+
+Calligra Gemini may use libqgit2.
 
 LibEtonyek
 ------------

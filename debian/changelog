@@ -44,6 +44,8 @@ calligra (1:2.9.5+dfsg-1) UNRELEASED; urgency=low
   * New patch: upstream_review_120609_pixmapcachesheetview_crash, thanks
     to Philip Van Hoof.
 
+  [ Adrien Grellier ]
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 14 Sep 2014 19:03:51 +0200
 
 calligra (1:2.8.5+dfsg-1) unstable; urgency=medium
