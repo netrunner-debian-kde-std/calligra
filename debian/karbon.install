@@ -20,6 +20,7 @@ usr/lib/kde4/karbontools.so
 usr/lib/libkarboncommon.so.1*
 usr/lib/libkarbonui.so.1*
 usr/lib/libkdeinit4_karbon.so
+usr/share/appdata/karbon.appdata.xml
 usr/share/applications/kde4/karbon.desktop
 usr/share/icons/hicolor/*/apps/calligrakarbon.png
 usr/share/icons/hicolor/scalable/apps/calligrakarbon.svgz

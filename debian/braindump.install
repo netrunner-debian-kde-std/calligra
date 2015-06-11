@@ -2,6 +2,7 @@ usr/bin/braindump
 usr/lib/kde4/braindump_shape_state.so
 usr/lib/kde4/braindump_shape_web.so
 usr/lib/libbraindumpcore.so.1*
+usr/share/appdata/braindump.appdata.xml
 usr/share/applications/kde4/braindump.desktop
 usr/share/icons/hicolor/*/apps/braindump.png
 usr/share/icons/hicolor/22x22/actions/stateshape.png

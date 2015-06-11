@@ -19,6 +19,7 @@ usr/lib/libplanprivate.so.1*
 usr/lib/libplanworkapp.so.1*
 usr/lib/libplanworkfactory.so.1*
 usr/lib/librcps_plan.so.1*
+usr/share/appdata/plan.appdata.xml 
 usr/share/applications/kde4/plan.desktop
 usr/share/applications/kde4/planwork.desktop
 usr/share/icons/hicolor/*/apps/calligraplan.png

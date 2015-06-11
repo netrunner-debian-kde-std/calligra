@@ -36,6 +36,7 @@ usr/lib/kde4/sheetssolver.so
 usr/lib/libcalligrasheetscommon.so.1*
 usr/lib/libcalligrasheetsodf.so.1*
 usr/lib/libkdeinit4_calligrasheets.so
+usr/share/appdata/sheets.appdata.xml
 usr/share/applications/kde4/sheets.desktop
 usr/share/doc/kde/HTML/en/sheets
 usr/share/icons/hicolor/*/apps/calligrasheets.png

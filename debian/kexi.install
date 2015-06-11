@@ -25,6 +25,7 @@ usr/lib/libkeximigrate.so.1*
 usr/lib/libkexirelationsview.so.1*
 usr/lib/libkexiutils.so.1*
 usr/lib/libkformdesigner.so.1*
+usr/share/appdata/kexi.appdata.xml
 usr/share/applications/kde4/kexi.desktop
 usr/share/kde4/services/calligra
 usr/share/kde4/services/calligra/keximigrate_mdb.desktop

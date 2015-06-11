@@ -1,3 +1,4 @@
+usr/share/appdata/stage.appdata.xml
 usr/share/applications/kde4/stage.desktop
 usr/share/doc/kde/HTML/en/stage
 usr/share/icons/hicolor/*/apps/calligrastage.png
@@ -24,12 +25,14 @@ usr/share/kde4/services/calligra/kpr_pageeffect_spacerotation.desktop
 usr/share/kde4/services/calligra/kpr_pageeffect_swapeffect.desktop
 usr/share/kde4/services/calligra/kpr_shapeanimation_example.desktop
 usr/share/kde4/services/calligra/kprvariables.desktop
+usr/share/kde4/services/calligra/stagepart.desktop
+usr/share/kde4/services/stage_key_thumbnail.desktop
 usr/share/kde4/services/stage_kpr_thumbnail.desktop
 usr/share/kde4/services/stage_odp_thumbnail.desktop
 usr/share/kde4/services/stage_powerpoint_thumbnail.desktop
 usr/share/kde4/services/stage_pptx_thumbnail.desktop
-usr/share/kde4/services/calligra/stagepart.desktop
 usr/share/kde4/servicetypes/kpr_pageeffect.desktop
 usr/share/kde4/servicetypes/kpr_shapeanimation.desktop
+usr/share/kde4/servicetypes/kpr_tool.desktop
 usr/share/templates/.source/Presentation.odp
 usr/share/templates/Presentation.desktop

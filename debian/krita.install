@@ -1,7 +1,7 @@
-#usr/lib/kde4/plugins/imageformats/kimg_kra.so
-#usr/lib/kde4/plugins/imageformats/kimg_ora.so
-#usr/share/kde4/services/qimageioplugins/kra.desktop
-#usr/share/kde4/services/qimageioplugins/ora.desktop
+usr/lib/kde4/plugins/imageformats/kimg_kra.so
+usr/lib/kde4/plugins/imageformats/kimg_ora.so
+usr/share/kde4/services/qimageioplugins/kra.desktop
+usr/share/kde4/services/qimageioplugins/ora.desktop
 usr/bin/gmicparser
 usr/bin/krita
 usr/lib/*/calligra/imports/org/krita/draganddrop/
@@ -16,6 +16,7 @@ usr/share/applications/kde4/krita.desktop
 usr/share/applications/kde4/krita_bmp.desktop
 usr/share/applications/kde4/krita_exr.desktop
 #usr/share/applications/kde4/krita_flipbook.desktop
+usr/share/applications/kde4/krita_heightmap.desktop
 usr/share/applications/kde4/krita_jp2.desktop
 usr/share/applications/kde4/krita_jpeg.desktop
 usr/share/applications/kde4/krita_odg.desktop
@@ -25,8 +26,10 @@ usr/share/applications/kde4/krita_png.desktop
 usr/share/applications/kde4/krita_ppm.desktop
 usr/share/applications/kde4/krita_psd.desktop
 usr/share/applications/kde4/krita_raw.desktop
+usr/share/applications/kde4/krita_tga.desktop
 usr/share/applications/kde4/krita_tiff.desktop
 usr/share/applications/kde4/krita_xcf.desktop
+usr/share/kde4/servicetypes/krita_filefilter.desktop
 usr/share/kde4/services/ServiceMenus/calligra/krita_print.desktop
 usr/share/kde4/services/calligra/krita_artisticcolorselector.desktop
 usr/share/kde4/services/calligra/krita_bmp_export.desktop

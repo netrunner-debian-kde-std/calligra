@@ -37,6 +37,7 @@ usr/share/kde4/apps/calligra/calligra_shell.rc
 usr/share/kde4/apps/calligra/icons/cursor_connect.png
 usr/share/kde4/apps/calligra/icons/cursor_rotate.png
 usr/share/kde4/apps/calligra/icons/cursor_shear.png
+usr/share/kde4/apps/calligra/icons/hicolor/128x128/actions/template_web_design.png
 usr/share/kde4/apps/calligra/icons/hicolor/16x16/actions/abs.png
 usr/share/kde4/apps/calligra/icons/hicolor/16x16/actions/bevelled.png
 usr/share/kde4/apps/calligra/icons/hicolor/16x16/actions/borderpainter.png
@@ -276,6 +277,7 @@ usr/share/kde4/apps/calligra/icons/questionmark.png
 usr/share/kde4/apps/calligra/icons/zoom_in_cursor.png
 usr/share/kde4/apps/calligra/icons/zoom_out_cursor.png
 usr/share/kde4/apps/calligra/palettes/
+usr/share/kde4/apps/calligra/pics/
 usr/share/kde4/apps/calligra/styles/markers.xml
 usr/share/kde4/apps/calligra/thesaurus/thesaurus.txt
 usr/share/kde4/apps/formulashape/fonts/Arev.ttf
@@ -324,6 +326,7 @@ usr/share/kde4/servicetypes/flakedevice.desktop
 usr/share/kde4/servicetypes/flakeshape.desktop
 usr/share/kde4/servicetypes/flaketool.desktop
 usr/share/kde4/servicetypes/inlinetextobject.desktop
+usr/share/kde4/servicetypes/kopa_tool.desktop
 usr/share/kde4/servicetypes/koreport_itemplugin.desktop
 usr/share/kde4/servicetypes/pigment.desktop
 usr/share/kde4/servicetypes/pigmentextension.desktop
@@ -332,3 +335,5 @@ usr/share/kde4/servicetypes/scripteventaction.desktop
 usr/share/kde4/servicetypes/texteditingplugin.desktop
 usr/share/mime/packages/calligra_svm.xml
 usr/share/mime/packages/msooxml-all.xml
+usr/share/mime/packages/wiki-format.xml
+usr/share/mime/packages/x-iwork-keynote-sffkey.xml
