@@ -7,6 +7,7 @@ usr/bin/krita
 usr/lib/*/calligra/imports/org/krita/draganddrop/
 usr/lib/kde4/krita*.so
 #usr/lib/libkdeinit4_krita.so
+usr/lib/libkritacolord.so
 usr/lib/libkritacolor.so.1*
 usr/lib/libkritaimage.so.1*
 usr/lib/libkritalibbrush.so.1*
