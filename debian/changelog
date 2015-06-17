@@ -25,6 +25,7 @@ calligra (1:2.9.5+dfsg-1) UNRELEASED; urgency=low
     + libkoversion.so.1*
   * krita.install:
     + libkritacolor.so.1*
+  * calligraplan: do not install "PlanConvert.jar".
   * Updated "package-name-doesnt-match-sonames" lintian-overrides.
   * Added "no-symbols-control-file" lintian-overrides.
   * Converted "debian/prune-nonfree" target to "copyright/Files-Excluded";
