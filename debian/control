@@ -93,7 +93,9 @@ Description: extensive productivity and creative suite
 Package: karbon
 Architecture: any
 Section: graphics
-Depends: calligra-libs (= ${binary:Version}), ${misc:Depends}, ${shlibs:Depends}
+Depends: calligra-libs (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
 Recommends: pstoedit
 Breaks: calligra-data (<< 1:2.4.3-2), koffice-data (<< 1:2.4)
 Replaces: calligra-data (<< 1:2.4.3-2), koffice-data (<< 1:2.4)
@@ -369,7 +371,9 @@ Replaces: calligra-data (<< 1:2.4.3-2),
 Breaks: calligra-data (<< 1:2.4.3-2),
         koffice-data (<< 1:2.4),
         kspread (<< 1:2.4)
-Depends: calligra-libs (= ${binary:Version}), ${misc:Depends}, ${shlibs:Depends}
+Depends: calligra-libs (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
 Suggests: khelpcenter4
 Homepage: http://www.calligra.org/sheets/
 Description: spreadsheet for the Calligra Suite
@@ -383,7 +387,9 @@ Package: calligraplan
 Architecture: any
 Replaces: kplato (<< 1:2.4)
 Breaks: kplato (<< 1:2.4)
-Depends: calligra-libs (= ${binary:Version}), ${misc:Depends}, ${shlibs:Depends}
+Depends: calligra-libs (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
 Recommends: default-jre, libapache-poi-java
 Suggests: khelpcenter4
 Homepage: http://www.calligra.org/plan/
@@ -501,7 +507,9 @@ Description: data files for Flow flowcharting program
 
 Package: braindump
 Architecture: any
-Depends: calligra-libs (= ${binary:Version}), ${misc:Depends}, ${shlibs:Depends}
+Depends: calligra-libs (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
 Homepage: http://www.calligra.org/braindump/
 Description: ideas organizer application for the Calligra Suite
  BrainDump is a tool to help to organize the ideas from your brain to your
@@ -511,7 +519,9 @@ Description: ideas organizer application for the Calligra Suite
 
 Package: calligraactive
 Architecture: any
-Depends: calligra-libs (= ${binary:Version}), ${misc:Depends}, ${shlibs:Depends}
+Depends: calligra-libs (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
 Description: Tablet version of Calligra
  Calligra Active is a project to bring Calligra to the Plasma Active Desktop,
  designed for tablets, smartphones, and touching devices.
@@ -561,7 +571,9 @@ Description: common shared data for the Calligra Suite
 Package: okular-backend-odp
 Architecture: any
 Section: graphics
-Depends: calligra-libs (= ${binary:Version}), ${misc:Depends}, ${shlibs:Depends}
+Depends: calligra-libs (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
 Recommends: okular
 Enhances: okular
 Description: Okular backend for ODP documents
@@ -585,7 +597,9 @@ Description: debugging symbols for Calligra
 Package: calligraauthor
 Architecture: any
 Section: text
-Depends: calligra-libs (= ${binary:Version}), ${misc:Depends}, ${shlibs:Depends}
+Depends: calligra-libs (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
 Suggests: khelpcenter4
 Description: Authoring tool for the Calligra Suite
  A specialized tool for serious writers, like novelists or textbook writers,

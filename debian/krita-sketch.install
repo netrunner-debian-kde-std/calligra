@@ -2,6 +2,6 @@
 #usr/lib/*/calligra/imports/org/krita/sketch/
 #usr/lib/libkritasketchlib.so.1*
 #usr/share/applications/kde4/kritasketch.desktop
-usr/share/kde4/apps/kritasketch/
 #usr/share/kde4/config/kritasketchpanelsrc
 #usr/share/kde4/config/kritasketchrc
+usr/share/kde4/apps/kritasketch/

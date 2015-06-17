@@ -33,8 +33,6 @@ usr/lib/libbasicflakes.so.1*
 usr/lib/libcalligradb.so.1*
 usr/lib/libcalligrakdchart.so.1*
 usr/lib/libflake.so.1*
-usr/lib/liblibglobal.so.1*
-usr/lib/liblibkispsd.so.1*
 usr/lib/libkformula.so.1*
 usr/lib/libkokross.so.1*
 usr/lib/libkomain.so.1*
@@ -53,4 +51,6 @@ usr/lib/libkovectorimage.so.1*
 usr/lib/libkowidgets.so.1*
 usr/lib/libkowidgetutils.so.1*
 usr/lib/libkundo2.so.1*
+usr/lib/liblibglobal.so.1*
+usr/lib/liblibkispsd.so.1*
 usr/lib/libpigmentcms.so.1*

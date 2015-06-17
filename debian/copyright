@@ -1069,7 +1069,7 @@ Files:
  ./words/plugins/scripting/Messages.sh
  ./words/plugins/scripting/scripts/*
  ./words/templates/*
-Copyright: 
+Copyright:
 License: GPL-2+
 
 Files: ./filters/karbon/image/ImageExportOptionsWidget.cpp
@@ -7294,7 +7294,7 @@ Files: ./kexi/kexidb/drivers/oracle/oraclecursor.h
  ./plugins/chartshape/tests/odf/default-calligra-chart/*
  ./plugins/chartshape/tests/odf/me07_percentage_stacked_bar_chart/*
  ./plugins/chartshape/tests/odf/template/*
-Copyright: 
+Copyright:
 License: LGPL-2+
 
 Files: ./sheets/commands/LinkCommand.cpp
@@ -9139,7 +9139,7 @@ License: LGPL
 
 Files: ./krita/plugins/paintops/experiment/kis_experiment_shape_option.h
  ./krita/plugins/paintops/hairy/kis_hairy_ink_option.h
-Copyright: 
+Copyright:
 License: LGPL-2
 
 Files: ./krita/plugins/extensions/dockers/advancedcolorselector/kis_my_paint_shade_selector.cpp
@@ -10814,7 +10814,7 @@ Copyright: 2007-2008 Atomic Labs Inc. (http://www.atomiclabs.com)
 License: BSL-1.0
 
 Files: ./krita/plugins/extensions/gmic/CImg.h
-Copyright: 
+Copyright:
 License: CeCILL
 
 Files: ./plugins/colorengines/lcms2/compositeops/RgbCompositeOps.h
@@ -10823,7 +10823,7 @@ Copyright: 2002 GraphicsMagick Group an organization dedicated
 License: GPL LGPL-2+
 
 Files: ./plan/plugins/schedulers/tj/taskjuggler/Shift.h
-Copyright: 2001-2006 
+Copyright: 2001-2006
 License: GPL-2
 
 Files: ./plan/plugins/schedulers/tj/taskjuggler/Interval.cpp
@@ -10846,7 +10846,7 @@ Copyright: 2011 Shantanu Tushar <shaan7in@gmail.com>
 License: GPL-2+
 
 Files: ./krita/image/kis_rect_mask_generator.cpp
-Copyright: 
+Copyright:
 License: GPL-2+
 
 Files: ./krita/plugins/tools/selectiontools/kis_tool_select_magnetic.h
@@ -11502,7 +11502,7 @@ Copyright: 2014 Wojciech Kosowicz <pcellix@gmail.com>
 License: GPL-2+
 
 Files: ./krita/ui/kis_statusbar.h
-Copyright: 
+Copyright:
 License: GPL-2+
 
 Files: ./libs/kopageapp/tests/TestPAPageMoveCommand.cpp
@@ -11800,7 +11800,7 @@ Copyright: 2007, 2012 Dag Andersen <danders@get2net.dk>
 License: LGPL-2+
 
 Files: ./libs/vectorimage/libwmf/WmfStructs.h
-Copyright: 
+Copyright:
 License: LGPL-2+
 
 Files: ./plugins/formulashape/Dictionary.cpp
@@ -14237,7 +14237,7 @@ Copyright: 2008-2009 Hyves (Startphone Ltd.)
 License: MPL-1.1 GPL GPL-2+
 
 Files: ./kexi/migration/mdb/src/mdbtools/libmdb/dump.c
-Copyright: 
+Copyright:
 License: LGPL-2+
 
 Files: ./filters/words/msword-odf/paragraph.h
@@ -14848,7 +14848,7 @@ License: MPL-2.0
      means any form of the work other than Source Code Form.
  .
  1.7. "Larger Work"
-     means a work that combines Covered Software with other material, in 
+     means a work that combines Covered Software with other material, in
      a separate file or files, that is not Covered Software.
  .
  1.8. "License"
@@ -15315,7 +15315,7 @@ License: CeCILL
  The purpose of the Agreement is the grant by the Licensor to the
  Licensee of a non-exclusive, transferable and worldwide license for the
  Software as set forth in Article 5 hereinafter for the whole term of the
- protection granted by the rights over said Software. 
+ protection granted by the rights over said Software.
  .
  .
      Article 3 - ACCEPTANCE
@@ -15582,7 +15582,7 @@ License: CeCILL
  .
  9.3 The Licensee acknowledges that the Software is supplied "as is" by
  the Licensor without any other express or tacit warranty, other than
- that provided for in Article 9.2 and, in particular, without any warranty 
+ that provided for in Article 9.2 and, in particular, without any warranty
  as to its commercial value, its secured, safe, innovative or relevant
  nature.
  .

@@ -1,9 +1,9 @@
+##usr/lib/kde4/planconvert/PlanConvert.jar
 usr/bin/calligraplan
 usr/bin/calligraplanwork
 usr/lib/kde4/calligra_filter_mpxj2plan.so
 usr/lib/kde4/kplatorcpsscheduler.so
 usr/lib/kde4/krossmoduleplan.so
-##usr/lib/kde4/planconvert/PlanConvert.jar
 usr/lib/kde4/planicalexport.so
 usr/lib/kde4/plankplatoimport.so
 usr/lib/kde4/planpart.so
@@ -19,7 +19,7 @@ usr/lib/libplanprivate.so.1*
 usr/lib/libplanworkapp.so.1*
 usr/lib/libplanworkfactory.so.1*
 usr/lib/librcps_plan.so.1*
-usr/share/appdata/plan.appdata.xml 
+usr/share/appdata/plan.appdata.xml
 usr/share/applications/kde4/plan.desktop
 usr/share/applications/kde4/planwork.desktop
 usr/share/icons/hicolor/*/apps/calligraplan.png

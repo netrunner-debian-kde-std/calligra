@@ -1,3 +1,5 @@
+#usr/lib/kde4/sheetspivottables.so
+#usr/share/kde4/services/sheetspivottables.desktop
 usr/bin/calligrasheets
 usr/lib/kde4/calligra_filter_applixspread2kspread.so
 usr/lib/kde4/calligra_filter_csv2sheets.so
@@ -31,7 +33,6 @@ usr/lib/kde4/kspreadreferencemodule.so
 usr/lib/kde4/kspreadstatisticalmodule.so
 usr/lib/kde4/kspreadtextmodule.so
 usr/lib/kde4/kspreadtrigonometrymodule.so
-#usr/lib/kde4/sheetspivottables.so
 usr/lib/kde4/sheetssolver.so
 usr/lib/libcalligrasheetscommon.so.1*
 usr/lib/libcalligrasheetsodf.so.1*
@@ -76,13 +77,12 @@ usr/share/kde4/services/calligra/kspreadreferencemodule.desktop
 usr/share/kde4/services/calligra/kspreadstatisticalmodule.desktop
 usr/share/kde4/services/calligra/kspreadtextmodule.desktop
 usr/share/kde4/services/calligra/kspreadtrigonometrymodule.desktop
+usr/share/kde4/services/calligra/sheetspart.desktop
+usr/share/kde4/services/calligra/sheetsscripting.desktop
+usr/share/kde4/services/calligra/sheetssolver.desktop
 usr/share/kde4/services/sheets_excel_thumbnail.desktop
 usr/share/kde4/services/sheets_ods_thumbnail.desktop
 usr/share/kde4/services/sheets_xlsx_thumbnail.desktop
-usr/share/kde4/services/calligra/sheetspart.desktop
-#usr/share/kde4/services/sheetspivottables.desktop
-usr/share/kde4/services/calligra/sheetsscripting.desktop
-usr/share/kde4/services/calligra/sheetssolver.desktop
 usr/share/kde4/servicetypes/sheets_plugin.desktop
 usr/share/kde4/servicetypes/sheets_viewplugin.desktop
 usr/share/templates/.source/SpreadSheet.ods
