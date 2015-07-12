@@ -1,0 +1,35 @@
+--- calligra-2.8.5+dfsg.orig/cmake/modules/FindLibWps.cmake
++++ calligra-2.8.5+dfsg/cmake/modules/FindLibWps.cmake
+@@ -10,16 +10,16 @@
+ 
+ include(LibFindMacros)
+ libfind_package(LIBWPS LibWpd)
+-libfind_pkg_check_modules(LIBWPS_PKGCONF libwps-0.3)
++libfind_pkg_check_modules(LIBWPS_PKGCONF libwps-0.4)
+ 
+ find_path(LIBWPS_INCLUDE_DIR
+     NAMES libwps/libwps.h
+     HINTS ${LIBWPS_PKGCONF_INCLUDE_DIRS} ${LIBWPS_PKGCONF_INCLUDEDIR}
+-    PATH_SUFFIXES libwps-0.3
++    PATH_SUFFIXES libwps-0.4
+ )
+ 
+ find_library(LIBWPS_LIBRARY
+-    NAMES wps wps-0.3
++    NAMES wps wps-0.4
+     HINTS ${LIBWPS_PKGCONF_LIBRARY_DIRS} ${LIBWPS_PKGCONF_LIBDIR}
+ )
+ 
+--- calligra-2.8.5+dfsg.orig/filters/words/works/import/WPSImport.cpp
++++ calligra-2.8.5+dfsg/filters/words/works/import/WPSImport.cpp
+@@ -43,7 +43,9 @@ private:
+     bool _isSupportedFormat(librevenge::RVNGInputStream *input, const char * /* password */)
+     {
+         libwps::WPSKind kind = libwps::WPS_TEXT;
+-        libwps::WPSConfidence confidence = libwps::WPSDocument::isFileFormatSupported(input, kind);
++        libwps::WPSCreator creator;
++        bool needsEncoding = false;
++        libwps::WPSConfidence confidence = libwps::WPSDocument::isFileFormatSupported(input, kind, creator, needsEncoding);
+         if ((libwps::WPS_TEXT != kind) || (confidence != libwps::WPS_CONFIDENCE_EXCELLENT))
+         {
+             fprintf(stderr, "ERROR: We have no confidence that you are giving us a valid Microsoft Works document.\n");
