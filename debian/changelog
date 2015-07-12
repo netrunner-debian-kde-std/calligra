@@ -54,6 +54,21 @@ calligra (1:2.9.5+dfsg-1) UNRELEASED; urgency=low
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 14 Sep 2014 19:03:51 +0200
 
+calligra (1:2.8.5+dfsg-1.2) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * oops, actually bump libwps build-dep to >= 0.4...
+
+ -- Rene Engelhard <rene@debian.org>  Sun, 21 Jun 2015 08:38:24 +0200
+
+calligra (1:2.8.5+dfsg-1.1) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * build against libwps 0.4.0 (closes: #788969)
+  * add missing libetonyek-dev build-dependency
+
+ -- Rene Engelhard <rene@debian.org>  Tue, 16 Jun 2015 23:10:07 +0200
+
 calligra (1:2.8.5+dfsg-1) unstable; urgency=medium
 
   * New upstream release. (Closes: #744291, #748990)
