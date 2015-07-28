@@ -51,6 +51,7 @@ calligra (1:2.9.6+dfsg-1) UNRELEASED; urgency=low
   [ Adrien Grellier ]
   * new build dependency: libetonyek
   * install files has been forgotten
+  * new binary package: okular-backend-odt 
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 14 Sep 2014 19:03:51 +0200
 

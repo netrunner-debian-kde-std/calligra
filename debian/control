@@ -582,6 +582,20 @@ Description: Okular backend for ODP documents
  .
  This package is part of the Calligra Suite.
 
+Package: okular-backend-odt
+Architecture: any
+Section: graphics
+Depends: calligra-libs (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
+Recommends: okular
+Enhances: okular
+Description: Okular backend for ODT documents
+ This package provides a backend for Okular to view OpenDocument Text
+ (ODT) documents, but also DOC, DOCX and WPD documents.
+ .
+ This package is part of the Calligra Suite.
+
 Package: calligra-dbg
 Section: debug
 Architecture: any
