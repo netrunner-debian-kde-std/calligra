@@ -11,9 +11,11 @@ usr/lib/kde4/plugins/imageformats/kimg_kra.so
 usr/lib/kde4/plugins/imageformats/kimg_ora.so
 usr/lib/libkritacolor.so.1*
 usr/lib/libkritacolord.so
+usr/lib/libkritaglobal.so.1*
 usr/lib/libkritaimage.so.1*
 usr/lib/libkritalibbrush.so.1*
 usr/lib/libkritalibpaintop.so.1*
+usr/lib/libkritapsd.so.1*
 usr/lib/libkritaui.so.1*
 usr/share/applications/kde4/krita.desktop
 usr/share/applications/kde4/krita_bmp.desktop

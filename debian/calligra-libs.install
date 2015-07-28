@@ -3,6 +3,9 @@ usr/bin/calligraconverter
 usr/bin/kexi_sqlite3_dump
 usr/lib/kde4/calligra_device_spacenavigator.so
 usr/lib/kde4/calligra_docker_defaults.so
+usr/lib/kde4/calligra_filter_key2odp.so
+usr/lib/kde4/calligra_filter_odt2docx.so
+usr/lib/kde4/calligra_filter_odt2wiki.so
 usr/lib/kde4/calligra_shape_artistictext.so
 usr/lib/kde4/calligra_shape_chart.so
 usr/lib/kde4/calligra_shape_formular.so
@@ -29,6 +32,7 @@ usr/lib/kde4/kexidb_sqlite3driver.so
 usr/lib/kde4/kolcmsengine.so
 usr/lib/kde4/kopabackgroundtool.so
 usr/lib/kde4/koreport_barcodeplugin.so
+usr/lib/kde4/koreport_chartplugin.so
 usr/lib/libbasicflakes.so.1*
 usr/lib/libcalligradb.so.1*
 usr/lib/libcalligrakdchart.so.1*
@@ -51,6 +55,4 @@ usr/lib/libkovectorimage.so.1*
 usr/lib/libkowidgets.so.1*
 usr/lib/libkowidgetutils.so.1*
 usr/lib/libkundo2.so.1*
-usr/lib/liblibglobal.so.1*
-usr/lib/liblibkispsd.so.1*
 usr/lib/libpigmentcms.so.1*
