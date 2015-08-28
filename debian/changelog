@@ -53,7 +53,11 @@ calligra (1:2.9.6+dfsg-1) UNRELEASED; urgency=low
   * install files has been forgotten
   * new binary package: okular-backend-odt 
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 14 Sep 2014 19:03:51 +0200
+  [ Scott Kitterman ]
+  * Add libsoprano-dev to build-depends since it is no longer transitively
+    pulled in
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 28 Aug 2015 15:13:04 -0400
 
 calligra (1:2.8.5+dfsg-1.2) unstable; urgency=medium
 
