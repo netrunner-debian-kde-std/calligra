@@ -51,7 +51,9 @@ calligra (1:2.9.6+dfsg-1) UNRELEASED; urgency=low
   [ Adrien Grellier ]
   * new build dependency: libetonyek
   * install files has been forgotten
-  * new binary package: okular-backend-odt 
+  * new binary packages:
+     - okular-backend-odt
+     - calligra-gemini
 
   [ Scott Kitterman ]
   * Add libsoprano-dev to build-depends since it is no longer transitively

@@ -652,3 +652,15 @@ Description: fusion between Krita Sketch and Krita Desktop
  See the krita package for further information.
  .
  This package is part of the Calligra Suite.
+
+Package: calligra-gemini
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Homepage: https://www.calligra.org/gemini/
+Description: unified interface for stage and words
+ Calligra Gemini provide a unified applications which combines
+ traditionnal desktop application and touch friendly interface for
+ the Words and Stage components.
+ .
+ This package is part of the Calligra Suite.
+

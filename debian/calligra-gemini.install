@@ -1,0 +1,9 @@
+usr/bin/calligragemini
+usr/bin/calligrageminithumbnailhelper
+usr/lib/x86_64-linux-gnu/calligra/imports/Calligra/Gemini/
+usr/lib/x86_64-linux-gnu/calligra/imports/org/calligra/CalligraComponents/libcalligraqtquickcomponentsplugin.so
+usr/lib/x86_64-linux-gnu/calligra/imports/org/calligra/CalligraComponents/qmldir
+usr/share/applications/kde4/calligragemini.desktop
+usr/share/icons/hicolor/*/apps/calligragemini.png
+usr/share/kde4/apps/calligragemini/
+
