@@ -8,7 +8,6 @@ usr/lib/kde4/kexihandler_script.so
 usr/lib/kde4/kexihandler_table.so
 usr/lib/kde4/keximigrate_mdb.so
 usr/lib/kde4/keximigrate_txt.so
-usr/lib/kde4/kexirelationdesignshape.so
 usr/lib/kde4/kformdesigner_containers.so
 usr/lib/kde4/kformdesigner_kexidbwidgets.so
 usr/lib/kde4/kformdesigner_stdwidgets.so
@@ -30,7 +29,6 @@ usr/share/applications/kde4/kexi.desktop
 usr/share/kde4/services/calligra
 usr/share/kde4/services/calligra/keximigrate_mdb.desktop
 usr/share/kde4/services/calligra/keximigrate_txt.desktop
-usr/share/kde4/services/calligra/kexirelationdesignshape.desktop
 usr/share/kde4/services/calligra/kformdesigner_containers.desktop
 usr/share/kde4/services/calligra/kformdesigner_kexidbfactory.desktop
 usr/share/kde4/services/calligra/kformdesigner_stdwidgets.desktop
