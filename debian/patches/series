@@ -4,6 +4,7 @@ cmake-xbase64.patch
 filter_registry_not_a_singleton.patch
 imports_search_path.patch
 libwps-0.4.patch
+no-planconvert-jar.patch
 #channelFlags_logic_change.patch
 #cmake-do_not_install_removed_files.patch
 ##tests-disable_convolution_failling_tests.patch
