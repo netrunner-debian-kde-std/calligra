@@ -627,18 +627,6 @@ Description: Authoring tool for the Calligra Suite
  .
  This package is part of the Calligra Suite.
 
-Package: krita-sketch
-Architecture: any
-Section: graphics
-Depends: krita (= ${binary:Version}), ${misc:Depends}, ${shlibs:Depends}
-Homepage: http://www.calligra.org/krita/
-Description: touch-friendly version of krita
- This package contains the touch-friendly version of krita.
- .
- See the krita package for further information.
- .
- This package is part of the Calligra Suite.
-
 Package: krita-gemini
 Section: oldlibs
 Priority: extra
