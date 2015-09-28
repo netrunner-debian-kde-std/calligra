@@ -16,7 +16,6 @@ usr/lib/libkoversion.so.1*
 usr/lib/libkowv2.so.9
 usr/lib/libkowv2.so.9.0.0
 usr/lib/libwordsprivate.so.1*
-usr/share/appdata/words.appdata.xml
 usr/share/applications/kde4/calligrawords_ascii.desktop
 usr/share/applications/kde4/words.desktop
 usr/share/kde4/services/ServiceMenus/calligra/words_print.desktop
