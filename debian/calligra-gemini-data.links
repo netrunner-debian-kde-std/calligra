@@ -1,3 +1,4 @@
+## texlive-fonts-extra:
 /usr/share/texlive/texmf-dist/fonts/opentype/adobe/sourcesanspro/SourceSansPro-Black.otf
         /usr/share/kde4/apps/calligragemini/themes/default/fonts/SourceSansPro-Black.otf
 /usr/share/texlive/texmf-dist/fonts/opentype/adobe/sourcesanspro/SourceSansPro-BlackIt.otf
@@ -10,8 +11,8 @@
         /usr/share/kde4/apps/calligragemini/themes/default/fonts/SourceSansPro-ExtraLight.otf
 /usr/share/texlive/texmf-dist/fonts/opentype/adobe/sourcesanspro/SourceSansPro-ExtraLightIt.otf
         /usr/share/kde4/apps/calligragemini/themes/default/fonts/SourceSansPro-ExtraLightIt.otf
-/usr/share/texlive/texmf-dist/fonts/opentype/adobe/sourcesanspro/SourceSansPro-It.otf
-        /usr/share/kde4/apps/calligragemini/themes/default/fonts/SourceSansPro-It.otf
+#/usr/share/texlive/texmf-dist/fonts/opentype/adobe/sourcesanspro/SourceSansPro-It.otf
+#        /usr/share/kde4/apps/calligragemini/themes/default/fonts/SourceSansPro-It.otf
 /usr/share/texlive/texmf-dist/fonts/opentype/adobe/sourcesanspro/SourceSansPro-Light.otf
         /usr/share/kde4/apps/calligragemini/themes/default/fonts/SourceSansPro-Light.otf
 /usr/share/texlive/texmf-dist/fonts/opentype/adobe/sourcesanspro/SourceSansPro-LightIt.otf
