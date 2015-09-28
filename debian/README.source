@@ -24,9 +24,9 @@ The upstream code is not included in Git, but only the debian/ directory.
 The master branch should be for sid, and each Debian release (wheezy, etc.) has
 its own branch.
 
-To prepare a release into Debian, don't forget:
+To prepare a release into Debian, please remember:
 
-- to update the copyright file
+- to compare current and new release tarballs and update the copyright file
 - write every Debian changes in changelog
 - try to fix/address when possible all the lintian warnings
 - be sure about if files has been added or removed
@@ -56,42 +56,6 @@ The localization files of calligra belong to the source package calligra-l10n.
 To package it, just copy each calligra-l10n-LANG.tar.bz2 from the FTP, and then
 run sbuild.
 
-Copyright file
-===============
-
-To update the debian/copyright file:
-
-1. download the lcheck_ script::
-   bzr clone lp:~clint-fewbar/+junk/lcheck
-
-2. execute licensecheck, from CDBS:::
-   licensecheck --copyright -r . | ../../lcheck/licensecheck2dep5 > ./debian/copyright_new
-
-3. fix encoding errors, (some copyrights notices are in latin1 while some are
-   in utf-8), a useful command could be::
-   sed -i 's/\xc3\([^\xa1]\)/é\1/g;
-           s/\xf6\([^\xa1]\)/ö\1/g;
-           s/\xe0\([^\xa1]\)/à\1/g' debian/copyright_new
-
-   Check the result with::
-   iconv -f utf8 -t utf8 debian/copyright
-
-4. Correct the errors (vimdiff is a great help)
-   grep "License: UNKNOWN" debian/copyright_new, and correct it with the current copyright file.
-   (The unknown licence are GPL-2+ according to upstream)
-
-   remove all FIXME (FIRST change the FIXME at the beginning « Upstream-Name » and « Source »
-   (sed -i '/FIXME/d' debian/copyright_new)
-
-   Pay attention to the headers, and whether new licenses has been added.
-
-5. Append the static part (debian/copyright.tail)::
-   cat debian/copyright.tail >> debian/copyright_new
-
-Now you have a debian/copyright_new up-to-date. Check, and double check the
-differences with the debian/copyright file before replacing it.
-
-.. _lcheck: see http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=597861
 
 Man pages
 ==========
@@ -131,6 +95,7 @@ Particularities
  “Regarding this please assume the same license as you use with SQLite3
  since the code is based on a small tool from SQLite3. This is
  basically public domain.”
+
 
 Embedded libs
 ==============
