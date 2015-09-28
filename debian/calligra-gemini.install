@@ -5,4 +5,3 @@ usr/lib/*/calligra/imports/org/calligra/CalligraComponents/libcalligraqtquickcom
 usr/lib/*/calligra/imports/org/calligra/CalligraComponents/qmldir
 usr/share/applications/kde4/calligragemini.desktop
 usr/share/icons/hicolor/*x*/apps/calligragemini.png
-usr/share/kde4/apps/calligragemini
