@@ -651,7 +651,7 @@ Description: unified interface for stage and words
 
 Package: calligra-gemini-data
 Architecture: all
-Depends: ${misc:Depends}
+Depends: ${misc:Depends}, texlive-fonts-extra
 Homepage: https://www.calligra.org/gemini/
 Description: Calligra Gemini - data files
  Calligra Gemini provide a unified applications which combines
