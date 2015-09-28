@@ -64,7 +64,7 @@ Build-Depends: cmake,
                shared-desktop-ontologies,
                shared-mime-info,
                zlib1g-dev
-Standards-Version: 3.9.5
+Standards-Version: 3.9.6
 Homepage: http://www.calligra.org/
 Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-std/calligra.git
 Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/kde-std/calligra.git
