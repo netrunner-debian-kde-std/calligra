@@ -640,19 +640,14 @@ Description: touch-friendly version of krita
  This package is part of the Calligra Suite.
 
 Package: krita-gemini
+Section: oldlibs
+Priority: extra
 Architecture: any
-Section: graphics
-Depends: krita-sketch (= ${binary:Version}), ${misc:Depends}, ${shlibs:Depends}
+Depends: calligra-gemini (= ${binary:Version}), ${misc:Depends}, ${shlibs:Depends}
 Homepage: http://www.calligra.org/krita/
-Description: fusion between Krita Sketch and Krita Desktop
- Krita Gemini is a fusion between Krita Sketch and Krita Desktop:
- Krita Gemini switches seamlessly between the full-featured
- desktop/notebook user interface and the sketch interface,
- which is optimized for tablets.
- .
- See the krita package for further information.
- .
- This package is part of the Calligra Suite.
+Description: transitional package, replaced with "calligra-gemini"
+ This is a transitional package to aid migration to "calligra-gemini".
+ This package is safe to remove.
 
 Package: calligra-gemini
 Architecture: any
@@ -668,10 +663,9 @@ Description: unified interface for stage and words
 
 Package: calligra-gemini-data
 Architecture: all
-Section: graphics
 Depends: ${misc:Depends}
 Homepage: https://www.calligra.org/gemini/
-Description: Calligra Gemini  -- data files
+Description: Calligra Gemini - data files
  Calligra Gemini provide a unified applications which combines
  traditionnal desktop application and touch friendly interface for
  the Words and Stage components.

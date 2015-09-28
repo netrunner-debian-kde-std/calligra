@@ -1,7 +1,5 @@
  * add DEP-3 headers to patches.
  * "krita-sketch" disappeared in 2.9.5:
    drop corresponding package(s).
- * "krita-gemini" renamed to "calligragemini"?
-   rename package?
  * install "not installed to anywhere" files.
  * double-check disabled patches in "debian/patches/series".
