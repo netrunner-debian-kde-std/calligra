@@ -12,12 +12,21 @@ calligra (1:2.9.7+dfsg-1) UNRELEASED; urgency=low
     - switch-to-librevenge-based-import-libs.patch
     - upstream_review_120609_pixmapcachesheetview_crash
     + libwps-0.4.patch (Closes: #788969)
+    + no-planconvert-jar.patch
     * patches refreshed, sorted and renamed consistently ending with ".patch".
+  * control:
+    - dropped unnecessary versioned Build-Deps.
+    - dropped "krita-sketch" package.
+    + updated Vcs-Browser URL.
+    + Standards-Version: 3.9.6.
+    + turned "krita-gemini" into transitional package.
   * Build-Depends:
     + libboost-system-dev
     + postgresql-server-dev-9.4
     - libwps-dev (>= 0.3)
     + libwps-dev (>= 0.4)
+    + libgit2-dev
+  * rules: explicitly select QT4 to fix FTBFS.
   * calligra-libs.install:
     + liblibglobal.so.1*
     + liblibkispsd.so.1*
@@ -25,13 +34,19 @@ calligra (1:2.9.7+dfsg-1) UNRELEASED; urgency=low
     + libkoversion.so.1*
   * krita.install:
     + libkritacolor.so.1*
-  * calligraplan: do not install "PlanConvert.jar".
+  * calligraplan: do not install "PlanConvert.jar" + patch.
+  * Gemini:
+    + Use fonts from "texlive-fonts-extra" instead of bundled ones.
+    + Split Gemini arch-indep files into -data package.
   * Updated "package-name-doesnt-match-sonames" lintian-overrides.
   * Added "no-symbols-control-file" lintian-overrides.
   * Converted "debian/prune-nonfree" target to "copyright/Files-Excluded";
     Added "repacksuffix=+dfsg" to "debian/watch".
+  * Copyright: complete rewrite.
   * Files-Excluded:
-    + 3rdparty/google-breakpad/src/client/mac/handler/breakpad_nlist_64.cc
+    + 3rdparty/google-breakpad
+    + filters/libmso/generated/mso.jar
+    + filters/plan/mpxj/planconvert/jar/PlanConvert.jar
   * watch: updated and corrected watch file; added mirrors.
   * Lintianisation:
     - xs-testsuite-header-in-debian-control
