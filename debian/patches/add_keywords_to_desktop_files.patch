@@ -1,6 +1,6 @@
 --- a/kexi/kexi.desktop
 +++ b/kexi/kexi.desktop
-@@ -174,4 +174,5 @@
+@@ -176,4 +176,5 @@
  X-DocPath=kexi/index.html
  X-KDE-NativeMimeType=application/x-kexiproject-sqlite
  X-KDE-NOTKoDocumentEmbeddable=true
@@ -8,7 +8,7 @@
 +Keywords=Database;SQL;Access
 --- a/stage/app/stage.desktop
 +++ b/stage/app/stage.desktop
-@@ -133,4 +133,5 @@
+@@ -135,4 +135,5 @@
  X-DBUS-ServiceName=org.calligra.stage
  X-DocPath=stage/index.html
  X-KDE-StartupNotify=true
@@ -24,7 +24,7 @@
 +Keywords=tablet;mobile;Plasma Active;touch
 --- a/words/part/author/author.desktop
 +++ b/words/part/author/author.desktop
-@@ -105,4 +105,5 @@
+@@ -106,4 +106,5 @@
  X-DBUS-StartupType=Multi
  X-DBUS-ServiceName=org.calligra.author
  Categories=Qt;KDE;Office;
@@ -48,7 +48,7 @@
 +Keywords=Organize;whiteboard;brainstorming
 --- a/sheets/sheets.desktop
 +++ b/sheets/sheets.desktop
-@@ -128,4 +128,5 @@
+@@ -129,4 +129,5 @@
  X-DBUS-ServiceName=org.calligra.sheets
  X-DocPath=sheets/index.html
  X-KDE-StartupNotify=true
@@ -56,7 +56,7 @@
 +Keywords=Spreadsheet;Excel;Calc;xls;xlsx;ods
 --- a/krita/krita.desktop
 +++ b/krita/krita.desktop
-@@ -137,4 +137,5 @@
+@@ -139,4 +139,5 @@
  StartupNotify=true
  X-DBUS-StartupType=Multi
  X-DBUS-ServiceName=org.krita.krita
@@ -64,7 +64,7 @@
 +Keywords=Photo;Photoshop;Paint;art;sketch
 --- a/karbon/data/karbon.desktop
 +++ b/karbon/data/karbon.desktop
-@@ -150,4 +150,5 @@
+@@ -151,4 +151,5 @@
  Comment[x-test]=xxCreate scalable vector drawingsxx
  Comment[zh_CN]=创建可缩放矢量绘图
  Comment[zh_TW]=建立可調整向量圖
@@ -72,7 +72,7 @@
 +Keywords=Vector;Illustration;graphics
 --- a/words/app/words.desktop
 +++ b/words/app/words.desktop
-@@ -137,4 +137,5 @@
+@@ -138,4 +138,5 @@
  X-DBUS-StartupType=Multi
  X-DBUS-ServiceName=org.calligra.words
  Categories=Qt;KDE;Office;
@@ -80,7 +80,7 @@
 +Keywords=Text;Word;odt;doc;docx
 --- a/plan/plan.desktop
 +++ b/plan/plan.desktop
-@@ -104,4 +104,5 @@
+@@ -106,4 +106,5 @@
  X-KDE-NativeMimeType=application/x-vnd.kde.plan
  X-DocPath=http://userbase.kde.org/Plan/Manual
  Categories=Qt;KDE;Office;
@@ -88,7 +88,7 @@
 +Keywords=Organization;Project;Gantt;Management;
 --- a/plan/workpackage/planwork.desktop
 +++ b/plan/workpackage/planwork.desktop
-@@ -97,4 +97,5 @@
+@@ -99,4 +99,5 @@
  X-KDE-ServiceTypes=Calligra/Application
  Categories=Qt;KDE;Office;
  X-KDE-StartupNotify=true
