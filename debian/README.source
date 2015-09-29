@@ -16,6 +16,16 @@ tarball as per "debian/watch" file and removes "Files-Excluded" as per
 "debian/copyright".
 
 
+Not-installed
+=============
+
+# fonts already in fonts-lyx package
+./usr/share/kde4/apps/formulashape/fonts/cmex10.ttf
+
+# add dependency on karbon, words and sheets to calligra-libs; too generic
+./usr/bin/cstester
+./usr/bin/cstrunner
+
 
 Debian Packaging
 =================
