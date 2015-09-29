@@ -4,4 +4,3 @@
 # add dependency on karbon, words and sheets to calligra-libs; too generic
 ./usr/bin/cstester
 ./usr/bin/cstrunner
-./usr/bin/visualimagecompare

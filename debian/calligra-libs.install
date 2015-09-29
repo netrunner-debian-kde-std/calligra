@@ -1,5 +1,6 @@
 usr/bin/calligra
 usr/bin/calligraconverter
+usr/bin/visualimagecompare
 usr/bin/kexi_sqlite3_dump
 usr/lib/kde4/calligra_device_spacenavigator.so
 usr/lib/kde4/calligra_docker_defaults.so

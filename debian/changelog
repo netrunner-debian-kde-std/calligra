@@ -28,6 +28,7 @@ calligra (1:2.9.7+dfsg-1) UNRELEASED; urgency=low
     + libgit2-dev
   * rules: explicitly select QT4 to fix FTBFS.
   * calligra-libs.install:
+    + usr/bin/visualimagecompare
     + liblibglobal.so.1*
     + liblibkispsd.so.1*
   * calligrawords.install:
