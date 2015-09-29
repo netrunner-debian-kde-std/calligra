@@ -11,10 +11,11 @@ It is mainly a reminder for myself, and an help for the newcomers :)
 Howto get the upstream sources?
 ================================
 
-Upstream provide an archive for each release, accessible on the FTP_ of KDE:
+Use `uscan` utility from "devscripts" package. `uscan` downloads upstream
+tarball as per "debian/watch" file and removes "Files-Excluded" as per
+"debian/copyright".
 
 
-.. _FTP: ftp://ftp.kde.org/pub/kde/stable/calligra-latest/
 
 Debian Packaging
 =================
@@ -169,12 +170,11 @@ Dealing with bugs
 
 TODO
 
-Usefull links
+Useful links
 ==============
 
 http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-std/calligra.git;a=summary
 http://packages.qa.debian.org/c/calligra.html
 http://packages.qa.debian.org/c/calligra-l10n.html
-
 
 .. vim:set filetype=rst:
