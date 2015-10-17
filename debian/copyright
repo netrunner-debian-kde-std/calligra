@@ -5,6 +5,7 @@ Files-Excluded:
  filters/libmso/generated/mso.jar
  filters/plan/mpxj/planconvert/jar/PlanConvert.jar
  3rdparty/google-breakpad
+ _TODO__krita/plugins/extensions/gmic/3rdparty/gmic
 
 Files: *
 Copyright:
