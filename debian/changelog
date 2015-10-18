@@ -1,6 +1,6 @@
-calligra (1:2.9.7+dfsg-1) UNRELEASED; urgency=low
+calligra (1:2.9.8+dfsg-1) UNRELEASED; urgency=low
 
-  * New upstream version [September 2015] (Closes: #787033).
+  * New upstream version [October 2015] (Closes: #787033).
 
   [ Dmitry Smirnov ]
   * Added "debian/TODO.Debian".
