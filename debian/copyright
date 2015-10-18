@@ -132,7 +132,7 @@ Copyright:
     2007      Fredrik Höglund <fredrik@kde.org>
     2007-2009 Fredy Yanardi <fyanardi@gmail.com>
     2008      Fredy Yanardi <fyanardi@kde.org>
-    1989,1991,1999 Free Software Foundation, Inc.
+    1989,1991,1999 Free Software Foundation, Inc
     2005      Frerich Raabe <raabe@kde.org>
     2004-2007 Fridrich Strba <fridrich.strba@bluewin.ch>
     2013      Friedrich W. H. Kossebau <friedrich@kogmbh.com>
@@ -242,7 +242,7 @@ Copyright:
     2010      Marc Pegon <pe.marc@free.fr>
     2006-2009 Marco Gulino <marco.gulino@gmail.com>
     2006-2012 Marijn Kruisselbrink <mkruisselbrink@kde.org>
-    2008,2009 Mark Kretschmann <kretschmann@kde.org>
+    2008-2009 Mark Kretschmann <kretschmann@kde.org>
     1998-2001 Marti Maria
     2005      Martin Ellis <kde@martinellis.co.uk>
     2004      Martin Ellis <m.a.ellis@ncl.ac.uk>
@@ -259,7 +259,7 @@ Copyright:
     2010      Matus Talcik <matus.talcik@gmail.com>
     2011-2012 Matus Uzak <matus.uzak@gmail.com>
     2010-2011 Matus Uzak <matus.uzak@ixonos.com>
-    2004,2005 Max Howell <max.howell@methylblue.com>
+    2004-2005 Max Howell <max.howell@methylblue.com>
     2006-2007 Menard Alexis <danders@get2net.dk>
     2003-2005 Meni Livne <livne@kde.org>
     2015      Michael Abrahams <miabraha@gmail.com>
@@ -319,7 +319,7 @@ Copyright:
     2011      Radoslaw Wicik <rockford@wicik.pl>
     2011,2015 Radosław Wicik <radoslaw@wicik.pl>
     2005-2006 Raphael Langerhorst <raphael.langerhorst@kdemail.net>
-    2009      Red Hat, Inc.
+    2009      Red Hat, Inc
     1998-2001 Reginald Stadlbauer <reggie@kde.org>
     2003      Reinhart Geiser <geiseri@kde.org>
     2010      Ricardo Cabello <hello@mrdoob.com>
@@ -350,6 +350,7 @@ Copyright:
     2011      Silvio Heinrich <plassyqweb.de>
     1999-2001,2006 Simon Hausmann <hausmann@kde.org>
     2002      Simon MacMullen <calligra@babysimon.co.uk>
+    1998-2002 Skåne Sjælland Linux User Group
     2011      Smit Patel <smitpatel24@gmail.com>
     2015      Soma Schliszka <soma.schliszka@gmail.com>
     2013      Somsubhra Bairi <somsubhra.bairi@gmail.com>
@@ -366,7 +367,7 @@ Copyright:
     2012      Sujith H <sujith.h@gmail.com>
     2011-2013 Sujith Haridasan <sujith.h@gmail.com>
     2012      Sujith Haridasan <sujith.haridasan@kdemail.net>
-    2000      Sun Microsystems, Inc.
+    2000      Sun Microsystems, Inc
     2010,2012 Sven Langkamp
     2004-2014 Sven Langkamp <sven.langkamp@gmail.com>
     2005-2006 Sven Lüppken <sven@kde.org>
@@ -420,7 +421,7 @@ Copyright:
     2003      the Kexi Team
     2014      the Krita team
     2002      the calligra team <calligra@kde.org>
-    2002,2003 thierry lorthiois
+    2002-2003 thierry lorthiois
 License: GPL-2+__and__LGPL-2+__and__LGPL-2.1__and__LGPL-2.1+
  These files are licensed under a variety of GNU licenses. For details
  check file's headers and corresponding license paragraphs:
@@ -439,22 +440,31 @@ Files:
     krita/plugins/extensions/dockers/historydocker/KisUndoModel.h
     krita/plugins/extensions/dockers/historydocker/KisUndoView.cpp
     krita/plugins/extensions/dockers/historydocker/KisUndoView.h
-    libs/kundo2/kundo2group.cpp
-    libs/kundo2/kundo2group.h
     libs/kundo2/kundo2model.cpp
     libs/kundo2/kundo2model.h
-    libs/kundo2/kundo2stack.cpp
-    libs/kundo2/kundo2stack.h
-    libs/kundo2/kundo2stack_p.h
     libs/kundo2/kundo2view.cpp
     libs/kundo2/kundo2view.h
 Copyright:
-    2014      Dmitry Kazakov <dimula73@gmail.com>
     2010      Matus Talcik <matus.talcik@gmail.com>
+    2010      Nokia Corporation and/or its subsidiary(-ies)
+License: LGPL-2+ or LGPL-2.1 and exception-LGPL-Nokia-QT-1.1
+
+Files:
+    libs/kundo2/kundo2group.cpp
+    libs/kundo2/kundo2group.h
+    libs/kundo2/kundo2stack_p.h
+Copyright:
+    2011      Nokia Corporation and/or its subsidiary(-ies)
+License: LGPL-2.1 and exception-LGPL-Nokia-QT-1.1
+
+Files:
+    libs/kundo2/kundo2stack.cpp
+    libs/kundo2/kundo2stack.h
+Copyright:
+    2014      Dmitry Kazakov <dimula73@gmail.com>
     2014      Mohit Goyal <mohit.bits2011@gmail.com>
-    2010-2011 Nokia Corporation and/or its subsidiary(-ies)
-License: LGPL-2.1
-Comment: alternatively can be under non-commercial license.
+    2011      Nokia Corporation and/or its subsidiary(-ies)
+License: LGPL-2.1+ and exception-LGPL-Nokia-QT-1.1
 
 Files:
     filters/words/rtf/import/3rdparty/rtf-qt/src/controlword.cpp
@@ -532,7 +542,7 @@ Files:
     plugins/formulashape/fonts/LICENSE.BAKOMA
     plugins/formulashape/fonts/cmex10.ttf
 Copyright:
-    1994,1995 Basil K. Malyshev
+    1994-1995 Basil K. Malyshev
 License: Bakoma
 Comment: "fonts-lyx"
 
@@ -546,7 +556,7 @@ License: Bitstream-Arev
 Files:
     plugins/formulashape/fonts/LICENSE.BITSTREAM
 Copyright:
-    2003      Bitstream, Inc.
+    2003      Bitstream, Inc
 License: Bitstream-Vera
 
 Files:
@@ -569,11 +579,16 @@ Copyright:
 License: CC-BY-SA-3.0
 
 Files:
+    braindump/data/braindump.appdata.xml
+    flow/part/flow.appdata.xml
+    karbon/data/karbon.appdata.xml
+    kexi/kexi.appdata.xml
     krita/data/paintoppresets/Ink_gpen_10.kpp
     krita/data/paintoppresets/Tangent_normal_basic.kpp
     krita/data/paintoppresets/Tangent_normal_drawing_angle.kpp
     krita/data/paintoppresets/Tangent_normal_pixel.kpp
     krita/data/paintoppresets/Tangent_normal_y_inverted.kpp
+    krita/krita.appdata.xml
     krita/plugins/paintops/tangentnormal/krita-tangentnormal-preview.png
     krita/plugins/tools/selectiontools/tool_contiguous_selection_cursor_add.png
     krita/plugins/tools/selectiontools/tool_contiguous_selection_cursor_sub.png
@@ -588,6 +603,10 @@ Files:
     krita/plugins/tools/selectiontools/tool_rectangular_selection_cursor_sub.png
     krita/plugins/tools/selectiontools/tool_similar_selection_cursor_add.png
     krita/plugins/tools/selectiontools/tool_similar_selection_cursor_sub.png
+    plan/plan.appdata.xml
+    sheets/sheets.appdata.xml
+    stage/app/stage.appdata.xml
+    words/app/words.appdata.xml
 Copyright:
     Not-Applicable
 License: CC0-1.0
@@ -656,7 +675,7 @@ License: CeCILL-C or CeCILL-2.0
 
 Files:
     kexi/tests/widgets/kexidbdrivercombotest.cpp
-    krita/plugins/formats/jpeg/3rdparty/*
+    krita/plugins/formats/jpeg/3rdparty/lcms/*
     krita/sketch/draganddrop/DeclarativeDragArea.cpp
     krita/sketch/draganddrop/DeclarativeDragArea.h
     krita/sketch/draganddrop/DeclarativeDragDropEvent.cpp
@@ -667,7 +686,7 @@ Files:
     krita/sketch/draganddrop/DeclarativeMimeData.h
     krita/sketch/draganddrop/draganddropplugin.cpp
     krita/sketch/draganddrop/draganddropplugin.h
-    sheets/3rdparty/*
+    sheets/3rdparty/mdds/*
     sheets/plugins/calendar/CalendarToolWidget.cpp
     sheets/plugins/calendar/CalendarToolWidget.h
 Copyright:
@@ -760,7 +779,8 @@ License: GPL-2 or GPL-3+KDE
 Files:
     3rdparty/kdgantt/*
     3rdparty/kdganttpatches/*
-Copyright: 2001-2011 Klarälvdalens Datakonsult AB.
+Copyright:
+    2001-2006 Klarälvdalens Datakonsult AB
 License: GPL-2 or GPL-3+KDGantt
 Comment:
  Alternatively you may (at your option) use any later version of the GNU
@@ -789,22 +809,10 @@ Copyright:
     2004      Christian Muehlhaeuser <chris@chris.de>
     2005      Gabor Lehel <illissius@gmail.com>
     2003      Laur Ivan <laurivan@eircom.net>
-    2008,2009 Mark Kretschmann <kretschmann@kde.org>
-    2004,2005 Max Howell <max.howell@methylblue.com>
+    2008-2009 Mark Kretschmann <kretschmann@kde.org>
+    2004-2005 Max Howell <max.howell@methylblue.com>
     2004-2006 Seb Ruiz <ruiz@kde.org>
 License: GPL-2+ and LGPL-2
-
-Files:
-    libs/kotext/kohyphen/hnjalloc.c
-    libs/kotext/kohyphen/hnjalloc.h
-    libs/kotext/kohyphen/hyphen.c
-    libs/kotext/kohyphen/hyphen.h
-Copyright:
-    2001      ALTLinux, Moscow
-    2001      ALTLinux, Moscow (http://www.alt-linux.org)
-    2001      Peter Novodvorsky <nidd@cs.msu.su>
-    1998      Raph Levien
-License: LGPL-2+ or MPL-1.0
 
 Files:
     plugins/textediting/thesaurus/extract.pl
@@ -1205,6 +1213,18 @@ Copyright:
 License: LGPL-2 or LGPL-3+KDE
 
 Files:
+    libs/kotext/kohyphen/hnjalloc.c
+    libs/kotext/kohyphen/hnjalloc.h
+    libs/kotext/kohyphen/hyphen.c
+    libs/kotext/kohyphen/hyphen.h
+Copyright:
+    2001      ALTLinux, Moscow
+    2001      ALTLinux, Moscow (http://www.alt-linux.org)
+    2001      Peter Novodvorsky <nidd@cs.msu.su>
+    1998      Raph Levien
+License: LGPL-2+ or MPL-1.0
+
+Files:
     sheets/plugins/scripting/scripts/consoledocker.py
     sheets/plugins/scripting/scripts/csvexport.py
     sheets/plugins/scripting/scripts/csvimport.py
@@ -1219,6 +1239,19 @@ Files:
 Copyright:
     2006-2007 Sebastian Sauer <mail@dipe.org>
 License: LGPL-2+ or BSD-3-Clause
+
+Files:
+    kexi/kexiutils/completer/KexiCompleter.cpp
+    kexi/kexiutils/completer/KexiCompleter.h
+    kexi/kexiutils/completer/KexiCompleter_p.h
+    kexi/kexiutils/completer/private/*
+    krita/sketch/NetworkAccessManager.cpp
+    krita/sketch/NetworkAccessManager.h
+    krita/sketch/models/MultiFeedRSSModel.cpp
+    krita/sketch/models/MultiFeedRSSModel.h
+Copyright:
+    2011      Nokia Corporation and/or its subsidiary(-ies)
+License: LGPL-2.1 and exception-LGPL-Nokia-QT-1.1
 
 Files:
     krita/ui/qtlockedfile/qtlockedfile.cpp
@@ -5413,4 +5446,32 @@ License: XML-Schema
  holders make no representation about the suitability of the DTD for
  any purpose. It is provided "as is" without expressed or implied
  warranty.
+
+License: exception-LGPL-Nokia-QT-1.1
+ As an additional permission to the GNU Lesser General Public License
+ version 2.1, the object code form of a ""work that uses the Library"" may
+ incorporate material from a header file that is part of the Library. You
+ may distribute such object code under terms of your choice, provided that:
+ ․
+ (i) the header files of the Library have not been modified; and
+ ․
+ (ii) the incorporated material is limited to numerical parameters, data
+ structure layouts, accessors, macros, inline functions and templates; and
+ ․
+ (iii) you comply with the terms of Section 6 of the GNU Lesser General
+ Public License version 2.1.
+ ․
+ Moreover, you may apply this exception to a modified version of the
+ Library, provided that such modification does not involve copying material
+ from the Library into the modified Library's header files unless such
+ material is limited to
+ ․
+ (i) numerical parameters;
+ (ii) data structure layouts;
+ (iii) accessors; and
+ (iv) small macros, templates and inline functions of five lines or less in
+ length.
+ ․
+ Furthermore, you are not required to apply this additional permission to a
+ modified version of the Library.
 
