@@ -1,2 +1,1 @@
-no-symbols-control-file *
-package-name-doesnt-match-sonames *
+calligraflow: package-name-doesnt-match-sonames libflowprivate13

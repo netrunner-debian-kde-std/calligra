@@ -1,2 +1,3 @@
-no-symbols-control-file *
-package-name-doesnt-match-sonames *
+krita: package-name-doesnt-match-sonames libkritaimage13 libkritalibbrush13 libkritalibpaintop13 libkritaui13
+
+krita: binary-without-manpage usr/bin/gmicparser

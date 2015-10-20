@@ -1,8 +1,0 @@
-#usr/bin/kritasketch
-#usr/lib/*/calligra/imports/org/krita/sketch/
-#usr/lib/libkritasketchlib.so.1*
-#usr/share/applications/kde4/kritasketch.desktop
-#usr/share/kde4/config/kritasketchpanelsrc
-#usr/share/kde4/config/kritasketchrc
-usr/share/icons/hicolor/*/apps/kritasketch.png
-usr/share/kde4/apps/kritasketch/

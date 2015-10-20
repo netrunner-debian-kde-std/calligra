@@ -1,2 +1,1 @@
-no-symbols-control-file *
-package-name-doesnt-match-sonames *
+karbon: package-name-doesnt-match-sonames libkarboncommon13 libkarbonui13

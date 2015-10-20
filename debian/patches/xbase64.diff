@@ -1,0 +1,76 @@
+Description: xbase2 is unsupported upstream for years, there is a newer version from 2007,xbase64 which is now in unstable.  Please either build-depend on the new version, or drop the xbase support, so that the very old libxbase2.0 can be removed from unstable.
+the libxbase removal request is filed as #746226.
+Forwarded: not-needed
+Origin: vendor, http://bugs.debian.org/cgi-bin/bugreport.cgi?msg=80;bug=746226
+Bug-Debian: http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=746227
+Author: Matthias Klose <doko <at> debian.org>
+Author: Scarlett Clark <sgclark <at> kubuntu.org>
+========================================================================================
+
+Index: calligra-2.9.2/cmake/modules/FindXBase.cmake
+===================================================================
+--- calligra-2.9.2.orig/cmake/modules/FindXBase.cmake
++++ calligra-2.9.2/cmake/modules/FindXBase.cmake
+@@ -13,11 +13,11 @@ if (XBase_INCLUDE_DIR AND XBase_LIBRARIE
+ 
+ else ()
+ 
+-       find_path(XBase_INCLUDE_DIR NAMES xbase.h
+-        PATHS /usr/include/xbase /usr/local/include/xbase
++       find_path(XBase_INCLUDE_DIR NAMES xbase64.h
++        PATHS /usr/include/xbase64 /usr/local/include/xbase
+        )
+ 
+-       find_library(XBase_LIBRARIES NAMES xbase )
++       find_library(XBase_LIBRARIES NAMES xbase64 )
+ 
+        include(FindPackageHandleStandardArgs)
+        find_package_handle_standard_args(XBase DEFAULT_MSG XBase_INCLUDE_DIR XBase_LIBRARIES )
+Index: calligra-2.9.2/kexi/kexidb/drivers/xbase/xbaseexport.cpp
+===================================================================
+--- calligra-2.9.2.orig/kexi/kexidb/drivers/xbase/xbaseexport.cpp
++++ calligra-2.9.2/kexi/kexidb/drivers/xbase/xbaseexport.cpp
+@@ -33,7 +33,7 @@
+ 
+ #include <cstring>
+ 
+-#include "xbase.h"
++#include "xbase64.h"
+ 
+ using namespace KexiDB;
+ 
+Index: calligra-2.9.2/kexi/migration/xbase/xbasemigrate.h
+===================================================================
+--- calligra-2.9.2.orig/kexi/migration/xbase/xbasemigrate.h
++++ calligra-2.9.2/kexi/migration/xbase/xbasemigrate.h
+@@ -23,7 +23,7 @@
+ #include <QHash>
+ 
+ #include <migration/keximigrate.h>
+-#include "xbase.h"
++#include "xbase64.h"
+ 
+ namespace KexiMigration
+ {
+Index: calligra-2.9.2/kexi/migration/xbase/xbasemigrate.cpp
+===================================================================
+--- calligra-2.9.2.orig/kexi/migration/xbase/xbasemigrate.cpp
++++ calligra-2.9.2/kexi/migration/xbase/xbasemigrate.cpp
+@@ -254,7 +254,7 @@ bool xBaseMigrate::drv_copyTable(const Q
+           memoBuffer = new char[blobFieldLength];
+ 
+           #ifdef XB_LOCKING_ON
+-            tableDbf->LockMemoFile( F_SETLK, F_RDLCK );
++            // tableDbf->LockMemoFile( F_SETLK, F_RDLCK );
+           #endif
+ 
+           if ( ( returnCode = tableDbf->GetMemoField( j , blobFieldLength, memoBuffer, F_SETLKW ) ) != XB_NO_ERROR ) {
+@@ -263,7 +263,7 @@ bool xBaseMigrate::drv_copyTable(const Q
+             val = KexiDB::cstringToVariant( memoBuffer, fieldsExpanded.at(j)->field, blobFieldLength );
+           }
+           #ifdef XB_LOCKING_ON
+-            tableDbf->LockMemoFile( F_SETLK, F_UNLCK );
++            // tableDbf->LockMemoFile( F_SETLK, F_UNLCK );
+           #endif
+ 
+           break;

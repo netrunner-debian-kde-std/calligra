@@ -1,0 +1,17 @@
+usr/lib/calligra/imports/org/krita/draganddrop/libdraganddropplugin.so
+usr/lib/calligra/imports/org/krita/draganddrop/qmldir
+usr/lib/calligra/imports/org/krita/sketch/
+usr/lib/libkritasketchlib.so.14
+usr/lib/libkritasketchlib.so.14.0.0
+usr/lib/x86_64-linux-gnu/libkritasketchlib.so.14
+usr/lib/x86_64-linux-gnu/libkritasketchlib.so.14.0.0
+usr/share/icons/hicolor/128x128/apps/kritasketch.png
+usr/share/icons/hicolor/16x16/apps/kritasketch.png
+usr/share/icons/hicolor/22x22/apps/kritasketch.png
+usr/share/icons/hicolor/256x256/apps/kritasketch.png
+usr/share/icons/hicolor/32x32/apps/kritasketch.png
+usr/share/icons/hicolor/48x48/apps/kritasketch.png
+usr/share/icons/hicolor/64x64/apps/kritasketch.png
+usr/share/kde4/apps/kritasketch
+usr/share/kde4/config/kritasketchpanelsrc
+usr/share/kde4/config/kritasketchrc

@@ -1,207 +1,527 @@
-calligra (1:2.9.8+dfsg-1) UNRELEASED; urgency=low
+calligra (1:2.9.7-0ubuntu1) wily; urgency=medium
 
-  * New upstream version [October 2015] (Closes: #787033).
+  * New upstream release
 
-  [ Dmitry Smirnov ]
-  * Added "debian/TODO.Debian".
-  * Patchworks:
-    - eigen3.patch
-    - eigen3_in_tests
-    - install_images_in_datadir
-    - kisjpegtest_call_kisexiv2_initialize
-    - switch-to-librevenge-based-import-libs.patch
-    - upstream_review_120609_pixmapcachesheetview_crash
-    + libwps-0.4.patch (Closes: #788969)
-    + no-planconvert-jar.patch
-    * patches refreshed, sorted and renamed consistently ending with ".patch".
-  * control:
-    - dropped unnecessary versioned Build-Deps.
-    - dropped "krita-sketch" package.
-    + updated Vcs-Browser URL.
-    + Standards-Version: 3.9.6.
-    + turned "krita-gemini" into transitional package.
-  * Build-Depends:
-    + libboost-system-dev
-    + postgresql-server-dev-9.4
-    - libwps-dev (>= 0.3)
-    + libwps-dev (>= 0.4)
-    + libgit2-dev
-  * rules: explicitly select QT4 to fix FTBFS.
-  * calligra-libs.install:
-    + usr/bin/visualimagecompare
-    + liblibglobal.so.1*
-    + liblibkispsd.so.1*
-  * calligrawords.install:
-    + libkoversion.so.1*
-  * krita.install:
-    + libkritacolor.so.1*
-  * calligraplan: do not install "PlanConvert.jar" + patch.
-  * Gemini:
-    + Use fonts from "texlive-fonts-extra" instead of bundled ones.
-    + Split Gemini arch-indep files into -data package.
-  * Updated "package-name-doesnt-match-sonames" lintian-overrides.
-  * Added "no-symbols-control-file" lintian-overrides.
-  * Converted "debian/prune-nonfree" target to "copyright/Files-Excluded";
-    Added "repacksuffix=+dfsg" to "debian/watch".
-  * Copyright: complete rewrite.
-  * Files-Excluded:
-    + 3rdparty/google-breakpad
-    + filters/libmso/generated/mso.jar
-    + filters/plan/mpxj/planconvert/jar/PlanConvert.jar
-  * watch: updated and corrected watch file; added mirrors.
-  * Lintianisation:
-    - xs-testsuite-header-in-debian-control
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 04 Sep 2015 11:05:20 +0000
 
-  [ Raúl Sánchez Siles ]
-    - Refresh xbase64.diff patch
-    - Refresh switch-to-librevenge-based-import-libs.patch
+calligra (1:2.9.6-0ubuntu6) wily; urgency=medium
 
-  [ Pino Toscano ]
-  * watch file: ignore +dfsg suffix in Debian version number.
+  * Remove build-dep on libmarble-dev, marble is now KF5 and remove
+    kexi-map-form-widget and calligra-reports-map-element
 
-  [ Maximiliano Curia ]
-  * Update homepage links. (Closes: #762305) Thanks to Julian Gilbey
-  * New patch: upstream_review_120609_pixmapcachesheetview_crash, thanks
-    to Philip Van Hoof.
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 12 Aug 2015 16:59:19 +0100
 
-  [ Adrien Grellier ]
-  * new build dependency: libetonyek
-  * install files has been forgotten
-  * new binary packages:
-     - okular-backend-odt
-     - calligra-gemini
+calligra (1:2.9.6-0ubuntu5) wily; urgency=medium
+
+  * Use an unversioned boost build-dep
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 05 Aug 2015 18:19:36 +0200
+
+calligra (1:2.9.6-0ubuntu4) wily; urgency=medium
+
+  * No-change rebuild against libexiv2-14.
+
+ -- Martin Pitt <martin.pitt@ubuntu.com>  Thu, 06 Aug 2015 08:13:15 +0200
+
+calligra (1:2.9.6-0ubuntu3) wily; urgency=medium
+
+  * No-change rebuild against new libicu
+
+ -- Iain Lane <iain@orangesquash.org.uk>  Wed, 05 Aug 2015 17:38:50 +0100
+
+calligra (1:2.9.6-0ubuntu2) wily; urgency=medium
+
+  * Rebuild, follow-up for libstdc++ ABI transition.
+
+ -- Matthias Klose <doko@ubuntu.com>  Wed, 05 Aug 2015 07:33:29 +0000
+
+calligra (1:2.9.6-0ubuntu1) wily; urgency=medium
+
+  * New upstream release
+
+ -- Clive Johnston <clivejo@aol.com>  Tue, 28 Jul 2015 11:12:09 +0000
+
+calligra (1:2.9.5-0ubuntu1) wily; urgency=medium
+
+  [ Clive Johnston ]
+  * New Upstream Release
+
+ -- Clive Johnston <clivejo@aol.com>  Mon, 29 Jun 2015 17:34:33 +0100
+
+calligra (1:2.9.2-0ubuntu2) vivid; urgency=medium
+
+  * Move kplato plugin to calligraplan where it belongs. This avoids having
+    the libs package depend on calligraplan due to so dependencies.
+  * Adjust breaks and replaces accordingly
+  * Move qtquick components to gemini as it is only used there and hard links
+    to private libs that are in the app specific packages.
+
+ -- Harald Sitter <sitter@kde.org>  Tue, 07 Apr 2015 12:13:24 +0200
+
+calligra (1:2.9.2-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 03 Apr 2015 15:36:18 +0000
+
+calligra (1:2.9.0-0ubuntu6) vivid; urgency=medium
+
+  * Move calligra dbase filter into calligra sheets LP: #1427771
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 09 Mar 2015 11:31:49 +0100
+
+calligra (1:2.9.0-0ubuntu5) vivid; urgency=medium
+
+  * Add calligra-libs.install.armhf file
+  * Add breaks/replaces on calligrasheets for calligra-libs
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 02 Mar 2015 19:17:03 +0100
+
+calligra (1:2.9.0-0ubuntu4) vivid; urgency=medium
+
+  * Fix patch for lutdocker .desktop file in debian/rules
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 02 Mar 2015 15:18:50 +0100
+
+calligra (1:2.9.0-0ubuntu3) vivid; urgency=medium
+
+  * Add upstream_disable-opengl.diff to disable opengl on armhf
+  * Don't build-dep on libqt4-opengl-dev on armhf
+  * Fix install of lutdocker files, they are installed in debian/rules not .install
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 02 Mar 2015 14:23:13 +0100
+
+calligra (1:2.9.0-0ubuntu2) vivid; urgency=medium
+
+  * calligragemini depends on libqtwebkit-qmlwebkitplugin
+  * Add kubuntu_qtquick-plugin-directory.diff to put qtquick bits where
+    they can be found
+  * Remove kexi-postgresql-driver it no longer builds with our version of
+    libpq
+  * Add upstream_krita-armhf.diff to fix build on arm
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 27 Feb 2015 15:21:26 +0100
+
+calligra (1:2.9.0-0ubuntu1) vivid; urgency=medium
+
+  [ Philip Muskovac ]
+  * calligra-data breaks/replaces calligraplan << 1:2.8.90 
+
+  [ Jonathan Riddell ]
+  * New upstream release
+  * Remove kritasketch and kritagemini packages as advised by upstream
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Sun, 08 Feb 2015 12:23:52 +0100
+
+calligra (1:2.8.90-0ubuntu10) vivid; urgency=medium
+
+  * No-change rebuild for new poppler
+
+ -- Iain Lane <iain@orangesquash.org.uk>  Wed, 21 Jan 2015 14:13:37 +0000
+
+calligra (1:2.8.90-0ubuntu9) vivid; urgency=medium
+
+  * otra cosas
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 14 Jan 2015 23:43:33 +0100
+
+calligra (1:2.8.90-0ubuntu8) vivid; urgency=medium
+
+  * Algo mas
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 14 Jan 2015 18:14:37 +0100
+
+calligra (1:2.8.90-0ubuntu7) vivid; urgency=medium
+
+  * y tambien
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 14 Jan 2015 16:39:09 +0100
+
+calligra (1:2.8.90-0ubuntu6) vivid; urgency=medium
+
+  * And again
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 14 Jan 2015 15:02:47 +0100
+
+calligra (1:2.8.90-0ubuntu5) vivid; urgency=medium
+
+  * Yet another addition to kubuntu_armhf.diff
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 14 Jan 2015 13:53:38 +0100
+
+calligra (1:2.8.90-0ubuntu4) vivid; urgency=medium
+
+  * Another fix in kubuntu_armhf.diff
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 14 Jan 2015 12:48:06 +0100
+
+calligra (1:2.8.90-0ubuntu3) vivid; urgency=medium
+
+  * Further fixes in kubuntu_armhf.diff
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 14 Jan 2015 11:48:58 +0100
+
+calligra (1:2.8.90-0ubuntu2) vivid; urgency=medium
+
+  * Add kubuntu_armhf.diff to hopefully fix compile failure no armhf
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 14 Jan 2015 10:30:56 +0100
+
+calligra (1:2.8.90-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+  * New package calligragemini to replace kritagemini
+  * Build-dep on libeigen3-dev
+
+ -- Sergey Popov <sergobot256@gmail.com>  Thu, 18 Dec 2014 18:29:53 +0300 
+
+calligra (1:2.8.7-0ubuntu2) vivid; urgency=medium
+
+  * Drop koreport_chartplugin.desktop from kexi as it's already part of
+    calligra-libs 
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Sun, 14 Dec 2014 19:45:54 +0100
+
+calligra (1:2.8.7-0ubuntu1) vivid; urgency=medium
+  
+  * New upstream release
+
+ -- Sergey Popov <sergobot256@gmail.com>  Tue, 9 Dec 2014 0:23:27 +0300
+
+calligra (1:2.8.6-0ubuntu2) vivid; urgency=medium
+
+  * No-change rebuild for new poppler
+
+ -- Iain Lane <iain@orangesquash.org.uk>  Wed, 12 Nov 2014 15:47:11 +0000
+
+calligra (1:2.8.6-0ubuntu1) utopic; urgency=medium
+
+  * New upstream release
+  * Fixed xbase.diff to remove fuzz. Added Dep 3 header.
+  * Fix upstream_switch-to-librevenge-based-import-libs.patch to remove fuzz.
+  * wrap-and-sort
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 22 Sep 2014 09:13:20 -0700
+
+calligra (1:2.8.5-0ubuntu6) utopic; urgency=medium
+
+  * Build-dep on libsoprano not nepomuk, calligra uses rdf internally
+    for ODF features but does not use nepomuk
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 12 Aug 2014 12:17:58 +0200
+
+calligra (1:2.8.5-0ubuntu5) utopic; urgency=medium
+
+  * Rebuild against libmarblewidget19 on armhf.
+
+ -- Colin Watson <cjwatson@ubuntu.com>  Tue, 29 Jul 2014 00:33:33 +0100
+
+calligra (1:2.8.5-0ubuntu4) utopic; urgency=medium
+
+  * calligrawords-data breaks/replaces calligrawords-common << 1:2.8.5~ 
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Wed, 23 Jul 2014 01:53:01 +0200
+
+calligra (1:2.8.5-0ubuntu3) utopic; urgency=medium
+
+  * calligraflow-data replaces old calligraworks-data for moved file
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 17 Jul 2014 12:56:56 +0200
+
+calligra (1:2.8.5-0ubuntu2) utopic; urgency=medium
+
+  * Remove upstream_libodfgen-0.1.diff
+  * Add upstream_switch-to-librevenge-based-import-libs.patch from upstream to
+    compile with new librevenge and deps libodfgen, libwpg, libetonyek etc
+  * calligraflow replaces old karbon for moved filter
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 17 Jul 2014 09:11:47 +0000
+
+calligra (1:2.8.5-0ubuntu1) utopic; urgency=medium
+
+  * New upstream release
+  * Add upstream_libodfgen-0.1.diff from upstream to compile with
+    libodfgen-0.1
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 16 Jul 2014 10:31:18 +0200
+
+calligra (1:2.8.3-0ubuntu1build1) utopic; urgency=medium
+
+  * No change rebuild against new libexiv2-13
+
+ -- Robert Ancell <robert.ancell@canonical.com>  Fri, 04 Jul 2014 15:47:24 +1200
+
+calligra (1:2.8.3-0ubuntu1) utopic; urgency=medium
+
+  [ Scarlett Clark ]
+  * New upstream relase 
+
+  [ Jonathan Riddell ]
+  * use -DPRODUCTSET=ALL rather than patch, remove
+    kubuntu_build_calligraactive.diff
+
+  [ Philip Muškovac ]
+  * New upstream release (LP: #1326002)
+  * Fix syntax of not-installed 
+  * Add calligrawords_ascii.desktop to calligrawords.install
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 16 May 2014 15:54:38 +0100
+
+calligra (1:2.8.1-1-0ubuntu3) trusty; urgency=medium
+
+  * No change rebuild against new libokular
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Thu, 03 Apr 2014 15:13:11 +0200
+
+calligra (1:2.8.1-1-0ubuntu2) trusty; urgency=medium
+
+  * Build using xbase64, available on all architectures.
+
+ -- Matthias Klose <doko@ubuntu.com>  Tue, 01 Apr 2014 19:26:39 +0200
+
+calligra (1:2.8.1-1-0ubuntu1) trusty; urgency=medium
+
+  * New 2.8.1 tarball as the original one got corrupted during generation.
+    With this kubuntu_fix_msooxml_tablestyle_case.diff can be dropped
+  * Bump various breaks replaces to << 2.8.1 that were incorrectly set to
+    << 2.8.0-0ubuntu4 (LP: #1298805) 
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Sun, 30 Mar 2014 19:31:06 +0200
+
+calligra (1:2.8.1-0ubuntu3) trusty; urgency=medium
+
+  * Fix breaks/replace krita (LP: #1298805)
+  * Drop build dependencies on libqtgtl-dev and opengtl-dev (LP: #1299096)
+  * vc is only available on x86 architectures.
+  * Build using the default GCC.
+
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Fri, 28 Mar 2014 11:33:12 -0700
+
+calligra (1:2.8.1-0ubuntu2) trusty; urgency=medium
+
+  * Add kubuntu_fix_msooxml_tablestyle_case.diff to fix FTBFS caused by
+    a broken upstream tarball (thanks Scarlett Clark)
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Fri, 28 Mar 2014 00:36:39 +0100
+
+calligra (1:2.8.1-0ubuntu1) trusty; urgency=medium
+
+  * New upstream release
+  * Remove can be reverse applied patches:
+  kubuntu_words_mimetype fix_implicit_coercion
+  * Add patch to fix build, wrong case.
+  * Fix krita calligra-libs circular dependency.
+  * Add breaks/replace krita-data (LP: #1297629)
+
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Wed, 26 Mar 2014 12:56:23 -0700
+
+calligra (1:2.8.0-0ubuntu4) trusty; urgency=medium
+
+  [ Scarlett Clark ]
+  * Merge krita sketch paintbrush engine back into main krita package.
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 24 Mar 2014 12:16:35 +0000
+
+calligra (1:2.8.0-0ubuntu3) trusty; urgency=medium
+
+  [ Jonathan Riddell ]
+  * Recompile for new okular libraries
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 20 Mar 2014 13:19:22 +0000
+
+calligra (1:2.8.0-0ubuntu2) trusty; urgency=medium
+
+  * Make kritasketch and kritagemini i386 and amd64 only
+  * Fix install of lutdocker files
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 04 Mar 2014 18:37:19 +0000
+
+calligra (1:2.8.0-0ubuntu1) trusty; urgency=medium
+
+  * New upstream release
+  * Add kritasketch and kritagemini patckages
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 04 Mar 2014 11:35:43 +0000
+
+calligra (1:2.7.91-0ubuntu5) trusty; urgency=medium
+
+  * Temporarily disable krita image plugins to prevent global
+    debugging output
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 05 Feb 2014 18:50:59 +0000
+
+calligra (1:2.7.91-0ubuntu4) trusty; urgency=medium
+
+  * Add kubuntu_nogl.diff to make it compile without openGL on ARM, sent
+    upstream
+  * Install krita gl files in debian/rules
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 04 Feb 2014 13:21:23 +0000
+
+calligra (1:2.7.91-0ubuntu3) trusty; urgency=medium
+
+  * Add missing build-depends on libxi-dev
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 28 Jan 2014 12:32:46 +0000
+
+calligra (1:2.7.91-0ubuntu2) trusty; urgency=medium
+
+  * Add kubuntu_version_kritasketchlib.diff from upstream to add version
+    to kritasketchlib
+  * Add kubuntu_krita_plugin_directory.diff to install krita sketch
+    plugin in a directory where it can be found
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 27 Jan 2014 18:47:03 +0000
+
+calligra (1:2.7.91-0ubuntu1) trusty; urgency=medium
+
+  * New upstream beta release
+  * Add kubuntu_qreal.diff from Fedora and upstream
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 24 Jan 2014 10:27:59 +0000
+
+calligra (1:2.7.5-0ubuntu4) trusty; urgency=medium
+
+  * No change rebuild against glew 1.10.
+
+ -- Dimitri John Ledkov <xnox@ubuntu.com>  Thu, 02 Jan 2014 16:17:35 +0000
+
+calligra (1:2.7.5-0ubuntu3) trusty; urgency=medium
+
+  * No change rebuild against libicu52
+
+ -- Dimitri John Ledkov <xnox@ubuntu.com>  Fri, 27 Dec 2013 03:13:33 +0000
+
+calligra (1:2.7.5-0ubuntu2) trusty; urgency=low
+
+  * Add build-dep on cauchy-dev
+  * Add back libpqxx support in kexi now that libpqxx3 is back in the archive
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 27 Nov 2013 10:47:21 +0000
+
+calligra (1:2.7.5-0ubuntu1) trusty; urgency=low
+
+  * New upstream release
+  * Drop libpqxx support in kexi, we only have version 4 in trusty but
+    Kexi needs version 3
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 26 Nov 2013 14:51:09 +0000
+
+calligra (1:2.7.2-0ubuntu2) saucy; urgency=low
+
+  * Rebuild with VC 0.7.3.
+
+ -- Howard Chan <smartboyhw@gmail.com>  Wed, 11 Sep 2013 21:51:58 +0800
+
+calligra (1:2.7.2-0ubuntu1) saucy; urgency=low
+
+  [ Howard Chan ]
+  * New upstream release (LP: #1214256)
 
   [ Scott Kitterman ]
-  * Add libsoprano-dev to build-depends since it is no longer transitively
-    pulled in
+  * Add opencolorio back to build-depends for powerpc since it now
+    builds there 
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 28 Aug 2015 15:13:04 -0400
+ -- Howard Chan <smartboyhw@gmail.com>  Tue, 20 Aug 2013 14:41:04 +0800
 
-calligra (1:2.8.5+dfsg-1.2) unstable; urgency=medium
+calligra (1:2.7.1-0ubuntu1) saucy; urgency=low
 
-  * Non-maintainer upload.
-  * oops, actually bump libwps build-dep to >= 0.4...
+  * New upstream release (LP: #1207172)
+  * Drop qreal_double.patch as it is included in upstream
+  * Fix multiple install files
 
- -- Rene Engelhard <rene@debian.org>  Sun, 21 Jun 2015 08:38:24 +0200
+ -- Howard Chan <smartboyhw@gmail.com>  Thu, 01 Aug 2013 12:22:07 +0800
 
-calligra (1:2.8.5+dfsg-1.1) unstable; urgency=medium
+calligra (1:2.7.0-0ubuntu3) saucy; urgency=low
 
-  * Non-maintainer upload.
-  * build against libwps 0.4.0 (closes: #788969)
-  * add missing libetonyek-dev build-dependency
+  * No-change rebuild for new poppler ABIs
 
- -- Rene Engelhard <rene@debian.org>  Tue, 16 Jun 2015 23:10:07 +0200
+ -- Iain Lane <iain@orangesquash.org.uk>  Tue, 30 Jul 2013 17:33:25 +0000
 
-calligra (1:2.8.5+dfsg-1) unstable; urgency=medium
+calligra (1:2.7.0-0ubuntu2) saucy; urgency=low
 
-  * New upstream release. (Closes: #744291, #748990)
+  * Sort install files to match Debian
+  * Add qreal_double.patch to fix build on armhf
 
-  [ Adrien Grellier ]
-  * new dependency for krita: libxi-dev
-  * refresh add_keywords_to_desktop_files.patch to work with 2.8
-  * refresh eigen3.patch to work with 2.8
-  * new package: calligra-semanticitems
-  * update to Standards-Version 3.9.5 (no changes)
-  * update copyright information for beta3
-  * patch to build using xbase64, thanks Matthias Klose! (Closes: #746227)
-  * move html2ods.so from calligrawords to calligrasheets, thanks shadeslayer!
-  * update copyright information for calligra 2.8.5
+ -- Scott Kitterman <scott@kitterman.com>  Fri, 19 Jul 2013 23:46:46 -0400
 
-  [ Pino Toscano ]
-  * Add the pkg-config build dependency.
-  * Update lintian overrides.
-  * Remove the uninstalled man page of visualimagecompare, since that tool
-    is not installed either.
-  * Update install files.
+calligra (1:2.7.0-0ubuntu1) saucy; urgency=low
 
-  [ Raúl Sánchez Siles ]
-  * Add libodfgen-dev and libopencolorio-dev build dependencies.
-  * Update install files.
-  * Update sonames in lintian-overrides.
-  * Add calligra-semanticitems depends.
-  * Adding lintian-overrides for krita-sketch.
-  * Enable kpresenter to odp filter.
+  * New upstream release
+  * Add kubuntu_release_type.diff, fix the new release mode detection
+    for the "Debian" release mode
+  * calligraplan recommends default-jre for MS Plan import
 
-  [ Maximiliano Curia ]
-  * Remove obsolete patch: pqxx_4_support.diff
-  * Update build dependencies.
-  * Add autopkgtests.
-  * Refresh patches
-  * New patch: eigen3_in_tests
-  * New patch: disable_convolution_failling_tests
-  * New patch: temporarily_disable_failing_tests
-  * Update copyright file.
-  * Re-enable krita-sketch and krita-gemini.
-  * New patch: calligra_imports_search_path
-  * New patch: set_kritasketch_lib_soversion
-  * New patch: install_images_in_datadir
-  * Bump libkdcraw and marble b-d, to help the kde4.12 transition.
-  * Refresh patches for 2.8.5.
-  * New patch: kisjpegtest_call_kisexiv2_initialize
-  * New patch: filter_registry_not_a_singleton
-  * New patch: channelFlags_logic_change
-  * New patch: do_not_install_removed_files
-  * Update install files for the repack version.
-  * Add hspell dependency to the tests.
-  * Update debian/copyright generation instructions, added a static part
-    in copyright.tail for the things missed by lcheck.
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 16 Jul 2013 21:04:05 +0000
 
-  [ Rene Engelhard ]
-  * Add patch to build against the new librevenge-based import libs and update
-    build-dependencies. (Closes: #754568)
+calligra (1:2.6.92-0ubuntu8) saucy; urgency=low
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 11 Aug 2014 16:49:01 +0200
+  * Add debian/patches/fix_implicit_coercion.diff to fix FTBFS on armhf
+    - Thanks to Michael D. Stemle, Jr for the patch
 
-calligra (1:2.7.5-1) unstable; urgency=low
+ -- Scott Kitterman <scott@kitterman.com>  Thu, 27 Jun 2013 11:17:39 -0400
 
-  * New upstream release.
-    - A new component appears: calligraactive
-    - New import filter for calligraplan, based on Java MPXJ.
-      See /usr/share/doc/calligraplan/README.Debian for using it.
+calligra (1:2.6.92-0ubuntu7) saucy; urgency=low
 
-  [ Adrien Grellier ]
-  * update install files for calligra 2.7.1
-  * update copyright file for calligra 2.7.1
-  * build with libkactivites, as the version 6.1 is now in sid
-  * build with libphononexperimental
-  * update to my new official email address
-  * split kexi to kexi-data for arch-indep files
-  * patch to add keywords to desktop files
-  * update lintian overrides
+  * Edit debian/control to make krita-data break krita (<< 2.6.92)
+    to stop installation errors. 
 
-  [ Pino Toscano ]
-  * Update .install files.
-  * Specify the required version for libkactivities-dev.
-  * Update watch file to look for .xz extension too.
+ -- Howard Chan <smartboyhw@gmail.com>  Wed, 26 Jun 2013 22:40:59 +0800
 
-  [ Maximiliano Curia ]
-  * Migrate from eigen2 to eigen3, thanks to Anton Gladky. (Closes: #726643)
-  * Add pqxx 4 support. (Closes: #730632)
-  * Refresh patches.
-  * Add myself to uploaders.
+calligra (1:2.6.92-0ubuntu6) saucy; urgency=low
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 03 Dec 2013 18:45:27 +0100
+  * libglew-dev build-dep not on armel,armhf
 
-calligra (1:2.6.4-1) unstable; urgency=low
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 26 Jun 2013 12:42:34 +0100
 
-  * New upstream release.
-  * Team upload.
+calligra (1:2.6.92-0ubuntu5) saucy; urgency=low
 
-  [ Pino Toscano ]
-  * Add calligraauthor to the calligra metapackage. (Closes: #710832)
-  * Remove unused stuff of kthesaurus and calligramobile.
-  * Remove koconverter man page, no such tool anymore.
-  * Manually remove from debian/tmp all the things that are known to not be
-    installed anywhere; this shortens the output of dh_install --list-missing.
-  * Properly install the calligraconverter and kexi_sqlite3_dump man pages.
-  * Add the nepomuk-core-dev build dependency, needed with KDE >= 4.9/4.10.
-    (Closes: #717413) This effectively raises the minimum requirements to
-    KDE 4.10.
+  * Bump replaces/breaks for moved files
 
-  [ Adrien Grellier ]
-  * Update installed files.
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 25 Jun 2013 15:33:47 +0100
 
- -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sat, 20 Jul 2013 13:59:37 -0300
+calligra (1:2.6.92-0ubuntu4) saucy; urgency=low
+
+  * Update kubuntu_arm_cast.diff
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 25 Jun 2013 13:48:34 +0100
+
+calligra (1:2.6.92-0ubuntu3) saucy; urgency=low
+
+  * Add kubuntu_arm_cast.diff to fix compile on arm
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 21 Jun 2013 15:26:29 +0100
+
+calligra (1:2.6.92-0ubuntu2) saucy; urgency=low
+
+  * Install some plugins lost in not-installed
+  * Don't use opencolorio on arm or powerpc, it does not exist there
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 14 Jun 2013 13:57:42 +0100
+
+calligra (1:2.6.92-0ubuntu1) saucy; urgency=low
+
+  * New upstream beta release
+  * Add build-dep on libphononexperimental-dev
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 13 Jun 2013 15:31:40 +0100
+
+calligra (1:2.6.4-0ubuntu1) saucy; urgency=low
+
+  * New upstream release
+  * Merge with Debian, remaining changes:
+   - Use GCC 4.7
+   - build-dep on libkactivities-dev, vc-dev [!powerpc !armhf], opengtl-dev,
+     libqtgtl-dev, nepomuk-core-dev
+   - make meta-package depend on calligraauthor
+   - Add calligrawords-common for shared files with calligraauthor and
+     make calligraauthor and calligrawords depend on it
+  * Remove kubuntu_x11_link.patch, unused
+  * calligraplan replaces/breaks old calligra-libs
+  * No calligra-dev package in Debian merge
+  * Add build-dep on libopencolorio-dev
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 07 Jun 2013 12:38:00 +0100
 
 calligra (1:2.6.3-2) unstable; urgency=low
 
@@ -237,7 +557,7 @@ calligra (1:2.6.3-1) unstable; urgency=low
   * Add a manpage for kexi_sqlite3_dump
   * Add a Readme.source to document the Debian packaging
   * update to Standards-Version 3.9.4 (no changes)
-  * create calligrastage-data, for arch-independant files
+  * create calligrastage-data, for arch-independant files 
     (lintian: arch-dep-package-has-big-usr-share 7564kB 63%)
   * use canonical URI for VCS-* fields (lintian: vcs-field-not-canonical)
   * inherit « Section: kde » in the control file
@@ -251,6 +571,25 @@ calligra (1:2.6.3-1) unstable; urgency=low
 
  -- Adrien Grellier <adrien.grellier@laposte.net>  Fri, 24 May 2013 20:52:47 +0200
 
+calligra (1:2.6.3-0ubuntu2) saucy; urgency=low
+
+  * Use GCC 4.7 
+  * Add forgotten BD on nepomuk-core-dev 
+
+ -- Iain Lane <iain.lane@canonical.com>  Mon, 03 Jun 2013 10:36:47 +0100
+
+calligra (1:2.6.3-0ubuntu1) raring; urgency=low
+
+  * New bugfix upstream release.
+
+ -- Howard Chan <smartboyhw@gmail.com>  Tue, 09 Apr 2013 21:06:04 +0800
+
+calligra (1:2.6.2-0ubuntu1) raring; urgency=low
+
+  * New upstream release.
+
+ -- Howard Chan <smartboyhw@gmail.com>  Mon, 11 Mar 2013 23:25:28 +0800
+
 calligra (1:2.6.1-1) experimental; urgency=low
 
   [ Raúl Sánchez Siles ]
@@ -262,6 +601,256 @@ calligra (1:2.6.1-1) experimental; urgency=low
     - Build Dep: switch from libwmf to libvectorimage
 
  -- Adrien Grellier <adrien.grellier@laposte.net>  Sun, 03 Mar 2013 10:32:54 +0100
+
+calligra (1:2.6.1-0ubuntu8) raring; urgency=low
+
+  * Change build-dep of vc-dev to ! powerpc and armhf due to build issues
+    of vc
+  * Updated copyright files to avoid copyright warnings
+
+ -- Howard Chan <smartboyhw@gmail.com>  Sat, 09 Mar 2013 22:22:59 +0800
+
+calligra (1:2.6.1-0ubuntu7) raring; urgency=low
+
+  * Build-dep on vc-dev, package renamed from libvc-dev due to clash
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 08 Mar 2013 22:38:34 +0000
+
+calligra (1:2.6.1-0ubuntu6) raring; urgency=low
+
+  * Added libvc-dev to build-depends for faster Krita painting
+    LP: #1144539
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 08 Mar 2013 16:23:48 +0000
+
+calligra (1:2.6.1-0ubuntu5) raring; urgency=low
+
+  * Added the libkdeinit4_*.so files to get applications  executable
+  * Updated the libkdeinit4_*.so files description
+    from debian/not-installed so to remind people not to remove it.
+
+ -- Howard Chan <smartboyhw@gmail.com>  Thu, 21 Feb 2013 18:27:43 +0800
+
+calligra (1:2.6.1-0ubuntu4) raring; urgency=low
+
+  * Remove libkdgantt.so.11 and libkdgantt.so.11.0.0 from 
+    calligra-libs.install to fix conflict with calligraplan
+  * Updated the control file for calligraplan and calligrawords-common to 
+    break/replace calligra-libs and calligra-data << 1:2.6.1-0ubuntu4
+
+ -- Howard Chan <smartboyhw@gmail.com>  Wed, 20 Feb 2013 23:16:38 +0800
+
+calligra (1:2.6.1-0ubuntu3) raring; urgency=low
+
+  * Really remove librcps_plan.so.11 and librcps_plan.so.11.0.0 from 
+    calligra-libs.install to fix conflict with calligraplan
+  * Updated the control file for calligraplan and calligrawords-common to
+    break calligra-libs and calligra-data << 1:2.6.1-0ubuntu3 
+
+ -- Howard Chan <smartboyhw@gmail.com>  Wed, 20 Feb 2013 19:08:13 +0800
+
+calligra (1:2.6.1-0ubuntu2) raring; urgency=low
+
+  * Remove librcps_plan.so.11 and librcps_plan.so.11.0.0 from
+    calligra-libs.install to fix conflict with calligraplan
+  * Move mobipocket exporter to calligrawords-common:
+    - move words_Mobi_export.desktop from calligra-data
+    - move exportMobi.so from calligra-libs
+  * calligraplan breaks/replaces calligra-libs << 1:2.6.1-0ubuntu2
+  * calligrawords-common breaks/replaces calligra-libs << 1:2.6.1-0ubuntu2
+    and calligra-data << 1:2.6.1-0ubuntu2
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Tue, 19 Feb 2013 23:35:05 +0100
+
+calligra (1:2.6.1-0ubuntu1) raring; urgency=low
+
+  * New upstream release.
+  * Refreshed the patches so they are without offsets
+  * Fixed multiple .install files to make installation work. 
+
+ -- Howard Chan <smartboyhw@gmail.com>  Mon, 18 Feb 2013 19:09:22 +0800
+
+calligra (1:2.6.0-0ubuntu1) raring; urgency=low
+
+  * New upstream release.
+  * Fixed multiple .install files to make installation work.
+  * Refreshed the patches
+
+ -- Howard Chan <smartboyhw@gmail.com>  Tue, 05 Feb 2013 18:30:11 +0800
+
+calligra (1:2.5.94-0ubuntu1) raring; urgency=low
+
+  * New upstream RC release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 15 Jan 2013 17:26:10 +0000
+
+calligra (1:2.5.93-0ubuntu2) raring; urgency=low
+
+  * Move templates into their respective apps
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Thu, 10 Jan 2013 16:24:07 +0530
+
+calligra (1:2.5.93-0ubuntu1) raring; urgency=low
+
+  * New upstream RC release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 18 Dec 2012 11:48:13 +0000
+
+calligra (1:2.5.92-0ubuntu1) raring; urgency=low
+
+  * New upstream RC release
+    - Refreshed patches
+    - Add usr/lib/kde4/wpdimport.so and related desktop files to
+      calligrawords-common.install
+    - Add usr/lib/libvectorimage.so to calligra-dev.install
+    - Add usr/lib/libvectorimage.so.11/11.0.0 to calligra-libs.install
+    - Add usr/share/kde4/apps/calligra/icons/cursor_rotate.png and
+      usr/share/kde4/apps/calligra/icons/cursor_shear.png to 
+      calligra-common.install
+    - Remove usr/lib/kde4/kritamypaintpaintop.so and
+      usr/share/kde4/services/kritamypaintpaintop.desktop from krita.install
+    - Remove usr/lib/liblibwmf.so from calligra-dev.install
+    - Remove usr/lib/liblibwmf.so.11/11.0.0 from calligra-libs.install
+  * Drop openimageo from build-deps - Calligra does not actually use it
+
+ -- Scott Kitterman <scott@kitterman.com>  Thu, 29 Nov 2012 11:04:53 -0500
+
+calligra (1:2.5.91-0ubuntu3) raring; urgency=low
+
+  * No change rebuild for kdegraphics libraries transition
+
+ -- Scott Kitterman <scott@kitterman.com>  Sun, 25 Nov 2012 21:23:33 -0500
+
+calligra (1:2.5.91-0ubuntu2) raring; urgency=low
+
+  * Add dropped changes from 1:2.5.90-0ubuntu2 again 
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Sat, 03 Nov 2012 02:32:00 +0100
+
+calligra (1:2.5.91-0ubuntu1) raring; urgency=low
+
+  * New upstream beta release (LP: #1073366) 
+    - Drop kubuntu_arm_compile.diff, applied upstream
+    - Refresh kubuntu_words_mimetype.diff
+    - Build-depend on libphononexperimental-dev
+    - refresh install files
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Fri, 02 Nov 2012 21:08:59 +0100
+
+calligra (1:2.5.90-0ubuntu2) raring; urgency=low
+
+  * Only build with openimageio on x86 archs as it's not available on the rest 
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Wed, 31 Oct 2012 09:48:23 +0100
+
+calligra (1:2.5.90-0ubuntu1) raring; urgency=low
+
+  * New upstream alpha release (LP: #1070436)
+    - Add libkactivities-dev and libopenimageio-dev to build-depends
+    - Add kubuntu_build_calligraactive.diff to build calligraactive by default
+    - Add package for calligraauthor and move files that are shared between
+      calligrawords and calligraauthor to calligrawords-common
+  * Document the patches
+  * Remove numbers from patches so they follow the same naming scheme as
+    the rest of our patches.
+  * calligra-data breaks replaces krita-data (<< 1:2.5.3) (LP: #1071686)
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Tue, 23 Oct 2012 21:09:16 +0200
+
+calligra (1:2.5.3-0ubuntu2) quantal; urgency=low
+
+  * Add kubuntu_04_arm_compile.diff fix compilation on ARM
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 09 Oct 2012 10:27:34 +0100
+
+calligra (1:2.5.3-0ubuntu1) quantal; urgency=low
+
+  * New upstream bugfix release
+
+ -- Scott Kitterman <scott@kitterman.com>  Sun, 07 Oct 2012 16:52:45 -0400
+
+calligra (1:2.5.2-0ubuntu1) quantal; urgency=low
+
+  * New upstream bugfix release
+  * Remove kubuntu_01_arm_fixes.diff now upstream
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 17 Sep 2012 14:19:19 +0100
+
+calligra (1:2.5.1-0ubuntu2) quantal; urgency=low
+
+  * No-change rebuild for libpoppler27 -> libpoppler28 transition.
+
+ -- Robert Ancell <robert.ancell@canonical.com>  Wed, 12 Sep 2012 16:43:26 +1200
+
+calligra (1:2.5.1-0ubuntu1) quantal; urgency=low
+
+  * New upstream release
+  * Add missing build-deps on libopenjpeg-dev, libvisio-dev, opengtl-dev
+  * Add kubuntu_03_words_mimetype.diff LP: #998324
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 30 Aug 2012 11:48:44 +0100
+
+calligra (1:2.5.0-0ubuntu1) quantal; urgency=low
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 08 Aug 2012 11:05:31 +0100
+
+calligra (1:2.4.92-0ubuntu2) quantal; urgency=high
+
+  * SECURITY UPDATE:
+  * References See patch header
+  * Add debian/patches/wv2_buffer_overflow_fix.diff to fix buffer overflow in
+    embedded copy of wv2 MS Word filter (LP: #1032934)
+
+ -- Scott Kitterman <scott@kitterman.com>  Sat, 04 Aug 2012 06:03:11 -0400
+
+calligra (1:2.4.92-0ubuntu1) quantal; urgency=low
+
+  * New upstream RC release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 16 Jul 2012 10:51:29 +0100
+
+calligra (1:2.4.91a-0ubuntu2) quantal; urgency=low
+
+  * No-change rebuild for the libpoppler26 transition.
+
+ -- Adam Conrad <adconrad@ubuntu.com>  Sat, 23 Jun 2012 19:33:38 -0600
+
+calligra (1:2.4.91a-0ubuntu1) quantal; urgency=low
+
+  * New upstream release (LP: #1014082)
+    - Update install files
+    - Drop marble_buildfix.diff, applied upstream
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Sun, 17 Jun 2012 02:21:37 +0530
+
+calligra (1:2.4.90-0ubuntu2) quantal; urgency=low
+
+  * Don't build-depend on libglew-dev on ARM, it conflicts with GLES.
+  * Add kubuntu_01_arm_fixes.diff with some qreal() casts for ARM.
+
+ -- Adam Conrad <adconrad@ubuntu.com>  Wed, 13 Jun 2012 20:08:06 -0600
+
+calligra (1:2.4.90-0ubuntu1) quantal; urgency=low
+
+  * Merge with debian unstable (LP: #930111), remaining changes:
+    - calligra-libs suggests, not recommends fonts-lyx (universe)
+    - enable calligraactive and calligra-dev packages
+    - calligra recommends create-resources
+
+  * New upstream alpha release (LP: #1009159)
+    - add libwps-dev and libqtgtl-dev to build-depends
+    - drop DIHAVEPATCHEDQT=true, not needed anymore now that we have Qt 4.8.2
+    - cherry pick upstream commits 47f4796e2f5d3524646237387b08b362c2bd6bc8,
+      8acefd1ce11ee5c39d02ca47569d416f98b3d161 and
+      5f8b61514e71ac6964ae01bd0007646f1bf821db as marble_buildfix.diff
+      to fix compilation with marble.
+    - drop kthesaurus, calligra-map-shape and calligramobile packages,
+      removed upstream
+    - update install files (mostly dropping removed plugins)
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Thu, 07 Jun 2012 18:05:24 +0200
 
 calligra (1:2.4.4-2) unstable; urgency=low
 
@@ -284,7 +873,7 @@ calligra (1:2.4.4-1) unstable; urgency=low
     typos in the changelog. Thanks Thorsten Glaser for noticing.
 
   [ Adrien Grellier ]
-  * Fix typo in calligrasheets package description (Closes: #697261)
+  * Fix typo in calligrasheets package description (Closes: #697261) 
   * Make calligrastage break/replace koffice-data < 1:2.4 (Closes: #699200)
   * New upstream bug fix release 2.4.4:
     General:
@@ -403,3 +992,140 @@ calligra (1:2.4.1-1) unstable; urgency=low
   * Initial release. (Closes: #665903)
 
  -- Pino Toscano <pino@debian.org>  Sat, 26 May 2012 13:39:21 +0200
+
+calligra (1:2.4.0-0ubuntu3) precise; urgency=low
+
+  * Keep calligra-map-shape package with no files, precent crashes for people
+    who have old versions installed
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 11 Apr 2012 18:11:42 +0100
+
+calligra (1:2.4.0-0ubuntu2) precise; urgency=low
+
+  * Rebuild with latest pkg-kde-tools to generate .pot files
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 11 Apr 2012 14:17:59 +0100
+
+calligra (1:2.4.0-0ubuntu1) precise; urgency=low
+
+  * New upstream release
+  * Add IHAVEPATCHEDQT as described in README.PACKAGERS
+  * Disable calligra-map-shape package, plugin disabled by upstream
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 09 Apr 2012 13:05:35 +0000
+
+calligra (1:2.3.92-0ubuntu1) precise; urgency=low
+
+  * New upstream RC release
+  * Remove do_not_link_blas now upstream
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 21 Mar 2012 15:44:58 +0000
+
+calligra (1:2.3.91-0ubuntu2) precise; urgency=low
+
+  * Move ttf-lyx from recommends to suggests, it's in universe
+  * Add transitional packages for KOffice names, LP: #915431
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 16 Mar 2012 10:32:22 +0000
+
+calligra (1:2.3.91-0ubuntu) precise; urgency=low
+
+  * New upstream release
+  * Remove kubuntu_03_cmakelists_update.diff now upstream
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 12 Mar 2012 14:34:55 +0000
+
+calligra (1:2.3.87-0ubuntu1) precise; urgency=low
+
+  * New upstream beta release
+  * Remove kubuntu_01_arm_fixes.diff all upstreamed
+  * Add kubuntu_03_cmakelists_update.diff from upstream
+  * Add kdelibs5-experimental-dev build-dep
+  * TODO: review optional build-depends to ensure up to date
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 13 Feb 2012 11:01:53 +0000
+
+calligra (1:2.3.86-0ubuntu9) precise; urgency=low
+
+  * debian/patches/kubuntu_01_arm_fixes.diff: Modify patch to include
+    a fix for another double/qreal mixup that causes FTBFS on ARM.
+
+ -- Jani Monoses <jani@ubuntu.com>  Wed, 25 Jan 2012 22:39:30 +0200
+
+calligra (1:2.3.86-0ubuntu8) precise; urgency=low
+
+  * debian/patches/kubuntu_02_x11_link.patch: Fix FTBFS when building
+    without OpenGL support (armel and armhf)
+
+ -- Jani Monoses <jani@ubuntu.com>  Wed, 25 Jan 2012 08:23:09 +0200
+
+calligra (1:2.3.86-0ubuntu7) precise; urgency=low
+
+  * Remove build-dep on dcmtk, see https://launchpad.net/bugs/702026,
+    remove calligrawords dcm files for it
+  * Remove build-dep on openjpeg, also not in main, remove krita jp2 file for it
+  * Make libglew-dev not arm build-dep, it conflicts with arm using GLES
+  * Build-dep on libglew1.5-dev because it is in main
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 17 Jan 2012 15:00:10 +0000
+
+calligra (1:2.3.86-0ubuntu6) precise; urgency=low
+
+  * Update kubuntu_01_arm_fixes.diff for more ARM missing qreal
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 16 Jan 2012 12:34:39 +0000
+
+calligra (1:2.3.86-0ubuntu5) precise; urgency=low
+
+  [ Jonathan Riddell ]
+  * Update kubuntu_01_arm_fixes.diff for more ARM missing qreal
+
+  [ Michal Zajac ]
+  * Added braindump as Depends to calligra metapackage
+
+ -- Michal Zajac <quintasan@kubuntu.org>  Fri, 13 Jan 2012 17:30:47 +0000
+
+calligra (1:2.3.86-0ubuntu4) precise; urgency=low
+
+  * Add kubuntu_01_arm_fixes.diff to fix ARM build failures
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 12 Jan 2012 17:29:33 +0000
+
+calligra (1:2.3.86-0ubuntu3) precise; urgency=low
+
+  * calligra recommends not suggests create-resources
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 11 Jan 2012 15:49:59 +0000
+
+calligra (1:2.3.86-0ubuntu2) precise; urgency=low
+
+  * Karbon recommends pstoedit, used at runtime
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 11 Jan 2012 15:38:32 +0000
+
+calligra (1:2.3.86-0ubuntu1) precise; urgency=low
+
+  * Beta 6 from upstream
+  * Add build-depends on libicu-dev, libattica-dev
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 10 Jan 2012 11:25:37 +0000
+
+calligra (1:2.3.85-0ubuntu1) precise; urgency=low
+
+  * New upstream beta release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Sun, 11 Dec 2011 18:16:34 +0000
+
+calligra (1:2.3.84-0ubuntu1) precise; urgency=low
+
+  * Ubuntu upload
+  * Add build-dep on opengtl-dev, libqtgtl-dev
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 09 Dec 2011 11:57:04 +0000
+
+calligra (1:2.3.84-0r1) UNRELEASED; urgency=low
+
+  * Initial release.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 20 May 2011 11:45:52 +0200
+

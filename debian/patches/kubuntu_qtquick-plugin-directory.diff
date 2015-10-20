@@ -1,0 +1,32 @@
+Description: install qml bits in a directory they can be found
+ it can't find them in the multiarch directory so move to /usr/lib
+Author: Jonathan Riddell jriddell@ubuntu.com
+Origin: kubuntu
+Forwarded: no, only Debian has these directories
+Last-Update: 2015-02-27
+---
+This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
+Index: calligra-2.9.5/gemini/cloud/dropbox/CMakeLists.txt
+===================================================================
+--- calligra-2.9.5.orig/gemini/cloud/dropbox/CMakeLists.txt
++++ calligra-2.9.5/gemini/cloud/dropbox/CMakeLists.txt
+@@ -22,5 +22,5 @@ target_link_libraries(calligrageminidrop
+     ${QT_QTNETWORK_LIBRARIES}
+ )
+ 
+-install(TARGETS calligrageminidropboxplugin DESTINATION ${CMAKE_INSTALL_LIBDIR}/calligra/imports/Calligra/Gemini/Dropbox)
+-install(FILES   qmldir                      DESTINATION ${CMAKE_INSTALL_LIBDIR}/calligra/imports/Calligra/Gemini/Dropbox)
++install(TARGETS calligrageminidropboxplugin DESTINATION /usr/lib/calligra/imports/Calligra/Gemini/Dropbox)
++install(FILES   qmldir                      DESTINATION /usr/lib/calligra/imports/Calligra/Gemini/Dropbox)
+Index: calligra-2.9.5/qtquick/CMakeLists.txt
+===================================================================
+--- calligra-2.9.5.orig/qtquick/CMakeLists.txt
++++ calligra-2.9.5/qtquick/CMakeLists.txt
+@@ -88,5 +88,5 @@ target_link_libraries(calligraqtquickcom
+     calligrastageprivate)
+ 
+ install(TARGETS calligraqtquickcomponentsplugin
+-    DESTINATION ${CMAKE_INSTALL_LIBDIR}/calligra/imports/org/calligra/CalligraComponents)
+-install(FILES qmldir DESTINATION ${CMAKE_INSTALL_LIBDIR}/calligra/imports/org/calligra/CalligraComponents)
++    DESTINATION /usr/lib/calligra/imports/org/calligra/CalligraComponents)
++install(FILES qmldir DESTINATION /usr/lib/calligra/imports/org/calligra/CalligraComponents)

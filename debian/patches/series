@@ -1,11 +1,6 @@
-add_keywords_to_desktop_files.patch
-cmake-set_kritasketch_lib_soversion.patch
-cmake-xbase64.patch
-filter_registry_not_a_singleton.patch
-imports_search_path.patch
-libwps-0.4.patch
-no-planconvert-jar.patch
-#channelFlags_logic_change.patch
-#cmake-do_not_install_removed_files.patch
-##tests-disable_convolution_failling_tests.patch
-#tests-temporarily_disable_failing_tests.patch
+kubuntu_release_type.diff
+kubuntu_krita_plugin_directory.diff
+xbase64.diff
+kubuntu_qtquick-plugin-directory.diff
+libwps-0.4.diff
+upstream_qmax.diff

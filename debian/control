@@ -1,16 +1,16 @@
 Source: calligra
 Section: kde
 Priority: optional
-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Uploaders: Adrien Grellier <perso@adrieng.fr>,
-           Raúl Sánchez Siles <rasasi78@gmail.com>,
-           Maximiliano Curia <maxy@debian.org>
-Build-Depends: cmake,
+Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
+XSBC-Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Adrien Grellier <adrien.grellier@laposte.net>,
+           Raúl Sánchez Siles <rasasi78@gmail.com>
+Build-Depends: cauchy-dev,
+               cmake (>= 2.6.2),
                debhelper (>= 9),
-               default-jdk,
                freetds-dev,
-               kdelibs5-dev,
-               kdepimlibs5-dev (>= 4:4.6.0),
+               kdelibs5-dev (>= 4:4.4.0),
+               kdepimlibs5-dev (>= 4:4.4.3),
                libattica-dev,
                libboost-dev,
                libboost-system-dev,
@@ -20,22 +20,17 @@ Build-Depends: cmake,
                libfftw3-dev,
                libfontconfig1-dev,
                libfreetype6-dev,
-               libgit2-dev,
-               libglew-dev,
+               libglew-dev [!armel !armhf !arm64],
                libglib2.0-dev,
-# krita/plugins/extensions/gmic/3rdparty/gmic
-#    libgmic-dev,
-#    cimg-dev,
                libgsl0-dev,
                libicu-dev,
                libjpeg-dev,
-               libkactivities-dev (>= 4:4.10),
-               libkdcraw-dev (>= 4:4.12),
-               liblcms2-dev (>= 2.4),
-               libmarble-dev (>> 4:4.12),
+               libkactivities-dev,
+               libkdcraw-dev (>= 4:4.4.3),
+               liblcms2-dev,
                libmysqlclient-dev,
                libodfgen-dev,
-               libopencolorio-dev,
+               libopencolorio-dev [!armhf],
                libopenexr-dev,
                libopenjpeg-dev,
                libphononexperimental-dev,
@@ -43,34 +38,34 @@ Build-Depends: cmake,
                libpoppler-private-dev,
                libpoppler-qt4-dev,
                libpq-dev,
-               libpqxx-dev,
+               libpqxx3-dev,
                libqca2-dev,
                libqt4-dev,
-               libqt4-opengl-dev,
+               libqt4-opengl-dev [!armhf],
                libqtwebkit-dev,
                libsoprano-dev,
                libspnav-dev,
                libsqlite3-dev,
                libtiff-dev,
-               libvisio-dev (>= 0.1),
-               libwpd-dev (>= 0.10),
-               libwpg-dev (>= 0.3),
-               libwps-dev (>= 0.4),
+               libvisio-dev,
+               libwpd-dev (>= 0.9.1),
+               libwpg-dev (>= 0.2.0),
+               libwps-dev,
                libxbase64-dev,
                libxi-dev,
-               nepomuk-core-dev,
-               okular-dev,
-               pkg-config,
-               pkg-kde-tools,
-               postgresql-server-dev-9.4,
+               okular-dev (>= 4:4.12.90),
+               pkg-kde-tools (>= 0.9),
                pstoedit,
                shared-desktop-ontologies,
                shared-mime-info,
+               vc-dev [!powerpc !armhf !arm64 !ppc64el],
                zlib1g-dev
 Standards-Version: 3.9.6
-Homepage: http://www.calligra.org/
-Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-std/calligra.git
-Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/kde-std/calligra.git
+Homepage: http://www.calligra-suite.org/
+Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging/calligra
+Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging/calligra
+X-Debian-Vcs-Git: git://git.debian.org/pkg-kde/kde-std/calligra.git
+X-Debian-Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-std/calligra.git
 
 Package: calligra
 Architecture: all
@@ -85,8 +80,7 @@ Depends: braindump (>= ${source:Version}),
          kexi (>= ${source:Version}),
          krita (>= ${source:Version}),
          ${misc:Depends}
-Recommends: calligra-semanticitems
-Homepage: http://www.calligra.org
+Homepage: http://www.calligra-suite.org
 Description: extensive productivity and creative suite
  Calligra Suite is a set of applications written to help you to accomplish
  your work. It includes office applications such as a word processor,
@@ -102,9 +96,9 @@ Depends: calligra-libs (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Recommends: pstoedit
-Breaks: calligra-data (<< 1:2.4.3-2), koffice-data (<< 1:2.4)
-Replaces: calligra-data (<< 1:2.4.3-2), koffice-data (<< 1:2.4)
-Homepage: http://www.calligra.org/karbon/
+Breaks: calligra-data (<< 1:2.6.4-0ubuntu1), koffice-data (<< 1:2.4)
+Replaces: calligra-data (<< 1:2.6.4-0ubuntu1), koffice-data (<< 1:2.4)
+Homepage: http://www.calligra-suite.org/karbon/
 Description: vector graphics application for the Calligra Suite
  Karbon is a vector drawing application with an user interface that is easy to
  use, highly customizable and extensible. That makes Karbon a great application
@@ -140,17 +134,15 @@ Package: kexi
 Architecture: any
 Section: database
 Depends: calligra-libs (= ${binary:Version}),
-         kexi-data (>= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Suggests: kexi-calligrasheets-driver,
           kexi-mysql-driver,
-          kexi-postgresql-driver,
           kexi-sybase-driver,
           kexi-xbase-driver
 Replaces: koffice-doc-html
 Conflicts: koffice-doc-html
-Homepage: http://www.calligra.org/kexi/
+Homepage: http://www.calligra-suite.org/kexi/
 Description: integrated database environment for the Calligra Suite
  Kexi is an integrated data management application. It can be used for
  creating database schemas, inserting data, performing queries, and
@@ -166,33 +158,20 @@ Description: integrated database environment for the Calligra Suite
  .
  This package is part of the Calligra Suite.
 
-Package: kexi-data
-Architecture: all
-Depends: ${misc:Depends}
-Breaks: kexi (<< 1:2.7.1)
-Replaces: kexi (<< 1:2.7.1)
-Description: data files for Kexi
- This package contains architecture-independent data files for Kexi, the
- database program shipped with the Calligra Suite.
- .
- See the kexi package for further information.
- .
- This package is part of the Calligra Suite.
-
 Package: kexi-calligrasheets-driver
 Architecture: any
 Depends: calligrasheets (= ${binary:Version}),
          kexi (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
-Description: Tables plugin for kexi
+Description: Sheets plugin for Kexi
  Kexi is an integrated data management application. It can be used for
  creating database schemas, inserting data, performing queries, and
  processing data. Forms can be created to provide a custom interface to
  your data. All database objects - tables, queries and forms - are stored
  in the database, making it easy to share data and design.
  .
- This package provides support for Calligra Tables in Kexi.
+ This package provides support for Calligra Sheets in Kexi.
  .
  This package is part of the Calligra Suite.
 
@@ -210,23 +189,6 @@ Description: MySQL support for kexi
  in the database, making it easy to share data and design.
  .
  This package provides support for MySQL in Kexi.
- .
- This package is part of the Calligra Suite.
-
-Package: kexi-postgresql-driver
-Architecture: any
-Section: database
-Depends: kexi (= ${binary:Version}), ${misc:Depends}, ${shlibs:Depends}
-Breaks: kexi (<< 1:2.3.70)
-Replaces: kexi (<< 1:2.3.70)
-Description: PostgreSQL support for kexi
- Kexi is an integrated data management application. It can be used for
- creating database schemas, inserting data, performing queries, and
- processing data. Forms can be created to provide a custom interface to
- your data. All database objects - tables, queries and forms - are stored
- in the database, making it easy to share data and design.
- .
- This package provides support for PostgreSQL in Kexi.
  .
  This package is part of the Calligra Suite.
 
@@ -281,23 +243,6 @@ Description: web form widget for Kexi
  .
  This package is part of the Calligra Suite.
 
-Package: kexi-map-form-widget
-Architecture: any
-Section: database
-Depends: kexi (>= ${source:Version}), ${misc:Depends}, ${shlibs:Depends}
-Breaks: kexi (<< 1:2.3.70)
-Replaces: kexi (<< 1:2.3.70)
-Description: map form widget for Kexi
- Kexi is an integrated data management application. It can be used for
- creating database schemas, inserting data, performing queries, and
- processing data. Forms can be created to provide a custom interface to
- your data. All database objects - tables, queries and forms - are stored
- in the database, making it easy to share data and design.
- .
- This package provides a map widget for Kexi using the Marble library.
- .
- This package is part of the Calligra Suite.
-
 Package: calligra-reports-web-element
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
@@ -311,20 +256,6 @@ Description: web element for Calligra Reports
  .
  This package is part of the Calligra Suite.
 
-Package: calligra-reports-map-element
-Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: map element for Calligra Reports
- Calligra Suite is a set of applications written to help you to accomplish
- your work. It includes office applications such as a word processor,
- a spreadsheet, a presentation program, a database application, etc., and
- raster and vector graphics tools.
- .
- This package provides a map element for Calligra Reports, based on the
- Marble library.
- .
- This package is part of the Calligra Suite.
-
 Package: krita
 Architecture: any
 Section: graphics
@@ -332,10 +263,10 @@ Depends: calligra-libs (= ${binary:Version}),
          krita-data (>= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
-Suggests: khelpcenter4
-Breaks: krita-data (<< 1:2.4)
-Replaces: krita-data (<< 1:2.4)
-Homepage: http://www.calligra.org/krita/
+Suggests: khelpcenter
+Breaks: calligra-libs (<< 1:2.8.1), krita-data (<< 1:2.8.1)
+Replaces: calligra-libs (<< 1:2.8.1), krita-data (<< 1:2.8.1)
+Homepage: http://www.calligra-suite.org/krita/
 Description: pixel-based image manipulation program for the Calligra Suite
  Krita is a creative application for raster images. Whether you want to create
  from scratch or work with existing images, Krita is for you. You can work with
@@ -358,7 +289,9 @@ Package: krita-data
 Architecture: all
 Section: graphics
 Depends: ${misc:Depends}
-Homepage: http://www.calligra.org/krita/
+Replaces: calligra-data (<< 1:2.6.92-0ubuntu4), krita (<< 1:2.8.1)
+Breaks: calligra-data (<< 1:2.6.92-0ubuntu4), krita (<< 1:2.8.1)
+Homepage: http://www.calligra-suite.org/krita/
 Description: data files for Krita painting program
  This package contains architecture-independent data files for Krita,
  the painting program shipped with the Calligra Suite.
@@ -367,20 +300,38 @@ Description: data files for Krita painting program
  .
  This package is part of the Calligra Suite.
 
+Package: calligragemini
+Architecture: amd64 i386
+Depends: calligra-libs (= ${binary:Version}),
+         calligrastage (>= ${source:Version}),
+         calligrawords (>= ${source:Version}),
+         libqtwebkit-qmlwebkitplugin,
+         ${misc:Depends},
+         ${shlibs:Depends}
+Suggests: khelpcenter
+Replaces: calligra-libs (<< 1:2.9.2-0ubuntu2~)
+Breaks: calligra-libs (<< 1:2.9.2-0ubuntu2~)
+Homepage: http://www.calligra-suite.org/krita/
+Description: responsive user interface for Calligra
+ Calligra Gemini has a UI which can switch between tablet and desktop
+ layout.
+
 Package: calligrasheets
 Architecture: any
 Section: math
-Replaces: calligra-data (<< 1:2.4.3-2),
+Replaces: calligra-data (<< 1:2.9.0-0ubuntu6),
+          calligra-libs (<< 1:2.9.0-0ubuntu6),
           koffice-data (<< 1:2.4),
           kspread (<< 1:2.4)
-Breaks: calligra-data (<< 1:2.4.3-2),
+Breaks: calligra-data (<< 1:2.9.0-0ubuntu6),
+        calligra-libs (<< 1:2.9.0-0ubuntu6),
         koffice-data (<< 1:2.4),
         kspread (<< 1:2.4)
 Depends: calligra-libs (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
-Suggests: khelpcenter4
-Homepage: http://www.calligra.org/sheets/
+Suggests: khelpcenter
+Homepage: http://www.calligra-suite.org/sheets/
 Description: spreadsheet for the Calligra Suite
  Tables is a powerful spreadsheet application.  It is scriptable and
  provides both table-oriented sheets and support for complex mathematical
@@ -390,14 +341,14 @@ Description: spreadsheet for the Calligra Suite
 
 Package: calligraplan
 Architecture: any
-Replaces: kplato (<< 1:2.4)
-Breaks: kplato (<< 1:2.4)
+Replaces: calligra-libs (<< 1:2.9.2-0ubuntu2~), kplato (<< 1:2.4)
+Breaks: calligra-libs (<< 1:2.9.2-0ubuntu2~), kplato (<< 1:2.4)
 Depends: calligra-libs (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
-Recommends: default-jre, libapache-poi-java
-Suggests: khelpcenter4
-Homepage: http://www.calligra.org/plan/
+Recommends: default-jre
+Suggests: khelpcenter
+Homepage: http://www.calligra-suite.org/plan/
 Description: integrated project management and planning tool
  Plan is a project management application, allowing for the planning and
  scheduling of projects. It was formerly known as KPlato.
@@ -413,8 +364,8 @@ Depends: calligra-libs (= ${binary:Version}),
          calligrawords-data (>= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
-Suggests: khelpcenter4
-Homepage: http://www.calligra.org/words/
+Suggests: khelpcenter
+Homepage: http://www.calligra-suite.org/words/
 Description: word processor for the Calligra Suite
  Words is a FrameMaker-like word processing and desktop publishing
  application. It is capable of creating polished and professional
@@ -428,14 +379,31 @@ Architecture: all
 Section: text
 Depends: ${misc:Depends}
 Conflicts: koffice-data
-Breaks: calligra-data (<< 1:2.4.3-2)
-Replaces: calligra-data (<< 1:2.4.3-2), koffice-data
-Homepage: http://www.calligra.org/words/
+Breaks: calligra-data (<< 1:2.4.3-2), calligrawords-common (<< 1:2.8.5~)
+Replaces: calligra-data (<< 1:2.4.3-2),
+          calligrawords-common (<< 1:2.8.5~),
+          koffice-data
+Homepage: http://www.calligra-suite.org/words/
 Description: data files for Words word processor
  This package contains architecture-independent data files for Words,
  the word processor shipped with the Calligra Suite.
  .
  See the calligrawords package for further information.
+ .
+ This package is part of the Calligra Suite.
+
+Package: calligrawords-common
+Architecture: any
+Section: kde
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: calligra-data (<< 1:2.6.1-0ubuntu4),
+        calligra-libs (<< 1:2.6.1-0ubuntu4),
+        calligrawords (<< 1:2.5.90)
+Replaces: calligra-data (<< 1:2.6.1-0ubuntu4),
+          calligra-libs (<< 1:2.6.1-0ubuntu4),
+          calligrawords (<< 1:2.5.90)
+Description: shared files for calligrawords and calligraauthor
+ This package contains files that are shared by Words and Author.
  .
  This package is part of the Calligra Suite.
 
@@ -451,8 +419,8 @@ Depends: calligra-libs (= ${binary:Version}),
          calligrastage-data (>=${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
-Suggests: khelpcenter4
-Homepage: http://www.calligra.org/stage/
+Suggests: khelpcenter
+Homepage: http://www.calligra-suite.org/stage/
 Description: presentation program for the Calligra Suite
  Stage is an easy to use yet still flexible presentation application. You can
  easily create presentations containing a rich variety of elements, from
@@ -489,7 +457,8 @@ Depends: calligra-libs (= ${binary:Version}),
          calligraflow-data (>= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
-Homepage: http://www.calligra.org/flow/
+Homepage: http://www.calligra-suite.org/flow/
+Replaces: karbon (<< 1:2.8.5-0ubuntu1)
 Description: flowcharting program for the Calligra Suite
  Flow offers basic flowcharting abilities, but with a twist. Objects are
  scriptable, and a backend plugin system offers the ability to make objects
@@ -501,7 +470,10 @@ Package: calligraflow-data
 Architecture: all
 Section: graphics
 Depends: ${misc:Depends}
-Homepage: http://www.calligra.org/flow/
+Homepage: http://www.calligra-suite.org/flow/
+Replaces: calligrawords-data (<< 1:2.8.5-0ubuntu1),
+          karbon (<< 1:2.8.5-0ubuntu1)
+Breaks: calligrawords-data (<< 1:2.8.5-0ubuntu1), karbon (<< 1:2.8.5-0ubuntu1)
 Description: data files for Flow flowcharting program
  This package contains architecture-independent data files for Flow,
  the flowcharting program shipped with the Calligra Suite.
@@ -515,21 +487,10 @@ Architecture: any
 Depends: calligra-libs (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
-Homepage: http://www.calligra.org/braindump/
+Homepage: http://www.calligra-suite.org/braindump/
 Description: ideas organizer application for the Calligra Suite
  BrainDump is a tool to help to organize the ideas from your brain to your
  computer.
- .
- This package is part of the Calligra Suite.
-
-Package: calligraactive
-Architecture: any
-Depends: calligra-libs (= ${binary:Version}),
-         ${misc:Depends},
-         ${shlibs:Depends}
-Description: Tablet version of Calligra
- Calligra Active is a project to bring Calligra to the Plasma Active Desktop,
- designed for tablets, smartphones, and touching devices.
  .
  This package is part of the Calligra Suite.
 
@@ -537,12 +498,12 @@ Package: calligra-libs
 Section: libs
 Architecture: any
 Replaces: kexi (<< 1:2.6.1), kformula, koffice-libs
-Conflicts: kformula, koffice-libs
-Breaks: kexi (<< 1:2.6.1)
+Conflicts: calligrasheets (<< 1:2.9.0-0ubuntu2~), kformula, koffice-libs
+Breaks: calligrasheets (<< 1:2.9.0-0ubuntu2~), kexi (<< 1:2.6.1)
 Depends: calligra-data (>= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
-Recommends: fonts-lyx, libqca2-plugin-ossl, python, ruby
+Recommends: fonst-lyx, libqca2-plugin-ossl, python, ruby
 Suggests: texlive, wordnet
 Description: common libraries and binaries for the Calligra Suite
  This package provides the libraries and binaries that are shared amongst
@@ -550,23 +511,20 @@ Description: common libraries and binaries for the Calligra Suite
  .
  This package is part of the Calligra Suite.
 
-Package: calligra-semanticitems
-Section: libs
-Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: semantic item plugins for the Calligra Suite
- This package provides the semantic item plugins for Calligra.
- .
- This package is part of the Calligra Suite.
-
 Package: calligra-data
 Section: libs
 Architecture: all
 Depends: ${misc:Depends}
-Replaces: kexi (<< 1:2.6.1), kformula, koffice-data
+Replaces: calligraplan (<< 1:2.8.90),
+          kexi (<< 1:2.6.92-0ubuntu4),
+          kformula,
+          koffice-data,
+          krita-data (<< 1:2.6.4-0ubuntu1)
 Conflicts: kformula, koffice-data
-Breaks: kexi (<< 1:2.6.1)
-Suggests: khelpcenter4
+Breaks: calligraplan (<< 1:2.8.90),
+        kexi (<< 1:2.6.92-0ubuntu4),
+        krita-data (<< 1:2.6.4-0ubuntu1)
+Suggests: khelpcenter
 Description: common shared data for the Calligra Suite
  This package provides the architecture-independent data that is shared
  amongst the various components of Calligra.
@@ -587,20 +545,6 @@ Description: Okular backend for ODP documents
  .
  This package is part of the Calligra Suite.
 
-Package: okular-backend-odt
-Architecture: any
-Section: graphics
-Depends: calligra-libs (= ${binary:Version}),
-         ${misc:Depends},
-         ${shlibs:Depends}
-Recommends: okular
-Enhances: okular
-Description: Okular backend for ODT documents
- This package provides a backend for Okular to view OpenDocument Text
- (ODT) documents, but also DOC, DOCX and WPD documents.
- .
- This package is part of the Calligra Suite.
-
 Package: calligra-dbg
 Section: debug
 Architecture: any
@@ -617,9 +561,10 @@ Package: calligraauthor
 Architecture: any
 Section: text
 Depends: calligra-libs (= ${binary:Version}),
+         calligrawords-common (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
-Suggests: khelpcenter4
+Suggests: khelpcenter
 Description: Authoring tool for the Calligra Suite
  A specialized tool for serious writers, like novelists or textbook writers,
  aiming to become what Krita is for painters. The application will support a
@@ -629,36 +574,3 @@ Description: Authoring tool for the Calligra Suite
  scripting.
  .
  This package is part of the Calligra Suite.
-
-Package: krita-gemini
-Section: oldlibs
-Priority: extra
-Architecture: any
-Depends: calligra-gemini (= ${binary:Version}), ${misc:Depends}, ${shlibs:Depends}
-Homepage: http://www.calligra.org/krita/
-Description: transitional package, replaced with "calligra-gemini"
- This is a transitional package to aid migration to "calligra-gemini".
- This package is safe to remove.
-
-Package: calligra-gemini
-Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends},
-         calligra-gemini-data (>= ${source:Version})
-Homepage: https://www.calligra.org/gemini/
-Description: unified interface for stage and words
- Calligra Gemini provide a unified applications which combines
- traditionnal desktop application and touch friendly interface for
- the Words and Stage components.
- .
- This package is part of the Calligra Suite.
-
-Package: calligra-gemini-data
-Architecture: all
-Depends: ${misc:Depends}, texlive-fonts-extra
-Homepage: https://www.calligra.org/gemini/
-Description: Calligra Gemini - data files
- Calligra Gemini provide a unified applications which combines
- traditionnal desktop application and touch friendly interface for
- the Words and Stage components.
- .
- This package provides data files for Calligra Gemini.

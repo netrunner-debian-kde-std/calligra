@@ -2,7 +2,15 @@ usr/bin/calligraauthor
 usr/lib/kde4/authorpart.so
 usr/lib/libkdeinit4_calligraauthor.so
 usr/share/applications/kde4/author.desktop
-usr/share/icons/hicolor/*/apps/calligraauthor.png
+usr/share/icons/hicolor/1024x1024/apps/calligraauthor.png
+usr/share/icons/hicolor/128x128/apps/calligraauthor.png
+usr/share/icons/hicolor/16x16/apps/calligraauthor.png
+usr/share/icons/hicolor/22x22/apps/calligraauthor.png
+usr/share/icons/hicolor/256x256/apps/calligraauthor.png
+usr/share/icons/hicolor/32x32/apps/calligraauthor.png
+usr/share/icons/hicolor/48x48/apps/calligraauthor.png
+usr/share/icons/hicolor/512x512/apps/calligraauthor.png
+usr/share/icons/hicolor/64x64/apps/calligraauthor.png
 usr/share/icons/hicolor/scalable/apps/calligraauthor.svgz
 usr/share/kde4/apps/author/
 usr/share/kde4/config/authorrc

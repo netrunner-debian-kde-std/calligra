@@ -1,2 +1,1 @@
-no-symbols-control-file *
-package-name-doesnt-match-sonames *
+calligrawords: package-name-doesnt-match-sonames libRtfReader11 libkowv2-9 libwordsprivate11
