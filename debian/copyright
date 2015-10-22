@@ -527,8 +527,8 @@ Files:
     cmake/modules/FindEigen3.cmake
 Copyright:
     2009      Benoit Jacob <jacob.benoit.1@gmail.com>
-    2008,2009 Gael Guennebaud <g.gael@free.fr>
-    2006,2007 Montel Laurent <montel@kde.org>
+    2008-2009 Gael Guennebaud <g.gael@free.fr>
+    2006-2007 Montel Laurent <montel@kde.org>
 License: BSD-2-Clause
 
 Files:
@@ -729,7 +729,7 @@ Files:
     stage/part/tests/ModelTest.cpp
     stage/part/tests/ModelTest.h
 Copyright:
-    2001-2006 Chris Schlaeger <cs@kde.org>
+    2001-2007 Chris Schlaeger <cs@kde.org>
     2011      Dag Andersen <danders@get2net.dk>
     2007      Trolltech ASA
 License: GPL-2
