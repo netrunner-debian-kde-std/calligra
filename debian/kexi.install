@@ -26,8 +26,14 @@ usr/lib/libkexiutils.so.1*
 usr/lib/libkformdesigner.so.1*
 usr/share/appdata/kexi.appdata.xml
 usr/share/applications/kde4/kexi.desktop
+usr/share/kde4/services/calligra/kexicsv_importexporthandler.desktop
+usr/share/kde4/services/calligra/kexiformhandler.desktop
 usr/share/kde4/services/calligra/keximigrate_mdb.desktop
 usr/share/kde4/services/calligra/keximigrate_txt.desktop
+usr/share/kde4/services/calligra/kexiqueryhandler.desktop
+usr/share/kde4/services/calligra/kexireporthandler.desktop
+usr/share/kde4/services/calligra/kexiscripthandler.desktop
+usr/share/kde4/services/calligra/kexitablehandler.desktop
 usr/share/kde4/services/calligra/kformdesigner_containers.desktop
 usr/share/kde4/services/calligra/kformdesigner_kexidbfactory.desktop
 usr/share/kde4/services/calligra/kformdesigner_stdwidgets.desktop

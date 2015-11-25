@@ -289,6 +289,8 @@ usr/share/kde4/apps/musicshape/fonts/Emmentaler-14.ttf
 usr/share/kde4/services/calligra/calligra_device_spacenavigator.desktop
 usr/share/kde4/services/calligra/calligra_docker_defaults.desktop
 usr/share/kde4/services/calligra/calligra_docker_textdocumentinspection.desktop
+usr/share/kde4/services/calligra/calligra_filter_key2odp.desktop
+usr/share/kde4/services/calligra/calligra_filter_odt2docx.desktop
 usr/share/kde4/services/calligra/calligra_shape_artistictext.desktop
 usr/share/kde4/services/calligra/calligra_shape_chart.desktop
 usr/share/kde4/services/calligra/calligra_shape_formular.desktop
@@ -313,6 +315,7 @@ usr/share/kde4/services/calligra/kformulapart.desktop
 usr/share/kde4/services/calligra/kolcmsengine.desktop
 usr/share/kde4/services/calligra/kopabackgroundtool.desktop
 usr/share/kde4/services/calligra/koreport_barcodeplugin.desktop
+usr/share/kde4/services/calligra/koreport_chartplugin.desktop
 usr/share/kde4/servicetypes/calligra_application.desktop
 usr/share/kde4/servicetypes/calligra_deferred_plugin.desktop
 usr/share/kde4/servicetypes/calligra_filter.desktop
