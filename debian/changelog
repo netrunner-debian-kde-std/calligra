@@ -1,3 +1,12 @@
+calligra (1:2.9.8-0ubuntu1~ubuntu15.10~ppa1) wily; urgency=medium
+
+  * New upstream release
+  * Fixing typo in control file (fonst-lyx)
+  * Selecting QT4 for building
+  * Removing upstream patch (upstream_qmax.diff) 
+
+ -- Clive Johnston <clivejo@aol.com>  Tue, 24 Nov 2015 21:38:17 +0000
+
 calligra (1:2.9.7-0ubuntu1) wily; urgency=medium
 
   * New upstream release

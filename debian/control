@@ -5,9 +5,9 @@ Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 XSBC-Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Adrien Grellier <adrien.grellier@laposte.net>,
            Raúl Sánchez Siles <rasasi78@gmail.com>
-Build-Depends: cauchy-dev,
-               cmake (>= 2.6.2),
+Build-Depends: cmake (>= 2.6.2),
                debhelper (>= 9),
+               default-jdk,
                freetds-dev,
                kdelibs5-dev (>= 4:4.4.0),
                kdepimlibs5-dev (>= 4:4.4.3),
@@ -20,6 +20,7 @@ Build-Depends: cauchy-dev,
                libfftw3-dev,
                libfontconfig1-dev,
                libfreetype6-dev,
+               libgit2-dev,
                libglew-dev [!armel !armhf !arm64],
                libglib2.0-dev,
                libgsl0-dev,
@@ -27,7 +28,9 @@ Build-Depends: cauchy-dev,
                libjpeg-dev,
                libkactivities-dev,
                libkdcraw-dev (>= 4:4.4.3),
+               libkf5kdelibs4support-dev,
                liblcms2-dev,
+               libmarble-dev,
                libmysqlclient-dev,
                libodfgen-dev,
                libopencolorio-dev [!armhf],
@@ -38,7 +41,7 @@ Build-Depends: cauchy-dev,
                libpoppler-private-dev,
                libpoppler-qt4-dev,
                libpq-dev,
-               libpqxx3-dev,
+               libpqxx-dev,
                libqca2-dev,
                libqt4-dev,
                libqt4-opengl-dev [!armhf],
@@ -54,16 +57,15 @@ Build-Depends: cauchy-dev,
                libxbase64-dev,
                libxi-dev,
                okular-dev (>= 4:4.12.90),
+               pkg-config,
                pkg-kde-tools (>= 0.9),
+               postgresql-server-dev-9.4,
                pstoedit,
                shared-desktop-ontologies,
                shared-mime-info,
-               vc-dev [!powerpc !armhf !arm64 !ppc64el],
                zlib1g-dev
 Standards-Version: 3.9.6
 Homepage: http://www.calligra-suite.org/
-Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging/calligra
-Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging/calligra
 X-Debian-Vcs-Git: git://git.debian.org/pkg-kde/kde-std/calligra.git
 X-Debian-Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-std/calligra.git
 
@@ -503,7 +505,7 @@ Breaks: calligrasheets (<< 1:2.9.0-0ubuntu2~), kexi (<< 1:2.6.1)
 Depends: calligra-data (>= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
-Recommends: fonst-lyx, libqca2-plugin-ossl, python, ruby
+Recommends: fonts-lyx, libqca2-plugin-ossl, python, ruby
 Suggests: texlive, wordnet
 Description: common libraries and binaries for the Calligra Suite
  This package provides the libraries and binaries that are shared amongst
