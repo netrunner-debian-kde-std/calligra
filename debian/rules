@@ -1,5 +1,6 @@
 #!/usr/bin/make -f
 export QT_SELECT=4
+include /usr/share/pkg-kde-tools/qt-kde-team/2/debian-qt-kde.mk
 
 lib_pkgs := calligra-libs
 
@@ -12,7 +13,7 @@ export DEB_LDFLAGS_MAINT_APPEND := -Wl,--as-needed
 	dh $@ --parallel --with kde --with sodeps
 
 override_dh_auto_configure:
-	dh_auto_configure -Skde -- -DKDE4_BUILD_TESTS=OFF -DPRODUCTSET=ALL
+	dh_auto_configure -Skde -- -DKDE4_BUILD_TESTS=OFF -DPRODUCTSET=DESKTOP
 
 override_dh_install:
 	dh_movelibkdeinit

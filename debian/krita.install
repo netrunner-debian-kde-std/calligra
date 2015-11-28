@@ -1,5 +1,7 @@
 usr/bin/gmicparser
 usr/bin/krita
+usr/lib/calligra/imports/org/krita/draganddrop/libdraganddropplugin.so
+usr/lib/calligra/imports/org/krita/draganddrop/qmldir
 usr/lib/kde4/krita_colorspaces_extensions.so
 usr/lib/kde4/krita_raw_import.so
 usr/lib/kde4/kritaartisticcolorselector.so
