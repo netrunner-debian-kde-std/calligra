@@ -302,21 +302,6 @@ Description: data files for Krita painting program
  .
  This package is part of the Calligra Suite.
 
-Package: calligragemini
-Architecture: amd64 i386
-Depends: calligra-libs (= ${binary:Version}),
-         calligrastage (>= ${source:Version}),
-         calligrawords (>= ${source:Version}),
-         libqtwebkit-qmlwebkitplugin,
-         ${misc:Depends},
-         ${shlibs:Depends}
-Suggests: khelpcenter
-Replaces: calligra-libs (<< 1:2.9.2-0ubuntu2~)
-Breaks: calligra-libs (<< 1:2.9.2-0ubuntu2~)
-Homepage: http://www.calligra-suite.org/krita/
-Description: responsive user interface for Calligra
- Calligra Gemini has a UI which can switch between tablet and desktop
- layout.
 
 Package: calligrasheets
 Architecture: any
