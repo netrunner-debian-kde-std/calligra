@@ -5,7 +5,6 @@ Files-Excluded:
  filters/libmso/generated/mso.jar
  filters/plan/mpxj/planconvert/jar/PlanConvert.jar
  3rdparty/google-breakpad
- _TODO__krita/plugins/extensions/gmic/3rdparty/gmic
 
 Files: *
 Copyright:
@@ -38,7 +37,6 @@ Copyright:
     2010      Artur Duque de Souza <asouzakde.org>
     2011      Aurélien Gâteau <agateau@kde.org>
     2004-2006,2008 Bart Coppens <kde@bartcoppens.be>
-    1994      Basil K. Malyshev
     2011-2012 Ben Martin <monkeyiq@users.sourceforge.net>
     2009-2010 Benjamin Port <port.benjamin@gmail.com>
     2008      Benoit Jacob <jacob.benoit.1@gmail.com>
@@ -133,7 +131,8 @@ Copyright:
     2007      Fredrik Höglund <fredrik@kde.org>
     2007-2009 Fredy Yanardi <fyanardi@gmail.com>
     2008      Fredy Yanardi <fyanardi@kde.org>
-    1989,1991,1999 Free Software Foundation, Inc
+    1989,1991,1999 Free Software Foundation, Inc.
+    1989,1991 Free Software Foundation, Inc. \par
     2005      Frerich Raabe <raabe@kde.org>
     2004-2007 Fridrich Strba <fridrich.strba@bluewin.ch>
     2013      Friedrich W. H. Kossebau <friedrich@kogmbh.com>
@@ -154,6 +153,7 @@ Copyright:
     2008      Hans Bakker <hansmbakker@gmail.com>
     1999-2003 Hans Petter Bieker <bieker@kde.org>
     1999-2002 Harri Porten <porten@kde.org>
+    1998      Hewlett-Packard Company
     2001      Holger Freyther <freyther@kde.org>
     2009-2010 Hugo Pereira Da Costa <hugo@oxygen-icons.org>
     2008-2009 Hyves (Startphone Ltd.)
@@ -162,7 +162,6 @@ Copyright:
     2002      Igor Jansen <rm@kde.org>
     2009      Ilya Portnov
     2004-2014 Inge Wallin <inge@lysator.liu.se>
-    2007      Inge Wallin <ingwa@kde.org>
     2011      Inge Wallin <ingwa@kogmbh.com>
     2009      Inge Wallin <ingwa@lysator.liu.se>
     2009      Inge wallin <inge@lysator.liu.se>
@@ -177,7 +176,6 @@ Copyright:
     2010      Jean Nicolas Artaud <jean.nicolas.artaud@kogmbh.com>
     2009-2013 Jean-Nicolas Artaud <jeannicolasartaud@gmail.com>
     1997-2000 Jens Lautenbacher <jtl@gimp.org>
-    2009      Jens-Michael Hoffmann <jensmh@gmx.de>
     2009      Jeremias Epperlein
     2009      Jeremias Epperlein <jeeree@web.de>
     2013      Jeremy Bourdiol <jerem.dante@gmail.com>
@@ -232,18 +230,18 @@ Copyright:
     2003-2004 Lucijan Busch <lucijan@kde.org>
     2002-2003 Lukas Tinkl <lukas.tinkl@suse.cz>
     2002-2003 Lukas Tinkl <lukas@kde.org>
-    2006,2008-2009 Lukas Tvrdy <lukast.dev@gmail.com>
+    2008-2009 Lukas Tvrdy <lukast.dev@gmail.com>
     2013      Luke De Mouy <lukewolf101010devel@gmail.com>
     2003      Lukáš Tinkl <lukas@kde.org>
     2009-2011 Lukáš Tvrdý <LukasT.dev@gmail.com>
     2011      Lukáš Tvrdý <lukas.tvrdy@ixonos.com>
-    2006,2008-2015 Lukáš Tvrdý <lukast.dev@gmail.com>
+    2008-2015 Lukáš Tvrdý <lukast.dev@gmail.com>
     1998-2002 Maksym Polyakov
     2014      Manuel Riecke <spell1337@gmail.com>
     2010      Marc Pegon <pe.marc@free.fr>
     2006-2009 Marco Gulino <marco.gulino@gmail.com>
     2006-2012 Marijn Kruisselbrink <mkruisselbrink@kde.org>
-    2008-2009 Mark Kretschmann <kretschmann@kde.org>
+    2008,2009 Mark Kretschmann <kretschmann@kde.org>
     1998-2001 Marti Maria
     2005      Martin Ellis <kde@martinellis.co.uk>
     2004      Martin Ellis <m.a.ellis@ncl.ac.uk>
@@ -259,8 +257,8 @@ Copyright:
     2011      Matus Hanzes <matus.hanzes@ixonos.com>
     2010      Matus Talcik <matus.talcik@gmail.com>
     2011-2012 Matus Uzak <matus.uzak@gmail.com>
-    2010-2012 Matus Uzak <matus.uzak@ixonos.com>
-    2004-2005 Max Howell <max.howell@methylblue.com>
+    2010-2011 Matus Uzak <matus.uzak@ixonos.com>
+    2004,2005 Max Howell <max.howell@methylblue.com>
     2006-2007 Menard Alexis <danders@get2net.dk>
     2003-2005 Meni Livne <livne@kde.org>
     2015      Michael Abrahams <miabraha@gmail.com>
@@ -275,7 +273,7 @@ Copyright:
     1998-2001 Mirko Boehm
     1998-2001 Mirko Boehm <mirko@kde.org>
     2012-2013 Mohammed Nafees <nafees.technocool@gmail.com>
-    2012,2014 Mohit Goyal <mohit.bits2011@gmail.com>
+    2014      Mohit Goyal <mohit.bits2011@gmail.com>
     2011-2013 Mojtaba Shahi Senobari <mojtaba.shahi3000@gmail.com>
     2001-2003,2006 Montel Laurent <lmontel@mandrakesoft.com>
     2004,2007 Montel Laurent <montel@kde.org>
@@ -320,7 +318,7 @@ Copyright:
     2011      Radoslaw Wicik <rockford@wicik.pl>
     2011,2015 Radosław Wicik <radoslaw@wicik.pl>
     2005-2006 Raphael Langerhorst <raphael.langerhorst@kdemail.net>
-    2009      Red Hat, Inc
+    2009      Red Hat, Inc.
     1998-2001 Reginald Stadlbauer <reggie@kde.org>
     2003      Reinhart Geiser <geiseri@kde.org>
     2010      Ricardo Cabello <hello@mrdoob.com>
@@ -347,11 +345,10 @@ Copyright:
     2012      Shreya <Pandit <shreya@shreyapandit.com>
     2011-2012 Shreya Pandit <shreya@shreyapandit.com>
     2011      Siddharth Sharma <siddharth.kde@gmail.com>
-    2008,2011-2012 Silvio Heinrich <plassy@web.de>
+    2011-2012 Silvio Heinrich <plassy@web.de>
     2011      Silvio Heinrich <plassyqweb.de>
     1999-2001,2006 Simon Hausmann <hausmann@kde.org>
     2002      Simon MacMullen <calligra@babysimon.co.uk>
-    1998-2002 Skåne Sjælland Linux User Group <bestyrelsen@sslug.dk>
     2011      Smit Patel <smitpatel24@gmail.com>
     2015      Soma Schliszka <soma.schliszka@gmail.com>
     2013      Somsubhra Bairi <somsubhra.bairi@gmail.com>
@@ -368,11 +365,15 @@ Copyright:
     2012      Sujith H <sujith.h@gmail.com>
     2011-2013 Sujith Haridasan <sujith.h@gmail.com>
     2012      Sujith Haridasan <sujith.haridasan@kdemail.net>
-    2000      Sun Microsystems, Inc
+    2000      Sun Microsystems, Inc.
     2010,2012 Sven Langkamp
     2004-2014 Sven Langkamp <sven.langkamp@gmail.com>
     2005-2006 Sven Lüppken <sven@kde.org>
     2000      Sven Neumann <sven@gimp.org>
+    1999-2007 The KSpread Team <calligra-devel@kde.org>
+    2001-2013 The Karbon Developers
+    2014      The Krita team
+    2002      The calligra team <calligra@kde.org>
     2006      Thomas Braxton <brax108@cox.net>
     2002      Thomas Franke and Andreas Pietzowski <andreas@pietzowski.de>
     2003      Thomas Nagy <tnagyemail-mail@yahoo.fr>
@@ -398,7 +399,6 @@ Copyright:
     2002-2003,2005 Tomislav Lukman <tomislav.lukman@ck.t-com.hr>
     1998-2000 Torben Weis <weis@kde.org>
     2011      Torio Mlshi <mlshi@lavabit.com>
-    2007      Torsten Rahn <tackat@kde.org>
     2003      Ulrich Kuettler <ulrich.kuettler@gmx.de>
     2001      Ulrich Kuettler <ulrich.kuettler@mailbox.tu-dresden.de>
     2010      Valek Filippov <frob@gnome.org>
@@ -417,12 +417,7 @@ Copyright:
     2005      Yolla Indria <yolla.indria@gmail.com>
     2010-2014 Yue Liu <yue.liu@mail.com>
     2002      patrick julien <freak@codepimps.org>
-    1999-2007 the KSpread Team <calligra-devel@kde.org>
-    2001-2013 the Karbon Developers
-    2003      the Kexi Team
-    2014      the Krita team
-    2002      the calligra team <calligra@kde.org>
-    2002-2003 thierry lorthiois
+    2002,2003 thierry lorthiois
 License: GPL-2+__and__LGPL-2+__and__LGPL-2.1__and__LGPL-2.1+
  These files are licensed under a variety of GNU licenses. For details
  check file's headers and corresponding license paragraphs:
@@ -441,37 +436,22 @@ Files:
     krita/plugins/extensions/dockers/historydocker/KisUndoModel.h
     krita/plugins/extensions/dockers/historydocker/KisUndoView.cpp
     krita/plugins/extensions/dockers/historydocker/KisUndoView.h
+    libs/kundo2/kundo2group.cpp
+    libs/kundo2/kundo2group.h
     libs/kundo2/kundo2model.cpp
     libs/kundo2/kundo2model.h
+    libs/kundo2/kundo2stack_p.h
+    libs/kundo2/kundo2stack.cpp
+    libs/kundo2/kundo2stack.h
     libs/kundo2/kundo2view.cpp
     libs/kundo2/kundo2view.h
 Copyright:
-    2010      Matus Talcik <matus.talcik@gmail.com>
-    2010      Nokia Corporation and/or its subsidiary(-ies)
-License: LGPL-2+ or LGPL-2.1 and exception-LGPL-Nokia-QT-1.1
-
-Files:
-    libs/kundo2/kundo2group.cpp
-    libs/kundo2/kundo2group.h
-    libs/kundo2/kundo2stack_p.h
-Copyright:
-    2011      Nokia Corporation and/or its subsidiary(-ies)
-License: LGPL-2.1 and exception-LGPL-Nokia-QT-1.1
-
-Files:
-    libs/kundo2/kundo2stack.cpp
-    libs/kundo2/kundo2stack.h
-Copyright:
     2014      Dmitry Kazakov <dimula73@gmail.com>
+    2010      Matus Talcik <matus.talcik@gmail.com>
     2014      Mohit Goyal <mohit.bits2011@gmail.com>
-    2011      Nokia Corporation and/or its subsidiary(-ies)
-License: LGPL-2.1+ and exception-LGPL-Nokia-QT-1.1
-
-Files:
-    gemini/themes/default/fonts/PermanentMarker.ttf
-Copyright:
-    2010      Font Diner, Inc
-License: Apache-2.0
+    2010-2011 Nokia Corporation and/or its subsidiary(-ies)
+License: LGPL-2.1
+Comment: alternatively can be under non-commercial license.
 
 Files:
     filters/words/rtf/import/3rdparty/rtf-qt/src/controlword.cpp
@@ -494,16 +474,12 @@ Files:
     krita/sketch/qml/components/PageStack.js
     krita/sketch/qml/components/PageStack.qml
     libs/pigment/lut.h
-    sheets/plugins/scripting/scripts/rpyfunctions.py
-    sheets/plugins/scripting/scripts/yfinance.py
-    sheets/plugins/scripting/scripts/yweather.py
 Copyright:
     2002-2006 Ariya Hidayat <ariya@kde.org>
     2010      Cyrille Berger <cberger@cberger.net>
     2011      Marco Martin <mart@kde.org>
     2011-2012 Matus Uzak <matus.uzak@ixonos.com>
     2011      Nokia Corporation and/or its subsidiary(-ies)
-    2007      Sebastian Sauer <mail@dipe.org>
 License: BSD-3-Clause
 
 Files:
@@ -513,17 +489,20 @@ Copyright:
     2006-2009 Alexander Neundorf <neundorf@kde.org>
     2007      Ariya Hidayat <ariya@kde.org>
     2012      Benjamin Eikel
+    2009      Benoit Jacob <jacob.benoit.1@gmail.com>
     2012      Boudewijn Rempt <boud@valdyas.org>
     2009-2011 Cyrille Berger <cberger@cberger.net>
     2014      Dan Leinir Turthra Jensen <admin@leinir.dk>
     2013-2014 Friedrich W. H. Kossebau <kossebau@kde.org>
+    2008,2009 Gael Guennebaud <g.gael@free.fr>
     2008,2010-2014 Gilles Caulier <caulier.gilles@gmail.com>
     2010-2013 Jarosław Staniek <staniek@kde.org>
     2010      KO GmbH <jos.van.den.oever@kogmbh.com>
-    2001-2009 Kitware, Inc
+    2001-2009 Kitware, Inc.
     2006,2007 Laurent Montel <montel@kde.org>
     2009-2011 Mathieu Malaterre <mathieu.malaterre@gmail.com>
     2007,2009-2012 Matthias Kretz <kretz@kde.org>
+    2006,2007 Montel Laurent <montel@kde.org>
     2006-2010 Pino Toscano <pino@kde.org>
     2013      Yue Liu <yue.liu@mail.com>
 License: BSD-3-Clause
@@ -531,42 +510,24 @@ Comment:
  COPYING-CMAKE-SCRIPTS
 
 Files:
-    cmake/modules/FindEigen3.cmake
-Copyright:
-    2009      Benoit Jacob <jacob.benoit.1@gmail.com>
-    2008-2009 Gael Guennebaud <g.gael@free.fr>
-    2006-2007 Montel Laurent <montel@kde.org>
-License: BSD-2-Clause
-
-Files:
-    cmake/modules/GetGitRevisionDescription.cmake
-    cmake/modules/GetGitRevisionDescription.cmake.in
-Copyright:
-    2009-2010 Iowa State University
-License: BSL-1.0
-
-Files:
     plugins/formulashape/fonts/LICENSE.BAKOMA
     plugins/formulashape/fonts/cmex10.ttf
 Copyright:
-    1994-1995 Basil K. Malyshev
+    1994,1995 Basil K. Malyshev
 License: Bakoma
 Comment: "fonts-lyx"
 
 Files:
     plugins/formulashape/fonts/LICENSE.AREV
+    plugins/formulashape/fonts/Arev*.ttf
 Copyright:
     2006      Tavmjong Bah
 License: Bitstream-Arev
 
 Files:
-    plugins/formulashape/fonts/Arev.ttf
-    plugins/formulashape/fonts/ArevBI.ttf
-    plugins/formulashape/fonts/ArevBd.ttf
-    plugins/formulashape/fonts/ArevIt.ttf
     plugins/formulashape/fonts/LICENSE.BITSTREAM
 Copyright:
-    2003      Bitstream, Inc
+    2003      Bitstream, Inc.
 License: Bitstream-Vera
 
 Files:
@@ -587,45 +548,6 @@ Files:
 Copyright:
     2015      Elle Stone <ellestone@ninedegreesbelow.com>
 License: CC-BY-SA-3.0
-
-Files:
-    braindump/data/braindump.appdata.xml
-    flow/part/flow.appdata.xml
-    karbon/data/karbon.appdata.xml
-    kexi/kexi.appdata.xml
-    krita/data/paintoppresets/Ink_gpen_10.kpp
-    krita/data/paintoppresets/Tangent_normal_basic.kpp
-    krita/data/paintoppresets/Tangent_normal_drawing_angle.kpp
-    krita/data/paintoppresets/Tangent_normal_pixel.kpp
-    krita/data/paintoppresets/Tangent_normal_y_inverted.kpp
-    krita/krita.appdata.xml
-    krita/plugins/paintops/tangentnormal/krita-tangentnormal-preview.png
-    krita/plugins/tools/selectiontools/tool_contiguous_selection_cursor_add.png
-    krita/plugins/tools/selectiontools/tool_contiguous_selection_cursor_sub.png
-    krita/plugins/tools/selectiontools/tool_elliptical_selection_cursor_add.png
-    krita/plugins/tools/selectiontools/tool_elliptical_selection_cursor_sub.png
-    krita/plugins/tools/selectiontools/tool_outline_selection_cursor_add.png
-    krita/plugins/tools/selectiontools/tool_outline_selection_cursor_sub.png
-    krita/plugins/tools/selectiontools/tool_polygonal_selection_cursor.png
-    krita/plugins/tools/selectiontools/tool_polygonal_selection_cursor_add.png
-    krita/plugins/tools/selectiontools/tool_polygonal_selection_cursor_sub.png
-    krita/plugins/tools/selectiontools/tool_rectangular_selection_cursor_add.png
-    krita/plugins/tools/selectiontools/tool_rectangular_selection_cursor_sub.png
-    krita/plugins/tools/selectiontools/tool_similar_selection_cursor_add.png
-    krita/plugins/tools/selectiontools/tool_similar_selection_cursor_sub.png
-    plan/plan.appdata.xml
-    sheets/sheets.appdata.xml
-    stage/app/stage.appdata.xml
-    words/app/words.appdata.xml
-Copyright:
-    Not-Applicable
-License: CC0-1.0
-
-Files:
-    krita/data/profiles/elles-icc-profiles/make-elles-profiles.c
-Copyright:
-    2014      Elle Stone
-License: CC0-1.0 and GPL-3+
 
 Files:
     windows/calligra_installer/CPL.TXT
@@ -662,7 +584,7 @@ Files:
 Copyright:
     2011-2012 KO GmbH
     2011-2012 Stuart Dickson <stuartmd@kogmbh.com>
-License: CPL-1.0
+License: CPL-1
 
 Files:
     krita/plugins/extensions/gmic/3rdparty/gmic/gmic.cpp
@@ -685,7 +607,7 @@ License: CeCILL-C or CeCILL-2.0
 
 Files:
     kexi/tests/widgets/kexidbdrivercombotest.cpp
-    krita/plugins/formats/jpeg/3rdparty/lcms/*
+    krita/plugins/formats/jpeg/3rdparty/*
     krita/sketch/draganddrop/DeclarativeDragArea.cpp
     krita/sketch/draganddrop/DeclarativeDragArea.h
     krita/sketch/draganddrop/DeclarativeDragDropEvent.cpp
@@ -696,7 +618,7 @@ Files:
     krita/sketch/draganddrop/DeclarativeMimeData.h
     krita/sketch/draganddrop/draganddropplugin.cpp
     krita/sketch/draganddrop/draganddropplugin.h
-    sheets/3rdparty/mdds/*
+    sheets/3rdparty/*
     sheets/plugins/calendar/CalendarToolWidget.cpp
     sheets/plugins/calendar/CalendarToolWidget.h
 Copyright:
@@ -706,8 +628,19 @@ Copyright:
     1998-2004 Marti Maria <x@uknown.com>
     1998-2004 Marti Maria <x@unknown.com>
     2005      Martin Ellis <martin.ellis@kdemail.net>
-    2005      Raphael Langerhorst <raphael-langerhorst@gmx.at>
+    2005      Raphael Langerhorst <raphael-langerhorst@gmx.at>*>
 License: Expat
+
+Files:
+    doc/*
+Copyright:
+    2002-2012 The Kexi Team
+    2006      Thomas Zander <zander@kde.org>
+    1999-2000 Krishna Tateneni
+    2000-2002 Neil Lucock
+License: GFDL-1.2+
+Comment:
+ COPYING.DOC
 
 Files:
     krita/plugins/extensions/gmic/3rdparty/gmic/update1610.gmic
@@ -716,30 +649,13 @@ Copyright:
 License: GFDL-1.3+
 
 Files:
-    doc/*
-Copyright:
-    2005      Anne-Marie.Mahfouf
-    2000      Frederik Fouvry
-    2006      Gary Cramblitt
-    2002-2012 The Kexi Team
-    1999-2000 Krishna Tateneni
-    2000-2002 Neil Lucock
-    1998-2000 Reginald Stadlbauer
-    2006      Thomas Zander <zander@kde.org>
-License: GFDL-1.2+
-Comment:
- COPYING.DOC
-
-Files:
     krita/ui/tests/modeltest.cpp
     krita/ui/tests/modeltest.h
-    libs/kotext/kohyphen/hyphdicts/README_hyph_nl_NL.txt
-    pics/oxygen/oxsc-actions-table.svgz
     plan/plugins/schedulers/tj/taskjuggler/*
     stage/part/tests/ModelTest.cpp
     stage/part/tests/ModelTest.h
 Copyright:
-    2001-2007 Chris Schlaeger <cs@kde.org>
+    2001-2006 Chris Schlaeger <cs@kde.org>
     2011      Dag Andersen <danders@get2net.dk>
     2007      Trolltech ASA
 License: GPL-2
@@ -789,8 +705,7 @@ License: GPL-2 or GPL-3+KDE
 Files:
     3rdparty/kdgantt/*
     3rdparty/kdganttpatches/*
-Copyright:
-    2001-2006 Klarälvdalens Datakonsult AB
+Copyright: 2001-2011 Klarälvdalens Datakonsult AB.
 License: GPL-2 or GPL-3+KDGantt
 Comment:
  Alternatively you may (at your option) use any later version of the GNU
@@ -819,10 +734,22 @@ Copyright:
     2004      Christian Muehlhaeuser <chris@chris.de>
     2005      Gabor Lehel <illissius@gmail.com>
     2003      Laur Ivan <laurivan@eircom.net>
-    2008-2009 Mark Kretschmann <kretschmann@kde.org>
-    2004-2005 Max Howell <max.howell@methylblue.com>
+    2008,2009 Mark Kretschmann <kretschmann@kde.org>
+    2004,2005 Max Howell <max.howell@methylblue.com>
     2004-2006 Seb Ruiz <ruiz@kde.org>
 License: GPL-2+ and LGPL-2
+
+Files:
+    libs/kotext/kohyphen/hnjalloc.c
+    libs/kotext/kohyphen/hnjalloc.h
+    libs/kotext/kohyphen/hyphen.c
+    libs/kotext/kohyphen/hyphen.h
+Copyright:
+    2001      ALTLinux, Moscow
+    2001      ALTLinux, Moscow (http://www.alt-linux.org)
+    2001      Peter Novodvorsky <nidd@cs.msu.su>
+    1998      Raph Levien
+License: LGPL-2+ or MPL-1.0
 
 Files:
     plugins/textediting/thesaurus/extract.pl
@@ -834,13 +761,15 @@ License: GPL-2+ and WordNet
 Files:
     gemini/cloud/dropbox/3rdparty/json.cc
     gemini/cloud/dropbox/3rdparty/json.h
+    krita/data/profiles/elles-icc-profiles/make-elles-profiles.c
     libs/db/parser/sqlparser.cpp
     libs/db/parser/sqlparser.h
     plugins/formulashape/3rdparty/itexToMML/y.tab.c
     plugins/formulashape/3rdparty/itexToMML/y.tab.h
 Copyright:
     2010      Eeli Reilin <eeli@nilier.org>
-    1984,1989-1990,2000-2015 Free Software Foundation, Inc
+    2014      Elle Stone
+    1984,1989-1990,2000-2015 Free Software Foundation, Inc.
     2010      Mikko Ahonen <mikko.j.ahonen@jyu.fi>
 License: GPL-3+
 
@@ -1117,7 +1046,7 @@ Copyright:
     2005-2006 Hamish Rodda <rodda@kde.org>
     1999,2002 Harri Porten <porten@kde.org>
     2001      Holger Freyther <freyther@kde.org>
-    2004-2006,2009-2011 Inge Wallin <inge@lysator.liu.se>
+    2004-2006,2009,2011 Inge Wallin <inge@lysator.liu.se>
     2010      Inge wallin <inge@lysator.liu.se>
     2007-2011 Jan Hambrecht <jaham@gmx.net>
     2003-2004,2009-2014 Jarosław Staniek <staniek@kde.org>
@@ -1161,16 +1090,15 @@ Copyright:
     2003      Stefan Taferner <taferner@kde.org>
     1999      Stephan Kulow <coolo@kde.org>
     2011,2014 Sven Langkamp <sven.langkamp@gmail.com>
+    1998-2003 The KSpread Team <calligra-devel@kde.org>
     2003      Thierry Lorthiois <lorthioist@wanadoo.fr>
     2009      Thomas Zander <zander@kde.org>
     2007-2008,2011 Thorsten Zachmann <zachmann@kde.org>
-    2006      Tobias Koenig <tokoe@kde.org>
     2004-2007 Tomas Mecir <mecirt@gmail.com>
     1998-2000 Torben Weis <weis@kde.org>
     2009      Vera Lukman <shicmap@gmail.com>
     1999      Waldo Bastian <bastian@kde.org>
     2000-2003 Werner Trobin <trobin@kde.org>
-    1998-2003 the KSpread Team <calligra-devel@kde.org>
     2003      thierry lorthiois <lorthioist@wanadoo.fr>
 License: LGPL-2
 
@@ -1224,60 +1152,6 @@ Copyright:
 License: LGPL-2 or LGPL-3+KDE
 
 Files:
-    libs/kotext/kohyphen/hnjalloc.c
-    libs/kotext/kohyphen/hnjalloc.h
-    libs/kotext/kohyphen/hyphen.c
-    libs/kotext/kohyphen/hyphen.h
-Copyright:
-    2001      ALTLinux, Moscow
-    2001      ALTLinux, Moscow (http://www.alt-linux.org)
-    2001      Peter Novodvorsky <nidd@cs.msu.su>
-    1998      Raph Levien
-License: LGPL-2+ or MPL-1.0
-
-Files:
-    sheets/plugins/scripting/scripts/consoledocker.py
-    sheets/plugins/scripting/scripts/csvexport.py
-    sheets/plugins/scripting/scripts/csvimport.py
-    sheets/plugins/scripting/scripts/functions.py
-    sheets/plugins/scripting/scripts/htmlexport.py
-    sheets/plugins/scripting/scripts/kexidbexport.py
-    sheets/plugins/scripting/scripts/kexidbimport.py
-    sheets/plugins/scripting/scripts/odfpyexport.py
-    sheets/plugins/scripting/scripts/vcardimport.py
-    words/plugins/scripting/scripts/ooimport.py
-    words/plugins/scripting/scripts/oouno.py
-Copyright:
-    2006-2007 Sebastian Sauer <mail@dipe.org>
-License: LGPL-2+ or BSD-3-Clause
-
-Files:
-    kexi/kexiutils/completer/KexiCompleter.cpp
-    kexi/kexiutils/completer/KexiCompleter.h
-    kexi/kexiutils/completer/KexiCompleter_p.h
-    kexi/kexiutils/completer/private/*
-    krita/sketch/NetworkAccessManager.cpp
-    krita/sketch/NetworkAccessManager.h
-    krita/sketch/models/MultiFeedRSSModel.cpp
-    krita/sketch/models/MultiFeedRSSModel.h
-Copyright:
-    2011      Nokia Corporation and/or its subsidiary(-ies)
-License: LGPL-2.1 and exception-LGPL-Nokia-QT-1.1
-
-Files:
-    krita/ui/qtlockedfile/qtlockedfile.cpp
-    krita/ui/qtlockedfile/qtlockedfile.h
-    krita/ui/qtlockedfile/qtlockedfile_unix.cpp
-    krita/ui/qtlockedfile/qtlockedfile_win.cpp
-    krita/ui/qtsingleapplication/qtlocalpeer.cpp
-    krita/ui/qtsingleapplication/qtlocalpeer.h
-    krita/ui/qtsingleapplication/qtsingleapplication.cpp
-    krita/ui/qtsingleapplication/qtsingleapplication.h
-Copyright:
-    2014      Digia Plc and/or its subsidiary(-ies)
-License: LGPL-2.1 or LGPL-3
-
-Files:
     krita/plugins/filters/indexcolors/indexcolorpalette.cpp
     krita/plugins/filters/indexcolors/indexcolorpalette.h
     krita/plugins/filters/indexcolors/indexcolors.cpp
@@ -1302,51 +1176,12 @@ Copyright:
 License: MPL-2.0
 
 Files:
-    devtools/scripts/OpenDocument-manifest-schema-v1.0-os.rng
-    devtools/scripts/OpenDocument-manifest-schema-v1.1.rng
-    devtools/scripts/OpenDocument-schema-v1.0-os.rng
-    devtools/scripts/OpenDocument-schema-v1.1.rng
-    devtools/scripts/OpenDocument-strict-schema-v1.0-os.rng
-    devtools/scripts/OpenDocument-strict-schema-v1.1.rng
     devtools/scripts/OpenDocument-v1.2-cs01-manifest-schema.rng
     devtools/scripts/OpenDocument-v1.2-cs01-schema-calligra.rng
-    libs/kotext/styles/tests/specs/*
+    libs/kotext/styles/tests/specs/OpenDocument-v1.2-cs01-schema.rng
 Copyright:
     2002-2011 OASIS Open
-    1999-2007 Sun Microsystems, Inc
 License: OASIS
-
-Files:
-    kexi/kexidb/sqlitedump/shell.c
-    libs/db/drivers/sqlite/icu/icu.c
-    libs/db/drivers/sqlite/icu/sqliteicu.h
-Copyright:
-    Not-Applicable
-License: Public-Domain-SQLite
-
-Files:
-    krita/ui/input/wintab/pktdef.h
-    krita/ui/input/wintab/wintab.h
-Copyright:
-    1991-1998 LCS/Telegraphics
-    1998-2008 Wacom Technology
-License: Public-Domain-Wacom
-
-Files:
-    krita/plugins/formats/xcf/3rdparty/xcftools/flatspec.c
-    krita/plugins/formats/xcf/3rdparty/xcftools/flatten.c
-    krita/plugins/formats/xcf/3rdparty/xcftools/flatten.h
-    krita/plugins/formats/xcf/3rdparty/xcftools/palette.c
-    krita/plugins/formats/xcf/3rdparty/xcftools/palette.h
-    krita/plugins/formats/xcf/3rdparty/xcftools/pixels.c
-    krita/plugins/formats/xcf/3rdparty/xcftools/pixels.h
-    krita/plugins/formats/xcf/3rdparty/xcftools/scaletab.c
-    krita/plugins/formats/xcf/3rdparty/xcftools/utils.c
-    krita/plugins/formats/xcf/3rdparty/xcftools/xcf-general.c
-    krita/plugins/formats/xcf/3rdparty/xcftools/xcftools.h
-Copyright:
-    Not-Applicable
-License: Public-Domain-fallback
 
 Files:
     krita/crashreporter/KikiNurse_sm.png
@@ -1368,19 +1203,56 @@ Files:
     krita/pics/mirrorAxis-VerticalMove.png
     krita/plugins/extensions/resourcemanager/tests/data/*
     krita/plugins/filters/unsharp/tests/data/source_with_transparency.png
-    krita/plugins/formats/exr/tests/data/results/*
+    krita/plugins/formats/exr/tests/data/*
     krita/plugins/formats/psd/tests/data/sources/masks.png
     words/templates/Wordprocessing/colorful.png
     words/templates/Wordprocessing/fax.png
-Copyright:
-    Not-Applicable
+Copyright: not-applicable
 License: Public-Domain
+
+Files:
+    krita/data/paintoppresets/Ink_gpen_10.kpp
+    krita/data/paintoppresets/Tangent_normal_basic.kpp
+    krita/data/paintoppresets/Tangent_normal_drawing_angle.kpp
+    krita/data/paintoppresets/Tangent_normal_pixel.kpp
+    krita/data/paintoppresets/Tangent_normal_y_inverted.kpp
+    krita/plugins/paintops/tangentnormal/krita-tangentnormal-preview.png
+    krita/plugins/tools/selectiontools/tool_contiguous_selection_cursor_add.png
+    krita/plugins/tools/selectiontools/tool_contiguous_selection_cursor_sub.png
+    krita/plugins/tools/selectiontools/tool_elliptical_selection_cursor_add.png
+    krita/plugins/tools/selectiontools/tool_elliptical_selection_cursor_sub.png
+    krita/plugins/tools/selectiontools/tool_outline_selection_cursor_add.png
+    krita/plugins/tools/selectiontools/tool_outline_selection_cursor_sub.png
+    krita/plugins/tools/selectiontools/tool_polygonal_selection_cursor.png
+    krita/plugins/tools/selectiontools/tool_polygonal_selection_cursor_add.png
+    krita/plugins/tools/selectiontools/tool_polygonal_selection_cursor_sub.png
+    krita/plugins/tools/selectiontools/tool_rectangular_selection_cursor_add.png
+    krita/plugins/tools/selectiontools/tool_rectangular_selection_cursor_sub.png
+    krita/plugins/tools/selectiontools/tool_similar_selection_cursor_add.png
+    krita/plugins/tools/selectiontools/tool_similar_selection_cursor_sub.png
+Copyright: not-applicable
+License: Public-Domain-CC0
+
+Files:
+    kexi/kexidb/sqlitedump/shell.c
+    libs/db/drivers/sqlite/icu/icu.c
+    libs/db/drivers/sqlite/icu/sqliteicu.h
+Copyright: not-applicable
+License: Public-Domain-SQLite
+
+Files:
+    krita/ui/input/wintab/pktdef.h
+    krita/ui/input/wintab/wintab.h
+Copyright:
+    1991-1998 LCS/Telegraphics
+    1998-2008 Wacom Technology
+License: Public-Domain-Wacom
 
 Files:
     filters/words/msword-odf/wv2/doc/Steely
 Copyright:
     1998      W3C (mit, inria, Keio)
-License: W3C-Software-20150513 and W3C-Doc-2015
+License: W3C-Software
 
 Files:
     plugins/textediting/thesaurus/thesaurus.txt
@@ -1394,21 +1266,80 @@ Copyright:
     2006      Stefan Nikolaus <stefan.nikolaus@kdemail.net>
 License: XML-Schema
 
-License: Apache-2.0
- Licensed under the Apache License, Version 2.0 (the "License");
- you may not use this file except in compliance with the License.
- You may obtain a copy of the License at
- ․
-    http://www.apache.org/licenses/LICENSE-2.0
- ․
- Unless required by applicable law or agreed to in writing, software
- distributed under the License is distributed on an "AS IS" BASIS,
- WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- See the License for the specific language governing permissions and
- limitations under the License.
- ․
- On Debian systems, the complete text of the Apache License,
- Version 2.0 can be found in "/usr/share/common-licenses/Apache-2.0".
+Files:
+    krita/ui/qtlockedfile/qtlockedfile.cpp
+    krita/ui/qtlockedfile/qtlockedfile.h
+    krita/ui/qtlockedfile/qtlockedfile_unix.cpp
+    krita/ui/qtlockedfile/qtlockedfile_win.cpp
+    krita/ui/qtsingleapplication/qtlocalpeer.cpp
+    krita/ui/qtsingleapplication/qtlocalpeer.h
+    krita/ui/qtsingleapplication/qtsingleapplication.cpp
+    krita/ui/qtsingleapplication/qtsingleapplication.h
+Copyright:
+    2014      Digia Plc and/or its subsidiary(-ies)
+License: LGPL-2.1 or LGPL-3
+
+Files:
+    sheets/plugins/scripting/scripts/rpyfunctions.py
+    sheets/plugins/scripting/scripts/yfinance.py
+    sheets/plugins/scripting/scripts/yweather.py
+Copyright:
+    2007      Sebastian Sauer <mail@dipe.org>
+License: BSD-3-Clause
+
+Files:
+    plugins/reporting/maps/marble/*
+Copyright:
+    2007      Inge Wallin <ingwa@kde.org>
+    2009      Jens-Michael Hoffmann <jensmh@gmx.de>
+    2007      Torsten Rahn <tackat@kde.org>
+License: LGPL-2+
+Comment: LGPL version is not specified.
+
+Files:
+    plan/plugins/scripting/scripts/extras/plantotablesimport.py
+    plan/plugins/scripting/scripts/plan2csvexport.py
+    plan/plugins/scripting/scripts/plan2odsexport.py
+    sheets/plugins/scripting/scripts/snippetsdocker.rb
+Copyright:
+    2008,2011-2012 Dag Andersen <danders@get2net.dk>
+    2007      Sebastian Sauer <mail@dipe.org>
+License: LGPL-2+
+
+Files:
+    sheets/plugins/scripting/scripts/consoledocker.py
+    sheets/plugins/scripting/scripts/csvexport.py
+    sheets/plugins/scripting/scripts/csvimport.py
+    sheets/plugins/scripting/scripts/functions.py
+    sheets/plugins/scripting/scripts/htmlexport.py
+    sheets/plugins/scripting/scripts/kexidbexport.py
+    sheets/plugins/scripting/scripts/kexidbimport.py
+    sheets/plugins/scripting/scripts/odfpyexport.py
+    sheets/plugins/scripting/scripts/vcardimport.py
+    words/plugins/scripting/scripts/ooimport.py
+    words/plugins/scripting/scripts/oouno.py
+Copyright:
+    2006-2007 Sebastian Sauer <mail@dipe.org>
+License: LGPL-2+ or BSD-3-Clause
+
+Files:
+    plan/plugins/scripting/scripts/extras/taskfromtablesimport.py
+Copyright:
+    2011      Dag Andersen <danders@get2net.dk>
+License: LGPL-2.1+
+
+Files:
+    devtools/scripts/OpenDocument-manifest-schema-v1.0-os.rng
+    devtools/scripts/OpenDocument-manifest-schema-v1.1.rng
+    devtools/scripts/OpenDocument-schema-v1.0-os.rng
+    devtools/scripts/OpenDocument-schema-v1.1.rng
+    devtools/scripts/OpenDocument-strict-schema-v1.0-os.rng
+    devtools/scripts/OpenDocument-strict-schema-v1.1.rng
+    libs/kotext/styles/tests/specs/OpenDocument-schema-v1.1.rng
+Copyright:
+    2002-2007 OASIS Open
+    1999-2007 Sun Microsystems, Inc.
+License: OASIS
 
 License: BSD-2-Clause
  Redistribution and use in source and binary forms, with or without
@@ -1459,29 +1390,6 @@ License: BSD-3-Clause
  CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
  ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  POSSIBILITY OF SUCH DAMAGE.
-
-License: BSL-1.0
- Permission is hereby granted, free of charge, to any person or organization
- obtaining a copy of the software and accompanying documentation covered by
- this license (the "Software") to use, reproduce, display, distribute,
- execute, and transmit the Software, and to prepare derivative works of the
- Software, and to permit third-parties to whom the Software is furnished to
- do so, all subject to the following:
- ․
- The copyright notices in the Software and this entire statement, including
- the above license grant, this restriction and the following disclaimer,
- must be included in all copies of the Software, in whole or in part, and
- all derivative works of the Software, unless such copies or derivative
- works are solely in the form of machine-executable object code generated by
- a source language processor.
- ․
- THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
- IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- FITNESS FOR A PARTICULAR PURPOSE, TITLE AND NON-INFRINGEMENT. IN NO EVENT
- SHALL THE COPYRIGHT HOLDERS OR ANYONE DISTRIBUTING THE SOFTWARE BE LIABLE
- FOR ANY DAMAGES OR OTHER LIABILITY, WHETHER IN CONTRACT, TORT OR OTHERWISE,
- ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
- DEALINGS IN THE SOFTWARE.
 
 License: Bakoma
  Permission to copy and distribute these fonts for any purpose is
@@ -2368,130 +2276,7 @@ License: CC-BY-SA-3.0
  ․
  Creative Commons may be contacted at http://creativecommons.org/.
 
-License: CC0-1.0
- Creative Commons Legal Code
- ․
- CC0 1.0 Universal
- ․
-    CREATIVE COMMONS CORPORATION IS NOT A LAW FIRM AND DOES NOT PROVIDE
-    LEGAL SERVICES. DISTRIBUTION OF THIS DOCUMENT DOES NOT CREATE AN
-    ATTORNEY-CLIENT RELATIONSHIP. CREATIVE COMMONS PROVIDES THIS
-    INFORMATION ON AN "AS-IS" BASIS. CREATIVE COMMONS MAKES NO WARRANTIES
-    REGARDING THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS
-    PROVIDED HEREUNDER, AND DISCLAIMS LIABILITY FOR DAMAGES RESULTING FROM
-    THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS PROVIDED
-    HEREUNDER.
- ․
- Statement of Purpose
- ․
- The laws of most jurisdictions throughout the world automatically confer
- exclusive Copyright and Related Rights (defined below) upon the creator
- and subsequent owner(s) (each and all, an "owner") of an original work of
- authorship and/or a database (each, a "Work").
- ․
- Certain owners wish to permanently relinquish those rights to a Work for
- the purpose of contributing to a commons of creative, cultural and
- scientific works ("Commons") that the public can reliably and without fear
- of later claims of infringement build upon, modify, incorporate in other
- works, reuse and redistribute as freely as possible in any form whatsoever
- and for any purposes, including without limitation commercial purposes.
- These owners may contribute to the Commons to promote the ideal of a free
- culture and the further production of creative, cultural and scientific
- works, or to gain reputation or greater distribution for their Work in
- part through the use and efforts of others.
- ․
- For these and/or other purposes and motivations, and without any
- expectation of additional consideration or compensation, the person
- associating CC0 with a Work (the "Affirmer"), to the extent that he or she
- is an owner of Copyright and Related Rights in the Work, voluntarily
- elects to apply CC0 to the Work and publicly distribute the Work under its
- terms, with knowledge of his or her Copyright and Related Rights in the
- Work and the meaning and intended legal effect of CC0 on those rights.
- ․
- 1. Copyright and Related Rights. A Work made available under CC0 may be
- protected by copyright and related or neighboring rights ("Copyright and
- Related Rights"). Copyright and Related Rights include, but are not
- limited to, the following:
- ․
-   i. the right to reproduce, adapt, distribute, perform, display,
-      communicate, and translate a Work;
-  ii. moral rights retained by the original author(s) and/or performer(s);
- iii. publicity and privacy rights pertaining to a person's image or
-      likeness depicted in a Work;
-  iv. rights protecting against unfair competition in regards to a Work,
-      subject to the limitations in paragraph 4(a), below;
-   v. rights protecting the extraction, dissemination, use and reuse of data
-      in a Work;
-  vi. database rights (such as those arising under Directive 96/9/EC of the
-      European Parliament and of the Council of 11 March 1996 on the legal
-      protection of databases, and under any national implementation
-      thereof, including any amended or successor version of such
-      directive); and
- vii. other similar, equivalent or corresponding rights throughout the
-      world based on applicable law or treaty, and any national
-      implementations thereof.
- ․
- 2. Waiver. To the greatest extent permitted by, but not in contravention
- of, applicable law, Affirmer hereby overtly, fully, permanently,
- irrevocably and unconditionally waives, abandons, and surrenders all of
- Affirmer's Copyright and Related Rights and associated claims and causes
- of action, whether now known or unknown (including existing as well as
- future claims and causes of action), in the Work (i) in all territories
- worldwide, (ii) for the maximum duration provided by applicable law or
- treaty (including future time extensions), (iii) in any current or future
- medium and for any number of copies, and (iv) for any purpose whatsoever,
- including without limitation commercial, advertising or promotional
- purposes (the "Waiver"). Affirmer makes the Waiver for the benefit of each
- member of the public at large and to the detriment of Affirmer's heirs and
- successors, fully intending that such Waiver shall not be subject to
- revocation, rescission, cancellation, termination, or any other legal or
- equitable action to disrupt the quiet enjoyment of the Work by the public
- as contemplated by Affirmer's express Statement of Purpose.
- ․
- 3. Public License Fallback. Should any part of the Waiver for any reason
- be judged legally invalid or ineffective under applicable law, then the
- Waiver shall be preserved to the maximum extent permitted taking into
- account Affirmer's express Statement of Purpose. In addition, to the
- extent the Waiver is so judged Affirmer hereby grants to each affected
- person a royalty-free, non transferable, non sublicensable, non exclusive,
- irrevocable and unconditional license to exercise Affirmer's Copyright and
- Related Rights in the Work (i) in all territories worldwide, (ii) for the
- maximum duration provided by applicable law or treaty (including future
- time extensions), (iii) in any current or future medium and for any number
- of copies, and (iv) for any purpose whatsoever, including without
- limitation commercial, advertising or promotional purposes (the
- "License"). The License shall be deemed effective as of the date CC0 was
- applied by Affirmer to the Work. Should any part of the License for any
- reason be judged legally invalid or ineffective under applicable law, such
- partial invalidity or ineffectiveness shall not invalidate the remainder
- of the License, and in such case Affirmer hereby affirms that he or she
- will not (i) exercise any of his or her remaining Copyright and Related
- Rights in the Work or (ii) assert any associated claims and causes of
- action with respect to the Work, in either case contrary to Affirmer's
- express Statement of Purpose.
- ․
- 4. Limitations and Disclaimers.
- ․
- a. No trademark or patent rights held by Affirmer are waived, abandoned,
-    surrendered, licensed or otherwise affected by this document.
- b. Affirmer offers the Work as-is and makes no representations or
-    warranties of any kind concerning the Work, express, implied,
-    statutory or otherwise, including without limitation warranties of
-    title, merchantability, fitness for a particular purpose, non
-    infringement, or the absence of latent or other defects, accuracy, or
-    the present or absence of errors, whether or not discoverable, all to
-    the greatest extent permissible under applicable law.
- c. Affirmer disclaims responsibility for clearing rights of other persons
-    that may apply to the Work or any use thereof, including without
-    limitation any person's Copyright and Related Rights in the Work.
-    Further, Affirmer disclaims responsibility for obtaining any necessary
-    consents, permissions or other rights required for any use of the
-    Work.
- d. Affirmer understands and acknowledges that Creative Commons is not a
-    party to this document and has no duty or obligation with respect to
-    this CC0 or use of the Work.
-
-License: CPL-1.0
+License: CPL-1
  Common Public License Version 1.0
  ․
  THE ACCOMPANYING PROGRAM IS PROVIDED UNDER THE TERMS OF THIS COMMON PUBLIC
@@ -5294,6 +5079,133 @@ License: OASIS
  INFRINGE ANY OWNERSHIP RIGHTS OR ANY IMPLIED WARRANTIES OF MERCHANTABILITY OR
  FITNESS FOR A PARTICULAR PURPOSE.
 
+License: Public-Domain
+ No copyright is claimed.
+ This code is in the public domain; do with it what you wish.
+
+License: Public-Domain-CC0
+ Creative Commons Legal Code
+ ․
+ CC0 1.0 Universal
+ ․
+    CREATIVE COMMONS CORPORATION IS NOT A LAW FIRM AND DOES NOT PROVIDE
+    LEGAL SERVICES. DISTRIBUTION OF THIS DOCUMENT DOES NOT CREATE AN
+    ATTORNEY-CLIENT RELATIONSHIP. CREATIVE COMMONS PROVIDES THIS
+    INFORMATION ON AN "AS-IS" BASIS. CREATIVE COMMONS MAKES NO WARRANTIES
+    REGARDING THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS
+    PROVIDED HEREUNDER, AND DISCLAIMS LIABILITY FOR DAMAGES RESULTING FROM
+    THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS PROVIDED
+    HEREUNDER.
+ ․
+ Statement of Purpose
+ ․
+ The laws of most jurisdictions throughout the world automatically confer
+ exclusive Copyright and Related Rights (defined below) upon the creator
+ and subsequent owner(s) (each and all, an "owner") of an original work of
+ authorship and/or a database (each, a "Work").
+ ․
+ Certain owners wish to permanently relinquish those rights to a Work for
+ the purpose of contributing to a commons of creative, cultural and
+ scientific works ("Commons") that the public can reliably and without fear
+ of later claims of infringement build upon, modify, incorporate in other
+ works, reuse and redistribute as freely as possible in any form whatsoever
+ and for any purposes, including without limitation commercial purposes.
+ These owners may contribute to the Commons to promote the ideal of a free
+ culture and the further production of creative, cultural and scientific
+ works, or to gain reputation or greater distribution for their Work in
+ part through the use and efforts of others.
+ ․
+ For these and/or other purposes and motivations, and without any
+ expectation of additional consideration or compensation, the person
+ associating CC0 with a Work (the "Affirmer"), to the extent that he or she
+ is an owner of Copyright and Related Rights in the Work, voluntarily
+ elects to apply CC0 to the Work and publicly distribute the Work under its
+ terms, with knowledge of his or her Copyright and Related Rights in the
+ Work and the meaning and intended legal effect of CC0 on those rights.
+ ․
+ 1. Copyright and Related Rights. A Work made available under CC0 may be
+ protected by copyright and related or neighboring rights ("Copyright and
+ Related Rights"). Copyright and Related Rights include, but are not
+ limited to, the following:
+ ․
+   i. the right to reproduce, adapt, distribute, perform, display,
+      communicate, and translate a Work;
+  ii. moral rights retained by the original author(s) and/or performer(s);
+ iii. publicity and privacy rights pertaining to a person's image or
+      likeness depicted in a Work;
+  iv. rights protecting against unfair competition in regards to a Work,
+      subject to the limitations in paragraph 4(a), below;
+   v. rights protecting the extraction, dissemination, use and reuse of data
+      in a Work;
+  vi. database rights (such as those arising under Directive 96/9/EC of the
+      European Parliament and of the Council of 11 March 1996 on the legal
+      protection of databases, and under any national implementation
+      thereof, including any amended or successor version of such
+      directive); and
+ vii. other similar, equivalent or corresponding rights throughout the
+      world based on applicable law or treaty, and any national
+      implementations thereof.
+ ․
+ 2. Waiver. To the greatest extent permitted by, but not in contravention
+ of, applicable law, Affirmer hereby overtly, fully, permanently,
+ irrevocably and unconditionally waives, abandons, and surrenders all of
+ Affirmer's Copyright and Related Rights and associated claims and causes
+ of action, whether now known or unknown (including existing as well as
+ future claims and causes of action), in the Work (i) in all territories
+ worldwide, (ii) for the maximum duration provided by applicable law or
+ treaty (including future time extensions), (iii) in any current or future
+ medium and for any number of copies, and (iv) for any purpose whatsoever,
+ including without limitation commercial, advertising or promotional
+ purposes (the "Waiver"). Affirmer makes the Waiver for the benefit of each
+ member of the public at large and to the detriment of Affirmer's heirs and
+ successors, fully intending that such Waiver shall not be subject to
+ revocation, rescission, cancellation, termination, or any other legal or
+ equitable action to disrupt the quiet enjoyment of the Work by the public
+ as contemplated by Affirmer's express Statement of Purpose.
+ ․
+ 3. Public License Fallback. Should any part of the Waiver for any reason
+ be judged legally invalid or ineffective under applicable law, then the
+ Waiver shall be preserved to the maximum extent permitted taking into
+ account Affirmer's express Statement of Purpose. In addition, to the
+ extent the Waiver is so judged Affirmer hereby grants to each affected
+ person a royalty-free, non transferable, non sublicensable, non exclusive,
+ irrevocable and unconditional license to exercise Affirmer's Copyright and
+ Related Rights in the Work (i) in all territories worldwide, (ii) for the
+ maximum duration provided by applicable law or treaty (including future
+ time extensions), (iii) in any current or future medium and for any number
+ of copies, and (iv) for any purpose whatsoever, including without
+ limitation commercial, advertising or promotional purposes (the
+ "License"). The License shall be deemed effective as of the date CC0 was
+ applied by Affirmer to the Work. Should any part of the License for any
+ reason be judged legally invalid or ineffective under applicable law, such
+ partial invalidity or ineffectiveness shall not invalidate the remainder
+ of the License, and in such case Affirmer hereby affirms that he or she
+ will not (i) exercise any of his or her remaining Copyright and Related
+ Rights in the Work or (ii) assert any associated claims and causes of
+ action with respect to the Work, in either case contrary to Affirmer's
+ express Statement of Purpose.
+ ․
+ 4. Limitations and Disclaimers.
+ ․
+ a. No trademark or patent rights held by Affirmer are waived, abandoned,
+    surrendered, licensed or otherwise affected by this document.
+ b. Affirmer offers the Work as-is and makes no representations or
+    warranties of any kind concerning the Work, express, implied,
+    statutory or otherwise, including without limitation warranties of
+    title, merchantability, fitness for a particular purpose, non
+    infringement, or the absence of latent or other defects, accuracy, or
+    the present or absence of errors, whether or not discoverable, all to
+    the greatest extent permissible under applicable law.
+ c. Affirmer disclaims responsibility for clearing rights of other persons
+    that may apply to the Work or any use thereof, including without
+    limitation any person's Copyright and Related Rights in the Work.
+    Further, Affirmer disclaims responsibility for obtaining any necessary
+    consents, permissions or other rights required for any use of the
+    Work.
+ d. Affirmer understands and acknowledges that Creative Commons is not a
+    party to this document and has no duty or obligation with respect to
+    this CC0 or use of the Work.
+
 License: Public-Domain-SQLite
  The author disclaims copyright to this source code. In place of
  a legal notice, here is a blessing:
@@ -5306,102 +5218,7 @@ License: Public-Domain-Wacom
  The text and information contained in this file may be freely used,
  copied, or distributed without compensation or licensing restrictions.
 
-License: Public-Domain-fallback
- It is hereby in the public domain.
- ․
- In jurisdictions that do not recognise grants of copyright to the
- public domain: I, the author and (presumably, in those jurisdictions)
- copyright holder, hereby permit anyone to distribute and use this code,
- in source code or binary form, with or without modifications. This
- permission is world-wide and irrevocable.
- ․
- Of course, I will not be liable for any errors or shortcomings in the
- code, since I give it away without asking any compenstations.
-
-License: Public-Domain
- No copyright is claimed.
- This code is in the public domain; do with it what you wish.
-
-License: W3C-Doc-2015
- By using and/or copying this document, or the W3C document from which this
- statement is linked, you (the licensee) agree that you have read,
- understood, and will comply with the following terms and conditions:
- ․
- Permission to copy, and distribute the contents of this document, or the
- W3C document from which this statement is linked, in any medium for any
- purpose and without fee or royalty is hereby granted, provided that you
- include the following on ALL copies of the document, or portions thereof,
- that you use:
- ․
-    A link or URL to the original W3C document.
- ․
-    The pre-existing copyright notice of the original author, or if it
-    doesn't exist, a notice (hypertext is preferred, but a textual
-    representation is permitted) of the form: "Copyright ©
-    [$date-of-document] World Wide Web Consortium, (MIT, ERCIM, Keio,
-    Beihang). http://www.w3.org/Consortium/Legal/2015/doc-license"
- ․
-    If it exists, the STATUS of the W3C document.
- ․
- When space permits, inclusion of the full text of this NOTICE should be
- provided. We request that authorship attribution be provided in any
- software, documents, or other items or products that you create pursuant
- to the implementation of the contents of this document, or any portion
- thereof.
- ․
- No right to create modifications or derivatives of W3C documents is
- granted pursuant to this license, except as follows: To facilitate
- implementation of the technical specifications set forth in this document,
- anyone may prepare and distribute derivative works and portions of this
- document in software, in supporting materials accompanying software, and
- in documentation of software, PROVIDED that all such works include the
- notice below. HOWEVER, the publication of derivative works of this
- document for use as a technical specification is expressly prohibited.
- ․
- In addition, "Code Components" —Web IDL in sections clearly marked as Web
- IDL; and W3C-defined markup (HTML, CSS, etc.) and computer programming
- language code clearly marked as code examples— are licensed under the W3C
- Software License.
- ․
- The notice is:
- ․
-    "Copyright © 2015 W3C® (MIT, ERCIM, Keio, Beihang). This software or
-    document includes material copied from or derived from [title and URI
-    of the W3C document]."
- ․
- Disclaimers
- ․
- THIS DOCUMENT IS PROVIDED "AS IS," AND COPYRIGHT HOLDERS MAKE NO
- REPRESENTATIONS OR WARRANTIES, EXPRESS OR IMPLIED, INCLUDING, BUT NOT
- LIMITED TO, WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR
- PURPOSE, NON-INFRINGEMENT, OR TITLE; THAT THE CONTENTS OF THE DOCUMENT ARE
- SUITABLE FOR ANY PURPOSE; NOR THAT THE IMPLEMENTATION OF SUCH CONTENTS
- WILL NOT INFRINGE ANY THIRD PARTY PATENTS, COPYRIGHTS, TRADEMARKS OR OTHER
- RIGHTS.
- ․
- COPYRIGHT HOLDERS WILL NOT BE LIABLE FOR ANY DIRECT, INDIRECT, SPECIAL OR
- CONSEQUENTIAL DAMAGES ARISING OUT OF ANY USE OF THE DOCUMENT OR THE
- PERFORMANCE OR IMPLEMENTATION OF THE CONTENTS THEREOF.
- ․
- The name and trademarks of copyright holders may NOT be used in
- advertising or publicity pertaining to this document or its contents
- without specific, written prior permission. Title to copyright in this
- document will at all times remain with copyright holders.
- ․
- Notes
- ․
-    This version: https://www.w3.org/Consortium/Legal/2015/doc-license
-    Latest version: https://www.w3.org/Consortium/Legal/copyright-documents
-    Previous version: http://www.w3.org/Consortium/Legal/2002/copyright-documents-20021231
- ․
- Changes since the previous Document License
- ․
-    This version grants limited permission to create and distribute
-    derivative works except for use as technical specifications.
- ․
-    This version licenses Code Components under the W3C Software License.
-
-License: W3C-Software-20150513
+License: W3C-Software
  By obtaining and/or copying this work, you (the licensee) agree that you
  have read, understood, and will comply with the following terms and
  conditions.
@@ -5473,32 +5290,3 @@ License: XML-Schema
  holders make no representation about the suitability of the DTD for
  any purpose. It is provided "as is" without expressed or implied
  warranty.
-
-License: exception-LGPL-Nokia-QT-1.1
- As an additional permission to the GNU Lesser General Public License
- version 2.1, the object code form of a ""work that uses the Library"" may
- incorporate material from a header file that is part of the Library. You
- may distribute such object code under terms of your choice, provided that:
- ․
- (i) the header files of the Library have not been modified; and
- ․
- (ii) the incorporated material is limited to numerical parameters, data
- structure layouts, accessors, macros, inline functions and templates; and
- ․
- (iii) you comply with the terms of Section 6 of the GNU Lesser General
- Public License version 2.1.
- ․
- Moreover, you may apply this exception to a modified version of the
- Library, provided that such modification does not involve copying material
- from the Library into the modified Library's header files unless such
- material is limited to
- ․
- (i) numerical parameters;
- (ii) data structure layouts;
- (iii) accessors; and
- (iv) small macros, templates and inline functions of five lines or less in
- length.
- ․
- Furthermore, you are not required to apply this additional permission to a
- modified version of the Library.
-

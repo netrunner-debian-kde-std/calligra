@@ -1,3 +1,3 @@
 usr/lib/kde4/koreport_mapsplugin.so
-usr/share/kde4/apps/calligra/icons/hicolor/*/actions/report_map_element.png
-usr/share/kde4/services/calligra/koreport_mapsplugin.desktop
+usr/share/calligra/icons/hicolor/*/actions/report_map_element.png
+usr/share/kservices5/calligra/koreport_mapsplugin.desktop

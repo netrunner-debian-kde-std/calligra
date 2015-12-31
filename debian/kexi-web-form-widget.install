@@ -1,2 +1,2 @@
 usr/lib/kde4/kformdesigner_webbrowser.so
-usr/share/kde4/services/calligra/kformdesigner_webbrowser.desktop
+usr/share/kservices5/calligra/kformdesigner_webbrowser.desktop

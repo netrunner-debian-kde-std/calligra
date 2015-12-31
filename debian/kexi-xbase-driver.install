@@ -1,4 +1,4 @@
 usr/lib/kde4/kexidb_xbasedriver.so
 usr/lib/kde4/keximigrate_xbase.so
-usr/share/kde4/services/calligra/kexidb_xbasedriver.desktop
-usr/share/kde4/services/calligra/keximigrate_xbase.desktop
+usr/share/kservices5/calligra/kexidb_xbasedriver.desktop
+usr/share/kservices5/calligra/keximigrate_xbase.desktop

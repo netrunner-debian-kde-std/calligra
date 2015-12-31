@@ -1,4 +1,4 @@
 usr/lib/kde4/kexidb_mysqldriver.so
 usr/lib/kde4/keximigrate_mysql.so
-usr/share/kde4/services/calligra/kexidb_mysqldriver.desktop
-usr/share/kde4/services/calligra/keximigrate_mysql.desktop
+usr/share/kservices5/calligra/kexidb_mysqldriver.desktop
+usr/share/kservices5/calligra/keximigrate_mysql.desktop

@@ -1,2 +1,2 @@
-usr/lib/kde4/keximigrate_spreadsheet.so
-usr/share/kde4/services/calligra/keximigrate_spreadsheet.desktop
+#usr/lib/kde4/keximigrate_spreadsheet.so
+#usr/share/kservices5/calligra/keximigrate_spreadsheet.desktop

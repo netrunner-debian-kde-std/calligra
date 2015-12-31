@@ -1,4 +1,3 @@
  * add DEP-3 headers to patches.
  * install "not installed to anywhere" files.
  * double-check disabled patches in "debian/patches/series".
- * un-bundle libgmic.

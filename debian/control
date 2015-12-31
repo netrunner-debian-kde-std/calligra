@@ -23,13 +23,28 @@ Build-Depends: cmake,
                libgit2-dev,
                libglew-dev,
                libglib2.0-dev,
-# krita/plugins/extensions/gmic/3rdparty/gmic
-#    libgmic-dev,
-#    cimg-dev,
                libgsl0-dev,
                libicu-dev,
                libjpeg-dev,
-               libkactivities-dev (>= 4:4.10),
+    libkf5activities-dev,
+    libreoffice-dev,
+    libkf5archive-dev,
+    libkf5khtml-dev,
+    libkf5emoticons-dev,
+    libkf5itemmodels-dev,
+    libkf5kdelibs4support-dev,
+    libkf5texteditor-dev,
+    libkf5threadweaver-dev,
+    libqt5x11extras5-dev,
+    libpoppler-qt5-dev,
+    qtquick1-5-dev,
+    libqca-qt5-2-dev,
+    libphonon4qt5-dev,
+    libphonon4qt5experimental-dev,
+    libkf5calendarcore-dev,
+    libkf5contacts-dev,
+    libkf5akonadicontact-dev,
+    libkf5akonadi-dev,
                libkdcraw-dev (>= 4:4.12),
                liblcms2-dev (>= 2.4),
                libmarble-dev (>> 4:4.12),
@@ -41,7 +56,6 @@ Build-Depends: cmake,
                libphononexperimental-dev,
                libpng-dev,
                libpoppler-private-dev,
-               libpoppler-qt4-dev,
                libpq-dev,
                libpqxx-dev,
                libqca2-dev,
@@ -136,194 +150,194 @@ Description: vector graphics application for the Calligra Suite
  .
  This package is part of the Calligra Suite.
 
-Package: kexi
-Architecture: any
-Section: database
-Depends: calligra-libs (= ${binary:Version}),
-         kexi-data (>= ${source:Version}),
-         ${misc:Depends},
-         ${shlibs:Depends}
-Suggests: kexi-calligrasheets-driver,
-          kexi-mysql-driver,
-          kexi-postgresql-driver,
-          kexi-sybase-driver,
-          kexi-xbase-driver
-Replaces: koffice-doc-html
-Conflicts: koffice-doc-html
-Homepage: http://www.calligra.org/kexi/
-Description: integrated database environment for the Calligra Suite
- Kexi is an integrated data management application. It can be used for
- creating database schemas, inserting data, performing queries, and
- processing data. Forms can be created to provide a custom interface to
- your data. All database objects - tables, queries and forms - are stored
- in the database, making it easy to share data and design.
- .
- Kexi is considered as a long awaited Open Source competitor for MS Access,
- Filemaker and Oracle Forms. Its development is motivated by the lack of
- Rapid Application Development (RAD) tools for database systems that are
- sufficiently powerful, inexpensive, open standards driven and portable
- across many operating systems and hardware platforms.
- .
- This package is part of the Calligra Suite.
+#Package: kexi
+#Architecture: any
+#Section: database
+#Depends: calligra-libs (= ${binary:Version}),
+#         kexi-data (>= ${source:Version}),
+#         ${misc:Depends},
+#         ${shlibs:Depends}
+#Suggests: kexi-calligrasheets-driver,
+#          kexi-mysql-driver,
+#          kexi-postgresql-driver,
+#          kexi-sybase-driver,
+#          kexi-xbase-driver
+#Replaces: koffice-doc-html
+#Conflicts: koffice-doc-html
+#Homepage: http://www.calligra.org/kexi/
+#Description: integrated database environment for the Calligra Suite
+# Kexi is an integrated data management application. It can be used for
+# creating database schemas, inserting data, performing queries, and
+# processing data. Forms can be created to provide a custom interface to
+# your data. All database objects - tables, queries and forms - are stored
+# in the database, making it easy to share data and design.
+# .
+# Kexi is considered as a long awaited Open Source competitor for MS Access,
+# Filemaker and Oracle Forms. Its development is motivated by the lack of
+# Rapid Application Development (RAD) tools for database systems that are
+# sufficiently powerful, inexpensive, open standards driven and portable
+# across many operating systems and hardware platforms.
+# .
+# This package is part of the Calligra Suite.
 
-Package: kexi-data
-Architecture: all
-Depends: ${misc:Depends}
-Breaks: kexi (<< 1:2.7.1)
-Replaces: kexi (<< 1:2.7.1)
-Description: data files for Kexi
- This package contains architecture-independent data files for Kexi, the
- database program shipped with the Calligra Suite.
- .
- See the kexi package for further information.
- .
- This package is part of the Calligra Suite.
+#Package: kexi-data
+#Architecture: all
+#Depends: ${misc:Depends}
+#Breaks: kexi (<< 1:2.7.1)
+#Replaces: kexi (<< 1:2.7.1)
+#Description: data files for Kexi
+# This package contains architecture-independent data files for Kexi, the
+# database program shipped with the Calligra Suite.
+# .
+# See the kexi package for further information.
+# .
+# This package is part of the Calligra Suite.
 
-Package: kexi-calligrasheets-driver
-Architecture: any
-Depends: calligrasheets (= ${binary:Version}),
-         kexi (= ${binary:Version}),
-         ${misc:Depends},
-         ${shlibs:Depends}
-Description: Tables plugin for kexi
- Kexi is an integrated data management application. It can be used for
- creating database schemas, inserting data, performing queries, and
- processing data. Forms can be created to provide a custom interface to
- your data. All database objects - tables, queries and forms - are stored
- in the database, making it easy to share data and design.
- .
- This package provides support for Calligra Tables in Kexi.
- .
- This package is part of the Calligra Suite.
+#Package: kexi-calligrasheets-driver
+#Architecture: any
+#Depends: calligrasheets (= ${binary:Version}),
+#         kexi (= ${binary:Version}),
+#         ${misc:Depends},
+#         ${shlibs:Depends}
+#Description: Tables plugin for kexi
+# Kexi is an integrated data management application. It can be used for
+# creating database schemas, inserting data, performing queries, and
+# processing data. Forms can be created to provide a custom interface to
+# your data. All database objects - tables, queries and forms - are stored
+# in the database, making it easy to share data and design.
+# .
+# This package provides support for Calligra Tables in Kexi.
+# .
+# This package is part of the Calligra Suite.
 
-Package: kexi-mysql-driver
-Architecture: any
-Section: database
-Depends: kexi (= ${binary:Version}), ${misc:Depends}, ${shlibs:Depends}
-Breaks: kexi (<< 1:2.3.70)
-Replaces: kexi (<< 1:2.3.70)
-Description: MySQL support for kexi
- Kexi is an integrated data management application. It can be used for
- creating database schemas, inserting data, performing queries, and
- processing data. Forms can be created to provide a custom interface to
- your data. All database objects - tables, queries and forms - are stored
- in the database, making it easy to share data and design.
- .
- This package provides support for MySQL in Kexi.
- .
- This package is part of the Calligra Suite.
+#Package: kexi-mysql-driver
+#Architecture: any
+#Section: database
+#Depends: kexi (= ${binary:Version}), ${misc:Depends}, ${shlibs:Depends}
+#Breaks: kexi (<< 1:2.3.70)
+#Replaces: kexi (<< 1:2.3.70)
+#Description: MySQL support for kexi
+# Kexi is an integrated data management application. It can be used for
+# creating database schemas, inserting data, performing queries, and
+# processing data. Forms can be created to provide a custom interface to
+# your data. All database objects - tables, queries and forms - are stored
+# in the database, making it easy to share data and design.
+# .
+# This package provides support for MySQL in Kexi.
+# .
+# This package is part of the Calligra Suite.
 
-Package: kexi-postgresql-driver
-Architecture: any
-Section: database
-Depends: kexi (= ${binary:Version}), ${misc:Depends}, ${shlibs:Depends}
-Breaks: kexi (<< 1:2.3.70)
-Replaces: kexi (<< 1:2.3.70)
-Description: PostgreSQL support for kexi
- Kexi is an integrated data management application. It can be used for
- creating database schemas, inserting data, performing queries, and
- processing data. Forms can be created to provide a custom interface to
- your data. All database objects - tables, queries and forms - are stored
- in the database, making it easy to share data and design.
- .
- This package provides support for PostgreSQL in Kexi.
- .
- This package is part of the Calligra Suite.
+#Package: kexi-postgresql-driver
+#Architecture: any
+#Section: database
+#Depends: kexi (= ${binary:Version}), ${misc:Depends}, ${shlibs:Depends}
+#Breaks: kexi (<< 1:2.3.70)
+#Replaces: kexi (<< 1:2.3.70)
+#Description: PostgreSQL support for kexi
+# Kexi is an integrated data management application. It can be used for
+# creating database schemas, inserting data, performing queries, and
+# processing data. Forms can be created to provide a custom interface to
+# your data. All database objects - tables, queries and forms - are stored
+# in the database, making it easy to share data and design.
+# .
+# This package provides support for PostgreSQL in Kexi.
+# .
+# This package is part of the Calligra Suite.
 
-Package: kexi-xbase-driver
-Architecture: any
-Section: database
-Depends: kexi (= ${binary:Version}), ${misc:Depends}, ${shlibs:Depends}
-Breaks: kexi (<< 1:2.3.70)
-Replaces: kexi (<< 1:2.3.70)
-Description: XBase support for kexi
- Kexi is an integrated data management application. It can be used for
- creating database schemas, inserting data, performing queries, and
- processing data. Forms can be created to provide a custom interface to
- your data. All database objects - tables, queries and forms - are stored
- in the database, making it easy to share data and design.
- .
- This package provides support for XBase in Kexi.
- .
- This package is part of the Calligra Suite.
+#Package: kexi-xbase-driver
+#Architecture: any
+#Section: database
+#Depends: kexi (= ${binary:Version}), ${misc:Depends}, ${shlibs:Depends}
+#Breaks: kexi (<< 1:2.3.70)
+#Replaces: kexi (<< 1:2.3.70)
+#Description: XBase support for kexi
+# Kexi is an integrated data management application. It can be used for
+# creating database schemas, inserting data, performing queries, and
+# processing data. Forms can be created to provide a custom interface to
+# your data. All database objects - tables, queries and forms - are stored
+# in the database, making it easy to share data and design.
+# .
+# This package provides support for XBase in Kexi.
+# .
+# This package is part of the Calligra Suite.
 
-Package: kexi-sybase-driver
-Architecture: any
-Section: database
-Depends: kexi (= ${binary:Version}), ${misc:Depends}, ${shlibs:Depends}
-Breaks: kexi (<< 1:2.3.70)
-Replaces: kexi (<< 1:2.3.70)
-Description: Sybase support for kexi
- Kexi is an integrated data management application. It can be used for
- creating database schemas, inserting data, performing queries, and
- processing data. Forms can be created to provide a custom interface to
- your data. All database objects - tables, queries and forms - are stored
- in the database, making it easy to share data and design.
- .
- This package provides support for Sybase in Kexi.
- .
- This package is part of the Calligra Suite.
+#Package: kexi-sybase-driver
+#Architecture: any
+#Section: database
+#Depends: kexi (= ${binary:Version}), ${misc:Depends}, ${shlibs:Depends}
+#Breaks: kexi (<< 1:2.3.70)
+#Replaces: kexi (<< 1:2.3.70)
+#Description: Sybase support for kexi
+# Kexi is an integrated data management application. It can be used for
+# creating database schemas, inserting data, performing queries, and
+# processing data. Forms can be created to provide a custom interface to
+# your data. All database objects - tables, queries and forms - are stored
+# in the database, making it easy to share data and design.
+# .
+# This package provides support for Sybase in Kexi.
+# .
+# This package is part of the Calligra Suite.
 
-Package: kexi-web-form-widget
-Architecture: any
-Section: database
-Depends: kexi (>= ${source:Version}), ${misc:Depends}, ${shlibs:Depends}
-Breaks: kexi (<< 1:2.3.70)
-Replaces: kexi (<< 1:2.3.70)
-Description: web form widget for Kexi
- Kexi is an integrated data management application. It can be used for
- creating database schemas, inserting data, performing queries, and
- processing data. Forms can be created to provide a custom interface to
- your data. All database objects - tables, queries and forms - are stored
- in the database, making it easy to share data and design.
- .
- This package provides a web widget for Kexi using QtWebKit.
- .
- This package is part of the Calligra Suite.
+#Package: kexi-web-form-widget
+#Architecture: any
+#Section: database
+#Depends: kexi (>= ${source:Version}), ${misc:Depends}, ${shlibs:Depends}
+#Breaks: kexi (<< 1:2.3.70)
+#Replaces: kexi (<< 1:2.3.70)
+#Description: web form widget for Kexi
+# Kexi is an integrated data management application. It can be used for
+# creating database schemas, inserting data, performing queries, and
+# processing data. Forms can be created to provide a custom interface to
+# your data. All database objects - tables, queries and forms - are stored
+# in the database, making it easy to share data and design.
+# .
+# This package provides a web widget for Kexi using QtWebKit.
+# .
+# This package is part of the Calligra Suite.
 
-Package: kexi-map-form-widget
-Architecture: any
-Section: database
-Depends: kexi (>= ${source:Version}), ${misc:Depends}, ${shlibs:Depends}
-Breaks: kexi (<< 1:2.3.70)
-Replaces: kexi (<< 1:2.3.70)
-Description: map form widget for Kexi
- Kexi is an integrated data management application. It can be used for
- creating database schemas, inserting data, performing queries, and
- processing data. Forms can be created to provide a custom interface to
- your data. All database objects - tables, queries and forms - are stored
- in the database, making it easy to share data and design.
- .
- This package provides a map widget for Kexi using the Marble library.
- .
- This package is part of the Calligra Suite.
+#Package: kexi-map-form-widget
+#Architecture: any
+#Section: database
+#Depends: kexi (>= ${source:Version}), ${misc:Depends}, ${shlibs:Depends}
+#Breaks: kexi (<< 1:2.3.70)
+#Replaces: kexi (<< 1:2.3.70)
+#Description: map form widget for Kexi
+# Kexi is an integrated data management application. It can be used for
+# creating database schemas, inserting data, performing queries, and
+# processing data. Forms can be created to provide a custom interface to
+# your data. All database objects - tables, queries and forms - are stored
+# in the database, making it easy to share data and design.
+# .
+# This package provides a map widget for Kexi using the Marble library.
+# .
+# This package is part of the Calligra Suite.
 
-Package: calligra-reports-web-element
-Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: web element for Calligra Reports
- Calligra Suite is a set of applications written to help you to accomplish
- your work. It includes office applications such as a word processor,
- a spreadsheet, a presentation program, a database application, etc., and
- raster and vector graphics tools.
- .
- This package provides a web element for Calligra Reports, based on QtWebKit.
- .
- This package is part of the Calligra Suite.
+#Package: calligra-reports-web-element
+#Architecture: any
+#Depends: ${misc:Depends}, ${shlibs:Depends}
+#Description: web element for Calligra Reports
+# Calligra Suite is a set of applications written to help you to accomplish
+# your work. It includes office applications such as a word processor,
+# a spreadsheet, a presentation program, a database application, etc., and
+# raster and vector graphics tools.
+# .
+# This package provides a web element for Calligra Reports, based on QtWebKit.
+# .
+# This package is part of the Calligra Suite.
 
-Package: calligra-reports-map-element
-Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: map element for Calligra Reports
- Calligra Suite is a set of applications written to help you to accomplish
- your work. It includes office applications such as a word processor,
- a spreadsheet, a presentation program, a database application, etc., and
- raster and vector graphics tools.
- .
- This package provides a map element for Calligra Reports, based on the
- Marble library.
- .
- This package is part of the Calligra Suite.
+#Package: calligra-reports-map-element
+#Architecture: any
+#Depends: ${misc:Depends}, ${shlibs:Depends}
+#Description: map element for Calligra Reports
+# Calligra Suite is a set of applications written to help you to accomplish
+# your work. It includes office applications such as a word processor,
+# a spreadsheet, a presentation program, a database application, etc., and
+# raster and vector graphics tools.
+# .
+# This package provides a map element for Calligra Reports, based on the
+# Marble library.
+# .
+# This package is part of the Calligra Suite.
 
 Package: krita
 Architecture: any
@@ -388,21 +402,21 @@ Description: spreadsheet for the Calligra Suite
  .
  This package is part of the Calligra Suite.
 
-Package: calligraplan
-Architecture: any
-Replaces: kplato (<< 1:2.4)
-Breaks: kplato (<< 1:2.4)
-Depends: calligra-libs (= ${binary:Version}),
-         ${misc:Depends},
-         ${shlibs:Depends}
-Recommends: default-jre, libapache-poi-java
-Suggests: khelpcenter4
-Homepage: http://www.calligra.org/plan/
-Description: integrated project management and planning tool
- Plan is a project management application, allowing for the planning and
- scheduling of projects. It was formerly known as KPlato.
- .
- This package is part of the Calligra Suite.
+#Package: calligraplan
+#Architecture: any
+#Replaces: kplato (<< 1:2.4)
+#Breaks: kplato (<< 1:2.4)
+#Depends: calligra-libs (= ${binary:Version}),
+#         ${misc:Depends},
+#         ${shlibs:Depends}
+#Recommends: default-jre, libapache-poi-java
+#Suggests: khelpcenter4
+#Homepage: http://www.calligra.org/plan/
+#Description: integrated project management and planning tool
+# Plan is a project management application, allowing for the planning and
+# scheduling of projects. It was formerly known as KPlato.
+# .
+# This package is part of the Calligra Suite.
 
 Package: calligrawords
 Architecture: any
@@ -482,33 +496,33 @@ Description: data files for Calligra Stage
  .
  This package is part of the Calligra Suite.
 
-Package: calligraflow
-Architecture: any
-Section: graphics
-Depends: calligra-libs (= ${binary:Version}),
-         calligraflow-data (>= ${source:Version}),
-         ${misc:Depends},
-         ${shlibs:Depends}
-Homepage: http://www.calligra.org/flow/
-Description: flowcharting program for the Calligra Suite
- Flow offers basic flowcharting abilities, but with a twist. Objects are
- scriptable, and a backend plugin system offers the ability to make objects
- do just about anything.
- .
- This package is part of the Calligra Suite.
+#Package: calligraflow
+#Architecture: any
+#Section: graphics
+#Depends: calligra-libs (= ${binary:Version}),
+#         calligraflow-data (>= ${source:Version}),
+#         ${misc:Depends},
+#         ${shlibs:Depends}
+#Homepage: http://www.calligra.org/flow/
+#Description: flowcharting program for the Calligra Suite
+# Flow offers basic flowcharting abilities, but with a twist. Objects are
+# scriptable, and a backend plugin system offers the ability to make objects
+# do just about anything.
+# .
+# This package is part of the Calligra Suite.
 
-Package: calligraflow-data
-Architecture: all
-Section: graphics
-Depends: ${misc:Depends}
-Homepage: http://www.calligra.org/flow/
-Description: data files for Flow flowcharting program
- This package contains architecture-independent data files for Flow,
- the flowcharting program shipped with the Calligra Suite.
- .
- See the calligraflow package for further information.
- .
- This package is part of the Calligra Suite.
+#Package: calligraflow-data
+#Architecture: all
+#Section: graphics
+#Depends: ${misc:Depends}
+#Homepage: http://www.calligra.org/flow/
+#Description: data files for Flow flowcharting program
+# This package contains architecture-independent data files for Flow,
+# the flowcharting program shipped with the Calligra Suite.
+# .
+# See the calligraflow package for further information.
+# .
+# This package is part of the Calligra Suite.
 
 Package: braindump
 Architecture: any
@@ -522,16 +536,16 @@ Description: ideas organizer application for the Calligra Suite
  .
  This package is part of the Calligra Suite.
 
-Package: calligraactive
-Architecture: any
-Depends: calligra-libs (= ${binary:Version}),
-         ${misc:Depends},
-         ${shlibs:Depends}
-Description: Tablet version of Calligra
- Calligra Active is a project to bring Calligra to the Plasma Active Desktop,
- designed for tablets, smartphones, and touching devices.
- .
- This package is part of the Calligra Suite.
+#Package: calligraactive
+#Architecture: any
+#Depends: calligra-libs (= ${binary:Version}),
+#         ${misc:Depends},
+#         ${shlibs:Depends}
+#Description: Tablet version of Calligra
+# Calligra Active is a project to bring Calligra to the Plasma Active Desktop,
+# designed for tablets, smartphones, and touching devices.
+# .
+# This package is part of the Calligra Suite.
 
 Package: calligra-libs
 Section: libs
@@ -550,14 +564,14 @@ Description: common libraries and binaries for the Calligra Suite
  .
  This package is part of the Calligra Suite.
 
-Package: calligra-semanticitems
-Section: libs
-Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: semantic item plugins for the Calligra Suite
- This package provides the semantic item plugins for Calligra.
- .
- This package is part of the Calligra Suite.
+#Package: calligra-semanticitems
+#Section: libs
+#Architecture: any
+#Depends: ${misc:Depends}, ${shlibs:Depends}
+#Description: semantic item plugins for the Calligra Suite
+# This package provides the semantic item plugins for Calligra.
+# .
+# This package is part of the Calligra Suite.
 
 Package: calligra-data
 Section: libs
@@ -573,33 +587,33 @@ Description: common shared data for the Calligra Suite
  .
  This package is part of the Calligra Suite.
 
-Package: okular-backend-odp
-Architecture: any
-Section: graphics
-Depends: calligra-libs (= ${binary:Version}),
-         ${misc:Depends},
-         ${shlibs:Depends}
-Recommends: okular
-Enhances: okular
-Description: Okular backend for ODP documents
- This package provides a backend for Okular to view OpenDocument Presentation
- (ODP) documents.
- .
- This package is part of the Calligra Suite.
+#Package: okular-backend-odp
+#Architecture: any
+#Section: graphics
+#Depends: calligra-libs (= ${binary:Version}),
+#         ${misc:Depends},
+#         ${shlibs:Depends}
+#Recommends: okular
+#Enhances: okular
+#Description: Okular backend for ODP documents
+# This package provides a backend for Okular to view OpenDocument Presentation
+# (ODP) documents.
+# .
+# This package is part of the Calligra Suite.
 
-Package: okular-backend-odt
-Architecture: any
-Section: graphics
-Depends: calligra-libs (= ${binary:Version}),
-         ${misc:Depends},
-         ${shlibs:Depends}
-Recommends: okular
-Enhances: okular
-Description: Okular backend for ODT documents
- This package provides a backend for Okular to view OpenDocument Text
- (ODT) documents, but also DOC, DOCX and WPD documents.
- .
- This package is part of the Calligra Suite.
+#Package: okular-backend-odt
+#Architecture: any
+#Section: graphics
+#Depends: calligra-libs (= ${binary:Version}),
+#         ${misc:Depends},
+#         ${shlibs:Depends}
+#Recommends: okular
+#Enhances: okular
+#Description: Okular backend for ODT documents
+# This package provides a backend for Okular to view OpenDocument Text
+# (ODT) documents, but also DOC, DOCX and WPD documents.
+# .
+# This package is part of the Calligra Suite.
 
 Package: calligra-dbg
 Section: debug
